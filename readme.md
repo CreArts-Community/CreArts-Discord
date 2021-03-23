@@ -29,18 +29,13 @@ cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/
 
 ## Credits
 
-| [**USRBG**](https://github.com/Discord-Custom-Covers/usrbg) | by [**Gibbu#1211**](https://github.com/Gibbu) & [**Tropical#4355**](https://github.com/Tropix126) |
-
-| [**Radial Status**](https://github.com/Discord-Custom-Covers/usrbg) | by [**Gibbu#1211**](https://github.com/Gibbu) |
-
-
+ * [**USRBG**](https://github.com/Discord-Custom-Covers/usrbg) by [**Gibbu#1211**](https://github.com/Gibbu) & [**Tropical#4355**](https://github.com/Tropix126)
+ * [**Radial Status**](https://github.com/DiscordStyles/RadialStatus) by [**Gibbu#1211**](https://github.com/Gibbu)
+ * [**Discolored**](https://github.com/NYRI4/Discolored) by [**Nyria#4198**](https://github.com/NYRI4) & [**Snapper#0001**](https://github.com/Snapperito)
 
 
 
-| * [**USRBG**](https://github.com/Discord-Custom-Covers/usrbg) by [**Gibbu#1211**](https://github.com/Gibbu) & [**Tropical#4355**](https://github.com/Tropix126) |
-
-* Radial Status by Gibbu#1211
-* Discolored by Nyria#4198& Snapper#0001
+* Discolored by Nyria#4198 & Snapper#0001
 * Settings Icons by Snapperito, botato, MulverineX, AAGaming
 * Chromium Link Preview by Tropical#4355
 * Horizontal Server List by Gibbu#1211
