@@ -26,6 +26,8 @@ cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/
 
 ## Credits
 
+CreArts uses snippets and theme addons from other authors here is a small list:
+
 * [**USRBG**](https://github.com/Discord-Custom-Covers/usrbg) by [**Gibbu#1211**](https://github.com/Gibbu) & [**Tropical#4355**](https://github.com/Tropix126)
 * [**Radial Status**](https://github.com/DiscordStyles/RadialStatus) by [**Gibbu#1211**](https://github.com/Gibbu)
 * [**Discolored**](https://github.com/NYRI4/Discolored) by [**Nyria#4198**](https://github.com/NYRI4) & [**Snapper#0001**](https://github.com/Snapperito)
