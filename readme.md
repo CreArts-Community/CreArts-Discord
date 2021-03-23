@@ -23,9 +23,6 @@ cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/
 
 ## Updating
 
-## License
-
-[**MIT License**](https://raw.githubusercontent.com/CorellanStoma/CreArts/master/license.md)
 
 ## Credits
 
@@ -42,5 +39,6 @@ cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/
 * Revert Radio Boxes by [**11pixels#2004**](https://github.com/XYZenix)
 * [**Name Badges**](https://github.com/Discord-Theme-Addons/discord-name-badges) by [**LuckFire#4800**](https://github.com/LuckFire)
 
+## License
 
-
+[**MIT License**](https://raw.githubusercontent.com/CorellanStoma/CreArts/master/license.md)
