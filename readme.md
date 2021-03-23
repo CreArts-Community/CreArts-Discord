@@ -10,7 +10,7 @@
 
 ## Preview
 
-![Preview](https://imgur.com/CleRk4m):
+![Preview](https://i.imgur.com/CleRk4m.gif):
 
 
 ## Instalation
