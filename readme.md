@@ -41,4 +41,7 @@ cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/
 * Compact Searchbar by [**Doggybootsy#1333**](https://github.com/doggybootsy)
 * Emoji Replace by [**mwittrien**](https://github.com/mwittrien)
 * Revert Radio Boxes by [**11pixels#2004**](https://github.com/XYZenix)
-* Name Badges by [**LuckFire#4800**](https://github.com/LuckFire)
+* [**Name Badges**](https://github.com/Discord-Theme-Addons/discord-name-badges) by [**LuckFire#4800**](https://github.com/LuckFire)
+
+
+
