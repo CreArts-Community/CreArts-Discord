@@ -1,0 +1,122 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Vertical           ║ Settings                                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// No Keybind (Dark)
+.theme-dark .keybind-KpFkfr {
+    display: none;
+}
+
+// No Keybind (Light)
+.theme-light .keybind-KpFkfr {
+    display: none;
+}
+
+//Background (Top)
+.standardSidebarView-3F1I7i {background: transparent;}
+
+.layer-3QrUeG:not(.baseLayer-35bLyl) {
+    background: var(--background-primary);
+    margin-left: 110px;
+    margin-top: 42px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: var(--radius-primary);
+    z-index: 200;
+}
+
+//Background (Content)
+.contentRegion-3nDuYy{
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    margin-top: -22px;
+}
+
+// Spacing
+.layer-3QrUeG {
+    transform: unset !important;
+    -webkit-transform: unset !important;
+    -moz-transform: unset !important;
+    -ms-transform: unset !important;
+    -o-transform: unset !important;
+}
+
+// Opacity
+.layer-3QrUeG.baseLayer-35bLyl{
+    opacity: 1 !important;
+}
+
+.sidebarRegionScroller-3MXcoP::-webkit-scrollbar{
+    display: none;
+}
+
+.contentRegionScroller-26nc1e{
+    background: transparent;
+}
+
+.sidebarRegion-VFTUkN{
+    flex: unset;
+}
+
+.contentColumn-2hrIYH, .customColumn-Rb6toI{
+    max-width: unset;
+}
+
+.contentColumnDefault-1VQkGM{
+    padding-right: 100px;
+}
+
+.sidebar-CFHs9e{
+    width: 240px;
+}
+
+.sidebar-CFHs9e, .flexChild-faoVW3{
+    padding-left: 0 !important; padding-right: 0 !important;
+}
+
+.scroller-305q3I{
+    background: transparent;
+}
+
+.scroller-305q3I::-webkit-scrollbar{
+    display: none;
+}
+
+.ghostPill-2-KUPM {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+// Profile
+.panels-j1Uci_ {
+    z-index: 400;
+}
+
+
+//Background (Sidebar)
+.sidebarRegionScroller-3MXcoP {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    margin-right: 20px;
+    width: var(--channel-width);
+    margin-bottom: 128px;
+    left: 2px;
+    margin-top: -22px;
+}
+
+.sidebarRegionScroller-3MXcoP::before{
+    background: var(--background-secondary);
+
+}
+
+.sidebarRegionScroller-3MXcoP::before {
+    position: fixed;
+    background: var(--background-primary);
+    display: block;
+    content: '';
+    width: calc(var(--members-width) + 4px);
+    height: 80%;
+    bottom: 60px;
+    left: 112px;
+    z-index: -20;
+}

@@ -1,0 +1,176 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Horizontal         ║ Import                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+@use "settings.scss"; // (Warning!! Do not disable it!)
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Vertical           ║ Wrapper                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Backgrounds
+#app-mount .wrapper-1Rf91z {
+background: transparent;
+margin-left: 20px;
+}
+
+.base-3dtUhz {
+margin-top: 20px;
+margin-left: 20px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Vertical           ║ Button Area                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.tutorialContainer-1v44GL {
+border-radius: var(--radius-primary);
+background: transparent;
+position: fixed;
+
+top: 64px;
+}
+
+// Blur
+.tutorialContainer-1v44GL:before {
+background: var(--background-secondary);
+position: fixed;
+content: "";
+border-radius: var(--radius-primary);
+backdrop-filter: blur(var(--blur));
+border: var(--border);
+box-shadow: var(--shadows);
+
+height: 183px;
+width: 70px;
+
+margin-top: -12px;
+z-index: -1;
+}
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Vertical           ║ Home Button                                                                       ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Home Button
+.childWrapper-anI2G9 {
+background: var(--background-primary);
+color: var(--interactive-normal);
+border-radius: 90px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Vertical           ║ Settings Button                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
+    background: var(--background-primary);
+    position: fixed;
+    top: 120px;
+    left: 32px;
+    height: 48px;
+    width: 48px;
+
+    .contents-18-Yxp {
+        transform: scale(1.6);
+    }
+}
+
+.panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1):hover {
+    background: var(--accent-primary);
+    color: white;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Vertical           ║ Explore Server Button                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.scroller-2TZvBN > .listItem-2P_4kh:nth-last-child(2) {
+    position: fixed;
+    background: transparent;
+    top: 176px;
+}
+
+.circleIconButton-jET_ig {
+    border-radius: 90px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Vertical           ║ Guilds                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.scroller-2TZvBN {
+border-radius: var(--radius-primary);
+background: transparent;
+position: relative;
+
+margin-top: 363px;
+bottom: 130px;
+
+}
+
+
+// Blur
+.wrapper-1Rf91z::before {
+background: var(--background-secondary);
+position: fixed;
+content: "";
+border-radius: var(--radius-primary);
+backdrop-filter: blur(var(--blur));
+border: var(--border);
+box-shadow: var(--shadows);
+
+width: 70px;
+
+
+bottom: 20px;
+margin-top: 255px;
+margin-bottom: 110px;
+top: 0;
+left: 20;
+}
+
+// Remove guild Separator
+.guildSeparator-3s64Iy {display: none;}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Vertical           ║ Add Server Button                                                                 ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.tutorialContainer-SGrQ1h {
+background: transparent;
+position: fixed;
+border-radius: var(--radius-primary);
+padding-top: 12px;
+padding-bottom: 4px;
+bottom: 38px;
+}
+
+// Blur
+.tutorialContainer-SGrQ1h::before {
+background: var(--background-secondary);
+position: fixed;
+content: "";
+border-radius: var(--radius-primary);
+backdrop-filter: blur(var(--blur));
+border: var(--border);
+box-shadow: var(--shadows);
+height: 70px;
+width: 70px;
+bottom: 38px;
+z-index: -1;
+}
+
+// Add Server & Explore Button
+.circleIconButton-jET_ig {
+color: var(--interactive-normal);
+background: var(--background-primary);
+}
+
+.circleIconButton-jET_ig.selected-ugP_am svg path{
+fill: var(--interactive-active);
+}

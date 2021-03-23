@@ -1,0 +1,80 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ CreArts v2.0.0                                                                                         ║
+// ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
+// ║ name:              ║ CreArts                                                                           ║
+// ║ version:           ║ 2.0.0                                                                             ║
+// ║ author:            ║ CorellanStoma#1996                                                                ║
+// ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                        ║
+// ║ This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the     ║
+// ║ UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version,             ║
+// ║ we can't promise that theme will work in combination with other themes.                                ║
+// ║                                                                                                        ║
+// ║ More information about Powercord can be found here:                                                    ║
+// ║ ● https://powercord.dev/                                                                               ║
+// ║                                                                                                        ║
+// ║ If you need support join our Creative Community:                                                       ║
+// ║ ● https://discord.gg/8W8E39Z                                                                           ║
+// ║                                                                                                        ║
+// ║ Our Art & Design Wiki:                                                                                 ║
+// ║ ● https://crearts.wiki/                                                                                ║
+// ║                                                                                                        ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Profile            ║ Background                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.panels-j1Uci_ {
+    border-radius: var(--radius-primary);
+    background: transparent;
+    position: relative;
+
+    margin-top: 20px;
+
+    margin-right: 2px;
+}
+
+// Blur
+.panels-j1Uci_::before {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    position: absolute;
+    content: "";
+    border: var(--border);
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+
+    height:100%; 
+    width: 100%;
+    z-index: -1;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Profile            ║ Settings                                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Settings
+.panels-j1Uci_ {
+    z-index: 200;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Profile            ║ Buttons                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Buttons
+.button-14-BFJ {
+    border-radius: 90px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Profile            ║ Spotify                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Spotify Controls
+.fas, .fa-backward, .fa-fw, .fa-heart, .fa-sync, .fa-undo { /*Spotify controls WIP*/
+    color: var(--interactive-normal) ;
+    }

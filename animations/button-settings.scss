@@ -1,0 +1,12 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Animations         ║ Settings Button                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1):hover {
+  animation: Settings 8s infinite linear; 
+}
+
+@keyframes Settings {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}

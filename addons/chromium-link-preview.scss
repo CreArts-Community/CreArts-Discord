@@ -1,0 +1,33 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons             ║ Chromium Link Preview                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.markup-2BOw-j .anchor-3Z-8Bb:after {
+    content:attr(href);
+    display:flex;
+    align-items:center;
+    z-index:9999;
+    background:var(--linkpreview-background);
+    line-height:normal;
+    font-weight:normal;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+    color:var(--linkpreview-color);
+    font-size:12px;
+    padding:2px 4px;
+    padding-right:6px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    opacity:0;
+    transition:200ms ease;
+    white-space:nowrap;
+    box-shadow:inset 0 0 0 0px var(--linkpreview-border);
+    pointer-events:none;
+    border: none;
+}
+.markup-2BOw-j .anchor-3Z-8Bb:hover:after {
+    opacity:1;
+}
+.base-gE7OpD {
+    z-index:-1;
+}

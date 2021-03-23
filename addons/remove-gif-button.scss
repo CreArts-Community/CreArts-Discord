@@ -1,0 +1,8 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons             ║ Remove GIF Button                                                                 ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.buttonContainer-28fw2U>.button-38aScr:not(.emojiButton-pET4wH ).colorBrand-3pXr91>.contents-18-Yxp:not(.stickerButton-3OEgwj){
+    position: fixed;
+    visibility: hidden;
+}

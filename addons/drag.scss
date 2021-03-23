@@ -1,0 +1,73 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons             ║ Drag                                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Top
+.container-2lgZY8::after {
+    background: transparent;
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 99.4%;
+    top: 0px;
+    margin-left: 4px;;
+    -webkit-app-region: drag;
+    z-index: 20;
+}
+
+// Left
+.app-1q1i1E::before {
+    background: transparent;
+    position: absolute;
+    content: "";
+    height: 99%;
+    width: 16px;
+    left: 0px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    bottom: 0px;
+    -webkit-app-region: drag;
+    z-index: 1;
+}
+
+// Bottom
+.container-2lgZY8::before {
+    background: transparent;
+    position: absolute;
+    content: "";
+    height: 36px;
+    width: 99%;
+    bottom: 0px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    -webkit-app-region: drag;
+    z-index: 1;
+}
+
+// Right
+.app-1q1i1E::after {
+    background: transparent;
+    position: absolute;
+    content: "";
+    height: 99%;
+    width: 16px;
+    right: 0px;
+    bottom: 0px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    -webkit-app-region: drag;
+    z-index: 1;
+}
+
+// Server Right
+.content-98HsJk::after {
+    background: transparent;
+    position: absolute;
+    content: "";
+    height: 99%;
+    width: 20px;
+    bottom: 0px;
+    margin-left: 0px;
+    -webkit-app-region: drag;
+    z-index: 30;
+}

@@ -1,0 +1,193 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Horizontal         ║ Settings                                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+//Background (Top)
+.standardSidebarView-3F1I7i {background: transparent;}
+  
+.layer-3QrUeG:not(.baseLayer-35bLyl) {
+    background: var(--settings-primary);
+    margin-left: 20px;
+    margin-top: 130px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: var(--radius-primary);
+    z-index: 100;
+}
+
+.sidebarRegionScroller-3MXcoP::before {
+    //background: var(--custom-background) center/cover no-repeat;
+    background: rgba(255, 0, 0, 0.322);
+    //filter: blur(var(--blur));
+    border-radius: var(--radius-primary);
+    position: fixed;
+    content: "";
+    height: 60px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+
+
+
+
+
+    z-index: 9999;
+}
+  
+  
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Horizontal         ║ Sidebar                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.sidebarRegionScroller-3MXcoP {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    position: relative;
+
+    margin-right: 20px;
+    margin-top: -22px;
+    width: calc(var(--channel-width) + 2px);
+    margin-bottom: 130px;
+}
+
+//Sidebar Content
+.sidebar-CFHs9e {
+    position: absolute;
+    left: 0;
+}
+
+//Sidebar Content
+.side-8zPYf6 {
+    width: calc(var(--channel-width) + -40px);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Horizontal         ║ Content                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+  
+//Background (Content)
+.contentRegion-3nDuYy{
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    margin-top: -22px;
+    padding-left: 2px;
+    margin-left: -2px;
+}
+  
+// Spacing
+.layer-3QrUeG {
+    transform: unset !important;
+    -webkit-transform: unset !important;
+    -moz-transform: unset !important;
+    -ms-transform: unset !important;
+    -o-transform: unset !important;
+}
+  
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Horizontal         ║ Close Area                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Close Area
+.toolsContainer-1edPuj {padding-top: 20px;}
+.closeButton-1tv5uR:active {transform: none; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none;}
+.closeButton-1tv5uR::before {
+    background: transparent;
+    position: fixed;
+    content: "";
+    height: 130px;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Opacity
+.layer-3QrUeG.baseLayer-35bLyl{
+    opacity: 1 !important;
+}
+  
+.sidebarRegionScroller-3MXcoP::-webkit-scrollbar{
+    display: none;
+}
+  
+.contentRegionScroller-26nc1e{
+    background: transparent;
+}
+  
+.sidebarRegion-VFTUkN{
+    flex: unset;
+}
+  
+.contentColumn-2hrIYH, .customColumn-Rb6toI{
+    max-width: unset;
+}
+  
+.contentColumnDefault-1VQkGM{
+    padding-right: 100px;
+}
+  
+.sidebar-CFHs9e{
+    width: 240px;
+}
+  
+.sidebar-CFHs9e, .flexChild-faoVW3{
+  padding-left: 0 !important; padding-right: 0 !important;
+}
+  
+.scroller-305q3I{
+    background: transparent;
+}
+  
+.scroller-305q3I::-webkit-scrollbar{
+    display: none;
+}
+  
+.ghostPill-2-KUPM {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

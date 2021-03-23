@@ -1,0 +1,36 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons             ║ Status                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+.pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-online-mobile)"]) {
+    mask: url(#svg-mask-status-online) !important;
+}
+
+.wrapper-3t9DeA .svg-2V3M55 {
+    [mask*="status-online"] {fill: var(--green-primary);}
+
+    [mask*="status-idle"] {fill: var(--yellow-primary);}
+
+    [mask*="status-dnd"] {fill: var(--red-primary);}
+
+    [mask*="status-streaming"] {fill: var(--purple-primary);}
+  }
+  
+  
+  
+  
+
+  .wrapper-3t9DeA .svg-2V3M55:hover {
+    [mask*="status-online"] {fill: var(--green-secondary)}
+
+    [mask*="status-idle"] {fill: var(--yellow-secondary);}
+
+    [mask*="status-dnd"] {fill: var(--red-secondary);}
+    
+    [mask*="status-streaming"] {fill: var(--purple-secondary);}
+  }
+
+

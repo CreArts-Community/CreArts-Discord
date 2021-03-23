@@ -1,0 +1,23 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons             ║ Hover Button                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+//upload butten right
+.attachWrapper-2TRKBi {
+  order:1;
+  margin-left:9px;
+}
+
+.attachButton-2WznTc {
+  padding: 0px 0px 0px 8px;
+}
+
+// Button Hover
+.form-2fGMdU .buttons-3JBrkn {
+  opacity: 0.0;
+  transition: opacity 0.2s;
+}
+
+.form-2fGMdU .buttons-3JBrkn:hover {
+  opacity: 1.0;
+}

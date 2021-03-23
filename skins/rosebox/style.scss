@@ -1,0 +1,191 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ CreArts v2.0.0 (Rosebox Edition)                                                                       ║
+// ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
+// ║ name:              ║ CreArts                                                                           ║
+// ║ version:           ║ 2.0.0                                                                             ║
+// ║ author:            ║ CorellanStoma#1996                                                                ║
+// ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                        ║
+// ║ This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the     ║
+// ║ UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version,             ║
+// ║ we can't promise that theme will work in combination with other themes.                                ║
+// ║                                                                                                        ║
+// ║ More information about Powercord can be found here:                                                    ║
+// ║ ● https://powercord.dev/                                                                               ║
+// ║                                                                                                        ║
+// ║ If you need support join our Creative Community:                                                       ║
+// ║ ● https://discord.gg/8W8E39Z                                                                           ║
+// ║                                                                                                        ║
+// ║ Our Art & Design Wiki:                                                                                 ║
+// ║ ● https://crearts.wiki/                                                                                ║
+// ║                                                                                                        ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ General            ║ CreArts (Rosebox Edition)                                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Title
+$G001: 'v2.0.0 (Rosebox Edition)'; // Changes 'Version' name.
+
+// Font
+$G002: 'Fira Mono'; // Changes the Font. (Default: 'Fira Mono')
+
+//Wallpaper
+$G003: 'none'; // Changes the Image in the Background. (Default: 'None')
+
+// Width
+$G004: '300'; // Changes the 'Channel' width. (Default: '300')
+$G005: '242'; // Changes the 'Members' width. (Default: '242')
+$G006: '260'; // Changes the 'Profile' width. (Default: '260')
+
+// Text Align
+$G007: 'justify'; // Changes the 'Text' align. (Default: '300')
+
+// Radius
+$G008: '90'; // Changes the 'Avatar' radius. (Default: '90')
+$G009: '90'; // Changes the 'Button' radius. (Default: '90')
+$G010: '90'; // Changes the 'Mention' radius. (Default: '90')
+$G011: '90'; // Changes the 'Reaction' radius. (Default: '90')
+$G012: '24'; // Changes the 'Primary' radius. (Default: '24')
+$G013: '12'; // Changes the 'Secondary' radius. (Default: '12')
+$G014: '6'; // Changes the 'Tertiary' radius. (Default: '6')
+
+// Border
+$G015: '0.0'; // Changes the 'Border' radius. (Default: '0.0')
+$G016: '0.0'; // Changes the 'Border' opacity. (Default: '0.0')
+
+// Blur
+$G017: '0.0'; // Changes the 'General' Blur. (Default: '0.0')
+$G018: '0.0'; // Changes the 'Wallpaper' Blur. (Default: '0.0')
+$G019: '0.0'; // Changes the 'Titlebar' Blur. (Default: '0.0')
+$G020: '1.0'; // Changes the 'Backdrop' Blur. (Default: '1.0')
+
+// Transparency
+$G021: '1.0'; // Changes the 'Menu' transparency. (Default: '1.0')
+$G022: '1.0'; // Changes the 'Titlebar' transparency. (Default: '1.0')
+$G023: '0.8'; // Changes the 'Backdrop' transparency. (Default: '0.4')
+$G024: '1.0'; // Changes the 'Background' transparency. (Default: '1.0')
+
+$G025: '1.0'; // Changes the 'Primary' transparency. (Default: '1.0')
+$G026: '1.0'; // Changes the 'Secondary' transparency. (Default: '1.0')
+$G027: '1.0'; // Changes the 'Tertiary' transparency. (Default: '1.0')
+
+$G028: '0.4'; // Changes the 'Hover' transparency. (Default: '0.4')
+$G029: '0.6'; // Changes the 'Active' transparency. (Default: '0.6')
+$G030: '0.8'; // Changes the 'Selected' transparency. (Default: '0.8')
+
+// Opacity
+$G031: '0.80'; // Changes the 'Selection' opacity. (Default: '0.80)
+$G032: '0.'; // Changes the 'Shadow' opacity. (Default: '0.0')
+$G033: '0.4'; // Changes the 'Shadow-Popout' opacity. (Default: '0.2')
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Colors (Dark)      ║ CreArts (Rosebox Edition)                                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Accent
+$D001: #A57562; // This changes the 'primary accent' color.
+$D002: #C1907C; // This changes the 'secondary accent' color.
+$D003: #8A5D4B; // This changes the 'tertiary accent' color.
+
+// Green
+$D004: #43B581; // This changes the 'primary green' color.
+$D005: #61D09A; // This changes the 'secondary green' color.
+$D006: #209967; // This changes the 'tertiary green' color.
+
+// Yellow
+$D007: #FAA61A; // This changes the 'primary yellow' color.
+$D008: #FFC23D; // This changes the 'secondary yellow' color.
+$D009: #DC8C00; // This changes the 'tertiary yellow' color.
+
+// Red
+$D010: #F04747; // This changes the 'primary red' color.
+$D011: #FF6660; // This changes the 'secondary red' color.
+$D012: #D12731; // This changes the 'tertiary red' color.
+
+// Purple
+$D013: #593695; // This changes the 'primary purple' color.
+$D014: #744FB1; // This changes the 'secondary purple' color.
+$D015: #3E207C; // This changes the 'tertiary purple' color.
+
+// Background
+$D016: #262626; // This changes the 'primary background' color.
+$D017: #222222; // This changes the 'secondary background' color.
+$D018: #282828; // This changes the 'tertiary background' color.
+
+// Highlight
+$D019: #FFFFFF; // This changes the 'first highlight' color.
+$D020: #bebfc2; // This changes the 'second highlight' color.
+$D021: #a9aaac; // This changes the 'third highlight' color.
+$D022: #8c8c8f; // This changes the 'fourth highlight' color.
+
+// Shaddow
+$D023: #000000; // This changes the 'shaddow' color.
+
+// Border
+$D024: #1B1C22; // This changes the 'Border' color.
+
+// Selection
+$D025: #FFFFFF; // This changes the 'selection text' color.
+$D026: #A57562; // This changes the 'selection background' color.
+
+// Backdrop
+$D027: #000000; // This changes the 'Backdrop' color.
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Colors (Light)     ║ CreArts (Rosebox Edition)                                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Accent
+$L001: #A57562; // This changes the 'primary accent' color.
+$L002: #C1907C; // This changes the 'secondary accent' color.
+$L003: #8A5D4B; // This changes the 'tertiary accent' color.
+
+// Green
+$L004: #43B581; // This changes the 'primary green' color.
+$L005: #61D09A; // This changes the 'secondary green' color.
+$L006: #209967; // This changes the 'tertiary green' color.
+
+// Yellow
+$L007: #FAA61A; // This changes the 'primary yellow' color.
+$L008: #FFC23D; // This changes the 'secondary yellow' color.
+$L009: #DC8C00; // This changes the 'tertiary yellow' color.
+
+// Red
+$L010: #F04747; // This changes the 'primary red' color.
+$L011: #FF6660; // This changes the 'secondary red' color.
+$L012: #D12731; // This changes the 'tertiary red' color.
+
+// Purple
+$L013: #593695; // This changes the 'primary purple' color.
+$L014: #744FB1; // This changes the 'secondary purple' color.
+$L015: #3E207C; // This changes the 'tertiary purple' color.
+
+// Background
+$L016: #e6e3e3; // This changes the 'primary background' color.
+$L017: #e4e5e6; // This changes the 'secondary background' color.
+$L018: #dadbdd; // This changes the 'tertiary background' color.
+
+// Highlight
+$L019: #000000; // This changes the 'first highlight' color.
+$L020: #535b66; // This changes the 'second highlight' color.
+$L021: #30343a; // This changes the 'third highlight' color.
+$L022: #535b66; // This changes the 'fourth highlight' color.
+
+// Shaddow
+$L023: #000000; // This changes the 'shaddow' color.
+
+// Border
+$L024: #FFFFFF; // This changes the 'Border' color.
+
+// Selection
+$L025: #FFFFFF; // This changes the 'selection text' color.
+$L026: #A57562; // This changes the 'selection background' color.
+
+// Backdrop
+$L027: #FFFFFF; // This changes the 'Backdrop' color.
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Custom CSS         ║ CreArts (Rosebox Edition)                                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝

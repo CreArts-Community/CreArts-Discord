@@ -1,0 +1,112 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ CreArts v2.0.0                                                                                         ║
+// ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
+// ║ name:              ║ CreArts                                                                           ║
+// ║ version:           ║ 2.0.0                                                                             ║
+// ║ author:            ║ CorellanStoma#1996                                                                ║
+// ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                        ║
+// ║ This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the     ║
+// ║ UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version,             ║
+// ║ we can't promise that theme will work in combination with other themes.                                ║
+// ║                                                                                                        ║
+// ║ More information about Powercord can be found here:                                                    ║
+// ║ ● https://powercord.dev/                                                                               ║
+// ║                                                                                                        ║
+// ║ If you need support join our Creative Community:                                                       ║
+// ║ ● https://discord.gg/8W8E39Z                                                                           ║
+// ║                                                                                                        ║
+// ║ Our Art & Design Wiki:                                                                                 ║
+// ║ ● https://crearts.wiki/                                                                                ║
+// ║                                                                                                        ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Toolbar            ║ Background                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.toolbar-1t6TWx {
+    border-radius: var(--radius-primary);
+    background: transparent;
+    position: relative;
+    height: 40px;
+    margin-left: 30px;
+    right: 12px;
+}
+
+// Blur
+.toolbar-1t6TWx:before {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    position: absolute;
+    content: "";
+    border: var(--border);
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+
+    height:100%;
+    width:100%;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Toolbar            ║ Icons                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Update
+.updateIconForeground-3tnNZn {
+    fill: var(--interactive-normal)
+}
+
+.updateIconForeground-3tnNZn:hover {
+    fill: var(--interactive-hover)
+}
+
+.updateIconForeground-3tnNZn:active {
+    fill: var(--interactive-active)
+}
+
+// Member
+.selected-1GqIat .icon-22AiRD {
+    color: var(--interactive-normal);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Title              ║ Searchbar                                                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Icon
+.icon-3cZ1F_, .icon-1S6UIr {
+    height: 24px;
+    width: 24px;
+    color:var(--interactive-normal);
+
+}
+
+//spacing
+.iconContainer-O4O2CN, .iconContainer-2wXvy1 {
+    bottom: 3px;
+    right: 4px;
+
+}
+
+// Order
+.search-36MZv- {
+    order: -1;
+}
+
+//Searchbar
+.searchBar-3dMhjb, .searchBar-TUoVPN {
+    background: none;
+    transition: width 0.6s ease-in-out;
+    color:#fff;
+    width: 30px;
+    margin-right: -4px;
+}
+
+.focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb, .searchBar-3dMhjb:hover {
+    background: none;
+    transition: width 0.6s ease-in-out;
+    color:#fff;
+    width: 300px;
+}

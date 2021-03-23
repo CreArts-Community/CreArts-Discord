@@ -1,0 +1,602 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ CreArts v2.0.0                                                                                         ║
+// ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
+// ║ name:              ║ CreArts                                                                           ║
+// ║ version:           ║ 2.0.0                                                                             ║
+// ║ author:            ║ CorellanStoma#1996                                                                ║
+// ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                        ║
+// ║ This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the     ║
+// ║ UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version,             ║
+// ║ we can't promise that theme will work in combination with other themes.                                ║
+// ║                                                                                                        ║
+// ║ More information about Powercord can be found here:                                                    ║
+// ║ ● https://powercord.dev/                                                                               ║
+// ║                                                                                                        ║
+// ║ If you need support join our Creative Community:                                                       ║
+// ║ ● https://discord.gg/8W8E39Z                                                                           ║
+// ║                                                                                                        ║
+// ║ Our Art & Design Wiki:                                                                                 ║
+// ║ ● https://crearts.wiki/                                                                                ║
+// ║                                                                                                        ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Credits:                                                                                               ║
+// ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════╣
+// ║ USRBG                    ║ by Gibbu#1211 & Tropical#4355                                               ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
+// ║ Radial Status            ║ by Gibbu#1211                                                               ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
+// ║ Discolored               ║ by Nyria#4198& Snapper#0001                                                 ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
+// ║ Settings Icons           ║ by Snapperito, botato, MulverineX, AAGaming                                 ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
+// ║ Chromium Link Preview    ║ by Tropical#4355                                                            ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
+// ║ Horizontal Server List   ║ by Gibbu#1211                                                               ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
+// ║ Spotify CD spin          ║ by hudson#1337                                                              ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
+// ║ White connection Icons   ║ by botato#6883                                                              ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
+// ║ White Profile Badges     ║ by botato#6883                                                              ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
+// ║ Compact Searchbar        ║ by Doggybootsy#1333                                                         ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
+// ║ Emoji Replace            ║ by mwittrien                                                                ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
+// ║ Revert Radio Boxes       ║ by 11pixels#2004                                                            ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
+// ║ Name Badges              ║ by LuckFire#4800                                                            ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Skin               ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+@use "./skins/glassmorphism/style.scss"; // ❌ CreArts (Glassmorphism Edition) ⚠️ [Heavy CPU!]
+
+//@use "./skins/neomorphism/style.scss"; // ❌ CreArts (Neomorphism Edition) ⚠️ [Heavy CPU!]
+
+//@use "./skins/community/style.scss"; // ✔️ CreArts (Commmunity Edition)
+
+
+
+
+
+//@use "./skins/discord/style.scss"; // ❌ CreArts (Discord Edition) (WIP)
+
+//@use "./skins/revamp/style.scss"; // ❌ CreArts (Revamp Edition) (WIP)
+
+//@use "./skins/Spotify/style.scss"; // ❌ CreArts (Spotify Edition) (WIP)
+
+//@use "./skins/twitch/style.scss"; // ❌ CreArts (Twitch Edition) (WIP)
+
+//@use "./skins/guilded/style.scss"; // ❌ CreArts (Guilded Edition) (WIP)
+
+
+
+
+
+
+
+//@use "./skins/onedarkui/style.scss"; // ❌ CreArts (One Dark UI Edition)
+
+//@use "./skins/rosebox/style.scss"; // ❌ CreArts (Rosebox Edition)
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guilds alignment   ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "./src/guilds/horizontal/horizontal.scss"; // ✔️ (enabled by default)
+
+@use "./src/guilds/vertical/vertical.scss"; // ❌ (disabled by default)
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons             ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "./addons/name-badges.scss"; // ❌ (Disabled by default) by LuckFire#4800
+
+@use "./addons/drag.scss"; // ✔️ (enabled by default)
+
+@use "./addons/usrbg.scss"; // ✔️ (enabled by default) by Gibbu#1211 & Tropical#4355 
+
+//@use "./addons/radial-status.scss"; // ❌ (Disabled by default) by Gibbu#1211
+
+//@use "./addons/chat-bubbles.scss"; // ❌ (disabled by default)
+
+@use "./addons/discolored.scss"; // ✔️ (enabled by default) by Snapper#0001 & Nyria#4198
+
+@use "./addons/settings-icons.scss"; // ✔️ (enabled by default) by Snapperito, botato, MulverineX, AAGaming
+
+@use "./addons/chromium-link-preview.scss"; // ✔️ (enabled by default) by Tropical#4355
+
+@use "./addons/white-connection-icons.scss"; // ✔️ (enabled by default) by botato#6883
+
+@use "./addons/white-profile-badges.scss"; // ✔️ (enabled by default) by botato#6883
+
+@use "./addons/hover-buttons.scss"; // ✔️ (enabled by default)
+
+@use "./addons/offline-mode.scss"; // ✔️ (enabled by default)
+
+@use "./addons/mobile-menu.scss"; // ✔️ (enabled by default)
+
+@use "./addons/left-icons.scss"; // ✔️ (enabled by default)
+
+@use "./addons/recolor.scss"; // ✔️ (enabled by default)
+
+@use "./addons/status.scss"; // ✔️ (enabled by default)
+
+@use "./addons/fonts.scss"; // ✔️ (enabled by default)
+
+
+
+
+
+
+//@use "./addons/revert-radio-boxes.scss"; // ✔️ (enabled by default)
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Emoji Pack         ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "./addons/emoji-whatsapp.scss"; // ❌ (disabled by default)
+
+//@use "./addons/emoji-samsung.scss"; // ❌ (disabled by default)
+
+//@use "./addons/emoji-microsoft.scss"; // ❌ (disabled by default)
+
+//@use "./addons/emoji-joypixels.scss"; // ❌ (disabled by default)
+
+//@use "./addons/emoji-google.scss"; // ❌ (disabled by default)
+
+//@use "./addons/emoji-facebook.scss"; // ❌ (disabled by default)
+
+//@use "./addons/emoji-apple.scss"; // ❌ (disabled by default)
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Remove             ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+@use "./addons/no-scrollbars.scss"; // ✔️ (enabled by default)
+
+//@use "./addons/remove-note.scss"; // ❌ (disabled by default)
+
+//@use "./addons/remove-gift-button.scss"; // ❌ (disabled by default)
+
+//@use "./addons/remove-gif-button.scss"; // ❌ (disabled by default)
+
+//@use "./addons/remove-sticker-button.scss"; // ❌ (disabled by default)
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Animations         ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "./animations/spotify-spin-cd.scss"; // ❌ (disabled by default) ⚠️ [Heavy CPU!]
+
+//@use "./animations/ping.scss"; // ❌ (disabled by default) ⚠️ [Heavy CPU!]
+
+@use "./animations/hover-icons.scss"; // ✔️ (enabled by default)
+
+@use "./animations/hover-avatar.scss"; // ✔️ (enabled by default)
+
+@use "./animations/button-home.scss"; // ✔️ (enabled by default)
+
+@use "./animations/button-settings.scss"; // ✔️ (enabled by default)
+
+@use "./animations/button-explore.scss"; // ✔️ (enabled by default)
+
+@use "./animations/transitions.scss"; // ✔️ (enabled by default)
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ SRC                ║ Do not comment out these lines! By disabling the theme can not work correctly.    ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+@use "./src/base.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/channels.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/chat.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/discover.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/home.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/members.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/modals.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/pages.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/plugins.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/popouts.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/profile.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/settings.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/store.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/titlebar.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/toolbar.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/topic.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/wallpaper.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Experimental       ║ Future features will be tested here.                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+@use "./src/experimental.scss"; // 🧪 (This is for testing!)
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ HEX to RGB         ║ CreArts (Glassmorphism Edition)                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+@function hexToRGB($hex) {
+@return red($hex), green($hex), blue($hex);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Root               ║ CreArts (Glassmorphism Edition)                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+:root {
+
+// Version
+--version: "#{style.$G001}";
+
+// Wallpaper
+--wallpaper: url('#{style.$G003}');
+
+// Width
+--channel-width: #{style.$G004}px;
+--members-width: #{style.$G005}px;
+--profile-width: #{style.$G006}px;
+
+// Text
+--text-align: #{style.$G007};
+
+// Radius
+--radius-avatar: #{style.$G008}px;
+--radius-button: #{style.$G009}px;
+--radius-mention: #{style.$G010}px;
+--radius-reaction: #{style.$G011}px;
+--radius-primary: #{style.$G012}px;
+--radius-secondary: #{style.$G013}px;
+--radius-tertiary: #{style.$G014}px;
+
+// Border
+--border-width: #{style.$G015}px;
+--border-opacity: #{style.$G016};
+
+// Blur
+--blur: #{style.$G017}px;
+--blur-wallpaper: #{style.$G018}px;
+--blur-titlebar: #{style.$G019}px;
+--blur-backdrop: #{style.$G020}px;
+
+// Transparency
+--transparency-menu: #{style.$G021};
+--transparency-titlebar: #{style.$G022};
+--transparency-backdrop: #{style.$G023};
+--transparency-background: #{style.$G024};
+
+--transparency-primary: #{style.$G025};
+--transparency-secondary: #{style.$G026};
+--transparency-tertiary: #{style.$G027};
+
+--transparency-hover: #{style.$G028};
+--transparency-active: #{style.$G029};
+--transparency-selected: #{style.$G030};
+
+// Opacity
+--selection-opacity: #{style.$G031};
+--shadow-opacity: #{style.$G032};
+--shadow-popout-opacity: #{style.$G033};
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Theme Dark         ║ CreArts (Glassmorphism Edition)                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.theme-dark {
+
+// Accent
+--accent-primary: rgba(#{hexToRGB(style.$D001)});
+--accent-secondary: rgba(#{hexToRGB(style.$D002)});
+--accent-tertiary: rgba(#{hexToRGB(style.$D003)});
+
+// Green Button
+--green-primary: rgba(#{hexToRGB(style.$D004)});
+--green-secondary: rgba(#{hexToRGB(style.$D005)});
+--green-tertiary: rgba(#{hexToRGB(style.$D006)});
+
+// Yellow Button
+--yellow-primary: rgba(#{hexToRGB(style.$D007)});
+--yellow-secondary: rgba(#{hexToRGB(style.$D008)});
+--yellow-tertiary: rgba(#{hexToRGB(style.$D009)});
+
+// Red Button
+--red-primary: rgba(#{hexToRGB(style.$D010)});
+--red-secondary: rgba(#{hexToRGB(style.$D011)});
+--red-tertiary: rgba(#{hexToRGB(style.$D012)});
+
+// Purple Button
+--purple-primary: rgba(#{hexToRGB(style.$D013)});
+--purple-secondary: rgba(#{hexToRGB(style.$D014)});
+--purple-tertiary: rgba(#{hexToRGB(style.$D015)});
+
+// Background
+--background-primary: rgba(#{hexToRGB(style.$D016)}, var(--transparency-primary));
+--background-secondary: rgba(#{hexToRGB(style.$D017)}, var(--transparency-secondary));
+--background-tertiary: rgba(#{hexToRGB(style.$D018)}, var(--transparency-tertiary));
+--background-secondary-alt: rgba(#{hexToRGB(style.$D018)}, var(--transparency-tertiary));
+
+--background-accent: rgba(#{hexToRGB(style.$D001)});
+--background-floating: rgba(#{hexToRGB(style.$D018)}, var(--transparency-menu));
+
+--background-mobile-primary: rgba(#{hexToRGB(style.$D016)});
+--background-mobile-secondary: rgba(#{hexToRGB(style.$D017)});
+
+--background-modifier-hover: rgba(#{hexToRGB(style.$D002)});
+--background-modifier-active: rgba(#{hexToRGB(style.$D001)});
+--background-modifier-selected: rgba(#{hexToRGB(style.$D001)});
+--background-modifier-accent: rgba(#{hexToRGB(style.$D016)});
+
+--background-mentioned: rgba(#{hexToRGB(style.$D001)}, 0.1);
+--background-mentioned-hover: rgba(#{hexToRGB(style.$D001)}, 0.2);
+
+--background-message-hover: rgba(#{hexToRGB(style.$D018)}, 0.4);
+--background-help-warning: rgba(#{hexToRGB(style.$D001)});
+--background-help-info: rgba(#{hexToRGB(style.$D002)});
+
+// Toast
+--toast-background: rgba(#{hexToRGB(style.$D017)}, var(--transparency-secondary));
+--toast-header: rgba(#{hexToRGB(style.$D016)}, var(--transparency-primary));
+--toast-contents: rgba(#{hexToRGB(style.$D018)}, var(--transparency-tertiary));
+--toast-border: var(--background-secondary);
+--toast-box-shadow: rgba(0, 0, 0, 0.400);
+
+// Header
+--header-primary: rgba(#{hexToRGB(style.$D019)});
+--header-secondary: rgba(#{hexToRGB(style.$D021)});
+
+// Text
+--text-normal: rgba(#{hexToRGB(style.$D020)});
+--text-muted: rgba(#{hexToRGB(style.$D022)});
+--text-link: rgba(#{hexToRGB(style.$D001)});
+
+// Channels
+--channels-default: rgba(#{hexToRGB(style.$D021)});
+
+// Interactive
+--interactive-normal: rgba(#{hexToRGB(style.$D020)});
+--interactive-hover: rgba(#{hexToRGB(style.$D019)});
+--interactive-active: rgba(#{hexToRGB(style.$D019)});
+--interactive-muted: rgba(#{hexToRGB(style.$D022)});
+
+// Spotify Color
+--spotify-color: rgba(#{hexToRGB(style.$D001)});
+
+// Scrollbar
+--scrollbar-thin-thumb: rgba(#{hexToRGB(style.$D016)});
+--scrollbar-thin-track: rgba(#{hexToRGB(style.$D018)});
+--scrollbar-auto-thumb: rgba(#{hexToRGB(style.$D016)});
+--scrollbar-auto-track: rgba(#{hexToRGB(style.$D018)});
+--scrollbar-auto-scrollbar-color-thumb: rgba(#{hexToRGB(style.$D016)});
+--scrollbar-auto-scrollbar-color-track: rgba(#{hexToRGB(style.$D016)});
+
+// Deprecated
+--deprecated-card-bg: var(--background-tertiary);
+--deprecated-card-editable-bg: var(--background-secondary);
+--deprecated-store-bg: var(--background-secondary);
+--deprecated-quickswitcher-input-background: var(--background-tertiary);
+--deprecated-quickswitcher-input-placeholder: var(--text-normal);
+--deprecated-text-input-bg: var(--background-tertiary);
+
+// Elevation
+--elevation-stroke: none;
+--elevation-low: none;
+--elevation-medium: none;
+--elevation-high: none;
+
+// Other
+--logo-primary: var(--accent-primary);
+--focus-primary: var(--accent-primary);
+--radio-group-dot-foreground: var(--accent-primary);
+--channeltextarea-background: rgba(#{hexToRGB(style.$D019)});
+--activity-card-background: var(--background-secondary);
+--textbox-markdown-syntax: rgba(#{hexToRGB(style.$D019)});
+
+// Selection
+--selection-text: rgba(#{hexToRGB(style.$D025)});
+--selection-background: rgba(#{hexToRGB(style.$D026)}, var(--selection-opacity));
+
+// Custom
+--titlebar: rgba(#{hexToRGB(style.$D018)}, var(--transparency-titlebar));
+
+--background: rgba(#{hexToRGB(style.$D016)}, var(--transparency-background));
+--shadows: 0px 2px 8px 2px rgba(#{hexToRGB(style.$D023)}, var(--shadow-opacity));
+--shadows-popout: 0px 2px 8px 2px rgba(#{hexToRGB(style.$D023)}, var(--shadow-popout-opacity));
+--backdrop: rgba(#{hexToRGB(style.$D027)}, var(--transparency-backdrop));
+
+--highlight-hover: rgba(#{hexToRGB(style.$D018)}, var(--transparency-hover));
+--highlight-active: rgba(#{hexToRGB(style.$D018)}, var(--transparency-active));
+--highlight-selected: rgba(#{hexToRGB(style.$D018)}, var(--transparency-selected));
+
+--accent-active: rgba(#{hexToRGB(style.$D001)}, var(--transparency-hover));
+--accent-hover: rgba(#{hexToRGB(style.$D002)}, var(--transparency-active));
+--accent-selected: rgba(#{hexToRGB(style.$D003)}, var(--transparency-selected));
+
+--normal-primary: rgba(#{hexToRGB(style.$D016)});
+--normal-secondary: rgba(#{hexToRGB(style.$D017)});
+--normal-tertiary: rgba(#{hexToRGB(style.$D018)});
+
+--border: var(--border-width) solid rgba(#{hexToRGB(style.$D024)}, var(--border-opacity));
+
+// Link preview
+--linkpreview-background: transparent;
+--linkpreview-color: #FFFFFF;
+--linkpreview-border: none;
+
+// Stream
+--stream-active: rgba(#{hexToRGB(style.$D013)}, var(--transparency-hover));
+--stream-hover: rgba(#{hexToRGB(style.$D014)}, var(--transparency-hover));
+--stream-selected: rgba(#{hexToRGB(style.$D015)}, var(--transparency-hover));
+
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Theme Light        ║ CreArts (Glassmorphism Edition)                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.theme-light {
+
+// Accent
+--accent-primary: rgba(#{hexToRGB(style.$L001)});
+--accent-secondary: rgba(#{hexToRGB(style.$L002)});
+--accent-tertiary: rgba(#{hexToRGB(style.$L003)});
+
+// Green Button
+--green-primary: rgba(#{hexToRGB(style.$L004)});
+--green-secondary: rgba(#{hexToRGB(style.$L005)});
+--green-tertiary: rgba(#{hexToRGB(style.$L006)});
+
+// Green Button
+--yellow-primary: rgba(#{hexToRGB(style.$L007)});
+--yellow-secondary: rgba(#{hexToRGB(style.$L008)});
+--yellow-tertiary: rgba(#{hexToRGB(style.$L009)});
+
+// Red Button
+--red-primary: rgba(#{hexToRGB(style.$L010)});
+--red-secondary: rgba(#{hexToRGB(style.$L011)});
+--red-tertiary: rgba(#{hexToRGB(style.$L012)});
+
+// Background
+--background-primary: rgba(#{hexToRGB(style.$L016)}, var(--transparency-primary));
+--background-secondary: rgba(#{hexToRGB(style.$L017)}, var(--transparency-secondary));
+--background-tertiary: rgba(#{hexToRGB(style.$L018)}, var(--transparency-tertiary));
+--background-secondary-alt: rgba(#{hexToRGB(style.$L018)}, var(--transparency-tertiary));
+
+--background-accent: rgba(#{hexToRGB(style.$L001)});
+--background-floating: rgba(#{hexToRGB(style.$L018)}, var(--transparency-menu));
+
+--background-mobile-primary: rgba(#{hexToRGB(style.$L016)});
+--background-mobile-secondary: rgba(#{hexToRGB(style.$L017)});
+
+--background-modifier-hover: rgba(#{hexToRGB(style.$L002)});
+--background-modifier-active: rgba(#{hexToRGB(style.$L001)});
+--background-modifier-selected: rgba(#{hexToRGB(style.$L001)});
+--background-modifier-accent: rgba(#{hexToRGB(style.$L016)});
+
+--background-mentioned: rgba(#{hexToRGB(style.$L001)}, 0.1);
+--background-mentioned-hover: rgba(#{hexToRGB(style.$L001)}, 0.2);
+
+--background-message-hover: rgba(#{hexToRGB(style.$L018)}, 0.4);
+--background-help-warning: rgba(#{hexToRGB(style.$L001)});
+--background-help-info: rgba(#{hexToRGB(style.$L002)});
+
+// Toast
+--toast-background: rgba(#{hexToRGB(style.$L017)}, var(--transparency-secondary));
+--toast-header: rgba(#{hexToRGB(style.$L016)}, var(--transparency-primary));
+--toast-contents: rgba(#{hexToRGB(style.$L018)}, var(--transparency-tertiary));
+--toast-border: var(--background-secondary);
+--toast-box-shadow: rgba(0, 0, 0, 0.400);
+
+// Header
+--header-primary: rgba(#{hexToRGB(style.$L019)});
+--header-secondary: rgba(#{hexToRGB(style.$L021)});
+
+// Text
+--text-normal: rgba(#{hexToRGB(style.$L020)});
+--text-muted: rgba(#{hexToRGB(style.$L022)});
+--text-link: rgba(#{hexToRGB(style.$L001)});
+
+// Channels
+--channels-default: rgba(#{hexToRGB(style.$L021)});
+
+// Interactive
+--interactive-normal: rgba(#{hexToRGB(style.$L020)});
+--interactive-hover: rgba(#{hexToRGB(style.$L019)});
+--interactive-active: rgba(#{hexToRGB(style.$L019)});
+--interactive-muted: rgba(#{hexToRGB(style.$L022)});
+
+// Spotify Color
+--spotify-color: rgba(#{hexToRGB(style.$L001)});
+
+// Scrollbar
+--scrollbar-thin-thumb: rgba(#{hexToRGB(style.$L016)});
+--scrollbar-thin-track: rgba(#{hexToRGB(style.$L018)});
+--scrollbar-auto-thumb: rgba(#{hexToRGB(style.$L016)});
+--scrollbar-auto-track: rgba(#{hexToRGB(style.$L018)});
+--scrollbar-auto-scrollbar-color-thumb: rgba(#{hexToRGB(style.$L016)});
+--scrollbar-auto-scrollbar-color-track: rgba(#{hexToRGB(style.$L016)});
+
+// Deprecated
+--deprecated-card-bg: var(--background-tertiary);
+--deprecated-card-editable-bg: var(--background-secondary);
+--deprecated-store-bg: var(--background-secondary);
+--deprecated-quickswitcher-input-background: var(--background-tertiary);
+--deprecated-quickswitcher-input-placeholder: var(--text-normal);
+--deprecated-text-input-bg: var(--background-tertiary);
+
+// Elevation
+--elevation-stroke: none;
+--elevation-low: none;
+--elevation-medium: none;
+--elevation-high: none;
+
+// Other
+--logo-primary: var(--accent-primary);
+--focus-primary: var(--accent-primary);
+--radio-group-dot-foreground: var(--accent-primary);
+--channeltextarea-background: rgba(#{hexToRGB(style.$L019)});
+--activity-card-background: var(--background-secondary);
+--textbox-markdown-syntax: rgba(#{hexToRGB(style.$L019)});
+
+// Selection
+--selection-text: rgba(#{hexToRGB(style.$L025)});
+--selection-background: rgba(#{hexToRGB(style.$L026)}, var(--selection-opacity));
+
+// Custom
+--titlebar: rgba(#{hexToRGB(style.$L018)}, var(--transparency-titlebar));
+
+--background: rgba(#{hexToRGB(style.$L016)}, var(--transparency-background));
+--shadows: 0px 2px 8px 2px rgba(#{hexToRGB(style.$L023)}, var(--shadow-opacity));
+--shadows-popout: 0px 2px 8px 2px rgba(#{hexToRGB(style.$L023)}, var(--shadow-popout-opacity));
+--backdrop: rgba(#{hexToRGB(style.$L027)}, var(--transparency-backdrop));
+
+--highlight-hover: rgba(#{hexToRGB(style.$L018)}, var(--transparency-hover));
+--highlight-active: rgba(#{hexToRGB(style.$L018)}, var(--transparency-active));
+--highlight-selected: rgba(#{hexToRGB(style.$L018)}, var(--transparency-selected));
+
+--accent-active: rgba(#{hexToRGB(style.$L001)}, var(--transparency-hover));
+--accent-hover: rgba(#{hexToRGB(style.$L002)}, var(--transparency-active));
+--accent-selected: rgba(#{hexToRGB(style.$L003)}, var(--transparency-selected));
+
+--normal-primary: rgba(#{hexToRGB(style.$L016)});
+--normal-secondary: rgba(#{hexToRGB(style.$L017)});
+--normal-tertiary: rgba(#{hexToRGB(style.$L018)});
+
+--border: var(--border-width) solid rgba(#{hexToRGB(style.$L024)}, var(--border-opacity));
+
+// Linkpreview
+--linkpreview-background: transparent;
+--linkpreview-color:#000000;
+--linkpreview-border:transparent;
+
+// Stream
+--stream-active: rgba(#{hexToRGB(style.$L013)}, var(--transparency-hover));
+--stream-hover: rgba(#{hexToRGB(style.$L014)}, var(--transparency-hover));
+--stream-selected: rgba(#{hexToRGB(style.$L015)}, var(--transparency-hover));
+}
+
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: "#{style.$G002}";
+}

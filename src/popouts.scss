@@ -1,0 +1,176 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ CreArts v2.0.0                                                                                         ║
+// ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
+// ║ name:              ║ CreArts                                                                           ║
+// ║ version:           ║ 2.0.0                                                                             ║
+// ║ author:            ║ CorellanStoma#1996                                                                ║
+// ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                        ║
+// ║ This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the     ║
+// ║ UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version,             ║
+// ║ we can't promise that theme will work in combination with other themes.                                ║
+// ║                                                                                                        ║
+// ║ More information about Powercord can be found here:                                                    ║
+// ║ ● https://powercord.dev/                                                                               ║
+// ║                                                                                                        ║
+// ║ If you need support join our Creative Community:                                                       ║
+// ║ ● https://discord.gg/8W8E39Z                                                                           ║
+// ║                                                                                                        ║
+// ║ Our Art & Design Wiki:                                                                                 ║
+// ║ ● https://crearts.wiki/                                                                                ║
+// ║                                                                                                        ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popouts            ║ Menu                                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.menu-3sdvDG {
+  border-radius: var(--radius-primary);
+  background: transparent;
+  position: relative;
+}
+
+// Blur
+.menu-3sdvDG:before {
+  background: var(--background-tertiary);
+  position: absolute;
+  content: "";
+  border-radius: var(--radius-secondary);
+  backdrop-filter: blur(var(--blur));
+  width:100%;
+  height:100%;
+  border: var(--border) solid rgba( 255, 255, 255, 0.08 );
+  box-shadow: var(--shadows);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popouts            ║ Search Options                                                                    ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background (Dark)
+.theme-dark .container-3ayLPN {
+  background: var(--background-tertiary);
+  border-radius: var(--radius-primary);
+  width: var(--members-width);
+  border: none;
+  margin-top: 20px;
+}
+
+.theme-dark .option-96V44q.selected-rZcOL- {
+  background: var(--accent-primary);
+  border-radius: var(--radius-primary);
+}
+
+.theme-dark .option-96V44q:after {
+  background: transparent;
+}
+
+.theme-dark .option-96V44q.selected-rZcOL-:after {
+  background: transparent;
+}
+
+// Background (Light)
+.theme-light .container-3ayLPN {
+  background: var(--background-tertiary);
+  border-radius: var(--radius-primary);
+  width: var(--members-width);
+  border: none;
+  margin-top: 20px;
+}
+
+.theme-light .option-96V44q.selected-rZcOL- {
+  background: var(--accent-primary);
+  border-radius: var(--radius-primary);
+}
+
+.theme-light .option-96V44q:after {
+  background: transparent;
+}
+
+.theme-light .option-96V44q.selected-rZcOL-:after {
+  background: transparent;
+}
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ popouts            ║ Powercord Toast                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.powercord-toast {
+  border-radius: var(--radius-primary);
+  border: none;
+}
+
+.powercord-toast .contents .inner {
+  border-radius: var(--radius-secondary);
+  border: none;
+}
+
+// Header
+.powercord-toast .header {
+  border-radius: var(--radius-primary);
+  box-shadow: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+// X
+.powercord-toast .header .dismiss {
+  background: var(--background-tertiary);
+  border-radius: var(--radius-primary);
+}
+
+// Button Relaod (Normal)
+.lookGhost-2Fn_0-.colorGreen-29iAKY {
+  background: var(--green-primary);
+  border-radius: var(--radius-primary);
+  color: #fff;
+  border: none;
+}
+
+// Button Relaod (Hover)
+.lookGhost-2Fn_0-.colorGreen-29iAKY:Hover {
+  background: var(--green-secondary);
+}
+
+// Button Relaod (Active)
+.lookGhost-2Fn_0-.colorGreen-29iAKY:active {
+  background: var(--green-tertiary);
+}
+
+// Button Postpone (Normal)
+.lookOutlined-3sRXeN.colorGrey-2DXtkV {
+  background: var(--red-primary);
+  border-radius: var(--radius-primary);
+  color: #fff;
+  border: none;
+}
+
+// Button Postpone (Hover)
+.lookOutlined-3sRXeN.colorGrey-2DXtkV:hover {
+  background: var(--red-secondary);
+}
+
+// Button Postpone (Active)
+.lookOutlined-3sRXeN.colorGrey-2DXtkV:active {
+  background: var(--red-tertiary);
+}
+
+// Text
+.powercord-toast .contents .inner {
+  line-height: 18px;
+  border: none;
+  padding: 12px;
+  text-align: left;
+}
+
+.powercord-toast .buttons button[class*=lookGhost-] {
+  opacity: 1.0;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popouts            ║ User Profile                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝

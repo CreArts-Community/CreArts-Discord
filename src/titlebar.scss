@@ -1,0 +1,149 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ CreArts v2.0.0                                                                                         ║
+// ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
+// ║ name:              ║ CreArts                                                                           ║
+// ║ version:           ║ 2.0.0                                                                             ║
+// ║ author:            ║ CorellanStoma#1996                                                                ║
+// ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                        ║
+// ║ This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the     ║
+// ║ UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version,             ║
+// ║ we can't promise that theme will work in combination with other themes.                                ║
+// ║                                                                                                        ║
+// ║ More information about Powercord can be found here:                                                    ║
+// ║ ● https://powercord.dev/                                                                               ║
+// ║                                                                                                        ║
+// ║ If you need support join our Creative Community:                                                       ║
+// ║ ● https://discord.gg/8W8E39Z                                                                           ║
+// ║                                                                                                        ║
+// ║ Our Art & Design Wiki:                                                                                 ║
+// ║ ● https://crearts.wiki/                                                                                ║
+// ║                                                                                                        ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+:root {
+
+--titlebar-height: 30px;
+--titlebar-drag-margin: 4px;
+--titlebar-button-width: 48px;
+--titlebar-font-size: 12px;
+--titlebar-icon-font-size: 12px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar           ║ Background                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Titlebar
+.titleBar-AC4pGV {
+    background: transparent;
+    position:relative;
+}
+
+// Blur
+.titleBar-AC4pGV:before {
+    background: var(--titlebar);
+    position: fixed;
+    content: "";
+    border: var(--border) solid rgba( 255, 255, 255, 0.08 );
+    backdrop-filter: blur(var(--transparency-blur));
+    box-shadow: var(--shadows);
+
+    margin-top: -4px;
+    height: 30px;
+    width: 100%;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar           ║ Wordmark                                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.wordmark-2iDDfm svg {
+	display: none;
+}
+
+// Version
+.wordmarkWindows-1v0lYD::before {
+    position: relative;
+    content: "\a Discord ";
+    color:var(--text-muted);
+    font-size:var(--titlebar-font-size);
+    font-weight: 600;
+    font-family: 'Discord';
+    width: 100%;
+
+    top: 0px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar           ║ Title                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Version
+.wordmarkWindows-1v0lYD::after {
+    position: relative;
+    content: "\a CreArts " var(--version);
+    color:var(--text-muted);
+    font-size:var(--titlebar-font-size);
+    font-weight:400;
+    font-family:'Segoe UI';
+    padding-left: 80px;
+    width: 100%;
+    top: 0px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar           ║ Buttons                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Buttons
+.winButton-iRh8-Z,
+.winButton-iRh8-Z:hover,
+.winButton-iRh8-Z:active {
+    height:var(--titlebar-height);
+    width:var(--titlebar-button-width);
+    color: var(--text-muted);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar           ║ Buttons (Min Max)                                                                 ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.winButtonMinMax-PBQ2gm:hover,
+.winButtonMinMax-PBQ2gm:active {
+    background: var(--background-secondary);
+}
+
+
+.winButtonMinMax-PBQ2gm:nth-child(3):after {
+      content:'';
+      width:11px;
+      height:11px;
+      -webkit-mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" version="1.1" width="10" height="10"><path d="M 0,0 0,10 10,10 10,0 Z M 1,1 9,1 9,9 1,9 Z"/></svg>') center/11px no-repeat;
+      background: var(--text-muted);
+}
+
+.winButtonMinMax-PBQ2gm:nth-child(3) svg {
+    display:none;
+}
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar           ║ Buttons (Close)                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Close 
+.winButtonClose-1HsbF-:hover,
+.winButtonClose-1HsbF-:active {
+    color: white;
+}
+
+.winButtonClose-1HsbF-:hover {
+    background: #E81123;
+}
+
+.winButtonClose-1HsbF-:active {
+    background: #E81123;
+}

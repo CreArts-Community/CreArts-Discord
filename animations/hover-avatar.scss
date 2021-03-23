@@ -1,0 +1,25 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Animations         ║ Avatar Hover                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// User
+.avatar-SmRMf2 {
+    z-index: 20;
+    transition: all .2s ease-in-out;
+}
+
+.avatar-SmRMf2:hover {
+transform: scale(1.1);
+}
+
+// Chat
+.avatar-1BDn8e.clickable-1bVtEA {
+    display: inline-block;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.avatar-1BDn8e.clickable-1bVtEA:hover {
+    display: inline-block;
+    transform: scale(1.1);
+}

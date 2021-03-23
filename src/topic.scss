@@ -1,0 +1,67 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ CreArts v2.0.0                                                                                         ║
+// ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
+// ║ name:              ║ CreArts                                                                           ║
+// ║ version:           ║ 2.0.0                                                                             ║
+// ║ author:            ║ CorellanStoma#1996                                                                ║
+// ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                        ║
+// ║ This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the     ║
+// ║ UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version,             ║
+// ║ we can't promise that theme will work in combination with other themes.                                ║
+// ║                                                                                                        ║
+// ║ More information about Powercord can be found here:                                                    ║
+// ║ ● https://powercord.dev/                                                                               ║
+// ║                                                                                                        ║
+// ║ If you need support join our Creative Community:                                                       ║
+// ║ ● https://discord.gg/8W8E39Z                                                                           ║
+// ║                                                                                                        ║
+// ║ Our Art & Design Wiki:                                                                                 ║
+// ║ ● https://crearts.wiki/                                                                                ║
+// ║                                                                                                        ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Topic                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.children-19S4PO {
+  border-radius: var(--radius-primary);
+  background: transparent;
+  position: relative;
+  height: 40px;
+  border: var(--border);
+  box-shadow: var(--shadows);
+}
+
+// Blur
+.children-19S4PO:before {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  position: absolute;
+  content: "";
+
+  backdrop-filter: blur(var(--blur));
+
+
+  height:100%;
+  width:100%;
+  z-index: -1;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Topic              ║ Remove Divider                                                                    ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.content-yTz4x3:before, .divider-3FBTu8{
+    display: none;
+  }
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Topic              ║ No Divider                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.theme-dark .children-19S4PO:after {display: none;}
+
+.theme-light .children-19S4PO:after {display: none;}

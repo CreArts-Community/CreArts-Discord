@@ -1,0 +1,212 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ CreArts v2.0.0                                                                                         ║
+// ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
+// ║ name:              ║ CreArts                                                                           ║
+// ║ version:           ║ 2.0.0                                                                             ║
+// ║ author:            ║ CorellanStoma#1996                                                                ║
+// ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                        ║
+// ║ This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the     ║
+// ║ UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version,             ║
+// ║ we can't promise that theme will work in combination with other themes.                                ║
+// ║                                                                                                        ║
+// ║ More information about Powercord can be found here:                                                    ║
+// ║ ● https://powercord.dev/                                                                               ║
+// ║                                                                                                        ║
+// ║ If you need support join our Creative Community:                                                       ║
+// ║ ● https://discord.gg/8W8E39Z                                                                           ║
+// ║                                                                                                        ║
+// ║ Our Art & Design Wiki:                                                                                 ║
+// ║ ● https://crearts.wiki/                                                                                ║
+// ║                                                                                                        ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Spacing                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.appMount-3lHmkl, body {
+    background-color: var(--background-primary);
+}
+
+// Base (hight bottom)
+.base-3dtUhz {
+    margin-bottom: 30px;
+}
+
+// Sidebar (Channels & Profile)
+.sidebar-2K8pFh {
+    padding: 10px 10px 10px 20px;
+}
+
+
+// Chat (Chat & Members)
+.chat-3bRxxu {
+    padding: 10px 10px 10px 10px;
+}
+
+// Chat
+.chatContent-a9vAAp {
+    margin-right: 10px;
+}
+
+// Members
+.membersWrap-2h-GB4 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+// Title
+.container-1r6BKw.themed-ANHk51 {
+    height: 40px;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+
+.content-yTz4x3 {
+        margin-top: 10px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Transparency                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background (Title)
+.container-1r6BKw.themed-ANHk51 {
+    background: transparent;
+}
+
+// Background (Chat)
+.chat-3bRxxu, .threadSidebar-1o3BTy {
+    background: transparent;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Backdrop                                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Backdrop
+.backdrop-1wrmKB, .backdropWithLayer-3_uhz4 { 
+    background: transparent !important;
+    opacity: 1 !important;
+}
+
+// Blur
+.backdrop-1wrmKB::before, .backdropWithLayer-3_uhz4::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--backdrop);
+    backdrop-filter: blur(var(--blur-backdrop));
+    right: 0;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Text                                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Messages
+.cozy-3raOZG .messageContent-2qWWxC {
+    text-align: var(--text-align);
+    word-break: break-word;
+	text-align-last: left;
+}
+
+
+// Chat Input 
+.slateTextArea-1Mkdgw {
+    text-align: var(--text-align);
+    word-break: break-word;
+	text-align-last: left;
+    right: 0;
+}
+
+// Embeds
+.embedAuthorName-3mnTWj,
+.embedAuthorNameLink-1gVryT,
+.embedDescription-1Cuq9a, .embedFieldName-NFrena,
+.embedFieldValue-nELq2s, .embedFooterText-28V_Wb,
+.embedLink-1G1K1D, .embedProvider-3k5pfl,
+.embedTitle-3OXDkz,
+.embedTitleLink-1Zla9e {
+    text-align: var(--text-align);
+    word-break: break-word;
+	text-align-last: left;
+}
+
+
+// Channels & Members
+.container-2ax-kl {
+    font-size: 12.4px;
+    line-height: 20px;
+}
+
+// Timestamp
+.cozy-3raOZG .timestamp-3ZCmNB {
+    color: var(--interactive-normal)
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Notice                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background (Normal)
+.notice-3bPHh- {
+    border-radius: var(--radius-primary);
+    background: var(--accent-primary);
+    position: relative;
+    box-shadow: var(--shadows);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+// Background (Hover)
+.notice-3bPHh-:hover {
+    background: var(--accent-secondary);
+}
+
+// Button (Normal)
+.theme-dark .button-2DhvE9,
+.theme-light .button-2DhvE9 {
+    border-radius: var(--radius-primary);
+}
+
+// Button (Hover)
+.theme-dark .button-2DhvE9:hover,
+.theme-light .button-2DhvE9:hover {
+    border-radius: var(--radius-primary);
+    background: white;
+    color: var(--accent-secondary)
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Threads                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// background
+.threadSidebar-1o3BTy {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  
+  // Input
+  .threadSidebar-1o3BTy .sansAttachButton-td2irx {
+    padding-bottom: 0px;
+  }
+  
+  .form-3uUEen {
+    padding: 0px;
+  }
+  
+  .channelTextArea-2ZBawt {
+    background: transparent;
+    margin: 0px;
+  }

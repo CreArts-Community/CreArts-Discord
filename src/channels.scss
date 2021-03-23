@@ -1,0 +1,99 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ CreArts v2.0.0                                                                                         ║
+// ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
+// ║ name:              ║ CreArts                                                                           ║
+// ║ version:           ║ 2.0.0                                                                             ║
+// ║ author:            ║ CorellanStoma#1996                                                                ║
+// ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                        ║
+// ║ This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the     ║
+// ║ UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version,             ║
+// ║ we can't promise that theme will work in combination with other themes.                                ║
+// ║                                                                                                        ║
+// ║ More information about Powercord can be found here:                                                    ║
+// ║ ● https://powercord.dev/                                                                               ║
+// ║                                                                                                        ║
+// ║ If you need support join our Creative Community:                                                       ║
+// ║ ● https://discord.gg/8W8E39Z                                                                           ║
+// ║                                                                                                        ║
+// ║ Our Art & Design Wiki:                                                                                 ║
+// ║ ● https://crearts.wiki/                                                                                ║
+// ║                                                                                                        ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Background                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.container-3w7J-x{
+    border-radius: var(--radius-primary);
+    background: transparent;
+    position: relative;
+}
+
+
+
+/*
+// Blur
+.container-3w7J-x:before {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    position: absolute;
+    content: "";
+    border: var(--border);
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+
+    height:100%;
+    width: var(--channel-width);
+}
+*/
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Channels           ║ Header                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Header Background
+.header-2V-4Sw {
+    border-radius: var(--radius-primary);
+    background: transparent;
+    position:relative;
+    height: 40px;
+    
+}
+
+// Header Hover
+.header-2V-4Sw:hover {
+    background: transparent;
+    border-radius: var(--radius-primary);
+    box-shadow: none;
+}
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Sidebar                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.sidebar-2K8pFh {
+    background: transparent;
+    width: var(--channel-width);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Server Banner                                                                     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.bannerImage-3KhIJ6{
+    width: var(--channel-width);
+    height: 100%;
+    z-index: 1;
+}
+
+.animatedContainer-1NSq4T {
+    background:transparent;
+    overflow: hidden;
+    width: var(--channel-width);
+    box-shadow: none;
+    border-radius: var(--radius-primary);
+    z-index: 2;
+}

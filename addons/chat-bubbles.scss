@@ -1,0 +1,14 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons             ║ Chat Bubbles                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
+  background-color: var(--background-tertiary);
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+
+  padding: 12px 12px ;
+  border-radius: var(--radius-secondary);
+  position: relative;
+  overflow: visible;
+}

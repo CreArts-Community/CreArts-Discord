@@ -1,0 +1,286 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ CreArts v2.0.0                                                                                         ║
+// ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
+// ║ name:              ║ CreArts                                                                           ║
+// ║ version:           ║ 2.0.0                                                                             ║
+// ║ author:            ║ CorellanStoma#1996                                                                ║
+// ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                        ║
+// ║ This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the     ║
+// ║ UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version,             ║
+// ║ we can't promise that theme will work in combination with other themes.                                ║
+// ║                                                                                                        ║
+// ║ More information about Powercord can be found here:                                                    ║
+// ║ ● https://powercord.dev/                                                                               ║
+// ║                                                                                                        ║
+// ║ If you need support join our Creative Community:                                                       ║
+// ║ ● https://discord.gg/8W8E39Z                                                                           ║
+// ║                                                                                                        ║
+// ║ Our Art & Design Wiki:                                                                                 ║
+// ║ ● https://crearts.wiki/                                                                                ║
+// ║                                                                                                        ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Upload                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.theme-dark .uploadModal-2ifh8j,
+.theme-light .uploadModal-2ifh8j {
+    border-radius: var(--radius-primary);
+    background: transparent;
+    position: relative;
+    box-shadow: none;
+    border: none;
+}
+
+// Blur
+.theme-dark .uploadModal-2ifh8j:before,
+.theme-light .uploadModal-2ifh8j:before {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    position: absolute;
+    content: "";
+    border: var(--border) solid rgba( 255, 255, 255, var(--border-opacity));
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+
+    height:100%;
+    width:100%;
+    left: 0;
+    top: 0;
+}
+
+// Background
+.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
+    border-radius: var(--radius-primary);
+    background: transparent;
+    position: relative;
+    box-shadow: none;
+}
+
+// Blur
+.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC:before {
+    background: var(--background-tertiary);
+    border-radius: var(--radius-primary);
+    position: absolute;
+    content: "";
+
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+
+    height:100%;
+    width:100%;
+    left: 0;
+    top: 0;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Big User Profile                                                                  ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.root-SR8cQa {
+    border-radius: var(--radius-primary);
+	width: 900px;
+    background-color: transparent;
+}
+
+.body-3ND3kc, .tabBarContainer-1s1u-z {
+    background: var(--background-primary);
+}
+
+.infoScroller-3EYYns {
+    padding: 20px 12px 20px 12px;
+    background: var(--background-secondary)
+}
+
+// Header
+.header-QKLPzZ {
+    margin-bottom: 50px;
+}
+
+.topSectionNormal-2-vo2m {
+    background: transparent;
+}
+
+// Activity
+.topSectionPlaying-1J5E4n {
+    background: transparent;
+}
+
+.topSectionSpotify-1lI0-P {
+    background: transparent;
+}
+
+.activity-1ythUs {
+    background: var(--background-primary)
+}
+
+// No Info Divider
+.userInfoSection-2acyCx+.userInfoSection-2acyCx {
+    border: none;
+}
+
+// Connected Accounts
+.connectedAccount-36nQx7 {
+    z-index: 3;
+    margin-top: 20px;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding: 8px 14px 8px 8px;
+    width: 230px;
+    background: var(--background-tertiary);
+	border-radius: 90px;
+	border: none;
+}
+
+// Spotify
+.assetsLargeImage-eYwpTX {
+    border-radius: 90px;
+    display: block;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+// Buton
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    border-radius: var(--radius-primary);
+    background: var(--accent-primary);
+    color: #fff;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    border-radius: var(--radius-primary);
+    background: var(--accent-secondary);
+    color: #fff;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:active {
+    border-radius: var(--radius-primary);
+    background: var(--accent-tertiary);
+    color: #fff;
+}
+
+// Note
+.userInfoSectionHeader-CBvMDh {
+    display: none;
+    padding: 0px;
+}
+
+.note-QfFU8y {
+    padding: 2px 12px 2px 12px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+.note-QfFU8y textarea {
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 4px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Delete Server                                                                     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.theme-dark .root-1gCeng,
+.theme-light .root-1gCeng {
+    border-radius: var(--radius-primary);
+    background: transparent;
+    position: relative;
+    box-shadow: none;
+    border: none;
+}
+
+// Blur
+.theme-dark .root-1gCeng:before,
+.theme-light .root-1gCeng:before {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    position: absolute;
+    content: "";
+    border: var(--border) solid rgba( 255, 255, 255, var(--border-opacity));
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+
+    height:100%;
+    width:100%;
+    left: 0;
+    top: 0;
+}
+
+// Background
+.theme-dark .footer-2gL1pp,
+.theme-light .footer-2gL1pp {
+    border-radius: var(--radius-primary);
+    background: transparent;
+    position: relative;
+    box-shadow: none;
+}
+
+// Blur
+.theme-dark .footer-2gL1pp:before,
+.theme-light .footer-2gL1pp:before {
+    background: var(--background-tertiary);
+    border-radius: var(--radius-primary);
+    position: absolute;
+    content: "";
+
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+
+    height:100%;
+    width:100%;
+    left: 0;
+    top: 0;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Powercord Cutie                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Background
+.theme-dark .modal-yWgWj-,
+.theme-light .modal-yWgWj- {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+}
+
+.header-1F6gxU {
+  border-radius: var(--radius-primary);
+  height: 100px;
+}
+
+.content-1LAB8Z {
+  padding: 20px 20px 0px 20px;
+}
+
+
+// Button (Accept)
+
+
+
+
+// Button (Decline)
+.theme-dark .lookLink-9FtZy-.colorTransparent-1ewNp9,
+.theme-light .lookLink-9FtZy-.colorTransparent-1ewNp9 {
+    background: var(--red-primary);
+    border-radius: var(--radius-button)
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Create Server                                                                     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Spotify Playlist                                                                  ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝

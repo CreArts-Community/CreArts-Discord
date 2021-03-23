@@ -1,0 +1,310 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ CreArts v2.0.0                                                                                         ║
+// ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
+// ║ name:              ║ CreArts                                                                           ║
+// ║ version:           ║ 2.0.0                                                                             ║
+// ║ author:            ║ CorellanStoma#1996                                                                ║
+// ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                        ║
+// ║ This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the     ║
+// ║ UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version,             ║
+// ║ we can't promise that theme will work in combination with other themes.                                ║
+// ║                                                                                                        ║
+// ║ More information about Powercord can be found here:                                                    ║
+// ║ ● https://powercord.dev/                                                                               ║
+// ║                                                                                                        ║
+// ║ If you need support join our Creative Community:                                                       ║
+// ║ ● https://discord.gg/8W8E39Z                                                                           ║
+// ║                                                                                                        ║
+// ║ Our Art & Design Wiki:                                                                                 ║
+// ║ ● https://crearts.wiki/                                                                                ║
+// ║                                                                                                        ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Background                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.chatContent-a9vAAp {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    position: relative;
+    content: "";
+    border: var(--border);
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+
+    height:100%;
+    width:100%;
+}
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Chat               ║ Input                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.scrollableContainer-2NUZem {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    position: relative;
+    content: "";
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+    z-index: 90;
+    bottom: 0px;
+}
+
+.channelTextArea-rNsIhG {
+    background: transparent;
+    margin-bottom: 0px;
+}
+
+.form-2fGMdU {
+    padding: 0px;
+}
+
+.sansAttachButton-td2irx {
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .messagesWrapper-1sRNjr, .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .scroller-2LSbBU {
+    margin-bottom: 4px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ No Divider                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// No Divider (Dark)
+.theme-dark .form-2fGMdU:before {
+    display: none;
+}
+
+// No Divider (Light)
+.theme-light .form-2fGMdU:before {
+    display: none;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Emoji Drawer                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.drawerSizingWrapper-17Mss4 {
+    position: absolute;
+    height: calc(100vh / 2.2);
+    bottom: 0px;
+    right: 0;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Hover Highlight                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.message-2qnXI6.selected-2P5D_Z, .mouse-mode.full-motion .message-2qnXI6:hover {
+    border-radius: var(--radius-secondary);
+  }
+
+.chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .messagesWrapper-1sRNjr,
+.chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .scroller-2LSbBU {
+    border-radius: var(--radius-primary) var(--radius-primary) 0 0;
+}
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Embeds                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.embedFull-2tM8-- {
+    background: var(--background-tertiary);
+    border-top-right-radius: var(--radius-primary);
+	border-bottom-right-radius: var(--radius-primary);
+    border-left: 6px solid var(--accent-primary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Downloads                                                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.attachment-33OFj0 {
+    border: none;
+    background-color: var(--background-tertiary);
+	border-radius: var(--radius-secondary);
+}
+
+.anchor-3Z-8Bb {
+    color: var(--text-link);
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Media                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Image
+.wrapper-2TxpI8 {
+    border-radius: var(--radius-secondary);
+}
+
+// Video
+.imageWrapper-2p5ogY {
+    border-radius: var(--radius-secondary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Mention                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Mention Line
+.mentioned-xhSam7:before {
+    background: var(--accent-primary);
+}
+
+.ephemeral-1PsL1r:before, .mentioned-xhSam7:before, .replying-1x3H0T:before {
+    width: 6px;
+    left: 0px;
+    border-radius: var(--radius-secondary) 0 0 var(--radius-secondary);
+}
+
+// Mention Background
+.mentioned-xhSam7 {
+    background-color: var(--background-mentioned);
+    border-radius: var(--radius-secondary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Mention (Text & User)                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Mention (Normal)
+.wrapper-3WhCwL {
+    color: var(--accent-primary);
+    background: var(--accent-active);
+    border-radius: var(--radius-mention);
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+// Mention (Hover)
+.wrapper-3WhCwL:hover {
+    color: var(--accent-secondary);
+    background: var(--accent-hover);
+    border-radius: var(--radius-mention);
+}
+
+
+
+
+.mention {
+    border-radius: var(--radius-mention);
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Reaction                                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Reaction
+.reaction-1hd86g {
+    background: var(--background-tertiary);
+    border-radius: var(--radius-reaction);
+}
+
+// Emoji
+.reaction-1hd86g .emoji {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+// Text
+.reactionMe-wv5HKu .reactionCount-2mvXRV {color: var(--interactive-normal);}
+.reactionMe-wv5HKu:hover .reactionCount-2mvXRV {color: var(--interactive-hover);}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Selection                                                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+::selection {
+    color: var(--selection-text);
+    background: var(--selection-background);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ New Message Bar                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.newMessagesBar-265mhP {
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+    margin-top: 12px;
+}
+
+.newMessagesBar-265mhP:hover {
+    background: var(--accent-secondary);
+}
+
+.newMessagesBar-265mhP:active {
+    background: var(--accent-tertiary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Quotes                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.blockquoteContainer-U5TVEi blockquote {
+    background: var(--background-tertiary);
+    border-radius: 0 var(--radius-primary) var(--radius-primary)  0;
+    padding: 6px 16px 6px 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    }
+    
+    // line
+    .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+    background: var(--accent-primary);
+    border-radius: 6px 0px 0px 6px;
+    width: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    }
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Jump to Present                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.jumpToPresentBar-G1R9s6 {
+    visibility: hidden;
+    bottom: 20px;
+}
+
+.jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d {
+    background: var(--accent-primary);
+    position: relative;
+    transform: scale(1.5);
+    visibility: visible;
+    padding: 4px;
+    border-radius: 90px;
+}
+
+.barButtonIcon-3t4V3d:hover {background: var(--accent-secondary);}
+.barButtonIcon-3t4V3d:active {background: var(--accent-tertiary);}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Invite                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Code                                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝

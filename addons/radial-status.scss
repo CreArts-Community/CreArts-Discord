@@ -1,0 +1,22 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons             ║ Radial Status                                                                     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+@import url("https://discordstyles.github.io/RadialStatus/base.css");
+
+:root {
+  --rs-small-spacing: 2px;  /* spacing between avatar and status */
+  --rs-large-spacing: 4px;  /* spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
+  --rs-width: 4px;  /* Width/thickness of status border */
+  --rs-avatar-shape: 50%;  /* 50% for round - 0% for square */
+  --rs-online-color: #43b581;  /* color for online status */
+  --rs-idle-color: #faa61a;  /* color for idle status */
+  --rs-dnd-color: #f04747;  /* color for dnd status */
+  --rs-offline-color: #636b75;  /* color for offline status */
+  --rs-streaming-color: #643da7;  /* color for streaming status */
+  --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
+}
+
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile]:after {
+  display: none;
+}

@@ -1,0 +1,26 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons             ║ White Profile Badges                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.header-QKLPzZ .powercord-badge-cutie img:first-child{display: none !important}
+.header-QKLPzZ .powercord-badge-cutie img:last-child{display:block!important}
+[class^="profileBadge-2BqF-Z powercord-badge-"]{color:white!important}
+[class*="BadgeStaff"]{filter: brightness(10)!important}
+[class*="BadgePartner"]{filter: brightness(10)!important}
+[class*="BadgeHypesquad-"]{filter: brightness(10)!important}
+[class*="BadgeHypeSquadOnlineHouse1"]{filter: brightness(10)!important}
+[class*="BadgeHypeSquadOnlineHouse2"]{filter: brightness(10)!important}
+[class*="BadgeHypeSquadOnlineHouse3"]{filter: brightness(10)!important}
+[class*="BadgeBugHunter"]{filter: brightness(10)!important}
+[class*="BadgeVerifiedDeveloper"]{filter: brightness(10)!important}
+[class*="BadgeEarlySupporter"]{background-image:url("/assets/ce15562552e3d70c56d5408cfeed2ffd.svg")!important}
+[class*="BadgePremium"]{background-image:url("/assets/379d2b3171722ef8be494231234da5d1.svg")!important}
+[class*="GuildSubscriberlvl1"]{background-image:url("/assets/a86d7e56b8208da9f8623ac49fe822dc.svg")!important}
+[class*="GuildSubscriberlvl2"]{background-image:url("/assets/e85361cd599b6722548c5a5f003b4b78.svg")!important}
+[class*="GuildSubscriberlvl3"]{background-image:url("/assets/7a0be61e754af3353d0871070f46a9d6.svg")!important}
+[class*="GuildSubscriberlvl4"]{background-image:url("/assets/88f960f400930f109847d0335685de69.svg")!important}
+[class*="GuildSubscriberlvl5"]{background-image:url("/assets/a99def5f819c077e5e5061cab741b7e6.svg")!important}
+[class*="GuildSubscriberlvl6"]{background-image:url("/assets/2cfb317f3db3963d8ded9a97ee967bac.svg")!important}
+[class*="GuildSubscriberlvl7"]{background-image:url("/assets/278736f579d810b11ddf308cb598b19e.svg")!important}
+[class*="GuildSubscriberlvl8"]{background-image:url("/assets/38e40f25802a0fdf480d9b855a37a2f3.svg")!important}
+[class*="GuildSubscriberlvl9"]{background-image:url("/assets/cfbc2d8ceacfacf07850f986c8165195.svg")!important}

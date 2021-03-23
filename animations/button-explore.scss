@@ -1,0 +1,29 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Animations         ║ Explore Button                                                                    ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.scroller-2TZvBN > .listItem-2P_4kh:nth-last-child(2) .circleIconButton-jET_ig:hover {
+    animation: Explore 2s infinite linear;
+}
+
+.circleIconButton-jET_ig.selected-ugP_am {
+    animation: Explore 2s infinite linear;
+}
+
+
+
+@keyframes Explore {
+    0% {transform: rotate(-20deg);}
+    60% {transform: rotate(180deg);}
+    100% {transform: rotate(-20deg);}
+}
+
+
+
+
+
+
+
+
+
+
