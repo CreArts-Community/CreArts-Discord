@@ -41,4 +41,4 @@ cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/
 
 ## License
 
-[**MIT License**](https://raw.githubusercontent.com/CorellanStoma/CreArts/master/license.md)
+This project is licensed under the MIT License - see the [**license.md**](https://raw.githubusercontent.com/CorellanStoma/CreArts/master/license.md) file for details
