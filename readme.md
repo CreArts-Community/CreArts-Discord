@@ -28,11 +28,11 @@ cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/
 [**MIT License**](https://raw.githubusercontent.com/CorellanStoma/CreArts/master/license.md)
 
 ## Credits
-|:-:|:-:|
+
 | [**USRBG**](https://github.com/Discord-Custom-Covers/usrbg) | by [**Gibbu#1211**](https://github.com/Gibbu) & [**Tropical#4355**](https://github.com/Tropix126) |
-|:-:|:-:|
+
 | [**Radial Status**](https://github.com/Discord-Custom-Covers/usrbg) | by [**Gibbu#1211**](https://github.com/Gibbu) |
-|:-:|:-:|
+
 
 
 
