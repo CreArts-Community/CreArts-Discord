@@ -11,6 +11,8 @@
 
 ## Preview
 
+## Version
+
 ## Instalation
 
 For the instalation you need [**Powercord**](https://powercord.dev/):
