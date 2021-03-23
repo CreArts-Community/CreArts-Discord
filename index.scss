@@ -6,9 +6,8 @@
 // ║ author:            ║ CorellanStoma#1996                                                                ║
 // ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
 // ║                                                                                                        ║
-// ║ This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the     ║
-// ║ UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version,             ║
-// ║ we can't promise that theme will work in combination with other themes.                                ║
+// ║ CreArts is an easily customizable Powercord theme that customizes the Discord interface.               ║
+// ║ This theme was created by CorellanStoma#1996.                                                          ║
 // ║                                                                                                        ║
 // ║ More information about Powercord can be found here:                                                    ║
 // ║ ● https://powercord.dev/                                                                               ║
@@ -55,11 +54,11 @@
 // ║ Skin               ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-@use "./skins/glassmorphism/style.scss"; // ❌ CreArts (Glassmorphism Edition) ⚠️ [Heavy CPU!]
+//@use "./skins/glassmorphism/style.scss"; // ❌ CreArts (Glassmorphism Edition) ⚠️ [Heavy CPU!]
 
 //@use "./skins/neomorphism/style.scss"; // ❌ CreArts (Neomorphism Edition) ⚠️ [Heavy CPU!]
 
-//@use "./skins/community/style.scss"; // ✔️ CreArts (Commmunity Edition)
+@use "./skins/community/style.scss"; // ✔️ CreArts (Commmunity Edition)
 
 
 

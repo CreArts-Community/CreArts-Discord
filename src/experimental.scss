@@ -1,26 +1,3 @@
-// ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ CreArts v2.0.0                                                                                         ║
-// ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
-// ║ name:              ║ CreArts                                                                           ║
-// ║ version:           ║ 2.0.0                                                                             ║
-// ║ author:            ║ CorellanStoma#1996                                                                ║
-// ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
-// ║                                                                                                        ║
-// ║ This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the     ║
-// ║ UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version,             ║
-// ║ we can't promise that theme will work in combination with other themes.                                ║
-// ║                                                                                                        ║
-// ║ More information about Powercord can be found here:                                                    ║
-// ║ ● https://powercord.dev/                                                                               ║
-// ║                                                                                                        ║
-// ║ If you need support join our Creative Community:                                                       ║
-// ║ ● https://discord.gg/8W8E39Z                                                                           ║
-// ║                                                                                                        ║
-// ║ Our Art & Design Wiki:                                                                                 ║
-// ║ ● https://crearts.wiki/                                                                                ║
-// ║                                                                                                        ║
-// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
-
 // Avatar
 .avatar-1BDn8e, .wrapper-3t9DeA {
   border-radius: var(--radius-avatar);
@@ -753,45 +730,42 @@ z-index: 20;
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 
-// Header
 .sidebar-2K8pFh .header-2V-4Sw {
-  background: var(--background-secondary);
   border-radius: var(--radius-primary);
+  background: transparent;
   position: relative;
-  content: "";
-  border: var(--border);
-  backdrop-filter: blur(var(--blur));
-  box-shadow: var(--shadows);
-  
+
   height:40px;
   width: 100%;
-  margin-bottom: 20px;
+  margin: 0px 0px 20px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
 
 
-//Background
-.sidebar-2K8pFh .thin-1ybCId {
+
+// Blur
+.sidebar-2K8pFh .header-2V-4Sw:after {
   background: var(--background-secondary);
   border-radius: var(--radius-primary);
-  position: relative;
+  position: absolute;
   content: "";
   border: var(--border);
   backdrop-filter: blur(var(--blur));
   box-shadow: var(--shadows);
-  
+
+
+  left: 0;
+  top: 0;
+
   height:100%;
   width: var(--channel-width);
+  z-index: -1;
 }
 
 
 
 
 
-
-/*
-.thin-1ybCId, .thin-1ybCId.fade-2kXiP2:hover, .thin-1ybCId.scrolling-1Cdwk- {
-  background: red;
-}
-*/
