@@ -21,10 +21,13 @@ cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/
 
 ## Updating
 
+## License
+
+[**MIT License**](https://raw.githubusercontent.com/CorellanStoma/CreArts/master/license.md)
+
 ## Credits
 
-
-* **USRBG** by [Gibbu#1211](https://github.com/Gibbu) & [Tropical#4355](https://github.com/Tropix126)
+* **USRBG** by **[Gibbu#1211]** (https://github.com/Gibbu) & **[Tropical#4355]**(https://github.com/Tropix126)
 
 * Radial Status by Gibbu#1211
 * Discolored by Nyria#4198& Snapper#0001
@@ -39,6 +42,4 @@ cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/
 * Revert Radio Boxes by 11pixels#2004
 * Name Badges by LuckFire#4800
 
-## License
 
-[**MIT License**](https://raw.githubusercontent.com/CorellanStoma/CreArts/master/license.md)
