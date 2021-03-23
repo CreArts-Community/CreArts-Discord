@@ -17,7 +17,7 @@ CreArts is an easily customizable Powercord theme that customizes the Discord in
 
 ### Requirements
 
-For this Powercord theme you need the [**Discord Canary**](https://discordia.me/en/canary) Version and a [**Powercord**](https://powercord.dev/) Instalation.
+For this Powercord theme you need the [**Discord Canary**](https://discordia.me/en/canary) Version and a [**Powercord**](https://powercord.dev/installation) Instalation.
 
 ### Instalation
 
