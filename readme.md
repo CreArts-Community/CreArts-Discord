@@ -35,7 +35,6 @@ cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/
 * [**Settings Icons**](https://github.com/snappercord/Settings-Icons) by [**Snapper#0001**](https://github.com/Snapperito), [**botato#6883**](https://github.com/botatooo), [**MulverineX#0001**](https://github.com/MulverineX) & [**AAGaming#9395**](https://github.com/AAGaming00)
 * Chromium Link Preview by [**Tropical#4355**](https://github.com/Tropix126)
 * Horizontal Server List by [**Gibbu#1211**](https://github.com/Gibbu)
-* Spotify CD spinby hudson#1337
 * White connection Icons by [**botato#6883**](https://github.com/botatooo)
 * White Profile Badges by [**botato#6883**](https://github.com/botatooo)
 * Compact Searchbar by [**Doggybootsy#1333**](https://github.com/doggybootsy)
