@@ -10,8 +10,7 @@
 
 ## Preview
 
-
-[**Preview**](https://i.imgur.com/2TMUaVX.png):
+![Preview](https://imgur.com/CleRk4m):
 
 
 ## Instalation
