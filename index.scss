@@ -118,8 +118,6 @@
 
 @use "./addons/offline-mode.scss"; // ✔️ (enabled by default)
 
-@use "./addons/mobile-menu.scss"; // ✔️ (enabled by default)
-
 @use "./addons/left-icons.scss"; // ✔️ (enabled by default)
 
 @use "./addons/recolor.scss"; // ✔️ (enabled by default)
@@ -139,19 +137,19 @@
 // ║ Emoji Pack         ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-//@use "./addons/emoji-whatsapp.scss"; // ❌ (disabled by default)
+//@use "./addons/emoji/emoji-whatsapp.scss"; // ❌ (disabled by default)
 
-//@use "./addons/emoji-samsung.scss"; // ❌ (disabled by default)
+//@use "./addons/emoji/emoji-samsung.scss"; // ❌ (disabled by default)
 
-//@use "./addons/emoji-microsoft.scss"; // ❌ (disabled by default)
+//@use "./addons/emoji/emoji-microsoft.scss"; // ❌ (disabled by default)
 
-//@use "./addons/emoji-joypixels.scss"; // ❌ (disabled by default)
+//@use "./addons/emoji/emoji-joypixels.scss"; // ❌ (disabled by default)
 
-//@use "./addons/emoji-google.scss"; // ❌ (disabled by default)
+//@use "./addons/emoji/emoji-google.scss"; // ❌ (disabled by default)
 
-//@use "./addons/emoji-facebook.scss"; // ❌ (disabled by default)
+//@use "./addons/emoji/emoji-facebook.scss"; // ❌ (disabled by default)
 
-//@use "./addons/emoji-apple.scss"; // ❌ (disabled by default)
+//@use "./addons/emoji/emoji-apple.scss"; // ❌ (disabled by default)
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Remove             ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
