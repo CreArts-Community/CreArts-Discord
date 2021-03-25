@@ -4,27 +4,13 @@
 
 // Background
 .children-19S4PO {
-  border-radius: var(--radius-primary);
-  background: transparent;
-  position: relative;
-  height: 40px;
-  border: var(--border);
-  box-shadow: var(--shadows);
-}
-
-// Blur
-.children-19S4PO:before {
   background: var(--background-secondary);
   border-radius: var(--radius-primary);
-  position: absolute;
-  content: "";
-
+  height: 40px;
   backdrop-filter: blur(var(--blur));
-
-
-  height:100%;
-  width:100%;
-  z-index: -1;
+  box-shadow: var(--shadows);
+  border: var(--border);
+  z-index: 2;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗

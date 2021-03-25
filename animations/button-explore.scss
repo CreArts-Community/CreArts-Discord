@@ -2,11 +2,11 @@
 // ║ Animations         ║ Explore Button                                                                    ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.scroller-2TZvBN > .listItem-2P_4kh:nth-last-child(2) .circleIconButton-jET_ig:hover {
+.scroller-1Bvpku > .listItem-2P_4kh:nth-last-child(2) .circleIconButton-jET_ig:hover {
     animation: Explore 2s infinite linear;
 }
 
-.circleIconButton-jET_ig.selected-ugP_am {
+.circleIconButton-1QV--U.selected-1JjBPm {
     animation: Explore 2s infinite linear;
 }
 
@@ -17,13 +17,3 @@
     60% {transform: rotate(180deg);}
     100% {transform: rotate(-20deg);}
 }
-
-
-
-
-
-
-
-
-
-

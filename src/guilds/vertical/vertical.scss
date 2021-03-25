@@ -4,12 +4,34 @@
 
 @use "settings.scss"; // (Warning!! Do not disable it!)
 
+
+
+
+
+
+
+.unreadMentionsIndicatorTop-2-tcdU {
+    top: 230px;
+}
+.unreadMentionsIndicatorBottom-2mDYbI {
+    bottom: 130px;
+}
+
+
+
+
+
+
+
+
+
+
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Vertical           ║ Wrapper                                                                           ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Backgrounds
-#app-mount .wrapper-1Rf91z {
+#app-mount .wrapper-3NnKdC {
 background: transparent;
 margin-left: 20px;
 }
@@ -19,12 +41,14 @@ margin-top: 20px;
 margin-left: 20px;
 }
 
+.scroller-1Bvpku{contain: none;}
+
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Vertical           ║ Button Area                                                                      ║
+// ║ Vertical           ║ Button Area                                                                       ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.tutorialContainer-1v44GL {
+.tutorialContainer-2sGCg9 {
 border-radius: var(--radius-primary);
 background: transparent;
 position: fixed;
@@ -33,7 +57,7 @@ top: 64px;
 }
 
 // Blur
-.tutorialContainer-1v44GL:before {
+.tutorialContainer-2sGCg9:before {
 background: var(--background-secondary);
 position: fixed;
 content: "";
@@ -87,13 +111,13 @@ border-radius: 90px;
 // ║ Vertical           ║ Explore Server Button                                                             ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.scroller-2TZvBN > .listItem-2P_4kh:nth-last-child(2) {
+.scroller-1Bvpku > .listItem-GuPuDH:nth-last-child(2) {
     position: fixed;
     background: transparent;
     top: 176px;
 }
 
-.circleIconButton-jET_ig {
+.circleIconButton-1QV--U {
     border-radius: 90px;
 }
 
@@ -102,7 +126,7 @@ border-radius: 90px;
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.scroller-2TZvBN {
+.scroller-1Bvpku {
 border-radius: var(--radius-primary);
 background: transparent;
 position: relative;
@@ -114,7 +138,7 @@ bottom: 130px;
 
 
 // Blur
-.wrapper-1Rf91z::before {
+.wrapper-3NnKdC::before {
 background: var(--background-secondary);
 position: fixed;
 content: "";
@@ -134,14 +158,14 @@ left: 20;
 }
 
 // Remove guild Separator
-.guildSeparator-3s64Iy {display: none;}
+.guildSeparator-33mFX6 {display: none;}
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Vertical           ║ Add Server Button                                                                 ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.tutorialContainer-SGrQ1h {
+.tutorialContainer-30WoTp {
 background: transparent;
 position: fixed;
 border-radius: var(--radius-primary);
@@ -151,7 +175,7 @@ bottom: 38px;
 }
 
 // Blur
-.tutorialContainer-SGrQ1h::before {
+.tutorialContainer-30WoTp::before {
 background: var(--background-secondary);
 position: fixed;
 content: "";
@@ -166,11 +190,11 @@ z-index: -1;
 }
 
 // Add Server & Explore Button
-.circleIconButton-jET_ig {
+.circleIconButton-1QV--U {
 color: var(--interactive-normal);
 background: var(--background-primary);
 }
 
-.circleIconButton-jET_ig.selected-ugP_am svg path{
+.circleIconButton-1QV--U.selected-ugP_am svg path{
 fill: var(--interactive-active);
 }

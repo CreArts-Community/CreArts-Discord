@@ -726,7 +726,7 @@ z-index: 20;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Discover           ║ Sidebar                                                                           ║
+// ║ Channels           ║ Header                                                                            ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 
@@ -746,21 +746,30 @@ z-index: 20;
 
 
 
-// Blur
-.sidebar-2K8pFh .header-2V-4Sw:after {
-  background: var(--background-secondary);
-  border-radius: var(--radius-primary);
-  position: absolute;
-  content: "";
-  border: var(--border);
-  backdrop-filter: blur(var(--blur));
-  box-shadow: var(--shadows);
 
 
-  left: 0;
-  top: 0;
 
-  height:100%;
-  width: var(--channel-width);
-  z-index: -1;
+
+
+
+
+
+
+// Settings (Powercord)
+
+.powercord-entities-manage-items {
+  --auto-grid-min-size: 20rem;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 6fr));
+    min-width: 240px;
+    justify-content: left;
+    margin-top: 16px;
+}
+
+
+
+.powercord-entities-manage-search  {
+  position: fixed;
+  top: 50px;
 }

@@ -21,27 +21,83 @@
     
     height:100%;
     width: var(--channel-width);
-  }
+}
 
-
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Channels           ║ Header                                                                            ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-// Header Background
-.header-2V-4Sw {
+// Background
+.container-1taM1r {
+    background: var(--background-secondary);
     border-radius: var(--radius-primary);
-    background: transparent;
-    position:relative;
     height: 40px;
-    
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+    border: var(--border);
+    z-index: 2;
+    margin-bottom: 20px;
 }
 
-// Header Hover
-.header-2V-4Sw:hover {
-    background: transparent;
-    border-radius: var(--radius-primary);
-    box-shadow: none;
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ No Porkcord                                                                       ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+  .header-2V-4Sw .powercord-badge {
+    display: none;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Nitro                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.childContainer-1wxZNh {display: none;}
+
+
+// Flower
+.flowerStar-1GeTsn {display: none;}
+
+// Guild Tier I
+.iconBackgroundTierOne-2OQMBY {
+    background: red;
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_menu.svg');
+}
+
+// Guild Tier II
+.iconBackgroundTierTwo-Eab9L6 {
+    background: red;
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_menu.svg');
+}
+
+// Guild Tier III
+.iconBackgroundTierThree-FWlUL9 {
+    background: red;
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_menu.svg');
+}
+
+// Partner
+.guildBadge-3IDi4U {
+    background: red;
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_menu.svg');
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ text                                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.name-1jkAdW, .tierTooltipTitle-3AtaZT {
+    font-weight: 400;
+
+}
+
+.name-1jkAdW {
+
+    font-size: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-bottom: 2px;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -51,17 +107,7 @@
 .button-1w5pas path {display: none;}
 .button-1w5pas.open-1Te94t {transform: none;}
 
-.theme-dark .button-1w5pas {
-    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_menu.svg');
-    background: var(--interactive-active);
-    background-size: cover;
-    width: 18px;
-    height: 18px;
-    position: relative;
-    opacity: 1;
-    top: 0px;
-}
-
+.theme-dark .button-1w5pas,
 .theme-light .button-1w5pas {
     -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_menu.svg');
     background: var(--interactive-active);
@@ -74,23 +120,8 @@
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Channels           ║ Sidebar                                                                           ║
-// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
-
-.sidebar-2K8pFh {
-    background: transparent;
-    width: var(--channel-width);
-}
-
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Channels           ║ Server Banner                                                                     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
-
-.bannerImage-3KhIJ6{
-    width: var(--channel-width);
-    height: 100%;
-    z-index: 1;
-}
 
 .animatedContainer-1NSq4T {
     background:transparent;
@@ -99,4 +130,11 @@
     box-shadow: none;
     border-radius: var(--radius-primary);
     z-index: 2;
+    top: -2px;
+}
+
+.bannerImage-3KhIJ6{
+    width: var(--channel-width);
+    height: 100%;
+    z-index: 1;
 }

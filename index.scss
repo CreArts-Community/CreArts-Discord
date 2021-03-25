@@ -82,6 +82,10 @@
 
 //@use "./skins/rosebox/style.scss"; // ❌ CreArts (Rosebox Edition)
 
+
+
+//@use "./skins/Nebula/style.scss"; // ❌ CreArts (Nebula Edition)
+
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Guilds alignment   ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
@@ -108,15 +112,13 @@
 
 @use "./addons/settings-icons.scss"; // ✔️ (enabled by default) by Snapperito, botato, MulverineX, AAGaming
 
-@use "./addons/chromium-link-preview.scss"; // ✔️ (enabled by default) by Tropical#4355
-
 @use "./addons/white-connection-icons.scss"; // ✔️ (enabled by default) by botato#6883
 
 @use "./addons/white-profile-badges.scss"; // ✔️ (enabled by default) by botato#6883
 
 @use "./addons/hover-buttons.scss"; // ✔️ (enabled by default)
 
-@use "./addons/offline-mode.scss"; // ✔️ (enabled by default)
+//@use "./addons/offline-mode.scss"; // ✔️ (enabled by default)
 
 @use "./addons/left-icons.scss"; // ✔️ (enabled by default)
 
@@ -131,7 +133,10 @@
 
 
 
-//@use "./addons/revert-radio-boxes.scss"; // ✔️ (enabled by default)
+
+//@use "./addons/chromium-link-preview.scss"; // ✔️ (enabled by default) by Tropical#4355 [Broken]
+
+//@use "./addons/revert-radio-boxes.scss"; // ✔️ (enabled by default) [Broken]
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Emoji Pack         ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
@@ -155,15 +160,17 @@
 // ║ Remove             ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-@use "./addons/no-scrollbars.scss"; // ✔️ (enabled by default)
+//@use "./addons/remove/remove-gift-button.scss"; // ❌ (disabled by default)
 
-//@use "./addons/remove-note.scss"; // ❌ (disabled by default)
+//@use "./addons/remove/remove-gif-button.scss"; // ❌ (disabled by default)
 
-//@use "./addons/remove-gift-button.scss"; // ❌ (disabled by default)
+//@use "./addons/remove/remove-sticker-button.scss"; // ❌ (disabled by default)
 
-//@use "./addons/remove-gif-button.scss"; // ❌ (disabled by default)
 
-//@use "./addons/remove-sticker-button.scss"; // ❌ (disabled by default)
+
+
+//@use "./addons/remove/remove-note.scss"; // ❌ (disabled by default)
+
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Animations         ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
@@ -200,6 +207,8 @@
 @use "./src/home.scss"; // ⚠️ (Warning!! Do not disable it!)
 
 @use "./src/members.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/no-scrollbars.scss"; // ⚠️ (Warning!! Do not disable it!)
 
 @use "./src/modals.scss"; // ⚠️ (Warning!! Do not disable it!)
 
