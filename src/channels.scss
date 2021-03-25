@@ -44,8 +44,11 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 .header-2V-4Sw .powercord-badge {
-    display: none;
+    background: White;
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_powercord.svg') no-repeat;
 }
+
+.powercord-badge-cutie img {display: none;}
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Channels           ║ Nitro                                                                             ║
@@ -60,25 +63,25 @@
 // Guild Tier I
 .iconBackgroundTierOne-2OQMBY {
     background: White;
-    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg');
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg') no-repeat;
 }
 
 // Guild Tier II
 .iconBackgroundTierTwo-Eab9L6 {
     background: White;
-    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg');
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg') no-repeat;
 }
 
 // Guild Tier III
 .iconBackgroundTierThree-FWlUL9 {
     background: White;
-    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg');
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg') no-repeat;
 }
 
 // Partner
 .guildBadge-3IDi4U {
     background: White;
-    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_partner.svg');
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_partner.svg') no-repeat;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -109,7 +112,7 @@
 
 .theme-dark .button-1w5pas,
 .theme-light .button-1w5pas {
-    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_menu.svg');
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_menu.svg') no-repeat;
     background: var(--interactive-active);
     background-size: cover;
     width: 18px;
