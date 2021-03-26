@@ -1,13 +1,3 @@
-
-
-
-
-/*
-.typeWindows-1za-n7 {
-    display: none;
-}
-*/
-
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Horizontal         ║ Import                                                                            ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
@@ -77,8 +67,6 @@ color: var(--interactive-normal);
 border-radius: 90px;
 }
 
-
-
 .homeIcon-FuNwkv {
     color: transparent;
     -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_home.svg') center no-repeat;
@@ -87,7 +75,6 @@ border-radius: 90px;
     height: 60%;
     margin-top: 2px;
 }
-
 
 .childWrapper-anI2G9:hover .homeIcon-FuNwkv {
     background: var(--interactive-active);
@@ -116,13 +103,14 @@ border-radius: 90px;
     }
 }
 
-.platform-win .panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
-    top: 120px;
-}
-
 .panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1):hover {
     background: var(--accent-primary);
     color: white;
+}
+
+// Windows
+.platform-win .panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
+    top: 120px;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -135,13 +123,13 @@ border-radius: 90px;
     top: 154px;
 }
 
-.platform-win .scroller-1Bvpku > .listItem-GuPuDH:nth-last-child(2) {
-    top: 176px;
-}
-
-
 .circleIconButton-1QV--U {
     border-radius: 90px;
+}
+
+// Windows
+.platform-win .scroller-1Bvpku > .listItem-GuPuDH:nth-last-child(2) {
+    top: 176px;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -156,9 +144,7 @@ position: relative;
 
 margin-top: 363px;
 bottom: 130px;
-
 }
-
 
 // Blur
 .wrapper-3NnKdC::before {
@@ -179,6 +165,12 @@ margin-bottom: 110px;
 top: 0;
 left: 20;
 }
+
+// Windows
+.platform-win .wrapper-3NnKdC::before {
+    margin-top: 255px;
+}
+
 
 // Remove guild Separator
 .guildSeparator-33mFX6 {display: none;}

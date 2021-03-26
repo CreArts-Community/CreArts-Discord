@@ -21,11 +21,24 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 .messagesWrapper-1sRNjr {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
 
 }
 
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ No Divider                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// No Divider (Dark)
+.theme-dark .form-2fGMdU:before {
+    display: none;
+}
+
+// No Divider (Light)
+.theme-light .form-2fGMdU:before {
+    display: none;
+}
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
 // ║ Chat               ║ Input                                                                             ║
@@ -53,8 +66,8 @@
 }
 
 .sansAttachButton-td2irx {
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-left: 26px;
+    padding-right: 20px;
 }
 
 .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .messagesWrapper-1sRNjr, .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .scroller-2LSbBU {
@@ -62,13 +75,106 @@
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons             ║ Hover Button                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+//upload butten right
+.attachWrapper-2TRKBi {
+    order:1;
+    margin-left: 9px;
+}
+
+.attachButton-2WznTc {
+    padding: 0px 0px 0px 8px;
+}
+
+// Normal
+.form-2fGMdU .buttons-3JBrkn {
+    opacity: 0.0;
+    transition: opacity 0.2s;
+}
+
+// Hover
+.scrollableContainer-2NUZem:hover .buttons-3JBrkn {
+    opacity: 1.0;
+}
+  
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat               ║ Reply                                                                             ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.container-2fRDfG, .channelTextArea-rNsIhG {
+.text-15b_0l, .colorBrand-2tjs5J, .colorMuted-HdFt4q, .closeButton-37O8QC {
+    color: var(--interactive-active);
+}
+
+
+.name-hpTFiv { color: var(--interactive-active)!important;}
+
+/*
+.container-2fRDfG {
     background: var(--accent-primary);
     border-radius: var(--radius-primary);
+    margin-bottom: 12px;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+*/
+
+.container-2fRDfG {
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+    margin-bottom: 12px;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-2fRDfG:hover {
+    background: var(--accent-secondary);
+}
+
+.container-2fRDfG:active {
+    background: var(--accent-tertiary);
+}
+
+.separator-ju-9xl {
+    width: 2px;
+    background: var(--interactive-active);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.container-2fRDfG {
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+    margin-bottom: -30px;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.form-2fGMdU:hover .container-2fRDfG {
+
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+    margin-bottom: 12px;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+*/
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat               ║ Typing                                                                            ║
@@ -79,21 +185,30 @@
     flex-direction: column-reverse;
 }
 
-
 .typing-2GQL18, .base-gE7OpD {
-margin-bottom: 5px;
-background: var(--accent-primary);
-backdrop-filter: blur(5px);
-border-radius: var(--radius-primary);
-position: relative;
-left: 10px;
-margin-right: 30px;
-padding-left: 30px;
-padding-right: 10px;
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+    position: relative;
+    margin-bottom: 5px;
+
+    left: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    padding-left: 10px;
+    padding-right: 10px;
 }
-  
+
+.typing-2GQL18:hover, .base-gE7OpD:hover {
+    background: var(--accent-secondary);
+}
+
 .scrollerSpacer-avRLaA {
-height: 40px;
+    height: 40px;
+}
+
+.dots-3Bkt3k.themed-IQiCm3, .base-gE7OpD .text-1y-e8- {
+    color: var(--interactive-active);
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -119,29 +234,22 @@ height: 40px;
 .barButtonIcon-3t4V3d:hover {background: var(--accent-secondary);}
 .barButtonIcon-3t4V3d:active {background: var(--accent-tertiary);}
 
-
-
-
-
-
-
-
-
-
-
-
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Chat               ║ No Divider                                                                        ║
+// ║ Chat               ║ New Message Bar                                                                   ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-// No Divider (Dark)
-.theme-dark .form-2fGMdU:before {
-    display: none;
+.newMessagesBar-265mhP {
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+    margin-top: 12px;
 }
 
-// No Divider (Light)
-.theme-light .form-2fGMdU:before {
-    display: none;
+.newMessagesBar-265mhP:hover {
+    background: var(--accent-secondary);
+}
+
+.newMessagesBar-265mhP:active {
+    background: var(--accent-tertiary);
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -296,24 +404,6 @@ height: 40px;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Chat               ║ New Message Bar                                                                   ║
-// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
-
-.newMessagesBar-265mhP {
-    background: var(--accent-primary);
-    border-radius: var(--radius-primary);
-    margin-top: 12px;
-}
-
-.newMessagesBar-265mhP:hover {
-    background: var(--accent-secondary);
-}
-
-.newMessagesBar-265mhP:active {
-    background: var(--accent-tertiary);
-}
-
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat               ║ Quotes                                                                            ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
@@ -335,11 +425,9 @@ height: 40px;
     margin-bottom: 4px;
 }
 
-
-
-
-
-
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Spoiler                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 
 
@@ -378,4 +466,3 @@ height: 40px;
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat               ║ Code                                                                              ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
-

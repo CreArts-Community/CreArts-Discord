@@ -2,28 +2,69 @@
 // ║ Addons             ║ Status                                                                            ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
+// Round Mask
 .pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-online-mobile)"]) {
-    mask: url(#svg-mask-status-online) !important;
+  mask: url(#svg-mask-status-online);
 }
 
+// Menu
+.menu-3sdvDG .icon-1IxfJ2 foreignObject {
+  mask: url(#svg-mask-status-online);
+}
+
+// Normal
 .wrapper-3t9DeA .svg-2V3M55 {
-    [mask*="status-online"] {fill: var(--green-primary);}
+  [mask*="status-online"] {fill: var(--green-primary);}
+  [mask*="status-idle"] {fill: var(--yellow-primary);}
+  [mask*="status-dnd"] {fill: var(--red-primary);}
+  [mask*="status-streaming"] {fill: var(--purple-primary);}
+}
 
-    [mask*="status-idle"] {fill: var(--yellow-primary);}
 
-    [mask*="status-dnd"] {fill: var(--red-primary);}
+// Hover
+.wrapper-3t9DeA .svg-2V3M55:hover {
+  [mask*="status-online"] {fill: var(--green-secondary)}
+  [mask*="status-idle"] {fill: var(--yellow-secondary);}
+  [mask*="status-dnd"] {fill: var(--red-secondary);}
+  [mask*="status-streaming"] {fill: var(--purple-secondary);}
+}
 
-    [mask*="status-streaming"] {fill: var(--purple-primary);}
-  }
-  
-  .wrapper-3t9DeA .svg-2V3M55:hover {
-    [mask*="status-online"] {fill: var(--green-secondary)}
 
-    [mask*="status-idle"] {fill: var(--yellow-secondary);}
 
-    [mask*="status-dnd"] {fill: var(--red-secondary);}
-    
-    [mask*="status-streaming"] {fill: var(--purple-secondary);}
-  }
+/*
+.header-QKLPzZ rect[mask="url(#svg-mask-status-online)"],
+.userPopout-3XzG_A rect[mask="url(#svg-mask-status-online)"] {
+  fill: #43b581;
+}
 
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-idle)"] {
+  fill: #faa61a;
+  mask: url(#svg-mask-status-online);
+}
+
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-dnd)"] {
+  fill: #f04747;
+  mask: url(#svg-mask-status-online);
+}
+
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-streaming)"]{
+  mask: url(#svg-mask-status-online);
+}
+
+.wrapper-3t9DeA rect[mask="url(#svg-mask-status-offline)"] {
+  mask: url(#svg-mask-status-online);
+}
+
+
+
+.title-3qD0b- .mask-1qbNWk rect{
+  mask: url(#svg-mask-status-online);
+  width: 10px;
+  height: 10px;
+}
+
+.title-3qD0b- .mask-1qbNWk{
+  margin-top: 5px;
+}
+*/
 
