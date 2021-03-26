@@ -100,7 +100,7 @@
 
 //@use "./addons/name-badges.scss"; // ❌ (Disabled by default) by LuckFire#4800
 
-@use "./addons/drag.scss"; // ✔️ (enabled by default)
+//@use "./addons/drag.scss"; // ✔️ (enabled by default)
 
 @use "./addons/usrbg.scss"; // ✔️ (enabled by default) by Gibbu#1211 & Tropical#4355 
 
@@ -129,6 +129,8 @@
 @use "./addons/fonts.scss"; // ✔️ (enabled by default)
 
 
+
+@use "./addons/white-porkcord.scss"; // ❌ (disabled by default)
 
 
 

@@ -16,6 +16,17 @@
     width:100%;
 }
 
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Spacing                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.messagesWrapper-1sRNjr {
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
 // ║ Chat               ║ Input                                                                             ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
@@ -49,6 +60,75 @@
 .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .messagesWrapper-1sRNjr, .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .scroller-2LSbBU {
     margin-bottom: 4px;
 }
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Reply                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.container-2fRDfG, .channelTextArea-rNsIhG {
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Typing                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.form-2fGMdU {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.typing-2GQL18, .base-gE7OpD {
+margin-bottom: 5px;
+background: var(--accent-primary);
+backdrop-filter: blur(5px);
+border-radius: var(--radius-primary);
+position: relative;
+left: 10px;
+margin-right: 30px;
+padding-left: 30px;
+padding-right: 10px;
+}
+  
+.scrollerSpacer-avRLaA {
+height: 80px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Jump to Present                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.jumpToPresentBar-G1R9s6 {
+    visibility: hidden;
+    bottom: 10px;
+    margin-right: -10px;
+}
+
+.jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d {
+    background: var(--accent-primary);
+    position: relative;
+    transform: scale(1.5);
+    visibility: visible;
+    padding: 4px;
+    border-radius: 90px;
+    margin: 0px;
+}
+
+.barButtonIcon-3t4V3d:hover {background: var(--accent-secondary);}
+.barButtonIcon-3t4V3d:active {background: var(--accent-tertiary);}
+
+
+
+
+
+
+
+
+
+
+
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat               ║ No Divider                                                                        ║
@@ -244,71 +324,58 @@
     padding: 6px 16px 6px 12px;
     margin-top: 4px;
     margin-bottom: 4px;
-    }
+}
     
-    // line
-    .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+// line
+.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
     background: var(--accent-primary);
     border-radius: 6px 0px 0px 6px;
     width: 6px;
     margin-top: 4px;
     margin-bottom: 4px;
-    }
-
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Chat               ║ Jump to Present                                                                   ║
-// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
-
-.jumpToPresentBar-G1R9s6 {
-    visibility: hidden;
-    bottom: 20px;
 }
 
-.jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d {
-    background: var(--accent-primary);
-    position: relative;
-    transform: scale(1.5);
-    visibility: visible;
-    padding: 4px;
-    border-radius: 90px;
-}
 
-.barButtonIcon-3t4V3d:hover {background: var(--accent-secondary);}
-.barButtonIcon-3t4V3d:active {background: var(--accent-tertiary);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat               ║ Invite                                                                            ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat               ║ Code                                                                              ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-
-
-
-
-
-
-
-
-
-
-
-.form-2fGMdU{contain: none;}
-
-
-
-.typing-2GQL18 {
-    background: rgba(255, 0, 0, 0.137);
-    border-radius: var(--radius-primary);
-    padding-bottom: 50px;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    z-index: 12;
-    margin-right: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
-}
