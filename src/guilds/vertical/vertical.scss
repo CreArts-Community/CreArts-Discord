@@ -2,7 +2,7 @@
 // ║ Horizontal         ║ Import                                                                            ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-@use "settings.scss"; // (Warning!! Do not disable it!)
+//@use "settings.scss"; // (Warning!! Do not disable it!)
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Vertical           ║ Wrapper                                                                           ║
@@ -210,9 +210,15 @@ fill: var(--interactive-active);
     bottom: 130px;
 }
 
+.mention-1f5kbO {
+background: var(--accent-primary);
+}
 
-.icon-2aINcz, .text-2e2ZyG {
+
+/*
+.unreadMentionsIndicatorBottom-2mDYbI .icon-2aINcz, .text-2e2ZyG {
     color: transparent;
     background: var(--interactive-normal);
-    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg') center no-repeat;
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_arrow_down.svg') center no-repeat;
 }
+*/
