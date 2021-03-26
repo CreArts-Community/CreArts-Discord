@@ -1,3 +1,13 @@
+
+
+
+
+
+.typeWindows-1za-n7 {
+    display: none;
+}
+
+
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Horizontal         ║ Import                                                                            ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
@@ -5,7 +15,7 @@
 //@use "settings.scss"; // (Warning!! Do not disable it!)
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Vertical           ║ Wrapper                                                                           ║
+// ║ Vertical           ║ Spacing                                                                           ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Backgrounds
@@ -31,7 +41,7 @@ border-radius: var(--radius-primary);
 background: transparent;
 position: fixed;
 
-top: 64px;
+top: 42px;
 }
 
 // Blur
@@ -44,8 +54,8 @@ backdrop-filter: blur(var(--blur));
 border: var(--border);
 box-shadow: var(--shadows);
 
-height: 183px;
-width: 70px;
+height: 184px;
+width: 72px;
 
 margin-top: -12px;
 z-index: -1;
@@ -92,7 +102,7 @@ border-radius: 90px;
 .panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
     background: var(--background-primary);
     position: fixed;
-    top: 120px;
+    top: 98px;
     left: 32px;
     height: 48px;
     width: 48px;
@@ -114,7 +124,7 @@ border-radius: 90px;
 .scroller-1Bvpku > .listItem-GuPuDH:nth-last-child(2) {
     position: fixed;
     background: transparent;
-    top: 176px;
+    top: 154px;
 }
 
 .circleIconButton-1QV--U {
@@ -147,11 +157,11 @@ backdrop-filter: blur(var(--blur));
 border: var(--border);
 box-shadow: var(--shadows);
 
-width: 70px;
+width: 72px;
 
 
 bottom: 20px;
-margin-top: 255px;
+margin-top: 235px;
 margin-bottom: 110px;
 top: 0;
 left: 20;
@@ -171,7 +181,7 @@ position: fixed;
 border-radius: var(--radius-primary);
 padding-top: 12px;
 padding-bottom: 4px;
-bottom: 38px;
+bottom: 32px;
 }
 
 // Blur
@@ -184,8 +194,8 @@ backdrop-filter: blur(var(--blur));
 border: var(--border);
 box-shadow: var(--shadows);
 height: 70px;
-width: 70px;
-bottom: 38px;
+width: 72px;
+bottom: 32px;
 z-index: -1;
 }
 
@@ -203,22 +213,46 @@ fill: var(--interactive-active);
 // ║ Vertical           ║ Unread                                                                            ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.unreadMentionsIndicatorTop-2-tcdU {
-    top: 230px;
-}
-.unreadMentionsIndicatorBottom-2mDYbI {
-    bottom: 130px;
-}
-
+// Mention
 .mention-1f5kbO {
-background: var(--accent-primary);
+    background: var(--accent-primary);
+    opacity: 1;
 }
 
+.mention-1f5kbO:hover {
+    background: var(--accent-secondary);
+}
 
-/*
-.unreadMentionsIndicatorBottom-2mDYbI .icon-2aINcz, .text-2e2ZyG {
+.mention-1f5kbO:active {
+    background: var(--accent-tertiary);
+}
+
+// Up
+.unreadMentionsIndicatorTop-2-tcdU .text-2e2ZyG {
     color: transparent;
-    background: var(--interactive-normal);
-    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_arrow_down.svg') center no-repeat;
+    background: var(--interactive-active);
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_arrow_up.svg') center no-repeat;
+    width: 36%;
+    height: 36%;
+    margin-bottom: -2px;
 }
-*/
+
+.unreadMentionsIndicatorTop-2-tcdU {
+    top: 240px;
+}
+
+
+// Down
+.unreadMentionsIndicatorBottom-2mDYbI .text-2e2ZyG {
+    color: transparent;
+    background: var(--interactive-active);
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_arrow_down.svg') center no-repeat;
+    width: 36%;
+    height: 36%;
+    margin-bottom: -2px;
+}
+
+.unreadMentionsIndicatorBottom-2mDYbI {
+
+    bottom: 140px;
+}
