@@ -2,11 +2,11 @@
 
 
 
-
+/*
 .typeWindows-1za-n7 {
     display: none;
 }
-
+*/
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Horizontal         ║ Import                                                                            ║
@@ -42,6 +42,10 @@ background: transparent;
 position: fixed;
 
 top: 42px;
+}
+
+.platform-win .tutorialContainer-2sGCg9 {
+    top: 62px;
 }
 
 // Blur
@@ -112,6 +116,10 @@ border-radius: 90px;
     }
 }
 
+.platform-win .panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
+    top: 120px;
+}
+
 .panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1):hover {
     background: var(--accent-primary);
     color: white;
@@ -126,6 +134,11 @@ border-radius: 90px;
     background: transparent;
     top: 154px;
 }
+
+.platform-win .scroller-1Bvpku > .listItem-GuPuDH:nth-last-child(2) {
+    top: 176px;
+}
+
 
 .circleIconButton-1QV--U {
     border-radius: 90px;
