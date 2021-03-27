@@ -769,7 +769,35 @@ z-index: 20;
 
 
 
-.powercord-entities-manage-search  {
+.powercord-entities-manage-search {
   position: fixed;
   top: 50px;
 }
+
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Nitro Classic                                                                     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.giftCodeContainer-1fbmAS .embedVertical-W5-T0m {
+  width: 300px;
+}
+
+.theme-dark .tile-2OwFgW,
+.theme-light .tile-2OwFgW {
+  background: var(--background-tertiary);
+  border-radius: var(--radius-primary);
+}
+
+
+.theme-dark .tile-2OwFgW:hover,
+.theme-light .tile-2OwFgW:hover {
+  background: var(--highlight-hover);
+}
+
+.media-gfq_4j {
+border-radius: var(--radius-primary);
+}
+

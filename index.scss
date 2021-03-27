@@ -56,7 +56,7 @@
 
 //@use "./skins/neomorphism/style.scss"; // ❌ CreArts (Neomorphism Edition) ⚠️ [Heavy CPU!]
 
-//@use "./skins/community/style.scss"; // ✔️ CreArts (Commmunity Edition)
+@use "./skins/community/style.scss"; // ✔️ CreArts (Commmunity Edition)
 
 
 
@@ -84,7 +84,7 @@
 
 
 
-@use "./skins/Nebula/style.scss"; // ❌ CreArts (Nebula Edition)
+//@use "./skins/Nebula/style.scss"; // ❌ CreArts (Nebula Edition)
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Guilds alignment   ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
@@ -454,6 +454,8 @@
 --stream-hover: rgba(#{hexToRGB(style.$D014)}, var(--transparency-hover));
 --stream-selected: rgba(#{hexToRGB(style.$D015)}, var(--transparency-hover));
 
+// Accent Text
+--accent-text: rgba(#{hexToRGB(style.$D028)});
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -599,6 +601,9 @@
 --stream-active: rgba(#{hexToRGB(style.$L013)}, var(--transparency-hover));
 --stream-hover: rgba(#{hexToRGB(style.$L014)}, var(--transparency-hover));
 --stream-selected: rgba(#{hexToRGB(style.$L015)}, var(--transparency-hover));
+
+// Accent Text
+--accent-text: rgba(#{hexToRGB(style.$L028)});
 }
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {

@@ -103,23 +103,9 @@
 // ║ Chat               ║ Reply                                                                             ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.text-15b_0l, .colorBrand-2tjs5J, .colorMuted-HdFt4q, .closeButton-37O8QC {
-    color: var(--interactive-active);
-}
+.text-15b_0l, .colorBrand-2tjs5J, .colorMuted-HdFt4q, .closeButton-37O8QC {color: var(--accent-text);}
 
-
-.name-hpTFiv { color: var(--interactive-active)!important;}
-
-/*
-.container-2fRDfG {
-    background: var(--accent-primary);
-    border-radius: var(--radius-primary);
-    margin-bottom: 12px;
-    margin-top: 6px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-*/
+.name-hpTFiv { color: var(--accent-text) !important;}
 
 .container-2fRDfG {
     background: var(--accent-primary);
@@ -140,41 +126,18 @@
 
 .separator-ju-9xl {
     width: 2px;
-    background: var(--interactive-active);
+    background: var(--accent-text);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.container-2fRDfG {
-    background: var(--accent-primary);
-    border-radius: var(--radius-primary);
-    margin-bottom: -30px;
-    margin-top: 6px;
-    margin-left: 20px;
-    margin-right: 20px;
+// Cooldown
+.cooldownWrapper-3joyFc {
+    color: white !important;
 }
 
-.form-2fGMdU:hover .container-2fRDfG {
-
-    background: var(--accent-primary);
-    border-radius: var(--radius-primary);
-    margin-bottom: 12px;
-    margin-top: 6px;
-    margin-left: 20px;
-    margin-right: 20px;
+//Slowmode
+.slowModeIcon-1BPDC_ {
+color: white;
 }
-*/
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat               ║ Typing                                                                            ║
@@ -208,7 +171,7 @@
 }
 
 .dots-3Bkt3k.themed-IQiCm3, .base-gE7OpD .text-1y-e8- {
-    color: var(--interactive-active);
+    color: var(--accent-text);
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
