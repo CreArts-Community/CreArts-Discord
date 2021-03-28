@@ -90,9 +90,13 @@
 // ║ Guilds alignment   ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-//@use "./src/guilds/horizontal/horizontal.scss"; // ✔️ (enabled by default)
+@use "./src/guilds/left/left.scss"; // ✔️ (enabled by default)
 
-@use "./src/guilds/vertical/vertical.scss"; // ❌ (disabled by default)
+//@use "./src/guilds/top/top.scss"; // ❌ (disabled by default)
+
+//@use "./src/guilds/top/bottom.scss"; // ❌ (disabled by default)
+
+//@use "./src/guilds/top/right.scss"; // ❌ (disabled by default)
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Addons             ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
