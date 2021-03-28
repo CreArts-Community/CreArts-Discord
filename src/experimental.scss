@@ -570,7 +570,7 @@ display: none;
 
 
 
-// Heder
+// Header
 .searchHeader-2XoQg7 {
   background: var(--background-secondary);
 
@@ -742,41 +742,6 @@ z-index: 20;
   padding-right: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Settings (Powercord)
-
-.powercord-entities-manage-items {
-  --auto-grid-min-size: 20rem;
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 6fr));
-    min-width: 240px;
-    justify-content: left;
-    margin-top: 16px;
-}
-
-
-
-.powercord-entities-manage-search {
-  position: fixed;
-  top: 50px;
-}
-
-
-
-
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat               ║ Nitro Classic                                                                     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
@@ -801,3 +766,20 @@ z-index: 20;
 border-radius: var(--radius-primary);
 }
 
+
+
+
+
+
+
+
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popout             ║ Explore Server                                                                    ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.theme-dark .root-1gCeng:before, .theme-light .root-1gCeng:before {
+  z-index: -1;
+}
