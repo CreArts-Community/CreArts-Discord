@@ -146,9 +146,35 @@
   text-align: left !important;
 }
 
-.powercord-toast .buttons button[class*=lookGhost-] {
+.powercord-toast .buttons button {
   opacity: 1.0 !important;
 }
+
+
+// Update Button
+.lookOutlined-3sRXeN.colorGreen-29iAKY {
+  background: var(--green-primary) !important;
+  border-radius: var(--radius-primary) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.lookOutlined-3sRXeN.colorGreen-29iAKY:hover {
+  background: var(--green-secondary) !important;
+}
+
+.lookGhost-2Fn_0-.colorBrand-3pXr91 {
+  background: var(--background-primary) !important;
+  border-radius: var(--radius-primary) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.lookGhost-2Fn_0-.colorBrand-3pXr91:hover {
+  background: var(--accent-primary) !important;
+}
+
+
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Popouts            ║ User Profile                                                                      ║
