@@ -90,7 +90,7 @@
 
 // Normal
 .form-2fGMdU .buttons-3JBrkn {
-    opacity: 0.0;
+    opacity: 1.0;
     transition: opacity 0.2s;
 }
 
@@ -98,6 +98,25 @@
 .scrollableContainer-2NUZem:hover .buttons-3JBrkn {
     opacity: 1.0;
 }
+
+
+
+// Emoji Icon
+.sprite-2iCowe {
+    opacity: 0.0;
+}
+
+
+
+.emojiButton-3uL3Aw .contents-18-Yxp {
+    background: var(--interactive-normal);
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
+}
+
+.emojiButton-3uL3Aw:hover .contents-18-Yxp {
+    background: var(--interactive-hover);
+}
+
   
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat               ║ Reply                                                                             ║
@@ -429,3 +448,14 @@ color: white;
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat               ║ Code                                                                              ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+
+
+
+
+
+
+
