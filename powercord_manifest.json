@@ -9,37 +9,5 @@
     "theme": "index.scss",
     "preview": [ "https://i.imgur.com/XJ1uDoR.png" ],
     "discord": "8W8E39Z",
-    "consent": ["ext_listing"],
-    "plugins": [
-        {
-            "name": "Community",
-            "description": "CreArts 2.0 (Community Edition)",
-            "file": "community.scss"
-        }
-        ,{
-            "name": "Discord",
-            "description": "CreArts 2.0 (Discord Edition)",
-            "file": "discord.scss"
-        }
-        ,{
-            "name": "Revamp",
-            "description": "CreArts 2.0 (Revamp Edition)",
-            "file": "revamp.scss"
-        }
-        ,{
-            "name": "Spotify",
-            "description": "CreArts 2.0 (Spotify Edition)",
-            "file": "spotify.scss"
-        }
-        ,{
-            "name": "Twitch",
-            "description": "CreArts 2.0 (Twitch Edition)",
-            "file": "twitch.scss"
-        }
-        ,{
-            "name": "Guilded",
-            "description": "CreArts 2.0 (Guilded Edition)",
-            "file": "guilded.scss"
-        }
-    ]
+    "consent": ["ext_listing"]
 }

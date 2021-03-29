@@ -52,7 +52,7 @@
 // ║ Skin               ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-@use "./skins/community/style.scss"; // ✔️ CreArts (Commmunity Edition)
+//@use "./skins/community/style.scss"; // ✔️ CreArts (Commmunity Edition)
 
 //@use "./skins/Nebula/style.scss"; // ❌ CreArts (Nebula Edition)
 
@@ -62,7 +62,7 @@
 
 //@use "./skins/neomorphism/style.scss"; // ❌ CreArts (Neomorphism Edition) ⚠️ [Heavy CPU!]
 
-//@use "./skins/glasscord/style.scss"; // ❌ CreArts (Glasscord Edition) ⚠️ [Heavy CPU!]
+@use "./skins/glasscord/style.scss"; // ❌ CreArts (Glasscord Edition) ⚠️ [Heavy CPU!]
 
 // ══════════════════════════════════════════════════════════════════════════════════════════════════════════
 
@@ -124,13 +124,7 @@
 
 @use "./addons/fonts.scss"; // ✔️ (enabled by default)
 
-
-
 @use "./addons/white-porkcord.scss"; // ❌ (disabled by default)
-
-
-
-
 
 //@use "./addons/chromium-link-preview.scss"; // ✔️ (enabled by default) by Tropical#4355 [Broken]
 
@@ -164,11 +158,7 @@
 
 //@use "./addons/remove/remove-sticker-button.scss"; // ❌ (disabled by default)
 
-
-
-
 //@use "./addons/remove/remove-note.scss"; // ❌ (disabled by default)
-
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Animations         ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
@@ -241,14 +231,19 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 @function hexToRGB($hex) {
-@return red($hex), green($hex), blue($hex);
+    @return red($hex), green($hex), blue($hex);
 }
-
+    
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Root               ║ These are the Root variables.                                                     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 :root {
+// Glasscord
+--glasscord-win-blur: blurbehind;
+--glasscord-macos-vibrancy: fullscreen-ui;
+--glasscord-linux-blur: true;
+--glasscord-titlebar: windows;  
 
 // Version
 --version: "#{style.$G001}";
@@ -606,4 +601,30 @@
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: "#{style.$G002}";
+}
+
+
+
+
+/*
+body{
+    background-color: transparent;
+}
+#app-mount{
+	background-color: transparent;
+	border-radius: 10px 10px 10px 10px; 
+	border-color: transparent;
+}
+
+.guilds-1SWlCJ {
+    background-color: transparent;
+}
+.guilds-1SWlCJ .scrollerBase-289Jih {
+  background-color: transparent;
+}
+*/
+
+
+.app-2rEoOp {
+    background: transparent;
 }
