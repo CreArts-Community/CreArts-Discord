@@ -52,7 +52,7 @@
 // ║ Skin               ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-//@use "./skins/community/style.scss"; // ✔️ CreArts (Commmunity Edition)
+@use "./skins/community/style.scss"; // ✔️ CreArts (Commmunity Edition)
 
 //@use "./skins/Nebula/style.scss"; // ❌ CreArts (Nebula Edition)
 
@@ -62,7 +62,7 @@
 
 //@use "./skins/neomorphism/style.scss"; // ❌ CreArts (Neomorphism Edition) ⚠️ [Heavy CPU!]
 
-@use "./skins/glasscord/style.scss"; // ❌ CreArts (Glasscord Edition) ⚠️ [Heavy CPU!]
+//@use "./skins/glasscord/style.scss"; // ❌ CreArts (Glasscord Edition) ⚠️ [Heavy CPU!]
 
 // ══════════════════════════════════════════════════════════════════════════════════════════════════════════
 

@@ -77,75 +77,77 @@
 
 // Background
 .powercord-toast {
-  border-radius: var(--radius-primary);
-  border: none;
+  background: var(--background-secondary) !important;
+  border-radius: var(--radius-primary) !important;
+  border: none !important;
 }
 
 .powercord-toast .contents .inner {
-  border-radius: var(--radius-secondary);
-  border: none;
+  border-radius: var(--radius-secondary) !important;
+  border: none !important;
 }
 
 // Header
 .powercord-toast .header {
-  border-radius: var(--radius-primary);
-  box-shadow: none;
-  padding-left: 10px;
-  padding-right: 10px;
+  border-radius: var(--radius-primary) !important;
+  box-shadow: none !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
 }
 
 // X
-.powercord-toast .header .dismiss {
-  background: var(--background-tertiary);
-  border-radius: var(--radius-primary);
+.powercord-toast .header {
+  background: var(--background-tertiary) !important;
+  border-radius: var(--radius-primary) !important;
 }
 
 // Button Relaod (Normal)
 .lookGhost-2Fn_0-.colorGreen-29iAKY {
-  background: var(--green-primary);
-  border-radius: var(--radius-primary);
-  color: #fff;
-  border: none;
+  background: var(--green-primary) !important;
+  border-radius: var(--radius-primary) !important;
+  color: #fff !important;
+  border: none !important;
 }
 
 // Button Relaod (Hover)
 .lookGhost-2Fn_0-.colorGreen-29iAKY:Hover {
-  background: var(--green-secondary);
+  background: var(--green-secondary) !important;
 }
 
 // Button Relaod (Active)
 .lookGhost-2Fn_0-.colorGreen-29iAKY:active {
-  background: var(--green-tertiary);
+  background: var(--green-tertiary) !important;
 }
 
 // Button Postpone (Normal)
 .lookOutlined-3sRXeN.colorGrey-2DXtkV {
-  background: var(--red-primary);
-  border-radius: var(--radius-primary);
-  color: #fff;
-  border: none;
+  background: var(--red-primary) !important;
+  border-radius: var(--radius-primary) !important;
+  color: #fff !important;
+  border: none !important;
 }
 
 // Button Postpone (Hover)
 .lookOutlined-3sRXeN.colorGrey-2DXtkV:hover {
-  background: var(--red-secondary);
+  background: var(--red-secondary) !important;
 }
 
 // Button Postpone (Active)
 .lookOutlined-3sRXeN.colorGrey-2DXtkV:active {
-  background: var(--red-tertiary);
+  background: var(--red-tertiary) !important;
 }
 
 // Text
 .powercord-toast .contents .inner {
-  line-height: 18px;
-  border: none;
-  padding: 12px;
-  text-align: left;
+  background: var(--background-tertiary) !important;
+  line-height: 18px !important;
+  border: none !important;
+  padding: 12px !important;
+  text-align: left !important;
 }
 
 .powercord-toast .buttons button[class*=lookGhost-] {
-  opacity: 1.0;
+  opacity: 1.0 !important;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
