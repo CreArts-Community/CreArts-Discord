@@ -78,20 +78,12 @@
 // ║ Addons             ║ Hover Button                                                                      ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-//upload butten right
-.attachWrapper-2TRKBi {
-    order:1;
-    margin-left: 9px;
-}
 
+
+
+// Padding
 .attachButton-2WznTc {
-    padding: 0px 0px 0px 8px;
-}
-
-// Normal
-.form-2fGMdU .buttons-3JBrkn {
-    opacity: 1.0;
-    transition: opacity 0.2s;
+    padding: 0px 0px 0px 6px;
 }
 
 // Hover
@@ -99,23 +91,87 @@
     opacity: 1.0;
 }
 
-
-
-// Emoji Icon
-.sprite-2iCowe {
-    opacity: 0.0;
+.form-2fGMdU .buttons-3JBrkn {
+    opacity: 1.0;
+    transition: opacity 0.2s;
 }
 
 
 
+// Upload Button
+.attachWrapper-2TRKBi {
+    order:1;
+    margin-left: 9px;
+}
+
+
+.contents-18-Yxp .attachButtonInner-PQjIyk {
+    background: red;
+
+}
+
+/*
+-webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
+mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
+height: 24px;
+width: 24px;
+*/
+
+.attachButtonPlus-jWVFah {opacity: 0.2;}
+
+// Emoji Button
 .emojiButton-3uL3Aw .contents-18-Yxp {
     background: var(--interactive-normal);
     -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
+    mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
+    height: 24px;
+    width: 24px;
 }
 
 .emojiButton-3uL3Aw:hover .contents-18-Yxp {
     background: var(--interactive-hover);
 }
+
+.sprite-2iCowe {
+    opacity: 0.0;
+}
+
+// Sticker Button
+.buttons-3JBrkn .stickerIcon-3TP7EM {
+    background: var(--interactive-normal);
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
+    mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.buttons-3JBrkn:hover .stickerIcon-3TP7EM {
+    background: var(--interactive-hover);
+}
+
+// GIF Button
+.buttons-3JBrkn .icon-3D60ES {
+    background: var(--interactive-normal);
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
+    mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.buttons-3JBrkn:hover .icon-3D60ES {
+    background: var(--interactive-hover);
+}
+
+
+
+
+
+
+
+
+
+
+
 
   
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
