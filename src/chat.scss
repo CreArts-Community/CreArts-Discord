@@ -57,8 +57,6 @@
     box-shadow: var(--shadows);
     z-index: 90;
     bottom: 0px;
-    padding-bottom: 5px;
-    padding-top: 4px;
 }
 
 .channelTextArea-rNsIhG {
@@ -72,7 +70,7 @@
 
 .sansAttachButton-td2irx {
     padding-left: 26px;
-    padding-right: 20px;
+    padding-right: 0px;
 }
 
 .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .messagesWrapper-1sRNjr, .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .scroller-2LSbBU {
@@ -83,16 +81,6 @@
 // ║ Addons             ║ Hover Button                                                                      ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-// Hover
-.scrollableContainer-2NUZem:hover .buttons-3JBrkn {
-    opacity: 1.0;
-}
-
-.form-2fGMdU .buttons-3JBrkn {
-    opacity: 0.0;
-    transition: opacity 0.2s;
-}
-
 // Spacing
 .attachButton-2WznTc {
     padding: 0px 0px 0px 8px;
@@ -102,11 +90,6 @@
     margin-bottom: -3px;
 }
     
-// Upload Button
-.attachWrapper-2TRKBi {
-    order: 1;
-    margin-left: 9px;
-}
 
 // Emoji Button
 .emojiButton-3uL3Aw .contents-18-Yxp {
@@ -125,6 +108,78 @@
 .sprite-2iCowe {
     opacity: 0.0;
 }
+
+
+
+
+
+
+
+
+// Upload Button
+.attachWrapper-2TRKBi {
+    order: 1;
+    margin-left: 9px;
+    //background: red;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+/*
+// Hover
+.channelTextArea-rNsIhG .buttons-3JBrkn {
+    opacity: 1.0;
+    width: 200px;
+    background: red;
+}
+
+.channelTextArea-rNsIhG .buttons-3JBrkn::after {
+    opacity: 1.0;
+    width: 200px;
+    height: 100%;
+    background: red;
+}
+
+.channelTextArea-rNsIhG .attachWrapper-2TRKBi:hover .buttons-3JBrkn {
+    opacity: 1.0;
+    width: 200px;
+    background: blue;
+}
+*/
+
+
+
+
+
+/*
+.attachWrapper-2TRKBi:hover {
+    opacity: 1.0;
+    width: 200px;
+    background: blue;
+}
+*/
+
+
+
+/*
+    transition: opacity 0.2s;
+
+
+
+.form-2fGMdU .buttons-3JBrkn {
+    display: none;
+}
+
+
+.scrollableContainer-2NUZem:hover .form-2fGMdU .buttons-3JBrkn {
+    display: block;
+}
+*/
+
+
+
+
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat               ║ Reply                                                                             ║
@@ -183,6 +238,7 @@ color: white;
 .form-2fGMdU {
     display: flex;
     flex-direction: column-reverse;
+    flex-wrap: nowrap;
 }
 
 .typing-2GQL18, .base-gE7OpD {
@@ -197,7 +253,25 @@ color: white;
 
     padding-left: 10px;
     padding-right: 10px;
+    z-index: 99;
 }
+
+
+/*
+.typing-2GQL18, .base-gE7OpD {
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+    position: relative;
+    margin-bottom: 12px;
+
+    left: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+*/
 
 .typing-2GQL18:hover, .base-gE7OpD:hover {
     background: var(--accent-secondary);
