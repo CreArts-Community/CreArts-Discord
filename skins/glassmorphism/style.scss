@@ -75,7 +75,6 @@ $G028: '0.6'; // Changes the 'Hover' transparency. (Default: '0.4')
 $G029: '0.8'; // Changes the 'Active' transparency. (Default: '0.6')
 $G030: '0.8'; // Changes the 'Selected' transparency. (Default: '0.8')
 
-
 // Opacity
 $G031: '0.80'; // Changes the 'Selection' opacity. (Default: '0.80)
 $G032: '0.2'; // Changes the 'Shadow' opacity. (Default: '0.2')
@@ -127,13 +126,15 @@ $D023: #000000; // This changes the 'shaddow' color.
 // Border
 $D024: #FFFFFF; // This changes the 'Border' color.
 
-
 // Selection
 $D025: #FFFFFF; // This changes the 'selection text' color.
 $D026: #DD46C8; // This changes the 'selection background' color.
 
 // Backdrop
 $D027: #000000; // This changes the 'Backdrop' color.
+
+// Accent Text
+$D028: #FFFFFF; // This changes the 'Accent Text' color.
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Colors (Light)     ║ CreArts (Glassmorphism Edition)                                                   ║
@@ -188,6 +189,5 @@ $L026: #DD46C8; // This changes the 'selection background' color.
 // Backdrop
 $L027: #FFFFFF; // This changes the 'Backdrop' color.
 
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Custom CSS         ║ CreArts (Glassmorphism Edition)                                                   ║
-// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+// Accent Text
+$L028: #FFFFFF; // This changes the 'Accent Text' color.
