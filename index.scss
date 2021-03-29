@@ -54,6 +54,8 @@
 
 @use "./skins/community/style.scss"; // ✔️ CreArts (Commmunity Edition)
 
+//@use "./skins/Nebula/style.scss"; // ❌ CreArts (Nebula Edition)
+
 // ══════════════════════════════════════════════════════════════════════════════════════════════════════════
 
 //@use "./skins/glassmorphism/style.scss"; // ❌ CreArts (Glassmorphism Edition) ⚠️ [Heavy CPU!]
@@ -64,7 +66,6 @@
 
 // ══════════════════════════════════════════════════════════════════════════════════════════════════════════
 
-
 //@use "./skins/discord/style.scss"; // ❌ CreArts (Discord Edition) (WIP)
 
 //@use "./skins/revamp/style.scss"; // ❌ CreArts (Revamp Edition) (WIP)
@@ -74,12 +75,6 @@
 //@use "./skins/twitch/style.scss"; // ❌ CreArts (Twitch Edition) (WIP)
 
 //@use "./skins/guilded/style.scss"; // ❌ CreArts (Guilded Edition) (WIP)
-
-
-
-
-
-//@use "./skins/Nebula/style.scss"; // ❌ CreArts (Nebula Edition) (WIP)
 
 //@use "./skins/onedarkui/style.scss"; // ❌ CreArts (One Dark UI Edition) (WIP)
 

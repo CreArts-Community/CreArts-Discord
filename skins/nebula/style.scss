@@ -77,7 +77,7 @@ $G030: '0.8'; // Changes the 'Selected' transparency. (Default: '0.8')
 
 // Opacity
 $G031: '0.80'; // Changes the 'Selection' opacity. (Default: '0.80)
-$G032: '0.'; // Changes the 'Shadow' opacity. (Default: '0.0')
+$G032: '0.0'; // Changes the 'Shadow' opacity. (Default: '0.0')
 $G033: '0.4'; // Changes the 'Shadow-Popout' opacity. (Default: '0.2')
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -133,6 +133,9 @@ $D026: #16A38C; // This changes the 'selection background' color.
 // Backdrop
 $D027: #000000; // This changes the 'Backdrop' color.
 
+// Accent Text
+$D028: #FFFFFF; // This changes the 'Accent Text' color.
+
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Colors (Light)     ║ CreArts (Nebula Edition)                                                          ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
@@ -186,6 +189,5 @@ $L026: #16A38C; // This changes the 'selection background' color.
 // Backdrop
 $L027: #FFFFFF; // This changes the 'Backdrop' color.
 
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Custom CSS         ║ CreArts (Nebula Edition)                                                          ║
-// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+// Accent Text
+$L028: #FFFFFF; // This changes the 'Accent Text' color.
