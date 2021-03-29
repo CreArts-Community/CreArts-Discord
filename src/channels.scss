@@ -51,7 +51,7 @@
 .theme-light .button-1w5pas {
     -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_menu.svg') center no-repeat;
     mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_menu.svg') center no-repeat;
-    background: var(--interactive-normal);
+    background: var(--interactive-active);
     position: relative;
     opacity: 1;
     margin-bottom: 8px;
@@ -64,41 +64,40 @@
 
 .childContainer-1wxZNh {display: none;}
 
-
 // Flower
 .flowerStar-1GeTsn {display: none;}
 
 // Guild Tier None
 .iconBackgroundTierNone-3ZkOsa {
-    background: var(--interactive-normal);
+    background: var(--interactive-active);
     -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro_none.svg') center no-repeat;
     mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro_none.svg') center no-repeat;
 }
 
 // Guild Tier I
 .iconBackgroundTierOne-2OQMBY {
-    background: var(--interactive-normal);
+    background: var(--interactive-active);
     -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg') center no-repeat;
     mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg') center no-repeat;
 }
 
 // Guild Tier II
 .iconBackgroundTierTwo-Eab9L6 {
-    background: var(--interactive-normal);
+    background: var(--interactive-active);
     -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg') center no-repeat;
     mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg') center no-repeat;
 }
 
 // Guild Tier III
 .iconBackgroundTierThree-FWlUL9 {
-    background: var(--interactive-normal);
+    background: var(--interactive-active);
     -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg') center no-repeat;
     mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg') center no-repeat;
 }
 
 // Partner
 .guildBadge-3IDi4U {
-    background: var(--interactive-normal);
+    background: var(--interactive-active);
     -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_partner.svg') center no-repeat;
     mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_partner.svg') center no-repeat;
 }

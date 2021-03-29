@@ -78,54 +78,39 @@
 // ║ Addons             ║ Hover Button                                                                      ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-
-
-
-// Padding
-.attachButton-2WznTc {
-    padding: 0px 0px 0px 6px;
-}
-
 // Hover
 .scrollableContainer-2NUZem:hover .buttons-3JBrkn {
     opacity: 1.0;
 }
 
 .form-2fGMdU .buttons-3JBrkn {
-    opacity: 1.0;
+    opacity: 0.0;
     transition: opacity 0.2s;
 }
 
+// Spacing
+.attachButton-2WznTc {
+    padding: 0px 0px 0px 10px;
+}
 
-
+.buttonWrapper-1ZmCpA {
+    margin-bottom: -3px;
+}
+    
 // Upload Button
 .attachWrapper-2TRKBi {
-    order:1;
+    order: 1;
     margin-left: 9px;
 }
-
-
-.contents-18-Yxp .attachButtonInner-PQjIyk {
-    background: red;
-
-}
-
-/*
--webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
-height: 24px;
-width: 24px;
-*/
-
-.attachButtonPlus-jWVFah {opacity: 0.2;}
 
 // Emoji Button
 .emojiButton-3uL3Aw .contents-18-Yxp {
     background: var(--interactive-normal);
     -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
     mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
-    height: 24px;
-    width: 24px;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 0px;
 }
 
 .emojiButton-3uL3Aw:hover .contents-18-Yxp {
@@ -135,36 +120,6 @@ width: 24px;
 .sprite-2iCowe {
     opacity: 0.0;
 }
-
-// Sticker Button
-.buttons-3JBrkn .stickerIcon-3TP7EM {
-    background: var(--interactive-normal);
-    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
-    mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
-    height: 24px;
-    width: 24px;
-}
-
-.buttons-3JBrkn:hover .stickerIcon-3TP7EM {
-    background: var(--interactive-hover);
-}
-
-// GIF Button
-.buttons-3JBrkn .icon-3D60ES {
-    background: var(--interactive-normal);
-    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_gif.svg') center no-repeat;
-    mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_gif.svg') center no-repeat;
-    height: 24px;
-    width: 24px;
-}
-
-.buttons-3JBrkn:hover .icon-3D60ES {
-    background: var(--interactive-hover);
-}
-
-
-
-
 
 
 
@@ -515,3 +470,54 @@ color: white;
 
 
 
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Follow Channel                                                                    ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.wrapper-39oAo3 {
+    background: var(--background-tertiary);
+    border-radius: var(--radius-primary);
+    margin-bottom: 0px;
+    height: 40px;
+    padding: 0px;
+}
+
+// Image
+.image-3XsqGc {
+    height: 40px;
+    margin-right: 12px;
+    margin-bottom: -8px;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    width: 22px;
+}
+
+// Text
+.base-1x0h_U {
+    font-weight: 400;
+    color: var(--text-normal);
+}
+
+.size16-1P40sf {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+// Button
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.theme-light .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    color: var(--interactive-active);
+    background: var(--accent-primary);
+    border-radius: var(--radius-button);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
+.theme-light .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+    background: var(--accent-secondary);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active,
+.theme-light .lookFilled-1Gx00P.colorPrimary-3b3xI6:active {
+    background: var(--accent-secondary);
+}
