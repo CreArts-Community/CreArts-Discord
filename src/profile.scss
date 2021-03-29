@@ -28,6 +28,13 @@
     z-index: -1;
 }
 
+
+// Background
+.container-3baos1:nth-last-child(1) {
+    background: var(--background-tertiary);
+    border-radius: var(--radius-primary);
+  }
+
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
 // ║ Profile            ║ Settings                                                                          ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
@@ -54,4 +61,30 @@
 // Spotify Controls
 .fas, .fa-backward, .fa-fw, .fa-heart, .fa-sync, .fa-undo { /*Spotify controls WIP*/
     color: var(--interactive-normal) ;
-    }
+}
+
+// Spacing
+.powercord-spotify .spotify-extra-controls + .spotify-seek {
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+
+// Bar
+.powercord-spotify .spotify-seek-bar {
+    background: var(--background-tertiary) !important;
+    height: 4px !important;
+}
+
+// Cursor
+.powercord-spotify .spotify-seek-bar-cursor {
+    width: 12px !important;
+    height: 12px !important;
+    border: none !important;
+
+    background: var(--interactive-normal) !important;
+}
+
+.powercord-spotify .spotify-seek-bar-progress {
+    border-radius: 0 var(--radius-primary) var(--radius-primary) 0 !important;
+}

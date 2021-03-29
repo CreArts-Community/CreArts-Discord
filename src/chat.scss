@@ -23,7 +23,10 @@
 .messagesWrapper-1sRNjr {
     margin-right: 0px;
     margin-left: 0px;
+}
 
+.scrollerSpacer-avRLaA {
+    height: 12px;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -54,6 +57,8 @@
     box-shadow: var(--shadows);
     z-index: 90;
     bottom: 0px;
+    padding-bottom: 5px;
+    padding-top: 4px;
 }
 
 .channelTextArea-rNsIhG {
@@ -121,14 +126,6 @@
     opacity: 0.0;
 }
 
-
-
-
-
-
-
-
-  
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat               ║ Reply                                                                             ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
@@ -141,9 +138,9 @@
     background: var(--accent-primary);
     border-radius: var(--radius-primary);
     margin-bottom: 12px;
-    margin-top: 6px;
     margin-left: 20px;
     margin-right: 20px;
+
 }
 
 .container-2fRDfG:hover {
@@ -164,9 +161,19 @@
     color: white !important;
 }
 
-//Slowmode
+// Slowmode
 .slowModeIcon-1BPDC_ {
 color: white;
+}
+
+// Separator
+.separator-ju-9xl {
+    display: none;
+}
+
+// Mention
+.mentionButton-3710-W, .closeButton-37O8QC {
+    padding: 3px 10px;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -182,7 +189,7 @@ color: white;
     background: var(--accent-primary);
     border-radius: var(--radius-primary);
     position: relative;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
 
     left: 0;
     margin-left: 20px;
@@ -196,10 +203,6 @@ color: white;
     background: var(--accent-secondary);
 }
 
-.scrollerSpacer-avRLaA {
-    height: 40px;
-}
-
 .dots-3Bkt3k.themed-IQiCm3, .base-gE7OpD .text-1y-e8- {
     color: var(--accent-text);
 }
@@ -211,7 +214,7 @@ color: white;
 .jumpToPresentBar-G1R9s6 {
     visibility: hidden;
     bottom: 10px;
-    margin-right: -10px;
+    margin-right: -2px;
 }
 
 .jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d {
