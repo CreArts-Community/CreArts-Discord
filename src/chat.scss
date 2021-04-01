@@ -6,14 +6,9 @@
 .chatContent-a9vAAp {
     background: var(--background-secondary);
     border-radius: var(--radius-primary);
-    position: relative;
-    content: "";
     border: var(--border);
     backdrop-filter: blur(var(--blur));
     box-shadow: var(--shadows);
-
-    height:100%;
-    width:100%;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -48,12 +43,10 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.scrollableContainer-2NUZem {
+.form-2fGMdU .scrollableContainer-2NUZem {
     background: var(--background-tertiary);
     border-radius: var(--radius-primary);
-    position: relative;
-    content: "";
-    backdrop-filter: blur(var(--blur));
+    backdrop-filter: var(--blur);
     box-shadow: var(--shadows);
     z-index: 90;
     bottom: 0px;

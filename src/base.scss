@@ -2,24 +2,9 @@
 // ║ Base               ║ Spacing                                                                           ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.appMount-3lHmkl, body {
-    background: var(--background-primary);
-}
-
-// Base (hight bottom)
+// Bottom
 .base-3dtUhz {
     margin-bottom: 20px;
-}
-
-// Sidebar (Channels & Profile)
-.sidebar-2K8pFh {
-    padding: 10px 10px 10px 20px;
-}
-
-
-// Chat (Chat & Members)
-.chat-3bRxxu {
-    padding: 10px 10px 10px 10px;
 }
 
 // Chat
@@ -27,40 +12,72 @@
     margin-right: 10px;
 }
 
-// Members
-.membersWrap-2h-GB4 {
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
-// Title
+
+// Topic & Toolbar
 .container-1r6BKw.themed-ANHk51 {
-    height: 40px;
     margin: 0px 0px 10px 0px;
+    height: 40px;
     padding: 0px;
 }
 
-
-.content-yTz4x3 {
-        margin-top: 10px;
-}
-
+// Sidebar
 .sidebar-2K8pFh {
     background: transparent;
     width: var(--channel-width);
+    margin-top: 0px;
 }
+
+// Toolbar
+.toolbar-1t6TWx {
+    height: 40px;
+    margin-left: 30px;
+    right: 10px;
+    padding-left: 14px;
+    padding-right: 4px;
+}
+
+
+
+
+
+
+
+
+// Members
+.membersWrap-2h-GB4 {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+// Chat (Chat & Members)
+.chat-3bRxxu {
+    padding: 10px 10px 10px 10px;
+}
+
+// Chat & Members
+.content-yTz4x3 {
+    margin-top: 10px;
+}
+
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Base               ║ Transparency                                                                      ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-// Background (Title)
+// Title
 .container-1r6BKw.themed-ANHk51 {
     background: transparent;
 }
 
-// Background (Chat)
+// Chat
 .chat-3bRxxu, .threadSidebar-1o3BTy {
+    background: transparent;
+}
+
+// Home
+.theme-dark .container-1D34oG,
+.theme-light .container-1D34oG {
     background: transparent;
 }
 
@@ -192,3 +209,28 @@
     background: transparent;
     margin: 0px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .appMount-3lHmkl, body {
+    background: var(--background-primary);
+}

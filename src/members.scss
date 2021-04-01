@@ -1,53 +1,121 @@
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Members            ║ Background                                                                     ║
-// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
-
-// Background
-.membersWrap-2h-GB4 {
-    border-radius: var(--radius-primary);
-    background: transparent;
-    position:relative;
-    border: var(--border);
-}
-
-// Blur
-.membersWrap-2h-GB4:before {
-    background: var(--background-secondary);
-    border-radius: var(--radius-primary);
-    position: absolute;
-    content: "";
-
-    backdrop-filter: blur(var(--blur));
-    box-shadow: var(--shadows);
-
-    height:100%;
-    width:100%;
-    left: 0;
-    top: 0;
-}
-
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Members            ║                                                                                   ║
-// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
-
-.members-1998pB, .members-1998pB>div {
-    background-color: transparent;
-}
-
-
 // Width
 .members-1998pB {
     width: var(--members-width);
 }
 
 
-// Member Padding
-.member-3-YXUe {
-    margin-left: 2px;
-    padding-right: 8px;
+//Background
+.members-1998pB, .members-1998pB>div {
+    background: transparent;
+}
+
+
+
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Members            ║ Background                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.membersWrap-2h-GB4 {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    border: var(--border);
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+    margin-left: 10px;
+}
+
+
+
+/*
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Members            ║ Group                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Padding
+.membersGroup-v9BXpm {
+    padding: 20px 0px 0px 6px !important;
+    height: 40px;
+}
+*/
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Members            ║ Member                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+
+
+.layout-2DM8Md {
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-left: 6px !important;
+}
+
+// Background
+.clickable-1JJAn8:hover .layout-2DM8Md,
+.selected-aXhQR6 .layout-2DM8Md {
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+}
+
+// Status
+.clickable-1JJAn8:hover .wrapper-3t9DeA .svg-2V3M55,
+.selected-aXhQR6 .wrapper-3t9DeA .svg-2V3M55 {
+    [mask*="status-online"] {fill: var(--accent-text)}
+    [mask*="status-idle"] {fill: var(--accent-text)}
+    [mask*="status-dnd"] {fill: var(--accent-text)}
+    [mask*="status-streaming"] {fill: var(--accent-text)}
+}
+
+// Name
+.clickable-1JJAn8:hover .roleColor-rz2vM0,
+.selected-aXhQR6 .roleColor-rz2vM0 {
+    color: var(--accent-text) !important;
+}
+
+// Nitro Icon
+.clickable-1JJAn8:hover .premiumIcon-1rDbWQ,
+.selected-aXhQR6 .premiumIcon-1rDbWQ {
+    color: var(--accent-text) !important;
+}
+
+
+// Activity Text
+.clickable-1JJAn8:hover .activityText-yGKsKm,
+.selected-aXhQR6 .activityText-yGKsKm {
+    color: var(--accent-text) !important;
+}
+
+// Activity Icon
+.clickable-1JJAn8:hover .icon-15YQ1T,
+.selected-aXhQR6 .icon-15YQ1T {
+    color: var(--accent-text);
 }
 
 // Bot Tag
 .botTag-2WPJ74 {
+    background: var(--accent-primary);
     border-radius: var(--radius-primary) !important;
 }
+
+.clickable-1JJAn8:hover .botTagRegular-2HEhHi,
+.selected-aXhQR6 .botTagRegular-2HEhHi {
+    background: var(--accent-text);
+    color: var(--accent-secondary);
+}
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Members            ║ Text                                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.membersWrap-2h-GB4 .container-2ax-kl {
+    font-size: 13px;
+}
+
+

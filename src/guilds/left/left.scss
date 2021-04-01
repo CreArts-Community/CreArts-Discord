@@ -1,3 +1,7 @@
+//.typeWindows-1za-n7 {display: none;}
+
+
+
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Horizontal         ║ Import                                                                            ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
@@ -35,7 +39,7 @@ top: 42px;
 }
 
 .platform-win .tutorialContainer-2sGCg9 {
-    top: 62px;
+    top: 64px;
 }
 
 // Blur
@@ -70,6 +74,7 @@ border-radius: 90px;
 .homeIcon-FuNwkv {
     color: transparent;
     -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_home.svg') center no-repeat;
+    mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_home.svg') center no-repeat;
     background: var(--interactive-normal);
     width: 60%;
     height: 60%;
@@ -108,7 +113,7 @@ border-radius: 90px;
 
 // Windows
 .platform-win .panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
-    top: 120px;
+    top: 122px;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -127,7 +132,7 @@ border-radius: 90px;
 
 // Windows
 .platform-win .scroller-1Bvpku > .listItem-GuPuDH:nth-last-child(2) {
-    top: 176px;
+    top: 178px;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -166,7 +171,7 @@ left: 20;
 
 // Windows
 .platform-win .wrapper-3NnKdC::before {
-    margin-top: 255px;
+    margin-top: 256px;
 }
 
 
@@ -235,6 +240,7 @@ fill: var(--interactive-active);
     color: transparent;
     background: var(--interactive-active);
     -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_arrow_up.svg') center no-repeat;
+    mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_arrow_up.svg') center no-repeat;
     width: 36%;
     height: 36%;
     margin-bottom: -2px;
@@ -250,12 +256,12 @@ fill: var(--interactive-active);
     color: transparent;
     background: var(--interactive-active);
     -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_arrow_down.svg') center no-repeat;
+    mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_arrow_down.svg') center no-repeat;
     width: 36%;
     height: 36%;
     margin-bottom: -2px;
 }
 
 .unreadMentionsIndicatorBottom-2mDYbI {
-
     bottom: 140px;
 }

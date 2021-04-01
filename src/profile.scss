@@ -9,7 +9,7 @@
     position: relative;
 
     margin-top: 20px;
-
+    box-shadow: none;
     margin-right: 2px;
 }
 
@@ -21,7 +21,7 @@
     content: "";
     border: var(--border);
     backdrop-filter: blur(var(--blur));
-    box-shadow: var(--shadows);
+
 
     height:100%; 
     width: 100%;
@@ -33,6 +33,7 @@
 .container-3baos1:nth-last-child(1) {
     background: var(--background-tertiary);
     border-radius: var(--radius-primary);
+    box-shadow: none;
   }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
@@ -57,34 +58,66 @@
 // ║ Profile            ║ Spotify                                                                           ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
+// Spacing
+.powercord-spotify .horizontal-1ae9ci {
+    margin-top: 2px;
+}
 
 // Spotify Controls
-.fas, .fa-backward, .fa-fw, .fa-heart, .fa-sync, .fa-undo { /*Spotify controls WIP*/
+.fas, .fa-backward, .fa-fw, .fa-heart, .fa-sync, .fa-undo {
     color: var(--interactive-normal) ;
 }
-
-// Spacing
-.powercord-spotify .spotify-extra-controls + .spotify-seek {
-    margin-top: 4px;
-    margin-bottom: 8px;
-}
-
 
 // Bar
 .powercord-spotify .spotify-seek-bar {
     background: var(--background-tertiary) !important;
-    height: 4px !important;
+    height: 6px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: var(--radius-primary);
+
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.powercord-spotify .spotify-seek-bar-progress {
+    border-radius: var(--radius-primary) !important;
 }
 
 // Cursor
 .powercord-spotify .spotify-seek-bar-cursor {
+    background: var(--interactive-normal) !important;
     width: 12px !important;
     height: 12px !important;
     border: none !important;
-
-    background: var(--interactive-normal) !important;
 }
 
-.powercord-spotify .spotify-seek-bar-progress {
-    border-radius: 0 var(--radius-primary) var(--radius-primary) 0 !important;
+// Seek Elements
+.powercord-spotify .spotify-seek-elements {
+    margin-left: 6px !important;
+    margin-right: 6px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.powercord-spotify.hover .spotify-seek-elements {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+// Extra Controls
+.powercord-spotify.hover .spotify-extra-controls {
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: var(--radius-primary);
+    background: var(--background-tertiary);
+    margin-top: -4px;
+    margin-bottom: -14px;
+}
+
+// Text
+.powercord-spotify .spotify-seek-duration {
+    font-size: 14px;
 }

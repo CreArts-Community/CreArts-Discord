@@ -3,10 +3,11 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.theme-dark .pageWrapper-1PgVDX {
-    background-color: var(--background-secondary);
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
+.pageWrapper-1PgVDX {
+    background: var(--background-secondary) !important;
     border-radius: var(--radius-primary);
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }

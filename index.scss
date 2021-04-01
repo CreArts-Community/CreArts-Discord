@@ -1,7 +1,7 @@
 // ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ CreArts v2.0.0                                                                                         ║
+// ║ CreArts Theme                                                                                          ║
 // ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
-// ║ name:              ║ CreArts                                                                           ║
+// ║ Theme:             ║ CreArts                                                                           ║
 // ║ version:           ║ 2.0.0                                                                             ║
 // ║ author:            ║ CorellanStoma#1996                                                                ║
 // ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
@@ -52,17 +52,23 @@
 // ║ Skin               ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-@use "./skins/community/style.scss"; // ✔️ CreArts (Commmunity Edition)
+//@use "./skins/community/style.scss"; // ✔️ Commmunity Edition
 
-//@use "./skins/Nebula/style.scss"; // ❌ CreArts (Nebula Edition)
+
+
+//@use "./skins/crimson/style.scss"; // ❌ Crimson Edition (Red)
+
+//@use "./skins/jungle/style.scss"; // ❌ Jungle Edition (Green)
+
+//@use "./skins/hive/style.scss"; // ❌ Hive Edition (Yellow)
 
 // ══════════════════════════════════════════════════════════════════════════════════════════════════════════
 
-//@use "./skins/glassmorphism/style.scss"; // ❌ CreArts (Glassmorphism Edition) ⚠️ [Heavy CPU!]
+@use "./skins/glassmorphism/style.scss"; // ❌ Glassmorphism Edition ⚠️ [Heavy CPU!]
 
-//@use "./skins/neomorphism/style.scss"; // ❌ CreArts (Neomorphism Edition) ⚠️ [Heavy CPU!]
+//@use "./skins/neomorphism/style.scss"; // ❌ Neomorphism Edition ⚠️ [Heavy CPU!]
 
-//@use "./skins/glasscord/style.scss"; // ❌ CreArts (Glasscord Edition) ⚠️ [Heavy CPU!]
+//@use "./skins/glasscord/style.scss"; // ❌ Glasscord Edition ⚠️ [Heavy CPU!]
 
 // ══════════════════════════════════════════════════════════════════════════════════════════════════════════
 
@@ -80,6 +86,8 @@
 
 //@use "./skins/rosebox/style.scss"; // ❌ CreArts (Rosebox Edition) (WIP)
 
+//@use "./skins/nebula/style.scss"; // ❌ Nebula Edition
+
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Guilds alignment   ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
@@ -96,9 +104,9 @@
 // ║ Addons             ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-//@use "./addons/name-badges.scss"; // ❌ (Disabled by default) by LuckFire#4800
+@use "./addons/name-badges.scss"; // ❌ (Disabled by default) by LuckFire#4800
 
-@use "./addons/drag.scss"; // ✔️ (enabled by default)
+//@use "./addons/drag.scss"; // ✔️ (enabled by default)
 
 @use "./addons/usrbg.scss"; // ✔️ (enabled by default) by Gibbu#1211 & Tropical#4355 
 
@@ -114,6 +122,8 @@
 
 @use "./addons/white-profile-badges.scss"; // ✔️ (enabled by default) by botato#6883
 
+//@use "./addons/white-porkcord.scss"; // ❌ (disabled by default)
+
 //@use "./addons/offline-mode.scss"; // ✔️ (enabled by default)
 
 @use "./addons/left-icons.scss"; // ✔️ (enabled by default)
@@ -124,7 +134,7 @@
 
 @use "./addons/fonts.scss"; // ✔️ (enabled by default)
 
-@use "./addons/white-porkcord.scss"; // ❌ (disabled by default)
+
 
 //@use "./addons/chromium-link-preview.scss"; // ✔️ (enabled by default) by Tropical#4355 [Broken]
 
@@ -599,32 +609,18 @@
 --accent-text: rgba(#{hexToRGB(style.$L028)});
 }
 
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Main               ║                                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
 ::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: "#{style.$G002}";
 }
 
-
-
-
-/*
-body{
-    background-color: transparent;
-}
-#app-mount{
-	background-color: transparent;
-	border-radius: 10px 10px 10px 10px; 
-	border-color: transparent;
-}
-
-.guilds-1SWlCJ {
-    background-color: transparent;
-}
-.guilds-1SWlCJ .scrollerBase-289Jih {
-  background-color: transparent;
-}
-*/
-
-
 .app-2rEoOp {
     background: transparent;
 }
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Custom CSS         ║ Here you can insert custom CSS.                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝

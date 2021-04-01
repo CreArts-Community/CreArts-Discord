@@ -34,39 +34,3 @@
   [mask*="status-streaming"] {fill: var(--purple-secondary);}
 }
 */
-
-
-
-
-// Channel Hover
-.clickable-1JJAn8:hover .wrapper-3t9DeA .svg-2V3M55 {
-  [mask*="status-online"] {fill: var(--accent-text)}
-  [mask*="status-idle"] {fill: var(--accent-text)}
-  [mask*="status-dnd"] {fill: var(--accent-text)}
-  [mask*="status-streaming"] {fill: var(--accent-text)}
-}
-
-.clickable-1JJAn8:hover .roleColor-rz2vM0 {
-  color: var(--accent-text) !important;
-}
-
-.clickable-1JJAn8:hover .premiumIcon-1rDbWQ {
-  color: var(--accent-text) !important;
-}
-
-.clickable-1JJAn8:hover .activityText-yGKsKm {
-color: var(--accent-text) !important;
-}
-
-// Activity Icon
-.clickable-1JJAn8:hover .icon-15YQ1T {
-  color: var(--accent-text);
-}
-
-// Bot Tag
-.clickable-1JJAn8:hover .botTagRegular-2HEhHi {
-  background: var(--accent-text);
-  color: var(--accent-secondary);
-}
-
-

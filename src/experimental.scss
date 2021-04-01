@@ -766,20 +766,44 @@ z-index: 20;
 border-radius: var(--radius-primary);
 }
 
-
-
-
-
-
-
-
-
-
-
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Popout             ║ Explore Server                                                                    ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 .theme-dark .root-1gCeng:before, .theme-light .root-1gCeng:before {
   z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+.modal-qgFCbT .root-1gCeng .fullscreenOnMobile-1bD22y {
+  background: red;
+}
+
+
+
+
+
+
+
+.channelNotice-2bJINM {
+  margin-left: 0px;
+  margin-right: 0px;
+
+
+
+  padding: 20px;
+
+
+  border-radius: var(--radius-primary);
+  background: var(--background-secondary);
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: none;
 }

@@ -5,25 +5,11 @@
 // Background
 .toolbar-1t6TWx {
     border-radius: var(--radius-primary);
-    background: transparent;
-    position: relative;
-    height: 40px;
-    margin-left: 30px;
-    right: 12px;
-}
-
-// Blur
-.toolbar-1t6TWx:before {
     background: var(--background-secondary);
-    border-radius: var(--radius-primary);
-    position: absolute;
-    content: "";
+    position: relative;
     border: var(--border);
     backdrop-filter: blur(var(--blur));
     box-shadow: var(--shadows);
-
-    height:100%;
-    width:100%;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -52,33 +38,33 @@
 // ║ Title              ║ Searchbar                                                                         ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
+// Order
+.search-36MZv- {
+    order: -1;
+    margin-right: 2px;
+    margin-left: 0px;
+}
+
 // Icon
 .icon-3cZ1F_, .icon-1S6UIr {
-    height: 24px;
-    width: 24px;
     color:var(--interactive-normal);
-
+    height: 23px;
+    width: 23px;
 }
 
 //spacing
 .iconContainer-O4O2CN, .iconContainer-2wXvy1 {
     bottom: 3px;
-    right: 4px;
-
+    padding-left: 30px;
 }
 
-// Order
-.search-36MZv- {
-    order: -1;
-}
 
 //Searchbar
 .searchBar-3dMhjb, .searchBar-TUoVPN {
     background: none;
     transition: width 0.6s ease-in-out;
     color:#fff;
-    width: 30px;
-    margin-right: -4px;
+    width: 20px;
 }
 
 .focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb, .searchBar-3dMhjb:hover {

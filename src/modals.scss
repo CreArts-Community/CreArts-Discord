@@ -162,60 +162,51 @@
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Modals             ║ Delete Server                                                                     ║
+// ║ Modals             ║ Open Image Source                                                                 ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+//
+// Background
+.theme-dark .root-1gCeng {
+background: var(--background-secondary);
+    box-shadow: var(--shadows);
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+}
+
+// Button (Red)
+.theme-dark .form-26zE04 .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.theme-light .form-26zE04 .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    border-radius: var(--radius-primary);
+    background: var(--red-primary) !important;
+    color: #fff;
+}
+
+.theme-dark .form-26zE04 .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
+.theme-light .form-26zE04 .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+    background: var(--red-secondary) !important;
+}
+
+// Button Green (Normal)
+.form-26zE04 .lookFilled-1Gx00P.colorBrand-3pXr91 {
+    border-radius: var(--radius-primary);
+    background: var(--green-primary) !important;
+    color: #fff;
+}
+
+// Button Green (Hover)
+.form-26zE04 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background: var(--green-secondary) !important;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Image                                                                             ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-// Background
-.theme-dark .root-1gCeng,
-.theme-light .root-1gCeng {
-    border-radius: var(--radius-primary);
-    background: transparent;
-    position: relative;
-    box-shadow: none;
-    border: none;
+.layerContainer-yqaFcK .wrapper-2K4Z3k {
+    padding-bottom: 10px;
 }
 
-// Blur
-.theme-dark .root-1gCeng:before,
-.theme-light .root-1gCeng:before {
-    background: var(--background-secondary);
-    border-radius: var(--radius-primary);
-    position: absolute;
-    content: "";
-    border: var(--border) solid rgba( 255, 255, 255, var(--border-opacity));
-    backdrop-filter: blur(var(--blur));
-    box-shadow: var(--shadows);
-
-    height:100%;
-    width:100%;
-    left: 0;
-    top: 0;
-}
-
-// Background
-.theme-dark .footer-2gL1pp,
-.theme-light .footer-2gL1pp {
-    border-radius: var(--radius-primary);
-    background: transparent;
-    position: relative;
-    box-shadow: none;
-}
-
-// Blur
-.theme-dark .footer-2gL1pp:before,
-.theme-light .footer-2gL1pp:before {
-    background: var(--background-tertiary);
-    border-radius: var(--radius-primary);
-    position: absolute;
-    content: "";
-
-    backdrop-filter: blur(var(--blur));
-    box-shadow: var(--shadows);
-
-    height:100%;
-    width:100%;
-    left: 0;
-    top: 0;
+.layerContainer-yqaFcK .imageWrapper-2p5ogY {
+    border-radius: 2px;
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
