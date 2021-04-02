@@ -49,12 +49,22 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════╝
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guilds alignment   ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+@use "./src/guilds/left/left.scss"; // ✔️ (enabled by default)
+
+//@use "./src/guilds/top/top.scss"; // ❌ (disabled by default)
+
+//@use "./src/guilds/top/bottom.scss"; // ❌ (disabled by default)
+
+//@use "./src/guilds/top/right.scss"; // ❌ (disabled by default)
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Skin               ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-//@use "./skins/community/style.scss"; // ✔️ Commmunity Edition
-
-
+@use "./skins/community/style.scss"; // ✔️ Commmunity Edition (Rubine Red)
 
 //@use "./skins/crimson/style.scss"; // ❌ Crimson Edition (Red)
 
@@ -64,11 +74,11 @@
 
 // ══════════════════════════════════════════════════════════════════════════════════════════════════════════
 
-@use "./skins/glassmorphism/style.scss"; // ❌ Glassmorphism Edition ⚠️ [Heavy CPU!]
+//@use "./skins/glassmorphism/style.scss"; // ❌ Glassmorphism Edition (Custom Background) ⚠️ [Heavy CPU!]
 
-//@use "./skins/neomorphism/style.scss"; // ❌ Neomorphism Edition ⚠️ [Heavy CPU!]
+//@use "./skins/neomorphism/style.scss"; // ❌ Neomorphism Edition (Shaddows) ⚠️ [Heavy CPU!]
 
-//@use "./skins/glasscord/style.scss"; // ❌ Glasscord Edition ⚠️ [Heavy CPU!]
+//@use "./skins/glasscord/style.scss"; // ❌ Glasscord Edition (Transparent) ⚠️ [Heavy CPU!]
 
 // ══════════════════════════════════════════════════════════════════════════════════════════════════════════
 
@@ -87,18 +97,6 @@
 //@use "./skins/rosebox/style.scss"; // ❌ CreArts (Rosebox Edition) (WIP)
 
 //@use "./skins/nebula/style.scss"; // ❌ Nebula Edition
-
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Guilds alignment   ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
-// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
-
-@use "./src/guilds/left/left.scss"; // ✔️ (enabled by default)
-
-//@use "./src/guilds/top/top.scss"; // ❌ (disabled by default)
-
-//@use "./src/guilds/top/bottom.scss"; // ❌ (disabled by default)
-
-//@use "./src/guilds/top/right.scss"; // ❌ (disabled by default)
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Addons             ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
@@ -134,41 +132,9 @@
 
 @use "./addons/fonts.scss"; // ✔️ (enabled by default)
 
-
-
 //@use "./addons/chromium-link-preview.scss"; // ✔️ (enabled by default) by Tropical#4355 [Broken]
 
 //@use "./addons/revert-radio-boxes.scss"; // ✔️ (enabled by default) [Broken]
-
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Emoji Pack         ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
-// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
-
-//@use "./addons/emoji/emoji-whatsapp.scss"; // ❌ (disabled by default)
-
-//@use "./addons/emoji/emoji-samsung.scss"; // ❌ (disabled by default)
-
-//@use "./addons/emoji/emoji-microsoft.scss"; // ❌ (disabled by default)
-
-//@use "./addons/emoji/emoji-joypixels.scss"; // ❌ (disabled by default)
-
-//@use "./addons/emoji/emoji-google.scss"; // ❌ (disabled by default)
-
-//@use "./addons/emoji/emoji-facebook.scss"; // ❌ (disabled by default)
-
-//@use "./addons/emoji/emoji-apple.scss"; // ❌ (disabled by default)
-
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Remove             ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
-// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
-
-//@use "./addons/remove/remove-gift-button.scss"; // ❌ (disabled by default)
-
-//@use "./addons/remove/remove-gif-button.scss"; // ❌ (disabled by default)
-
-//@use "./addons/remove/remove-sticker-button.scss"; // ❌ (disabled by default)
-
-//@use "./addons/remove/remove-note.scss"; // ❌ (disabled by default)
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Animations         ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
@@ -189,6 +155,36 @@
 @use "./animations/button-explore.scss"; // ✔️ (enabled by default)
 
 @use "./animations/transitions.scss"; // ✔️ (enabled by default)
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Remove             ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "./addons/remove/remove-gift-button.scss"; // ❌ (disabled by default)
+
+//@use "./addons/remove/remove-gif-button.scss"; // ❌ (disabled by default)
+
+//@use "./addons/remove/remove-sticker-button.scss"; // ❌ (disabled by default)
+
+//@use "./addons/remove/remove-note.scss"; // ❌ (disabled by default)
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Emoji Pack         ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "./addons/emoji/emoji-whatsapp.scss"; // ❌ (disabled by default)
+
+//@use "./addons/emoji/emoji-samsung.scss"; // ❌ (disabled by default)
+
+//@use "./addons/emoji/emoji-microsoft.scss"; // ❌ (disabled by default)
+
+//@use "./addons/emoji/emoji-joypixels.scss"; // ❌ (disabled by default)
+
+//@use "./addons/emoji/emoji-google.scss"; // ❌ (disabled by default)
+
+//@use "./addons/emoji/emoji-facebook.scss"; // ❌ (disabled by default)
+
+//@use "./addons/emoji/emoji-apple.scss"; // ❌ (disabled by default)
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ SRC                ║ Do not comment out these lines! By disabling the theme can not work correctly.    ║
@@ -220,11 +216,15 @@
 
 @use "./src/settings.scss"; // ⚠️ (Warning!! Do not disable it!)
 
+//@use "./src/stage.scss"; // ⚠️ (Warning!! Do not disable it!)
+
 @use "./src/store.scss"; // ⚠️ (Warning!! Do not disable it!)
 
 @use "./src/titlebar.scss"; // ⚠️ (Warning!! Do not disable it!)
 
 @use "./src/toolbar.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+//@use "./src/voice.scss"; // ⚠️ (Warning!! Do not disable it!)
 
 @use "./src/topic.scss"; // ⚠️ (Warning!! Do not disable it!)
 

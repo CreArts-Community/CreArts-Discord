@@ -252,3 +252,42 @@ background: var(--background-secondary);
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Modals             ║ Spotify Playlist                                                                  ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Stage                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.theme-dark .root-1gCeng,
+.theme-light .root-1gCeng {
+    border-radius: var(--radius-primary);
+    background: var(--background-secondary);
+}
+
+.theme-dark .footer-2gL1pp,
+.theme-light .footer-2gL1pp {
+    border-radius: var(--radius-primary);
+    background: var(--background-tertiary);
+}
+
+// Button
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+    background: var(--green-tertiary);
+}
+
+
+.focusLock-Ns3yie .lookFilled-1Gx00P.colorBrand-3pXr91 {
+    border-radius: var(--radius-primary);
+    background: var(--green-primary);
+    color: #fff;
+}
+
+.focusLock-Ns3yie .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    border-radius: var(--radius-primary);
+    background: var(--green-secondary);
+    color: #fff;
+}
+
+
