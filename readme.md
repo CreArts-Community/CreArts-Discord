@@ -6,9 +6,8 @@
 
 ⚠️ **Work in progress**
 
-# CreArts
-
-CreArts is an easily customizable Powercord theme that customizes the Discord interface.
+<h1 align=center> CreArts </h1>
+<h3 align=center> CreArts is an easily customizable Powercord theme that customizes the Discord interface. </h3>
 
 ![Preview](https://i.imgur.com/cjUhHds.png)
 
