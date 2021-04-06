@@ -23,7 +23,7 @@
 
 ### Prerequisites
 
-For this Powercord theme you need the [**Discord Canary**](https://discordia.me/en/canary) Version and a [**Powercord**](https://powercord.dev/installation) Instalation.
+For this Powercord theme you need the [**Discord Canary**](https://discordia.me/en/canary) Version and a [**Powercord**](https://powercord.dev/installation) Installation.
 
 ### Installation
 
