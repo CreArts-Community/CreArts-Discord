@@ -1,0 +1,248 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Fonts              ║ Import                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Quicksand
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+// Fira Mono
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+// Fira Code
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Fonts              ║ Home                                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Searchbar
+.searchBarComponent-32dTOx {
+    font-family: var(--fonts-primary);
+}
+
+// Tab (Stage Discovery)
+.contents-18-Yxp {
+    font-family: var(--fonts-primary);
+}
+// Tab (Friends)
+.title-29uC1r {
+    font-family: var(--fonts-primary);
+}
+
+.tabBar-ZmDY9v {
+    font-family: var(--fonts-primary);
+}
+
+// Tab (Library)
+.item-PXvHYJ {
+    font-family: var(--fonts-primary);
+}
+
+// Direct Messages
+.headerText-2F0828 {
+    font-family: var(--fonts-primary);
+}
+
+// Name
+.overflow-WK9Ogt {
+    font-family: var(--fonts-primary);
+}
+
+// Activity
+.activityText-OW8WYb {
+    font-family: var(--fonts-secondary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Fonts              ║ Home (Stage Discovery)                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Guild Name
+.guildName-2Ec3Mf {
+    font-family: var(--fonts-primary);
+}
+
+// Topic Text
+.topicText-3B26Cx {
+    font-family: var(--fonts-primary);
+}
+
+// Name
+.textInGrid-1ba1AD {
+    font-family: var(--fonts-secondary);
+}
+
+// Size
+.container-7Unqij .colorHeaderSecondary-3Sp3Ft {
+    font-family: var(--fonts-tertiary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Fonts              ║ Home (Friends)                                                                    ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+//Group Sub Text
+.subtext-1RtU34 {
+    font-family: var(--fonts-secondary);
+}
+
+// Username
+.username-31C1TQ {
+    font-family: var(--fonts-secondary);
+}
+
+// Activity
+.text-3MU_QQ {
+    font-family: var(--fonts-secondary);
+}
+
+/*
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Fonts              ║ Header                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Guild Name
+.name-1jkAdW {
+    font-family: var(--fonts-primary);
+}
+
+// Category
+.overflow-WK9Ogt {
+    font-family: var(--fonts-primary);
+}
+
+// Topic Header
+.size16-1P40sf {
+    font-family: var(--fonts-primary);
+}
+
+// Member List (Header)
+.membersGroup-v9BXpm {
+    font-family: var(--fonts-primary);
+}
+
+// Member List (Name)
+.nameAndDecorators-5FJ2dg {
+    font-family: var(--fonts-primary);
+}
+
+// Create Thread (Button)
+.createThreadButton-oQpjNC {
+    font-family: var(--fonts-primary);
+}
+
+// Mention (Button)
+.mentionButton-3710-W {
+    font-family: var(--fonts-primary);
+}
+
+// Embed Provider
+.embedProvider-3k5pfl {
+    font-family: var(--fonts-primary);
+}
+
+// Embed Title
+.embed-IeVjo6 {
+    font-family: var(--fonts-primary);
+}
+
+// Chat (Username)
+.username-1A8OIy {
+    font-family: var(--fonts-primary);
+}
+
+// Panel (Name)
+.title-eS5yk3 {
+    font-family: var(--fonts-primary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Fonts              ║ Text                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Text
+.messageContent-2qWWxC {
+    font-family: var(--fonts-secondary);
+}
+
+
+// Topic text
+.topic-TCb_qw.expandable-9fI_e3 {
+    font-family: var(--fonts-secondary);
+}
+
+// Member List (Status)
+.subText-1KtqkB {
+    font-family: var(--fonts-secondary);
+}
+
+// Chat Input
+.textAreaSlate-1ZzRVj {
+    font-family: var(--fonts-secondary);
+}
+
+// Create Thread
+.text-15b_0l {
+    font-family: var(--fonts-secondary);
+}
+
+// Embed Title
+.embedTitle-3OXDkz {
+    font-family: var(--fonts-secondary);
+}
+
+// Chat (Timestamp)
+.timestamp-3ZCmNB {
+    font-family: var(--fonts-secondary);
+}
+
+// Panel (Sub text)
+.subtext-3CDbHg {
+    font-family: var(--fonts-secondary);
+}
+
+// NSFW Title
+.title-1VcOOr {
+    font-family: var(--fonts-primary);
+}
+
+// NSFW Description
+.description-2ydcYn {
+    font-family: var(--fonts-secondary);
+}
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+/*
+// Font
+::-webkit-input-placeholder, head, body, button, input, select, textarea {
+    font-family: var(--fonts-secondary);
+}
+*/
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Fonts              ║ Code Block                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.powercord-codeblock-lang {
+    font-family: var(--fonts-primary); 
+}
+
+.powercord-codeblock-table {
+    font-family: var(--fonts-tertiary);
+}

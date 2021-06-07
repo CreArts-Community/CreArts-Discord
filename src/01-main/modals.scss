@@ -1,0 +1,310 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Upload                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.theme-dark .uploadModal-2ifh8j,
+.theme-light .uploadModal-2ifh8j {
+    border-radius: var(--radius-primary);
+    background: transparent;
+    position: relative;
+    box-shadow: none;
+    border: none;
+}
+
+// Blur
+.theme-dark .uploadModal-2ifh8j:before,
+.theme-light .uploadModal-2ifh8j:before {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    position: absolute;
+    content: "";
+    border: var(--border) solid rgba( 255, 255, 255, var(--border-opacity));
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+
+    height:100%;
+    width:100%;
+    left: 0;
+    top: 0;
+}
+
+// Background
+.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
+    border-radius: var(--radius-primary);
+    background: transparent;
+    position: relative;
+    box-shadow: none;
+}
+
+// Blur
+.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC:before {
+    background: var(--background-tertiary);
+    border-radius: var(--radius-primary);
+    position: absolute;
+    content: "";
+
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+
+    height:100%;
+    width:100%;
+    left: 0;
+    top: 0;
+}
+
+// Emoji Button (Upload Modal)
+.uploadModal-2ifh8j .emojiButton-3uL3Aw .contents-18-Yxp {
+    background: var(--interactive-normal);
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
+    mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 0px;
+}
+
+.uploadModal-2ifh8j .emojiButton-3uL3Aw:hover .contents-18-Yxp {
+    background: var(--interactive-hover);
+}
+
+.uploadModal-2ifh8j .sprite-2iCowe {
+    opacity: 0.0;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Big User Profile                                                                  ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+/*
+// Background
+.root-SR8cQa {
+    border-radius: var(--radius-primary);
+	width: 900px;
+    background-color: transparent;
+}
+
+.body-3ND3kc, .tabBarContainer-1s1u-z {
+    background: var(--background-primary);
+}
+
+.infoScroller-3EYYns {
+    padding: 20px 12px 20px 12px;
+    background: var(--background-secondary)
+}
+
+// Header
+.header-QKLPzZ {
+    margin-bottom: 50px;
+}
+
+.topSectionNormal-2-vo2m {
+    background: transparent;
+}
+
+// Activity
+.topSectionPlaying-1J5E4n {
+    background: transparent;
+}
+
+.topSectionSpotify-1lI0-P {
+    background: transparent;
+}
+
+.activity-1ythUs {
+    background: var(--background-primary)
+}
+
+// No Info Divider
+.userInfoSection-2acyCx+.userInfoSection-2acyCx {
+    border: none;
+}
+
+// Connected Accounts
+.connectedAccount-36nQx7 {
+    z-index: 3;
+    margin-top: 20px;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding: 8px 14px 8px 8px;
+    width: 230px;
+    background: var(--background-tertiary);
+	border-radius: 90px;
+	border: none;
+}
+
+// Spotify
+.assetsLargeImage-eYwpTX {
+    border-radius: 90px;
+    display: block;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+// Buton
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    border-radius: var(--radius-primary);
+    background: var(--accent-primary);
+    color: #fff;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    border-radius: var(--radius-primary);
+    background: var(--accent-secondary);
+    color: #fff;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:active {
+    border-radius: var(--radius-primary);
+    background: var(--accent-tertiary);
+    color: #fff;
+}
+
+// Note
+.userInfoSectionHeader-CBvMDh {
+    display: none;
+    padding: 0px;
+}
+
+.note-QfFU8y {
+    padding: 2px 12px 2px 12px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+.note-QfFU8y textarea {
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 4px;
+}
+*/
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Open Image Source                                                                 ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+//
+// Background
+.theme-dark .root-1gCeng {
+background: var(--background-secondary);
+    box-shadow: var(--shadows);
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+}
+
+// Button (Red)
+.theme-dark .form-26zE04 .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.theme-light .form-26zE04 .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    border-radius: var(--radius-primary);
+    background: var(--red-primary) !important;
+    color: #fff;
+}
+
+.theme-dark .form-26zE04 .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
+.theme-light .form-26zE04 .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+    background: var(--red-secondary) !important;
+}
+
+// Button Green (Normal)
+.form-26zE04 .lookFilled-1Gx00P.colorBrand-3pXr91 {
+    border-radius: var(--radius-primary);
+    background: var(--green-primary) !important;
+    color: #fff;
+}
+
+// Button Green (Hover)
+.form-26zE04 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background: var(--green-secondary) !important;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Image                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.layerContainer-yqaFcK .wrapper-2K4Z3k {
+    padding-bottom: 10px;
+}
+
+.layerContainer-yqaFcK .imageWrapper-2p5ogY {
+    border-radius: 2px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Powercord Cutie                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Background
+.theme-dark .modal-yWgWj-,
+.theme-light .modal-yWgWj- {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+}
+
+.header-1F6gxU {
+  border-radius: var(--radius-primary);
+  height: 100px;
+}
+
+.content-1LAB8Z {
+  padding: 20px 20px 0px 20px;
+}
+
+
+// Button (Accept)
+
+
+
+
+// Button (Decline)
+.theme-dark .lookLink-9FtZy-.colorTransparent-1ewNp9,
+.theme-light .lookLink-9FtZy-.colorTransparent-1ewNp9 {
+    background: var(--red-primary);
+    border-radius: var(--radius-button)
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Create Server                                                                     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Spotify Playlist                                                                  ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Modals             ║ Stage                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.theme-dark .root-1gCeng,
+.theme-light .root-1gCeng {
+    border-radius: var(--radius-primary);
+    background: var(--background-secondary);
+}
+
+.theme-dark .footer-2gL1pp,
+.theme-light .footer-2gL1pp {
+    border-radius: var(--radius-primary);
+    background: var(--background-tertiary);
+}
+
+// Button
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+    background: var(--green-tertiary);
+}
+
+
+.focusLock-Ns3yie .lookFilled-1Gx00P.colorBrand-3pXr91 {
+    border-radius: var(--radius-primary);
+    background: var(--green-primary);
+    color: #fff;
+}
+
+.focusLock-Ns3yie .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    border-radius: var(--radius-primary);
+    background: var(--green-secondary);
+    color: #fff;
+}

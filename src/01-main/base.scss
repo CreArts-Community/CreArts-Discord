@@ -1,0 +1,188 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Spacing                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Bottom
+.base-3dtUhz {
+  margin-bottom: 20px;
+}
+
+// Chat
+.chatContent-a9vAAp {
+  margin-right: 10px;
+}
+
+// Topic & Toolbar
+.container-1r6BKw.themed-ANHk51 {
+  margin: 0px 0px 10px 0px;
+  height: 40px;
+  padding: 0px;
+}
+
+// Sidebar
+.sidebar-2K8pFh {
+  background: transparent;
+  width: var(--channel-width);
+  margin-top: 0px;
+}
+
+// Toolbar
+.toolbar-1t6TWx {
+  height: 40px;
+  margin-left: 30px;
+  right: 10px;
+  padding-left: 14px;
+  padding-right: 4px;
+}
+
+// Members
+.membersWrap-2h-GB4 {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+// Chat (Chat & Members)
+.chat-3bRxxu {
+  padding: 10px 10px 10px 10px;
+}
+
+// Chat & Members
+.content-yTz4x3 {
+  margin-top: 10px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Focus Outline                                                                     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+ul.tree-2wKJdG:focus {
+  outline: none;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Transparency                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Title
+.container-1r6BKw.themed-ANHk51 {
+  background: transparent;
+}
+
+// Chat
+.chat-3bRxxu, .threadSidebar-1o3BTy {
+  background: transparent;
+}
+
+// Home
+.theme-dark .container-1D34oG,
+.theme-light .container-1D34oG {
+  background: transparent;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Backdrop                                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Backdrop
+.backdrop-1wrmKB, .backdropWithLayer-3_uhz4 { 
+    background: transparent !important;
+    opacity: 1 !important;
+}
+
+// Blur
+.backdrop-1wrmKB::before, .backdropWithLayer-3_uhz4::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--backdrop);
+    backdrop-filter: blur(var(--blur-backdrop));
+    right: 0;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Text                                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Messages
+.cozy-3raOZG .messageContent-2qWWxC {
+    text-align: var(--text-align);
+    word-break: break-word;
+	text-align-last: left;
+}
+
+
+// Chat Input 
+.slateTextArea-1Mkdgw {
+    text-align: var(--text-align);
+    word-break: break-word;
+	text-align-last: left;
+    right: 0;
+}
+
+// Embeds
+.embedAuthorName-3mnTWj,
+.embedAuthorNameLink-1gVryT,
+.embedDescription-1Cuq9a, .embedFieldName-NFrena,
+.embedFieldValue-nELq2s, .embedFooterText-28V_Wb,
+.embedLink-1G1K1D, .embedProvider-3k5pfl,
+.embedTitle-3OXDkz,
+.embedTitleLink-1Zla9e {
+    text-align: var(--text-align);
+    word-break: break-word;
+	text-align-last: left;
+}
+
+// Channels & Members
+.container-2ax-kl {
+    font-size: 12.4px;
+    line-height: 20px;
+}
+
+// Timestamp
+.cozy-3raOZG .timestamp-3ZCmNB {
+    color: var(--interactive-normal)
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Notice                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background (Normal)
+.notice-3bPHh- {
+    border-radius: var(--radius-primary);
+    background: var(--accent-primary);
+    position: relative;
+    box-shadow: var(--shadows);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+// Background (Hover)
+.notice-3bPHh-:hover {
+    background: var(--accent-secondary);
+}
+
+// Button (Normal)
+.theme-dark .button-2DhvE9,
+.theme-light .button-2DhvE9 {
+    border-radius: var(--radius-primary);
+}
+
+// Button (Hover)
+.theme-dark .button-2DhvE9:hover,
+.theme-light .button-2DhvE9:hover {
+    border-radius: var(--radius-primary);
+    background: white;
+    color: var(--accent-secondary)
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base               ║ Avatar                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.avatar-1BDn8e, .wrapper-3t9DeA {
+    border-radius: var(--radius-avatar);
+  }

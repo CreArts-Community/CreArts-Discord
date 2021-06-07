@@ -1,0 +1,305 @@
+.powercord-codeblock-table {
+  width: 40vw !important;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Bubbles            ║ General                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Image Spacing
+.container-1ov-mD {
+  margin-top: 12px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Bubbles            ║ Self                                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Mirror
+.scrollerInner-2YIMLh [data-is-author-self="true"] {
+  transform: scaleX(-1) !important;
+}
+
+// Wrapper (Embed, Image, Code)
+.scrollerInner-2YIMLh [data-is-author-self="true"] .embedWrapper-lXpS3L:not(.embedImage-2W1cML) {
+  transform: scaleX(-1) !important;
+}
+
+// Background
+.scrollerInner-2YIMLh [data-is-author-self="true"] .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
+  background-color: var(--background-tertiary);
+  display: inline-block;
+  margin: 2px 0px 0px 0px;
+  padding: 8px 8px ;
+  border-radius: var(--radius-secondary) 0px var(--radius-secondary)var(--radius-secondary);
+  position: relative;
+  overflow: visible;
+  max-width: 36vw;
+}
+
+// Background (Triangle)
+.scrollerInner-2YIMLh [data-is-author-self="true"] .contents-2mQqc9 > .markup-2BOw-j:not(:empty):before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 2px solid var(--background-tertiary);
+  border-right: 8px solid transparent;
+  border-top: 8px solid var(--background-tertiary);
+  border-bottom: 8px solid transparent;
+  right: -9px;
+  top: 0px;
+}
+
+// Avatar
+.scrollerInner-2YIMLh [data-is-author-self="true"] .avatar-1BDn8e {
+  transform: scaleX(-1) !important;
+  display:flex;
+  flex-direction:row-reverse;
+  flex-wrap:wrap;
+}
+
+// Spoiler
+.scrollerInner-2YIMLh [data-is-author-self="true"] .spoilerWarning-2aAZq1 {
+  transform: scaleX(-1) translate( 50%, -50%)!important;
+ }
+
+// Header
+.scrollerInner-2YIMLh [data-is-author-self="true"] .header-23xsNx {
+  transform: scaleX(-1) !important;
+  display:flex;
+  flex-direction:row-reverse;
+  flex-wrap:wrap;
+}
+
+// Header (Name)
+.scrollerInner-2YIMLh [data-is-author-self="true"] .headerText-3Uvj1Y {
+  margin-right: 0rem;
+}
+
+// Header (Timestamp)
+.scrollerInner-2YIMLh [data-is-author-self="true"] .timestamp-3ZCmNB {
+  margin-left: 0rem;
+  margin-right: .25rem;
+}
+
+.scrollerInner-2YIMLh .timestamp-3ZCmNB { 
+  opacity: 0;
+} 
+
+.scrollerInner-2YIMLh .message-2qnXI6:hover .timestamp-3ZCmNB { 
+  opacity: 1;
+}
+
+// Timestamp
+.scrollerInner-2YIMLh [data-is-author-self="true"] .timestamp-3ZCmNB.alt-1uNpEt {
+  transform: scaleX(-1) !important;
+  left: 0px;
+}
+
+// Replied Message (Avatar)
+.scrollerInner-2YIMLh [data-is-author-self="true"] .replyAvatar-1K9Wmr {
+  transform: scaleX(-1) !important;
+}
+
+// Replied Message (Name)
+.scrollerInner-2YIMLh [data-is-author-self="true"] .username-1A8OIy {
+  transform: scaleX(-1) !important;
+    font-weight: 900;
+}
+
+// Replied Message (Text Preview)
+.scrollerInner-2YIMLh [data-is-author-self="true"] .repliedTextPreview-2NBljf {
+  transform: scaleX(-1) !important;
+}
+
+// Text
+.scrollerInner-2YIMLh [data-is-author-self="true"] .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
+  transform: scaleX(-1) !important;
+}
+
+// Reactions
+.scrollerInner-2YIMLh [data-is-author-self="true"] .reactionInner-15NvIl {
+  transform: scaleX(-1) !important;
+}
+
+.scrollerInner-2YIMLh [data-is-author-self="true"] .icon-2uw6mp {
+  transform: scaleX(-1) !important;
+}
+
+// Buttons
+.scrollerInner-2YIMLh [data-is-author-self="true"] .container-3npvBV {
+  transform: scaleX(-1) !important;
+}
+
+// Edit
+.scrollerInner-2YIMLh [data-is-author-self="true"]  .scrollableContainer-2NUZem {
+  transform: scaleX(-1) !important;
+}
+
+.scrollerInner-2YIMLh [data-is-author-self="true"]  .operations-36ENbA {
+  transform: scaleX(-1) !important;
+}
+
+// Sticker
+.scrollerInner-2YIMLh [data-is-author-self="true"] .assetWrapper-3GNt0z {
+  transform: scaleX(-1) !important;
+}
+
+// Blockquote
+.scrollerInner-2YIMLh [data-is-author-self="true"] .blockquoteContainer-U5TVEi {
+  transform: scaleX(-1) !important;
+}
+
+// Blockquote (Background)
+.scrollerInner-2YIMLh [data-is-author-self="true"] .blockquoteContainer-U5TVEi blockquote {
+  transform: scaleX(-1) !important;
+  background: var(--background-secondary);
+  border-radius: var(--radius-secondary) 0 0 var(--radius-secondary);
+  padding: 6px 16x 6px 12px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+  
+// Blockquote (line)
+.scrollerInner-2YIMLh [data-is-author-self="true"] .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+  background: var(--accent-primary);
+  border-radius: 6px 0px 0px 6px;
+  width: 6px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+//Server Invite
+.scrollerInner-2YIMLh [data-is-author-self="true"] .wrapper-35wsBm {
+  transform: scaleX(-1) !important;
+  background: var(--background-tertiary);
+  border-radius: var(--radius-secondary) 0px var(--radius-secondary)var(--radius-secondary);
+}
+
+// Background (Triangle)
+.scrollerInner-2YIMLh [data-is-author-self="true"] .wrapper-35wsBm:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 2px solid var(--background-tertiary);
+  border-right: 8px solid transparent;
+  border-top: 8px solid var(--background-tertiary);
+  border-bottom: 8px solid transparent;
+  right: -9px;
+  top: 0px;
+}
+
+.scrollerInner-2YIMLh [data-is-author-self="true"] .attachment-33OFj0 {
+  background-color: var(--background-tertiary);
+  border-radius: var(--radius-secondary) 0px var(--radius-secondary)var(--radius-secondary);
+}
+
+// File Background (Triangle)
+.scrollerInner-2YIMLh [data-is-author-self="true"] .attachment-33OFj0:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 2px solid var(--background-tertiary);
+  border-right: 8px solid transparent;
+  border-top: 8px solid var(--background-tertiary);
+  border-bottom: 8px solid transparent;
+  right: -9px;
+  top: 0px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Bubbles            ║ Self (File)                                                                       ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Bubbles            ║ Self (File)                                                                       ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Bubbles            ║ Self (Embed)                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Bubbles            ║ animation                                                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.scrollerInner-2YIMLh [data-is-author-self=true] .avatar-1BDn8e:hover {
+  transform:  scaleX(-1) scale(1.1) !important;
+}
+
+
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Bubbles            ║ Other                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.scrollerInner-2YIMLh [data-is-author-self="false"] .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
+  background-color: var(--background-primary);
+  display: inline-block;
+  margin: 2px 0px 0px 0px;
+  padding: 8px 8px ;
+  border-radius: 0px var(--radius-secondary) var(--radius-secondary) var(--radius-secondary);
+  position: relative;
+  overflow: visible;
+  max-width: 36vw;
+}
+
+// Background (Triangle)
+.scrollerInner-2YIMLh [data-is-author-self="false"] .contents-2mQqc9 > .markup-2BOw-j:not(:empty):before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-right: 2px solid var(--background-primary);
+  border-left: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-top: 8px solid var(--background-primary);
+  left: -9px;
+  top: 0px;
+}
+
+// Blockquote (Background)
+.scrollerInner-2YIMLh [data-is-author-self="false"]  .blockquoteContainer-U5TVEi blockquote {
+  background: var(--background-secondary);
+  border-radius: 0 var(--radius-secondary) var(--radius-secondary) 0;
+  padding: 6px 16px 6px 12px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+  
+// Blockquote (line)
+.scrollerInner-2YIMLh [data-is-author-self="false"] .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+  background: var(--accent-primary);
+  border-radius: 6px 0px 0px 6px;
+  width: 6px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+//Server Invite
+.scrollerInner-2YIMLh [data-is-author-self="false"] .wrapper-35wsBm {
+  background: var(--background-primary);
+  border-radius: 0px var(--radius-secondary) var(--radius-secondary) var(--radius-secondary);
+}
+
+// Background (Triangle)
+.scrollerInner-2YIMLh [data-is-author-self="false"] .wrapper-35wsBm:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-right: 2px solid var(--background-primary);
+  border-left: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-top: 8px solid var(--background-primary);
+  left: -9px;
+  top: 2px;
+}
+

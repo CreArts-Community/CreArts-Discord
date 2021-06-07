@@ -1,12 +1,12 @@
 // ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ CreArts Theme                                                                                          ║
+// ║ INFO                                                                                                   ║
 // ╠════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╣
 // ║ Theme:             ║ CreArts                                                                           ║
 // ║ version:           ║ 2.0.0                                                                             ║
 // ║ author:            ║ CorellanStoma#1996                                                                ║
 // ╠════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╣
 // ║                                                                                                        ║
-// ║ CreArts is an easily customizable Powercord theme that customizes the Discord interface.               ║
+// ║ CreArts is a customizable Powercord theme that changes the look of Discord.                            ║
 // ║ This theme was created by CorellanStoma#1996.                                                          ║
 // ║                                                                                                        ║
 // ║ More information about Powercord can be found here:                                                    ║
@@ -21,220 +21,231 @@
 // ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
 // ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Credits:                                                                                               ║
+// ║ CREDITS:                                                                                               ║
 // ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════╣
-// ║ USRBG                    ║ by Gibbu#1211 & Tropical#4355                                               ║
-// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
-// ║ Radial Status            ║ by Gibbu#1211                                                               ║
+// ║ Settings Icons           ║ by Snapper#0001, botato#6883, MulverineX#0001, AAGaming#9395                ║
 // ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
 // ║ Discolored               ║ by Nyria#4198 & Snapper#0001                                                ║
 // ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
-// ║ Settings Icons           ║ by Snapper#0001, botato#6883, MulverineX#0001, AAGaming#9395                ║
-// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
-// ║ Chromium Link Preview    ║ by Tropical#4355                                                            ║
-// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
 // ║ Horizontal Server List   ║ by Gibbu#1211                                                               ║
 // ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
-// ║ White connection Icons   ║ by botato#6883                                                              ║
+// ║ Radial Status            ║ by Gibbu#1211                                                               ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
+// ║ White Connection Icons   ║ by botato#6883                                                              ║
 // ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
 // ║ White Profile Badges     ║ by botato#6883                                                              ║
 // ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
-// ║ Compact Searchbar        ║ by Doggybootsy#1333                                                         ║
-// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
 // ║ Emoji Replace            ║ by mwittrien                                                                ║
-// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
-// ║ Revert Radio Boxes       ║ by 11pixels#2004                                                            ║
-// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════╣
-// ║ Name Badges              ║ by LuckFire#4800                                                            ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════╝
 
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Guilds alignment   ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
-// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
-
-@use "./src/guilds/left/left.scss"; // ✔️ (enabled by default)
-
-//@use "./src/guilds/top/top.scss"; // ❌ (disabled by default)
-
-//@use "./src/guilds/top/bottom.scss"; // ❌ (disabled by default)
-
-//@use "./src/guilds/top/right.scss"; // ❌ (disabled by default)
+// ✔️ Activated by default
+// ❌ Disabled by default
+// ⚠️ Do not touch
+// 🧪 Experimental
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Skin               ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ║ Skins (Ore)        ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-@use "./skins/community/style.scss"; // ✔️ Commmunity Edition (Rubine Red)
+@use "./skins/rubine/style.scss"; // ✔️ Rubine Edition, a red colored skin.
 
-//@use "./skins/crimson/style.scss"; // ❌ Crimson Edition (Red)
+//@use "./skins/emerald/style.scss"; // ❌ Emerald Edition, a green colored skin.
 
-//@use "./skins/jungle/style.scss"; // ❌ Jungle Edition (Green)
+//@use "./skins/sapphire/style.scss"; // ❌ Sapphire Edition, a blue colored skin.
 
-//@use "./skins/hive/style.scss"; // ❌ Hive Edition (Yellow)
+//@use "./skins/amethyst/style.scss"; // ❌ Amethyst Edition, a violet colored skin.
 
-// ══════════════════════════════════════════════════════════════════════════════════════════════════════════
+//@use "./skins/citrin/style.scss"; // 🧪 Citrin Edition, a yellow colored skin.
 
-//@use "./skins/glassmorphism/style.scss"; // ❌ Glassmorphism Edition (Custom Background) ⚠️ [Heavy CPU!]
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Skins (Color)      ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-//@use "./skins/neomorphism/style.scss"; // ❌ Neomorphism Edition (Shaddows) ⚠️ [Heavy CPU!]
+//@use "./skins/crimson/style.scss"; // ❌ Crimson Edition, a red colored skin.
 
-//@use "./skins/glasscord/style.scss"; // ❌ Glasscord Edition (Transparent) ⚠️ [Heavy CPU!]
+//@use "./skins/hive/style.scss"; // ❌ Hive Edition, a yellow colored skin.
 
-// ══════════════════════════════════════════════════════════════════════════════════════════════════════════
+//@use "./skins/jungle/style.scss"; // ❌ Coffee Edition, a green colored skin.
 
-//@use "./skins/discord/style.scss"; // ❌ CreArts (Discord Edition) (WIP)
+//@use "./skins/coffee/style.scss"; // ❌ Coffee Edition, a brown colored skin.
 
-//@use "./skins/revamp/style.scss"; // ❌ CreArts (Revamp Edition) (WIP)
+//@use "./skins/nebula/style.scss"; // ❌ Nebula Edition, a space colored skin.
 
-//@use "./skins/Spotify/style.scss"; // ❌ CreArts (Spotify Edition) (WIP)
+//@use "./skins/amoled/style.scss"; // 🧪 Amoled Edition, a space colored skin.
 
-//@use "./skins/twitch/style.scss"; // ❌ CreArts (Twitch Edition) (WIP)
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Skins (Brands)     ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-//@use "./skins/guilded/style.scss"; // ❌ CreArts (Guilded Edition) (WIP)
+//@use "./skins/discord-orginal/style.scss"; // ✔️ Discord Original Edition, a color skin inspired by discord.
 
-//@use "./skins/onedarkui/style.scss"; // ❌ CreArts (One Dark UI Edition) (WIP)
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Alignment          ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-//@use "./skins/rosebox/style.scss"; // ❌ CreArts (Rosebox Edition) (WIP)
+@use "./src/00-alignment/left/guild.scss"; // ✔️ Guild alignment on the left.
 
-//@use "./skins/nebula/style.scss"; // ❌ Nebula Edition
+//@use "./src/00-alignment/right/guild.scss"; // ❌ Guild alignment on the right.
+
+//@use "./src/00-alignment/top/guild.scss"; // ❌ Guild alignment on the top.
+
+//@use "./src/00-alignment/bottom/guild.scss"; // ❌ Guild alignment on the bottom.
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Addons             ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-@use "./addons/name-badges.scss"; // ❌ (Disabled by default) by LuckFire#4800
+//@use "./src/05-addons/drag.scss"; // 🧪 
 
-//@use "./addons/drag.scss"; // ✔️ (enabled by default)
+@use "./src/05-addons/folder_color.scss"; // ✔️ 
 
-@use "./addons/usrbg.scss"; // ✔️ (enabled by default) by Gibbu#1211 & Tropical#4355 
+@use "./src/05-addons/bubbles.scss"; // ✔️ 
 
-//@use "./addons/radial-status.scss"; // ❌ (Disabled by default) by Gibbu#1211
+@use "./src/05-addons/left_icons.scss"; // ✔️ 
 
-//@use "./addons/chat-bubbles.scss"; // ❌ (disabled by default)
+@use "./src/05-addons/status.scss"; // ✔️ 
 
-@use "./addons/discolored.scss"; // ✔️ (enabled by default) by Snapper#0001 & Nyria#4198
+//@use "./src/05-addons/blur/details.scss"; // ❌  
 
-@use "./addons/settings-icons.scss"; // ✔️ (enabled by default) by Snapperito, botato, MulverineX, AAGaming
+//@use "./src/05-addons/blur/spoiler.scss"; // ❌ 
 
-@use "./addons/white-connection-icons.scss"; // ✔️ (enabled by default) by botato#6883
+//@use "./src/05-addons/blur/link.scss"; // ❌ 
 
-@use "./addons/white-profile-badges.scss"; // ✔️ (enabled by default) by botato#6883
+//@use "./src/05-addons/neutral_usernames.scss"; // ❌ 
 
-//@use "./addons/white-porkcord.scss"; // ❌ (disabled by default)
+//@use "./src/05-addons/porkcord.scss"; // ❌ 
 
-//@use "./addons/offline-mode.scss"; // ✔️ (enabled by default)
+//@use "./src/05-addons/bad_http.scss"; // ❌
 
-@use "./addons/left-icons.scss"; // ✔️ (enabled by default)
+@use "./src/05-addons/minimal_panel.scss"; // ✔️
 
-@use "./addons/recolor.scss"; // ✔️ (enabled by default)
+@use "./src/05-addons/settings_icons.scss"; // ✔️ by Snapper#0001
 
-@use "./addons/status.scss"; // ✔️ (enabled by default)
+@use "./src/05-addons/discolored.scss"; // ✔️ by Nyria#4198
 
-@use "./addons/fonts.scss"; // ✔️ (enabled by default)
+@use "./src/05-addons/white_icons.scss"; // ✔️ by botato#6883
 
-//@use "./addons/chromium-link-preview.scss"; // ✔️ (enabled by default) by Tropical#4355 [Broken]
+//@use "./src/05-addons/radial_status.scss"; // ❌ by Gibbu#1211
 
-//@use "./addons/revert-radio-boxes.scss"; // ✔️ (enabled by default) [Broken]
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons (Emojis)    ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "./src/05-addons/emoji/whatsapp.scss"; // ❌ Use the Whatsapp Emoji as default, only Client side.
+
+//@use "./src/05-addons/emoji/samsung.scss"; // ❌ Use the Samsung Emoji as default, only Client side.
+
+//@use "./src/05-addons/emoji/microsoft.scss"; // ❌ Use the Microsoft Emoji as default, only Client side.
+
+//@use "./src/05-addons/emoji/joypixels.scss"; // ❌ Use the Joypixels Emoji as default, only Client side.
+
+//@use "./src/05-addons/emoji/google.scss"; // ❌ Use the Google Emoji as default, only Client side.
+
+//@use "./src/05-addons/emoji/facebook.scss"; // ❌ Use the Facebook Emoji as default, only Client side.
+
+//@use "./src/05-addons/emoji/apple.scss"; // ❌ Use the Apple Emoji as default, only Client side.
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Animations         ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-//@use "./animations/spotify-spin-cd.scss"; // ❌ (disabled by default) ⚠️ [Heavy CPU!]
+//@use "./src/06-animations/ping.scss"; // ❌ This adds a ping animation.
 
-//@use "./animations/ping.scss"; // ❌ (disabled by default) ⚠️ [Heavy CPU!]
+@use "./src/06-animations/spotify.scss"; // ✔️ This adds a cover spin animation to the spotify panel.
 
-@use "./animations/hover-icons.scss"; // ✔️ (enabled by default)
+@use "./src/06-animations/buttons.scss"; // ✔️ This adds animation to the guild navigation.
 
-@use "./animations/hover-avatar.scss"; // ✔️ (enabled by default)
+@use "./src/06-animations/hover/avatar.scss"; // ✔️ This adds a hover animation to the avatar.
 
-@use "./animations/button-home.scss"; // ✔️ (enabled by default)
+@use "./src/06-animations/hover/icons.scss"; // ✔️ This adds a hover animation to the icons.
 
-@use "./animations/button-settings.scss"; // ✔️ (enabled by default)
-
-@use "./animations/button-explore.scss"; // ✔️ (enabled by default)
-
-@use "./animations/transitions.scss"; // ✔️ (enabled by default)
+@use "./src/06-animations/hover/clickable.scss"; // ✔️ This adds a hover animation to the icons.
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Remove             ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ║ SRC (Main)         ║ Do not comment out these lines! By disabling the theme can not work correctly.    ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-//@use "./addons/remove/remove-gift-button.scss"; // ❌ (disabled by default)
+@use "./src/01-main/base.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-//@use "./addons/remove/remove-gif-button.scss"; // ❌ (disabled by default)
+@use "./src/01-main/debug.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-//@use "./addons/remove/remove-sticker-button.scss"; // ❌ (disabled by default)
+@use "./src/01-main/discover.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-//@use "./addons/remove/remove-note.scss"; // ❌ (disabled by default)
+@use "./src/01-main/fonts.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/01-main/home.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/01-main/login.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/01-main/modals.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/01-main/boost.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/01-main/popouts.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/01-main/scrollbars.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/01-main/settings.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/01-main/titlebar.scss"; // ⚠️ (Warning!! Do not disable it!)
+
+@use "./src/01-main/wallpaper.scss"; // ⚠️ (Warning!! Do not disable it!)
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Emoji Pack         ║ To disable certain things, you can comment out the lines. Use "// " in front.     ║
+// ║ SRC (Home)         ║ Do not comment out these lines! By disabling the theme can not work correctly.    ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-//@use "./addons/emoji/emoji-whatsapp.scss"; // ❌ (disabled by default)
+@use "./src/02-home/discovery.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-//@use "./addons/emoji/emoji-samsung.scss"; // ❌ (disabled by default)
+@use "./src/02-home/friends.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-//@use "./addons/emoji/emoji-microsoft.scss"; // ❌ (disabled by default)
+@use "./src/02-home/library.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-//@use "./addons/emoji/emoji-joypixels.scss"; // ❌ (disabled by default)
-
-//@use "./addons/emoji/emoji-google.scss"; // ❌ (disabled by default)
-
-//@use "./addons/emoji/emoji-facebook.scss"; // ❌ (disabled by default)
-
-//@use "./addons/emoji/emoji-apple.scss"; // ❌ (disabled by default)
+@use "./src/02-home/nitro.scss"; // ⚠️ (Warning!! Do not disable it!)
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ SRC                ║ Do not comment out these lines! By disabling the theme can not work correctly.    ║
+// ║ SRC (guild)        ║ Do not comment out these lines! By disabling the theme can not work correctly.    ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-@use "./src/base.scss"; // ⚠️ (Warning!! Do not disable it!)
+@use "./src/03-guild/channels.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-@use "./src/channels.scss"; // ⚠️ (Warning!! Do not disable it!)
+@use "./src/03-guild/header.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-@use "./src/chat.scss"; // ⚠️ (Warning!! Do not disable it!)
+@use "./src/03-guild/members.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-@use "./src/discover.scss"; // ⚠️ (Warning!! Do not disable it!)
+@use "./src/03-guild/profile.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-@use "./src/home.scss"; // ⚠️ (Warning!! Do not disable it!)
+@use "./src/03-guild/threads.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-@use "./src/members.scss"; // ⚠️ (Warning!! Do not disable it!)
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ SRC (chat)         ║ Do not comment out these lines! By disabling the theme can not work correctly.    ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-@use "./src/no-scrollbars.scss"; // ⚠️ (Warning!! Do not disable it!)
+//@use "./src/04-chat/announcement.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-@use "./src/modals.scss"; // ⚠️ (Warning!! Do not disable it!)
+@use "./src/04-chat/stage.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-@use "./src/pages.scss"; // ⚠️ (Warning!! Do not disable it!)
+@use "./src/04-chat/store.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-@use "./src/plugins.scss"; // ⚠️ (Warning!! Do not disable it!)
+@use "./src/04-chat/text.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-@use "./src/popouts.scss"; // ⚠️ (Warning!! Do not disable it!)
+@use "./src/04-chat/voice.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-@use "./src/profile.scss"; // ⚠️ (Warning!! Do not disable it!)
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Plugins            ║ Do not comment out these lines! By disabling the theme can not work correctly.    ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-@use "./src/settings.scss"; // ⚠️ (Warning!! Do not disable it!)
+@use "./src/08-Plugins/nsfw_tags.scss"; // ⚠️ (Warning!! Do not disable it!)
 
-//@use "./src/stage.scss"; // ⚠️ (Warning!! Do not disable it!)
-
-@use "./src/store.scss"; // ⚠️ (Warning!! Do not disable it!)
-
-@use "./src/titlebar.scss"; // ⚠️ (Warning!! Do not disable it!)
-
-@use "./src/toolbar.scss"; // ⚠️ (Warning!! Do not disable it!)
-
-//@use "./src/voice.scss"; // ⚠️ (Warning!! Do not disable it!)
-
-@use "./src/topic.scss"; // ⚠️ (Warning!! Do not disable it!)
-
-@use "./src/wallpaper.scss"; // ⚠️ (Warning!! Do not disable it!)
+@use "./src/08-Plugins/theme_toggler.scss"; // ⚠️ (Warning!! Do not disable it!)
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Experimental       ║ Future features will be tested here.                                              ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-@use "./src/experimental.scss"; // 🧪 (This is for testing!)
+@use "./src/01-main/experimental.scss"; // 🧪 This is only for testing!
+
+@use "./src/01-main/reponsive.scss"; // 🧪 This is only for testing!
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ HEX to RGB         ║ This function converts hex values to RGB.                                         ║
@@ -258,54 +269,59 @@
 // Version
 --version: "#{style.$G001}";
 
+// Fonts
+--fonts-primary: #{style.$G002};
+--fonts-secondary: #{style.$G003};
+--fonts-tertiary: #{style.$G004};
+
 // Wallpaper
---wallpaper: url('#{style.$G003}');
+--wallpaper: url('#{style.$G005}');
 
 // Width
---channel-width: #{style.$G004}px;
---members-width: #{style.$G005}px;
---profile-width: #{style.$G006}px;
+--channel-width: #{style.$G006}px;
+--members-width: #{style.$G007}px;
+--profile-width: #{style.$G008}px;
 
 // Text
---text-align: #{style.$G007};
+--text-align: #{style.$G009};
 
 // Radius
---radius-avatar: #{style.$G008}px;
---radius-button: #{style.$G009}px;
---radius-mention: #{style.$G010}px;
---radius-reaction: #{style.$G011}px;
---radius-primary: #{style.$G012}px;
---radius-secondary: #{style.$G013}px;
---radius-tertiary: #{style.$G014}px;
+--radius-avatar: #{style.$G010}px;
+--radius-button: #{style.$G011}px;
+--radius-mention: #{style.$G012}px;
+--radius-reaction: #{style.$G013}px;
+--radius-primary: #{style.$G014}px;
+--radius-secondary: #{style.$G015}px;
+--radius-tertiary: #{style.$G016}px;
 
 // Border
---border-width: #{style.$G015}px;
---border-opacity: #{style.$G016};
+--border-width: #{style.$G017}px;
+--border-opacity: #{style.$G018};
 
 // Blur
---blur: #{style.$G017}px;
---blur-wallpaper: #{style.$G018}px;
---blur-titlebar: #{style.$G019}px;
---blur-backdrop: #{style.$G020}px;
+--blur: #{style.$G019}px;
+--blur-wallpaper: #{style.$G020}px;
+--blur-titlebar: #{style.$G021}px;
+--blur-backdrop: #{style.$G022}px;
 
 // Transparency
---transparency-menu: #{style.$G021};
---transparency-titlebar: #{style.$G022};
---transparency-backdrop: #{style.$G023};
---transparency-background: #{style.$G024};
+--transparency-menu: #{style.$G023};
+--transparency-titlebar: #{style.$G024};
+--transparency-backdrop: #{style.$G025};
+--transparency-background: #{style.$G026};
 
---transparency-primary: #{style.$G025};
---transparency-secondary: #{style.$G026};
---transparency-tertiary: #{style.$G027};
+--transparency-primary: #{style.$G027};
+--transparency-secondary: #{style.$G028};
+--transparency-tertiary: #{style.$G029};
 
---transparency-hover: #{style.$G028};
---transparency-active: #{style.$G029};
---transparency-selected: #{style.$G030};
+--transparency-hover: #{style.$G030};
+--transparency-active: #{style.$G031};
+--transparency-selected: #{style.$G032};
 
 // Opacity
---selection-opacity: #{style.$G031};
---shadow-opacity: #{style.$G032};
---shadow-popout-opacity: #{style.$G033};
+--selection-opacity: #{style.$G033};
+--shadow-opacity: #{style.$G034};
+--shadow-popout-opacity: #{style.$G035};
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -315,9 +331,9 @@
 .theme-dark {
 
 // Accent
---accent-primary: rgba(#{hexToRGB(style.$D001)});
---accent-secondary: rgba(#{hexToRGB(style.$D002)});
---accent-tertiary: rgba(#{hexToRGB(style.$D003)});
+--accent-primary: rgba(#{hexToRGB(style.$D001)}, #{style.$G036});
+--accent-secondary: rgba(#{hexToRGB(style.$D002)}, #{style.$G037});
+--accent-tertiary: rgba(#{hexToRGB(style.$D003)}, #{style.$G038});
 
 // Green Button
 --green-primary: rgba(#{hexToRGB(style.$D004)});
@@ -458,7 +474,8 @@
 --stream-selected: rgba(#{hexToRGB(style.$D015)}, var(--transparency-hover));
 
 // Accent Text
---accent-text: rgba(#{hexToRGB(style.$D028)});
+--accent-text-primary: rgba(#{hexToRGB(style.$D028)});
+--accent-text-secondary: rgba(#{hexToRGB(style.$D029)});
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -468,9 +485,9 @@
 .theme-light {
 
 // Accent
---accent-primary: rgba(#{hexToRGB(style.$L001)});
---accent-secondary: rgba(#{hexToRGB(style.$L002)});
---accent-tertiary: rgba(#{hexToRGB(style.$L003)});
+--accent-primary: rgba(#{hexToRGB(style.$L001)}, #{style.$G036});
+--accent-secondary: rgba(#{hexToRGB(style.$L002)}, #{style.$G037});
+--accent-tertiary: rgba(#{hexToRGB(style.$L003)}, #{style.$G038});
 
 // Green Button
 --green-primary: rgba(#{hexToRGB(style.$L004)});
@@ -606,21 +623,18 @@
 --stream-selected: rgba(#{hexToRGB(style.$L015)}, var(--transparency-hover));
 
 // Accent Text
---accent-text: rgba(#{hexToRGB(style.$L028)});
+--accent-text-primary: rgba(#{hexToRGB(style.$L028)});
+--accent-text-secondary: rgba(#{hexToRGB(style.$L029)});
 }
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Main               ║                                                                                   ║
+// ║ CSS                ║ Some CSS Stuff                                                                    ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
-
-::-webkit-input-placeholder, body, button, input, select, textarea {
-    font-family: "#{style.$G002}";
-}
 
 .app-2rEoOp {
     background: transparent;
 }
 
-// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Custom CSS         ║ Here you can insert custom CSS.                                                   ║
-// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+.popoutRight-1veHKi {
+    margin-top: -90px;
+}

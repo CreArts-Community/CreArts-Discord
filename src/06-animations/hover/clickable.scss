@@ -1,0 +1,70 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Hover              ║ Clickable                                                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.clickable-1JJAn8 {
+  transition: all .2s ease-in;
+}
+
+.clickable-1JJAn8:hover {
+  transform: scale(1.04);
+  transition: all .2s ease-in;
+}
+
+#private-channels .content-3YMskv .container-2ax-kl {
+  transition: all .2s ease-in;
+}
+
+
+#private-channels .content-3YMskv .container-2ax-kl:hover {
+  transform: scale(1.04);
+  transition: all .2s ease-in;
+}
+
+
+
+/*
+// DM Button (No Text)
+#private-channels .content-3YMskv .headerText-2F0828 {
+    display: none;
+}
+
+// DM Button (Background)
+#private-channels .content-3YMskv .container-2ax-kl {
+    background: var(--background-tertiary);
+    border-radius: var(--radius-primary);
+    height: 36px;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+// Clickable
+#private-channels .content-3YMskv .clickable-3rdHwn::before {
+    content: "";
+    background: transparent;
+    border-radius: var(--radius-primary);
+    position: fixed;
+    left: 4px;
+    height: 36px;
+    width: calc(100% - 16px);
+    top: 54px;
+    margin-left: 4px;
+}
+
+// DM Button (Background Hover)
+#private-channels .content-3YMskv .container-2ax-kl:hover {
+    background: var(--accent-primary) !important;
+}
+
+// DM Button (Icon)
+#private-channels .content-3YMskv .clickable-3rdHwn {
+    padding: 0px;
+    margin: 0px;
+    border-radius: var(--radius-primary);
+}
+
+*/
