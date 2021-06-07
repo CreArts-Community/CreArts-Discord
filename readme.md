@@ -4,7 +4,7 @@
 [![Discord](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/discord.png)](https://discord.com/)
 [![Powercord](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/powercord.png)](https://powercord.dev/)
 
-⚠️ **Work in progress**
+🚧 **Work in progress**
 
 <h1 align=center> CreArts </h1>
 <h3 align=center> CreArts is a customizable Powercord theme that changes the look of Discord. </h3>
