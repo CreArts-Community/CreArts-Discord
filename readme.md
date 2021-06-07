@@ -11,14 +11,10 @@
 
 ![image](https://user-images.githubusercontent.com/58918358/121093483-645e2480-c7ed-11eb-8a7a-54fd0dc8e369.png)
 
-
 ## Features
-* Light Mode Support 
-* Compact Mode Support
-* Glasscord Support (translucent Discord)
-* USRBG Integration (Custom Profile Banner)
-* 4 Guilds alignments (Left, Top, Bottom, Right)
 * Skins (change: Colors, Transparency, Blur, Background, Font and more)
+* Guilds alignments
+* Optional addons
 
 ## Getting Started
 
