@@ -15,7 +15,7 @@
 * Light Mode Support 
 * Compact Mode Support
 * Glasscord Support (translucent Discord)
-* USRBG Integration (Custom Profile Banner)
+* <strike>USRBG Integration (Custom Profile Banner)</strike> Removed in 2.1, more info [here](https://discord.com/channels/538759280057122817/755012671837044797/847269429699411969)
 * 4 Guilds alignments (Left, Top, Bottom, Right)
 * Skins (change: Colors, Transparency, Blur, Background, Font and more)
 
@@ -48,7 +48,7 @@ Have a look at the [**documentation**](https://github.com/CorellanStoma/CreArts/
 
 CreArts uses snippets and theme addons from other authors here is a small list:
 
-* [**USRBG**](https://github.com/Discord-Custom-Covers/usrbg) by [**Gibbu#1211**](https://github.com/Gibbu) & [**Tropical#4355**](https://github.com/Tropix126)
+* <strike>[**USRBG**](https://github.com/Discord-Custom-Covers/usrbg) by [**Gibbu#1211**](https://github.com/Gibbu) & [**Tropical#4355**](https://github.com/Tropix126)</strike> Removed in 2.1, more info [here](https://discord.com/channels/538759280057122817/755012671837044797/847269429699411969)
 * [**Radial Status**](https://github.com/DiscordStyles/RadialStatus) by [**Gibbu#1211**](https://github.com/Gibbu)
 * [**Discolored**](https://github.com/NYRI4/Discolored) by [**Nyria#4198**](https://github.com/NYRI4) & [**Snapper#0001**](https://github.com/Snapperito)
 * [**Settings Icons**](https://github.com/snappercord/Settings-Icons) by [**Snapper#0001**](https://github.com/Snapperito), [**botato#6883**](https://github.com/botatooo), [**MulverineX#0001**](https://github.com/MulverineX) & [**AAGaming#9395**](https://github.com/AAGaming00)

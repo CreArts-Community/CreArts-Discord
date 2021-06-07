@@ -1,7 +1,7 @@
 {
-    "name": "CreArts 2.0",
+    "name": "CreArts 2.1",
     "description": "This is the official theme of the CreArts Community. CreArts is a Powercord theme that changes the UI from Discord and was created by CorellanStoma#1996. This theme is a standalone version, we can't promise that theme will work in combination with other themes.",
-    "version": "2.0",
+    "version": "2.1",
     "author": "CorellanStoma#1996",
     "license": "MIT",
     "splashTheme": "splashscreen.scss",
