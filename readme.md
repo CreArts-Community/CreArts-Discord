@@ -46,7 +46,7 @@ Have a look at the [**documentation**](https://github.com/CorellanStoma/CreArts/
 CreArts uses snippets and theme addons from other authors here is a small list:
 
 * [**Settings Icons**](https://github.com/snappercord/Settings-Icons) by [**Snapper#0001**](https://github.com/Snapperito), [**botato#6883**](https://github.com/botatooo), [**MulverineX#0001**](https://github.com/MulverineX) & [**AAGaming#9395**](https://github.com/AAGaming00)
-* Horizontal Server List by [**Gibbu#1211**](https://github.com/Gibbu)
+* [**Horizontal Server List**](https://github.com/DiscordStyles/HorizontalServerList) by [**Gibbu#1211**](https://github.com/Gibbu)
 * [**Discolored**](https://github.com/NYRI4/Discolored) by [**Nyria#4198**](https://github.com/NYRI4) & [**Snapper#0001**](https://github.com/Snapperito)
 * White connection Icons by [**botato#6883**](https://github.com/botatooo)
 * White Profile Badges by [**botato#6883**](https://github.com/botatooo)
