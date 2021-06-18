@@ -16,6 +16,17 @@
 * Guilds alignments
 * Optional addons
 
+### Plugin Support
+* Quickstar
+* PronounDB
+* User Detials
+* Game Activity Toggle
+* Theme Toggler
+* Spotify
+* NSFW Tags
+* Play on Spotify
+* Powercord Together
+
 ## Getting Started
 
 ### Prerequisites
