@@ -5,41 +5,25 @@
 [![Powercord](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/powercord.png)](https://powercord.dev/)
 
 # CreArts v2.2.0
-### CreArts is a customizable Powercord theme that changes the look of Discord.
+## CreArts is a customizable Powercord theme that changes the look of Discord.
 
-![Banner](https://imgur.com/gyPBUPh)
-
-
+![CreArts 000 - Preview Banner](https://user-images.githubusercontent.com/58918358/122546328-205df180-d02f-11eb-8e59-4b9eee696fac.png)
 
 ## Preview
-
-### Default:
-![CreArts 000](https://imgur.com/R5xNR1L)
-
-### CreArts:
-![CreArts 002](https://imgur.com/eF7EAJy)
-![CreArts 003](https://imgur.com/xFZHMN6)
+| <img src="https://user-images.githubusercontent.com/58918358/122546250-0fad7b80-d02f-11eb-9b92-df4268d5fc98.png" width="600"> | <img src="https://user-images.githubusercontent.com/58918358/122546272-14722f80-d02f-11eb-9025-f6f351d24fbe.png" width="600"> | <img src="https://user-images.githubusercontent.com/58918358/122546285-16d48980-d02f-11eb-86a7-0eee638561d3.png" width="600"> |
+|------------|-------------|-------------|
+| Default | Guild | Home |
 
 ### Skins:
-![CreArts 004](https://imgur.com/6byQWFd)
+https://user-images.githubusercontent.com/58918358/122547053-e93c1000-d02f-11eb-9af4-842fa306e7d1.mp4
 
 ## Overview
 
 ### Features
-* Skins (change: colors, rransparency, blur, background, fonts and more)
+* Theme Skins (change the look from the Theme)
+* Splash Skins (change the look from the Splashscreen)
 * Guilds alignments (left, right, top, bottom)
-* Optional addons
-
-### Plugin Support
-* Quickstar
-* PronounDB
-* User Detials
-* Game Activity Toggle
-* Theme Toggler
-* Spotify
-* NSFW Tags
-* Play on Spotify
-* Powercord Together
+* Addons (turn optional features on or off.)
 
 ## Getting Started
 
