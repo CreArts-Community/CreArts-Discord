@@ -7,7 +7,7 @@
 <h1 align=center> CreArts v2.2.0</h1>
 <h3 align=center> CreArts is a customizable Powercord theme that changes the look of Discord. </h3>
 
-![image](https://user-images.githubusercontent.com/58918358/121093483-645e2480-c7ed-11eb-8a7a-54fd0dc8e369.png)
+![CreArts - Github Banner](https://user-images.githubusercontent.com/58918358/122532007-5b0c5d80-d020-11eb-9c07-3446be3e4a38.png)
 
 ## Features
 * Skins (change: Colors, Transparency, Blur, Background, Font and more)
