@@ -117,7 +117,7 @@
 
 @use "src/addons/folder-color"; // ✔️ This changes the folder color & shows the normal version on hover.
 
-@use "src/addons/neutral-usernames"; // ❌ Usernames are displayed in the accent color of the theme.
+@use "src/addons/neutral-usernames"; // ✔️ Usernames are displayed in the accent color of the theme. (only light theme)
 
 //@use "src/addons/blur-details"; // ❌ Blur on Details
 

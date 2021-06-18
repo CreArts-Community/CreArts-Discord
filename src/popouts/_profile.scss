@@ -274,7 +274,9 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.marginBottom8-AtZOdT {
+.animatorLeft-1EQxU0 .marginBottom8-AtZOdT,
+.popoutRight-1veHKi .marginBottom8-AtZOdT,
+.animatorRight-3i_YPs .marginBottom8-AtZOdT {
   background: var(--background-secondary);
   border-radius: var(--radius-secondary);
   padding: 12px;
@@ -283,7 +285,9 @@
 }
 
 // Title
-.marginBottom8-AtZOdT::before {
+.animatorLeft-1EQxU0 .marginBottom8-AtZOdT::before,
+.popoutRight-1veHKi .marginBottom8-AtZOdT::before,
+.animatorRight-3i_YPs .marginBottom8-AtZOdT::before {
   display: flex;
   color: var(--accent-text-secondary);
   text-transform: uppercase;
