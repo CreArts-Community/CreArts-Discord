@@ -1,0 +1,158 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Theme Settings                                                                                                     ║
+// ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║ Theme:                   ║ CreArts                                                                                 ║
+// ║ version:                 ║ 2.2.0                                                                                   ║
+// ║ author:                  ║ CorellanStoma#1996                                                                      ║
+// ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                                    ║
+// ║ CreArts is a customizable Powercord theme that changes the look of Discord.                                        ║
+// ║ This theme was created by CorellanStoma#1996.                                                                      ║
+// ║                                                                                                                    ║
+// ║ More information about Powercord can be found here:                                                                ║
+// ║ ● https://powercord.dev/                                                                                           ║
+// ║                                                                                                                    ║
+// ║ If you need support join our Creative Community:                                                                   ║
+// ║ ● https://discord.gg/8W8E39Z                                                                                       ║
+// ║                                                                                                                    ║
+// ║ Our Art & Design Wiki:                                                                                             ║
+// ║ ● https://crearts.wiki/                                                                                            ║
+// ║                                                                                                                    ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Credits                                                                                                            ║
+// ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║ Settings Icons           ║ by Snapper#0001, botato#6883, MulverineX#0001, AAGaming#9395                            ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║ Horizontal Server List   ║ by Gibbu#1211                                                                           ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║ Discolored               ║ by Nyria#4198 & Snapper#0001                                                            ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║ White Connection Icons   ║ by botato#6883                                                                          ║
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║ White Profile Badges     ║ by botato#6883                                                                          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ✔️ Activated by default
+// ❌ Disabled by default
+// ⚠️ Do not touch
+// 🧪 Experimental
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Skins                    ║ To disable certain things, you can comment out the lines. Use "// " in front.           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "skins/community/theme" as *; // ❌ Community Edition, the orginal skin from version 1.0
+
+@use "skins/discord/theme" as *; // ✔️ Discord Original Edition, a color skin inspired by discord.
+
+//@use "skins/brand/theme" as *; // ❌ Discord Brand Edition, a color skin inspired by discord.
+
+//@use "skins/revamp/theme" as *; // ❌ Discord Revamp Edition, a color skin inspired by discord.
+
+//@use "skins/spotify/theme" as *; // ❌ Spotify Edition, a color skin inspired by spotify.
+
+//@use "skins/twitch/theme" as *; // ❌ Twitch Edition, a color skin inspired by twitch.
+
+//@use "skins/guilded/theme" as *; // ❌ Twitch Edition, a color skin inspired by guilded.
+
+//@use "skins/rubine/theme" as *; // ❌ Rubine Edition, a red colored skin.
+
+//@use "skins/emerald/theme" as *; // ❌ Emerald Edition, a green colored skin.
+
+//@use "skins/sapphire/theme" as *; // ❌ Sapphire Edition, a blue colored skin.
+
+//@use "skins/amethyst/theme" as *; // ❌ Amethyst Edition, a violet colored skin.
+
+//@use "skins/citrin/theme" as *; // ❌ Citrin Edition, a yellow colored skin.
+
+//@use "skins/crimson/theme" as *; // ❌ Crimson Edition, a red colored skin.
+
+//@use "skins/hive/theme" as *; // 🧪 Hive Edition, a yellow colored skin.
+
+//@use "skins/jungle/theme" as *; // ❌ Coffee Edition, a green colored skin.
+
+//@use "skins/coffee/theme" as *; // 🧪 Coffee Edition, a brown colored skin.
+
+//@use "skins/nebula/theme" as *; // ❌ Nebula Edition, a space colored skin.
+
+//@use "skins/amoled/theme.scss" as *; // 🧪 Amoled Edition, a dark colored skin.
+
+//@use "skins/dracula/theme.scss" as *; // ❌  Dracula Edition, a skin based on the dracula color scheme.
+
+//@use "skins/glassmorphism/theme" as *; // 🧪 Glassmorphism Edition, a transparent skin. (Custom Background)
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Bubbles                  ║ To disable certain things, you can comment out the lines. Use "// " in front.           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+@use "src/bubbles/one"; // ✔️ This adds chat bubbles on the left side and for yourself on the right side.
+
+//@use "src/bubbles/two"; // ❌ This adds chat bubbles on the left side.
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Alignment                ║ To disable certain things, you can comment out the lines. Use "// " in front.           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+@use 'src/alignment/left'; // ✔️ Guild alignment on the left.
+
+//@use "src/alignment/top"; // ❌ Guild alignment on the top.
+
+//@use 'src/alignment/right'; // ❌ Guild alignment on the right.
+
+//@use "src/alignment/bottom"; // ❌ Guild alignment on the bottom.
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons                   ║ To disable certain things, you can comment out the lines. Use "// " in front.           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+@use "src/addons/discolored"; // ✔️ This replaces discord's SVGs with a colored version.
+
+//@use "src/addons/drag"; // 🧪 Adds a general drag zone for the background.
+
+@use "src/addons/bad-http"; // ✔️ Links without SSL encryption are displayed in red.
+
+@use "src/addons/minimal-panel"; // ✔️ Adds a Hover effects for the panel menu automatically (Spotify, Voice, Games...).
+
+@use "src/addons/folder-color"; // ✔️ This changes the folder color & shows the normal version on hover.
+
+@use "src/addons/neutral-usernames"; // ❌ Usernames are displayed in the accent color of the theme.
+
+//@use "src/addons/blur-details"; // ❌ Blur on Details
+
+//@use "src/addons/blur-spoiler"; // ❌ Blur on Spoiler
+
+//@use "src/addons/blur-link"; // ❌ Blur on Links
+
+//@use "src/addons/guild-icons"; // ❌ Custom Guild Icons
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Animations               ║ To disable certain things, you can comment out the lines. Use "// " in front.           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "src/animations/ping"; // ❌ This adds a ping animation.
+
+@use 'src/animations/spotify'; // ✔️ This adds a cover spin animation to the spotify panel.
+
+@use "src/animations/buttons"; // ✔️ This adds animation to the guild navigation.
+
+@use "src/animations/avatar"; // ✔️ This adds a hover animation to the avatar.
+
+@use "src/animations/icons"; // ✔️ This adds a hover animation to the icons.
+
+@use "src/animations/clickable"; // ✔️ This adds a hover animation to the icons.
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ SRC                      ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+@use 'src/index'; // ⚠️ (Warning!! Do not disable it!)
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ CSS                      ║ The CSS code is located in this area.                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.app-2rEoOp {
+  background: transparent !important;
+}

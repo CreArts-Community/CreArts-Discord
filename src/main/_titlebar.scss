@@ -1,0 +1,138 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar           ║ Background                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Titlebar
+.titleBar-AC4pGV {
+  background: transparent;
+  position:relative;
+}
+
+// Blur
+.titleBar-AC4pGV:before {
+  background: var(--titlebar);
+  position: fixed;
+  content: "";
+  border: var(--border) solid rgba( 255, 255, 255, 0.08 );
+  backdrop-filter: blur(var(--transparency-blur));
+  box-shadow: var(--shadows);
+  border-bottom: var(--border);
+  margin-top: -4px;
+  height: 30px;
+  width: 100%;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar           ║ Wordmark                                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.wordmark-2iDDfm svg {
+  display: none;
+}
+
+// Version
+.wordmarkWindows-1v0lYD::before {
+  -webkit-mask: url('https://raw.githubusercontent.com/CorellanStoma/CreArts/356267794c5fa057769fa1a6f55318af025b7e63/assets/icons/theme_logo.svg');
+  mask: url('https://raw.githubusercontent.com/CorellanStoma/CreArts/356267794c5fa057769fa1a6f55318af025b7e63/assets/icons/theme_logo.svg');
+  background: var(--header-secondary);
+  background-size: cover;
+  height: 20px;
+  position: absolute;
+  content: "";
+  font-size: 12px;
+  font-weight: 600;
+  width: 70px;
+  top: 1.2px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar           ║ Title                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.wordmarkWindows-1v0lYD::after {
+  position: relative;
+  font-size: 12px;
+  font-weight: 400;
+  font-family:'Segoe UI';
+  padding-left: 80px;
+  width: 100%;
+  top: -0.4px;
+}
+
+// Dark
+.theme-dark .wordmarkWindows-1v0lYD::after {
+  content: var(--version) ' |' var(--skin) ' (Dark)' ' | by' var(--author);
+}
+
+// Light
+.theme-light .wordmarkWindows-1v0lYD::after {
+  content: var(--version) ' |' var(--skin) ' (Light)' ' | by' var(--author);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar           ║ Buttons                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Buttons
+.winButton-iRh8-Z,
+.winButton-iRh8-Z:hover,
+.winButton-iRh8-Z:active {
+    height: 30px;
+    width: 48px;
+    color: var(--header-secondary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar           ║ Buttons (Min Max)                                                                 ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.winButtonMinMax-PBQ2gm:hover,
+.winButtonMinMax-PBQ2gm:active {
+    background: var(--background-secondary);
+}
+
+.winButtonMinMax-PBQ2gm:nth-child(3):after {
+      content:'';
+      width:11px;
+      height:11px;
+      -webkit-mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" version="1.1" width="10" height="10"><path d="M 0,0 0,10 10,10 10,0 Z M 1,1 9,1 9,9 1,9 Z"/></svg>') center/11px no-repeat;
+      mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" version="1.1" width="10" height="10"><path d="M 0,0 0,10 10,10 10,0 Z M 1,1 9,1 9,9 1,9 Z"/></svg>') center/11px no-repeat;
+      background: var(--header-secondary);
+}
+
+
+
+
+body.powercord.maximized .winButtonMinMax-PBQ2gm:nth-child(3):after {
+  -webkit-mask: url('https://kckarnige.github.io/improved-ui/res/restore.svg');
+  mask: url('https://kckarnige.github.io/improved-ui/res/restore.svg');
+}
+
+
+
+
+
+
+
+.winButtonMinMax-PBQ2gm:nth-child(3) svg {
+    display:none;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar           ║ Buttons (Close)                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Close 
+.winButtonClose-1HsbF-:hover,
+.winButtonClose-1HsbF-:active {
+    color: white;
+}
+
+.winButtonClose-1HsbF-:hover {
+    background: #E81123;
+}
+
+.winButtonClose-1HsbF-:active {
+    background: #E81123;
+}

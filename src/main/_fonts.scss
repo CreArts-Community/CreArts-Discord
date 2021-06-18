@@ -1,0 +1,22 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Fonts              ║ Import                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Quicksand
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+// Fira Mono
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+// Fira Code
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+
+::-webkit-input-placeholder,
+body,
+button,
+input,
+select,
+textarea {
+  font-family: var(--fonts-primary) !important;
+}

@@ -1,0 +1,17 @@
+// Settings
+.side-8zPYf6>.item-PXvHYJ[data-item-id=pc-general]:not(.role-3wi9Tf) {
+    color: transparent;
+  }
+  
+  .side-8zPYf6>.item-PXvHYJ[data-item-id=pc-general]:not(.role-3wi9Tf)::after {
+    content: "Settings";
+    color:var(--text-normal);
+    position: absolute;
+    left: 38px;
+  }
+  
+  
+  .side-8zPYf6>.item-PXvHYJ.selected-3s45Ha[data-item-id=pc-general]:not(.role-3wi9Tf)::after {
+    color:var(--accent-text-primary);
+  }
+  
