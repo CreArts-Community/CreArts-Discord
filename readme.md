@@ -23,6 +23,10 @@ https://user-images.githubusercontent.com/58918358/122547053-e93c1000-d02f-11eb-
 * Guilds alignments (left, right, top, bottom)
 * Addons (turn optional features on or off.)
 
+### Plugin Support
+* Powerclock
+* User Details
+
 ## Getting Started
 
 ### Prerequisites
