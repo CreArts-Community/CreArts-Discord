@@ -14,6 +14,7 @@
 | Default | Guild | Home |
 
 ## Skins
+### Small overview of the different skins:
 https://user-images.githubusercontent.com/58918358/122547053-e93c1000-d02f-11eb-9af4-842fa306e7d1.mp4
 
 ## Overview
