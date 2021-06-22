@@ -1,6 +1,6 @@
 [![Community](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/community.png)](https://discord.gg/8W8E39Z)
 [![Wiki](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/wiki.png)](https://github.com/CorellanStoma/CreArts/wiki)
-[![License](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/license.png)](https://raw.githubusercontent.com/CorellanStoma/CreArts/master/license.md)
+[![License](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/license.png)](https://github.com/CorellanStoma/CreArts/blob/master/license.md)
 [![Discord](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/discord.png)](https://discord.com/)
 [![Powercord](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/powercord.png)](https://powercord.dev/)
 
