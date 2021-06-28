@@ -26,7 +26,12 @@ https://user-images.githubusercontent.com/58918358/122547053-e93c1000-d02f-11eb-
 * Pronouns
 * User Details
 * Better user popouts
+* Game Activity Toggle
+* Toprole everywhere
 * Powerclock
+* Quickstar
+* NSFW Tags
+
 
 ## Getting Started
 
