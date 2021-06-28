@@ -23,8 +23,10 @@ https://user-images.githubusercontent.com/58918358/122547053-e93c1000-d02f-11eb-
 * Addons (turn optional features on or off.)
 
 ### Plugin Support
-* Powerclock
+* Pronouns
 * User Details
+* Better user popouts
+* Powerclock
 
 ## Getting Started
 
