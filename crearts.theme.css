@@ -173,7 +173,14 @@
 /* ║ Quick CSS                ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
+/* Settings Header*/
 .info-1VyQPT:before{
-    display: none !important;
-    }
+  display: none !important;
+}
+
+/* Settings Icons*/
+.side-8zPYf6 > .item-PXvHYJ:not(.role-3wi9Tf)::before,
+.sidebar-CFHs9e .ui-tab-bar-item::before {
+  display: none !important;
+}
     
