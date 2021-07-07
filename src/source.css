@@ -3331,8 +3331,8 @@ top: -60px !important;
 
 .theme-dark .button-1w5pas,
 .theme-light .button-1w5pas {
-  -webkit-mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_menu.svg") center no-repeat;
-  mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_menu.svg") center no-repeat;
+  -webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_menu.svg") center no-repeat;
+  mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_menu.svg") center no-repeat;
   background: var(--interactive-active);
   position: relative;
   opacity: 1;
