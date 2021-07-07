@@ -1,0 +1,120 @@
+// Banner
+.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw::before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://i.imgur.com/nOPFf0m.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: var(--radius-primary);
+}
+
+
+
+
+
+// Spacing
+.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw {
+  height: 135px !important;
+  padding-bottom: 80px;
+}
+
+
+// Info Hide
+.container-3w7J-x[aria-label*="CreArts | Community"] .guildIconContainer-2FW_iA,
+.container-3w7J-x[aria-label*="CreArts | Community"] .name-1jkAdW,
+.container-3w7J-x[aria-label*="CreArts | Community"] .button-1w5pas {
+  z-index: 2;
+  opacity: 0;
+  transition: none;
+}
+
+.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw:hover .guildIconContainer-2FW_iA,
+.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw:hover .name-1jkAdW,
+.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw:hover .button-1w5pas {
+  z-index: 2;
+  opacity: 1;
+  transition: none;
+}
+
+
+
+.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw:hover .name-1jkAdW {
+color: var(--interactive-active);
+}
+
+/*
+.container-3w7J-x[aria-label*="CreArts | Community"] .positionedContainer-3LNR6L {
+  position: relative;
+  border-radius: var(--radius-primary);
+  top: -60px;
+  width: 100%;
+  height: 120px !important;
+  box-shadow: inset 0 0 0 135px rgba(0,0,0,0.060);
+  background-image: url("https://i.imgur.com/nOPFf0m.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: -40px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.container-3w7J-x[aria-label*="CreArts | Community"] .container-1taM1r {
+  background: transparent !important;
+  }
+  
+
+
+
+//Hover
+.container-3w7J-x[aria-label*="CreArts | Community"] .positionedContainer-3LNR6L:hover {
+  box-shadow: inset 0 0 0 135px rgba(0,0,0,0.200) !important;
+}
+
+.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw {
+  background: transparent !important;
+}
+
+
+
+
+// Unread
+.container-3w7J-x[aria-label*="CreArts | Community"] .unreadTop-3rAB3r {
+  height: 200px;
+  position: ab; top: 160px;
+}
+*/
+
+
+/*
+.container-3w7J-x[aria-label*="CreArts | Community"] .clickable-25tGDB .header-2V-4Sw:hover,
+.container-3w7J-x[aria-label*="CreArts | Community"] .selected-31Nl7x .header-2V-4Sw {
+  background: rgba(0, 0, 0, 0.274) !important;
+  }
+*/

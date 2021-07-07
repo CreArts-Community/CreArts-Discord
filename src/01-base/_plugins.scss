@@ -1,0 +1,72 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Plugins            ║ Game Activity Toggle                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.panels-j1Uci_ .contents-18-Yxp polygon {
+  fill: var(--accent-primary) !important;
+}
+
+.panels-j1Uci_ .button-14-BFJ:hover .contents-18-Yxp polygon {
+  fill: var(--accent-text-primary) !important;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Plugins            ║ NSFW Tags                                                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Normal
+.wrapper-2jXpOf .nsfw-text {
+  background-color: var(--background-primary) !important;
+  border-radius: var(--radius-primary) !important;
+  color: var(--text-normal) !important;
+  padding: 0 8px !important;
+}
+
+.wrapper-2jXpOf.modeSelected-346R90 .nsfw-text {
+  background-color: var(--accent-text-primary) !important;
+  border-radius: var(--radius-primary) !important;
+  color: var(--accent-primary) !important;
+  padding: 0 8px !important;
+}
+
+// Hover
+.wrapper-2jXpOf:hover .nsfw-text {
+  background-color: var(--accent-text-primary) !important;
+  border-radius: var(--radius-primary) !important;
+  color: var(--accent-primary) !important;
+  padding: 0 8px !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Plugins                  ║ Powerclock                                                                              ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.powerclock {
+  position: fixed;
+  left: 34px !important;
+  bottom: 0px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Plugins                  ║ Pronouns                                                                              ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.pronoundb-pronouns {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Plugins                  ║ Quickstar                                                                               ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//.emoji.icon-3Gkjwa { display: none;}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Plugins                  ║ Top Role everywhere                                                                     ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.toprole-wrapper {
+  top: 0px;
+}

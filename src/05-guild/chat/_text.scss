@@ -1,0 +1,555 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Background                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.chatContent-a9vAAp {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    border: var(--border);
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Spacing                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.messagesWrapper-1sRNjr {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.scrollerSpacer-avRLaA {
+    height: 12px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ No Divider                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// No Divider (Dark)
+.theme-dark .form-2fGMdU:before {
+    display: none;
+}
+
+// No Divider (Light)
+.theme-light .form-2fGMdU:before {
+    display: none;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════════════════╗
+// ║ Chat               ║ Input                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.scrollableContainer-2NUZem {
+    background: var(--background-tertiary);
+    border-radius: var(--radius-primary);
+    backdrop-filter: var(--blur);
+    box-shadow: var(--shadows);
+    z-index: 90;
+    bottom: 0px;
+}
+
+.channelTextArea-rNsIhG {
+    background: transparent;
+    margin-bottom: 0px;
+}
+
+.form-2fGMdU {
+    padding: 0px;
+}
+
+.sansAttachButton-td2irx {
+    padding-left: 26px;
+    padding-right: 0px;
+}
+
+.chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .messagesWrapper-1sRNjr, .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .scroller-2LSbBU {
+    margin-bottom: 4px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons             ║ Error                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.theme-dark .characterCount-1cRDo2,
+.theme-light .characterCount-1cRDo2 {
+    color: var(--text-normal) !important;
+}
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons             ║ Hover Button                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.attachButton-2WznTc {
+    padding: 0px 0px 0px 8px;
+}
+
+.buttonWrapper-1ZmCpA {
+    margin-bottom: -3px;
+}
+    
+// Emoji Button (Input)
+.chatContent-a9vAAp .emojiButton-3uL3Aw .contents-18-Yxp {
+    background: var(--interactive-normal);
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
+    mask: url('https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg') center no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 0px;
+}
+
+.chatContent-a9vAAp .emojiButton-3uL3Aw:hover .contents-18-Yxp {
+    background: var(--interactive-hover);
+}
+
+.chatContent-a9vAAp .sprite-2iCowe {
+    opacity: 0.0;
+}
+
+// Upload Button
+.attachWrapper-2TRKBi {
+    order: 1;
+    margin-left: 9px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+
+// Hover
+.channelTextArea-rNsIhG .buttons-3JBrkn {
+    border-radius: var(--radius-primary);
+    opacity: 0.0;
+}
+
+.channelTextArea-rNsIhG:hover .buttons-3JBrkn {
+    border-radius: var(--radius-primary);
+    opacity: 1.0;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Reply                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.text-15b_0l, .colorBrand-2tjs5J, .colorMuted-HdFt4q, .closeButton-37O8QC {color: var(--accent-text-primary);}
+
+.name-hpTFiv { color: var(--accent-text-primary) !important;}
+
+.replyBar-1YLQ2F {
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+    margin-bottom: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.replyBar-1YLQ2F:hover {
+    background: var(--accent-secondary);
+}
+
+.container-2fRDfG:active {
+    background: var(--accent-tertiary);
+}
+
+.separator-ju-9xl {
+    width: 2px;
+    background: var(--accent-text-primary);
+}
+
+// Cooldown
+.cooldownWrapper-3joyFc {
+    color: white !important;
+}
+
+// Slowmode
+.slowModeIcon-1BPDC_ {
+color: white;
+}
+
+// Separator
+.separator-ju-9xl {
+    display: none;
+}
+
+// Mention
+.mentionButton-3710-W, .closeButton-37O8QC {
+    padding: 3px 10px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Typing                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.form-2fGMdU {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+}
+
+.typing-2GQL18, .base-gE7OpD {
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+    position: relative;
+    margin-bottom: 12px;
+
+    left: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 2;
+}
+
+.typing-2GQL18:hover, .base-gE7OpD:hover {
+    background: var(--accent-secondary);
+}
+
+.dots-3Bkt3k.themed-IQiCm3, .base-gE7OpD .text-1y-e8- {
+    color: var(--accent-text-primary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Jump to Present                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.jumpToPresentBar-G1R9s6 {
+    visibility: hidden;
+    bottom: 10px;
+    margin-right: -2px;
+}
+
+.jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d {
+    background: var(--accent-primary);
+    position: relative;
+    transform: scale(1.5);
+    visibility: visible;
+    padding: 4px;
+    border-radius: 90px;
+    margin: 0px;
+}
+
+.barButtonIcon-3t4V3d:hover {background: var(--accent-secondary);}
+.barButtonIcon-3t4V3d:active {background: var(--accent-tertiary);}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ New Message Bar                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.newMessagesBar-265mhP {
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+    margin-top: 12px;
+}
+
+.newMessagesBar-265mhP:hover {
+    background: var(--accent-secondary);
+}
+
+.newMessagesBar-265mhP:active {
+    background: var(--accent-tertiary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Emoji Drawer                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.drawerSizingWrapper-17Mss4 {
+    position: absolute;
+    height: calc(100vh / 2.2);
+    bottom: 0px;
+    right: 0;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Hover Highlight                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.message-2qnXI6.selected-2P5D_Z, .mouse-mode.full-motion .message-2qnXI6:hover {
+    border-radius: var(--radius-secondary);
+  }
+
+.chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .messagesWrapper-1sRNjr,
+.chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .scroller-2LSbBU {
+    border-radius: var(--radius-primary) var(--radius-primary) 0 0;
+}
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Embeds                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.embedFull-2tM8-- {
+    background: var(--background-tertiary);
+    border-top-right-radius: var(--radius-primary);
+	border-bottom-right-radius: var(--radius-primary);
+    border-left: 6px solid var(--accent-primary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Downloads                                                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.attachment-33OFj0 {
+    border: none;
+    background-color: var(--background-tertiary);
+	border-radius: var(--radius-secondary);
+}
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Media                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Image
+.wrapper-2TxpI8 {
+    border-radius: var(--radius-secondary);
+}
+
+// Video
+.imageWrapper-2p5ogY {
+    border-radius: var(--radius-secondary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Mention                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Mention Line
+.ephemeral-1PsL1r:before, .mentioned-xhSam7:before, .replying-1x3H0T:before {
+    width: 4px;
+    left: 0px;
+    border-radius: var(--radius-secondary) 0 0 var(--radius-secondary);
+    background: var(--accent-primary) !important;
+}
+
+// Mention Background
+.mentioned-xhSam7 {
+    background-color: var(--background-mentioned);
+    border-radius: var(--radius-secondary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Mention                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Mention (Normal)
+.theme-light .wrapper-3WhCwL,
+.theme-dark .wrapper-3WhCwL {
+    color: var(--text-normal);
+    background: var(--accent-active);
+    border-radius: var(--radius-mention);
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none !important;
+}
+
+.theme-light .wrapper-3WhCwL:hover,
+.theme-dark .wrapper-3WhCwL:hover {
+    color: var(--text-normal);
+    background: var(--accent-hover);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Reaction (Active)                                                                 ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Background
+.reaction-1hd86g.reactionMe-wv5HKu {
+    background: var(--accent-active);
+    border: none;
+    box-shadow: 0 0 0 0.8px var(--accent-primary);
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu:hover {
+    background: var(--accent-hover);
+    border: none;
+    box-shadow: 0 0 0 0.8px var(--accent-primary);
+}
+
+// Reaction
+.reaction-1hd86g {
+    background: var(--background-tertiary);
+    border-radius: var(--radius-reaction);
+}
+
+// Emoji
+.reaction-1hd86g .emoji {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+// Text
+.reactionMe-wv5HKu .reactionCount-2mvXRV {color: var(--interactive-normal);}
+.reactionMe-wv5HKu:hover .reactionCount-2mvXRV {color: var(--interactive-hover);}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Selection                                                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+::selection {
+    color: var(--selection-text);
+    background: var(--selection-background);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Quotes                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Background
+.blockquoteContainer-U5TVEi blockquote {
+    background: var(--background-secondary);
+    border-radius: 0 var(--radius-secondary) var(--radius-secondary) 0;
+    padding: 6px 16px 6px 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+    
+// line
+.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+    background: var(--accent-primary);
+    border-radius: 6px 0px 0px 6px;
+    width: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Edit Message                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.contents-2mQqc9 .operations-36ENbA>a {
+    color:  var(--accent-primary);
+    font-size: 12px !important;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Follow Channel                                                                    ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.wrapper-39oAo3 {
+    background: var(--background-tertiary);
+    border-radius: var(--radius-primary);
+    margin-bottom: 0px;
+    height: 40px;
+    padding: 0px;
+}
+
+// Image
+.image-3XsqGc {
+    height: 40px;
+    margin-right: 12px;
+    margin-bottom: -8px;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    width: 22px;
+}
+
+// Text
+.base-1x0h_U {
+    font-weight: 400;
+    color: var(--text-normal);
+}
+
+.size16-1P40sf {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+// Button
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.theme-light .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+  color: var(--interactive-active);
+  background: var(--accent-primary);
+  border-radius: var(--radius-button);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
+.theme-light .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+  background: var(--accent-secondary);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active,
+.theme-light .lookFilled-1Gx00P.colorPrimary-3b3xI6:active {
+  background: var(--accent-secondary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Text               ║ NSFW                                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.scroller-11cdZM {
+  margin-right: 10px !important;
+}
+
+.gatedContent-3-B7qB {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Text               ║ Private Chat                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.username-1A8OIy {color: var(--accent-primary);}
+.username-1A8OIy:hover {
+    color: var(--accent-secondary);
+    text-decoration: none !important;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Text               ║ Unread                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.isUnread-3Ef-o9 {
+  border-color: var(--accent-primary);
+}
+  
+.unreadPillCapStroke-7rkHbg {
+  color: var(--accent-primary) !important;
+  fill: var(--accent-primary) !important;
+}
+
+.unreadPill-2HyYtt {
+  background-color: var(--accent-primary);
+  border-radius: 0 var(--radius-tertiary)var(--radius-tertiary) 0 ;
+  padding-left: 4px;
+  padding-right: 6px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Text               ║ Timestamp                                                                         ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.timestamp-3ZCmNB {
+  color: var(--text-muted) !important;
+}
+  
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Text               ║ Pronouns                                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.pronoundb-pronouns {
+  font-size: 0px !important;
+  color: var(--text-muted) !important;
+}
+  
+.pronoundb-pronouns span {
+  font-size: 14px !important;
+}
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat               ║ Autocomplete                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝

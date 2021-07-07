@@ -1,0 +1,204 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Background                                                                              ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Titlebar
+.titleBar-AC4pGV {
+  background: transparent;
+  position:relative;
+  -webkit-app-region: drag;
+}
+
+// Blur
+.titleBar-AC4pGV:before {
+  background: var(--titlebar);
+  position: fixed;
+  content: "";
+  border: var(--border) solid rgba( 255, 255, 255, 0.08 );
+  backdrop-filter: blur(var(--transparency-blur));
+  box-shadow: var(--shadows);
+  border-bottom: var(--border);
+  margin-top: -4px;
+  height: 30px;
+  width: 100%;
+  -webkit-app-region: drag;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Wordmark                                                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Version
+.wordmarkWindows-1v0lYD::before {
+  -webkit-mask: url('https://raw.githubusercontent.com/CorellanStoma/CreArts/356267794c5fa057769fa1a6f55318af025b7e63/assets/icons/theme_logo.svg');
+  mask: url('https://raw.githubusercontent.com/CorellanStoma/CreArts/356267794c5fa057769fa1a6f55318af025b7e63/assets/icons/theme_logo.svg');
+  background: var(--header-secondary);
+  background-size: cover;
+  height: 20px;
+  position: absolute;
+  content: "";
+  font-size: 12px;
+  font-weight: 600;
+  width: 70px;
+  top: 1.2px;
+}
+
+// No Discord Wordmark
+.wordmark-2iDDfm svg {
+  display: none;
+}
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Title                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.wordmarkWindows-1v0lYD::after {
+  position: relative;
+  font-size: 12px;
+  font-weight: 400;
+  font-family:'Segoe UI';
+  padding-left: 80px;
+  width: 100%;
+  top: -0.4px;
+}
+
+// Dark
+.theme-dark .wordmarkWindows-1v0lYD::after {
+  content: var(--version) ' |' var(--skin) ' (Dark)' ' | by' var(--author);
+}
+
+// Light
+.theme-light .wordmarkWindows-1v0lYD::after {
+  content: var(--version) ' |' var(--skin) ' (Light)' ' | by' var(--author);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Buttons                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Buttons
+.winButton-iRh8-Z,
+.winButton-iRh8-Z:hover,
+.winButton-iRh8-Z:active {
+  height: 30px;
+  width: 42px;
+  color: var(--header-secondary);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Buttons (Minimize)                                                                      ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// No Icon
+.winButtonMinMax-PBQ2gm:nth-child(4) svg {
+display: none;
+}
+
+// Minimize Button
+.winButtonMinMax-PBQ2gm:nth-child(4):after {
+  content:'';
+  width:17px;
+  height:17px;
+  -webkit-mask: var(--icon-windows-minimize);
+  mask: var(--icon-windows-minimize);
+  background: var(--header-secondary);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Buttons (Maximize)                                                                      ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.winButtonMinMax-PBQ2gm:hover,
+.winButtonMinMax-PBQ2gm:active {
+  background: var(--background-secondary);
+}
+
+// No Icon
+.winButtonMinMax-PBQ2gm:nth-child(3) svg {
+  display:none;
+}
+
+// Maximize Button
+.winButtonMinMax-PBQ2gm:nth-child(3):after {
+  content:'';
+  width:19px;
+  height:19px;
+  -webkit-mask: var(--icon-windows-maximize);
+  mask: var(--icon-windows-maximize);
+  background: var(--header-secondary);
+}
+
+// Windows Button
+body.powercord.maximized .winButtonMinMax-PBQ2gm:nth-child(3):after {
+  -webkit-mask: var(--icon-windows-window);
+  mask: var(--icon-windows-window);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Buttons (Close)                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.winButtonClose-1HsbF-:hover,
+.winButtonClose-1HsbF-:active {
+  background: #E81123;
+}
+
+// No Icon
+.winButtonClose-1HsbF- svg {
+  display: none;
+}
+
+// Minimize Button
+.winButtonClose-1HsbF-:after {
+  content:'';
+  width:17px;
+  height:17px;
+  -webkit-mask: var(--icon-windows-close);
+  mask: var(--icon-windows-close);
+  background: var(--header-secondary);
+}
+
+// Hover
+.winButtonClose-1HsbF-:hover:after,
+.winButtonClose-1HsbF-:active:after {
+  color: white;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ OSX                                                                                     ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Butons
+.platform-osx .macButtons-2MuSAC {
+  z-index: 200;
+  position: fixed;
+  top: -2px;
+  left: 0px;
+}
+
+// Version
+.platform-osx .macButtons-2MuSAC::after {
+  position: fixed;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  padding-left: 80px;
+  width: 100%;
+  top: 5px;
+  color: var(--header-secondary);
+  left: -5vw;
+  text-align: center;
+}
+
+// Dark
+.platform-osx .macButtons-2MuSAC::after {
+  content: var(--version) ' |' var(--skin) ' (Dark)' ' | by' var(--author);
+}
+
+// Light
+.platform-osx .macButtons-2MuSAC::after {
+  content: var(--version) ' |' var(--skin) ' (Light)' ' | by' var(--author);
+}

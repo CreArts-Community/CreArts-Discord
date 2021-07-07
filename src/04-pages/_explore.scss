@@ -1,0 +1,62 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Explore                  ║                                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.pageWrapper-1PgVDX {
+    background: var(--background-secondary) !important;
+    border-radius: var(--radius-primary);
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.sidebar-2K8pFh .discoverHeader-Ijkm_M {
+color: transparent;
+margin: 0px;
+}
+
+
+.sidebar-2K8pFh  .layout-2DM8Md {
+    margin-right: 6px;
+    margin-left: 0px;
+    padding-left: 6px !important;
+    height: 36px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Discover                 ║ Searchbar                                                                               ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.searchHeader-2I26nG .searchTitle-36D1cB {
+    display: none;
+}
+
+// Header Image
+.searchHeader-2I26nG .headerImage-3X1tyY {
+    display: none;
+}
+
+// No Text
+.searchHeader-2I26nG .size16-1P40sf {
+    display: none;
+}
+
+.search-1iTphC .searchBox-2_mAlO:focus, .search-1iTphC .searchBox-2_mAlO:focus-within {
+    box-shadow: none;
+}
+
+// Background
+.search-1iTphC .searchBox-2_mAlO {
+background: red;
+border-radius: var(--radius-primary);
+box-shadow: none;
+}
+
+// Text
+.search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng {
+    color: blue;
+}

@@ -1,0 +1,8 @@
+.contents-2mQqc9 .spoilerText-3p6IlD.hidden-HHr2R9, .contents-2mQqc9 .spoilerText-3p6IlD.hidden-HHr2R9:hover, .contents-2mQqc9 .spoilerText-3p6IlD {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.contents-2mQqc9 .spoilerText-3p6IlD.hidden-HHr2R9 > .inlineContent-3ZjPuv {
+  filter: blur(2px);
+  opacity: 1;
+}

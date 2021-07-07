@@ -2,7 +2,7 @@
 // ║ Splash Settings                                                                                                    ║
 // ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣
 // ║ Theme:                   ║ CreArts                                                                                 ║
-// ║ version:                 ║ 2.2.0                                                                                   ║
+// ║ version:                 ║ 2.3.0                                                                                   ║
 // ║ author:                  ║ CorellanStoma#1996                                                                      ║
 // ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
 // ║                                                                                                                    ║
@@ -43,121 +43,12 @@
 // ║ Wave                     ║ To disable certain things, you can comment out the lines. Use "// " in front.           ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-@use "skins/discord/splash-wave" as *; // ✔️
-
-//@use "skins/rubine/splash" as *; // ❌
+@use "splash/wave/community" as *; // ✔️
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Maze                     ║ To disable certain things, you can comment out the lines. Use "// " in front.           ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-
-
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Grid                     ║ To disable certain things, you can comment out the lines. Use "// " in front.           ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Font                     ║                                                                                         ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ CSS                      ║ The CSS code is located in this area.                                                   ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-// Spacing
-#splash .splash-inner {
-text-align: center;
-margin-bottom: -20px;
-z-index: 1;
-}
-
-// Background
-#splash:before{
-background: url("#{$background}") no-repeat;
-background-position: center;
-background-size: cover;
-position: fixed;
-content: '';
-top: 0;
-left: 0;
-height: 100%;
-width: 100%;
-}
-
-// No Loading
-#splash .splash-inner video.loaded {
-display: none;
-}
-
-// Loading
-#splash:after{
--webkit-mask: url("#{$loading}") no-repeat;
-mask: url("#{$loading}") no-repeat;
-content: "";
-background: #{$color};
-background-size: cover;
-position: fixed;
-width: 170px !important;
-height: 170px !important;
-top: 80px;
-left: 64px;
-}
-
-// Info
-#splash .splash-inner .splash-text:before {
-content: "Loading theme files";
-position: fixed;
-font-family: Quicksand;
-text-align: center;
-color: #{$color};
-font-size: 20px;
-width: 100%;
-bottom: 100px;
-left: 0px;
-}
-
-// Status
-#splash .splash-inner .splash-text > span.splash-status {
-display: none;
-font-family: Quicksand;
-color: #{$color};
-font-size: 12px;
-font-style: normal;
-text-align: left;
-position: relative;
-bottom: -140px;
-width: 100%;
-}
-
-// Logo
-#splash .splash-inner:after {
--webkit-mask: url("#{$logo}") no-repeat;
-mask: url("#{$logo}") no-repeat;
-content: "";
-background: #{$color};
-background-size: cover;
-position: fixed;
-width: 100px;
-height: 32px;
-bottom: 6px;
-left: 10px;
-}
-
-// Version
-#splash .splash-inner:before {
-content: "v2.2.0";
-position: fixed;
-font-family: Quicksand;
-font-size: 14px;
-color: #{$color};
-bottom: 14px;
-right: 14px;
-}
-
-// Progressbar
-.progress .progress-bar {
-display: none;
-}
