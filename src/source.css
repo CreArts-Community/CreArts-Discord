@@ -1638,16 +1638,16 @@ border-radius: var(--radius-primary);
   margin-bottom: 16px;
 }
 
-.sidebar-CFHs9e [data-item-id=pc-updater] {
+.powercord .sidebar-CFHs9e [data-item-id=pc-updater] {
   margin-bottom: 50px !important;
 }
 
-.sidebar-CFHs9e .header-2RyJ0Y {
+.powercord .sidebar-CFHs9e .header-2RyJ0Y {
   font-family: "Quicksand";
   font-weight: 600;
 }
 
-.info-1VyQPT:before {
+.powercord .info-1VyQPT:before {
   background: transparent;
   content: "Plugins";
   position: absolute;
@@ -1792,16 +1792,16 @@ border-radius: var(--radius-primary);
   margin-bottom: 16px;
 }
 
-.platform-osx .sidebar-CFHs9e [data-item-id=pc-updater] {
+.platform-osx .powercord .sidebar-CFHs9e [data-item-id=pc-updater] {
   margin-bottom: 50px !important;
 }
 
-.platform-osx .sidebar-CFHs9e .header-2RyJ0Y {
+.platform-osx .powercord .sidebar-CFHs9e .header-2RyJ0Y {
   font-family: "Quicksand";
   font-weight: 600;
 }
 
-.platform-osx .info-1VyQPT:before {
+.platform-osx .powercord .info-1VyQPT:before {
   background: transparent;
   content: "Plugins";
   position: absolute;
@@ -1946,16 +1946,16 @@ border-radius: var(--radius-primary);
   margin-bottom: 16px;
 }
 
-.platform-win .sidebar-CFHs9e [data-item-id=pc-updater] {
+.platform-win .powercord .sidebar-CFHs9e [data-item-id=pc-updater] {
   margin-bottom: 50px !important;
 }
 
-.platform-win .sidebar-CFHs9e .header-2RyJ0Y {
+.platform-win .powercord .sidebar-CFHs9e .header-2RyJ0Y {
   font-family: "Quicksand";
   font-weight: 600;
 }
 
-.platform-win .info-1VyQPT:before {
+.platform-win .powercord .info-1VyQPT:before {
   background: transparent;
   content: "Plugins";
   position: absolute;
@@ -2807,8 +2807,8 @@ border-radius: var(--radius-primary);
 
 .chatContent-a9vAAp .emojiButton-3uL3Aw .contents-18-Yxp {
   background: var(--interactive-normal);
-  -webkit-mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg") center no-repeat;
-  mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_emoji.svg") center no-repeat;
+  -webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_emoji.svg") center no-repeat;
+  mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_emoji.svg") center no-repeat;
   height: 20px;
   width: 20px;
   margin-bottom: 0px;
