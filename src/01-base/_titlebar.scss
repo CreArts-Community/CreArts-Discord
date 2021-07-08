@@ -15,7 +15,7 @@
   position: fixed;
   content: "";
   border: var(--border) solid rgba( 255, 255, 255, 0.08 );
-  backdrop-filter: blur(var(--transparency-blur));
+  filter: blur(var(--transparency-blur));
   box-shadow: var(--shadows);
   border-bottom: var(--border);
   margin-top: -4px;
@@ -30,8 +30,8 @@
 
 // Version
 .wordmarkWindows-1v0lYD::before {
-  -webkit-mask: url('https://raw.githubusercontent.com/CorellanStoma/CreArts/356267794c5fa057769fa1a6f55318af025b7e63/assets/icons/theme_logo.svg');
-  mask: url('https://raw.githubusercontent.com/CorellanStoma/CreArts/356267794c5fa057769fa1a6f55318af025b7e63/assets/icons/theme_logo.svg');
+  -webkit-mask: var(--logo-crearts);
+  mask: var(--logo-crearts);
   background: var(--header-secondary);
   background-size: cover;
   height: 20px;

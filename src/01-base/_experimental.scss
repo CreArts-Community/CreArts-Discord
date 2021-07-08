@@ -361,61 +361,7 @@ color: rgba(255, 0, 0, 0.226);
 }
 */
 
-// Hide Link
-.markup-2BOw-j > [href^="https://discord.com/channels/"],
-.markup-2BOw-j > [href^="https://ptb.discord.com/channels/"],
-.markup-2BOw-j > [href^="https://canary.discord.com/channels/"],
-.markup-2BOw-j > [href^="https://dev.discord.com/channels/"] {
-color: transparent;
-font-size: 0px;
-}
 
-// Button
-.topic-TCb_qw .expandable-9fI_e3 > [href^="https://discord.com/channels/"]:before,
-.markup-2BOw-j > [href^="https://discord.com/channels/"]:before,
-.markup-2BOw-j > [href^="https://ptb.discord.com/channels/"]:before,
-.markup-2BOw-j > [href^="https://canary.discord.com/channels/"]:before,
-.markup-2BOw-j > [href^="https://dev.discord.com/channels/"]:before {
-  background: var(--accent-primary);
-  content: 'Go to Message';
-  position: relative;
-  font-size: 14px;
-  font-weight: 600;
-  font-family: 'Quicksand';
-  bottom: 0px;
-  right: 0px;
-  color: var(--accent-text-secondary);
-  text-transform: uppercase;
-  width: 120px;
-  border-radius: var(--radius-secondary);
-  padding: 3px 28px 4px 8px;
-  margin-right: -8px;
-}
-
-// Hover
-[href^="https://discord.com/channels/"]:hover:before,
-[href^="https://ptb.discord.com/channels/"]:hover:before,
-[href^="https://canary.discord.com/channels/"]:hover:before,
-[href^="https://dev.discord.com/channels/"]:hover:before {
-  background: var(--accent-secondary);
-}
-
-// Arrow
-.markup-2BOw-j > [href^="https://discord.com/channels/"]:after,
-.markup-2BOw-j > [href^="https://ptb.discord.com/channels/"]:after,
-.markup-2BOw-j > [href^="https://canary.discord.com/channels/"]:after,
-.markup-2BOw-j > [href^="https://dev.discord.com/channels/"]:after {
-  position: relative;
-  content: '';
-  bottom: 1px;
-  right: 14px;
-  border: solid var(--accent-text-primary);
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
 
 
 
@@ -427,9 +373,8 @@ font-size: 0px;
 // Edited
 .edited-3sfAzf {
   color: transparent;
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='29px' viewBox='0 0 24 24' width='20px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z'/%3E%3C/svg%3E") center/16px no-repeat;
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='20px' viewBox='0 0 24 24' width='20px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z'/%3E%3C/svg%3E") center/16px no-repeat;
-  background: var(--text-muted);
+  -webkit-mask: var(--icon-edited);
+  mask: var(--icon-edited);background: var(--text-muted);
   position: relative;
   left: -6px;
   bottom: 2px;

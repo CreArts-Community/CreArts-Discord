@@ -111,8 +111,6 @@
 // ║ Addons                   ║ To disable certain things, you can comment out the lines. Use "// " in front.           ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-//@use "addons/drag"; // 🧪 Adds a general drag zone for the background.
-
 @use "addons/status"; // ✔️ Old Status
 
 @use "addons/discolored"; // ✔️ This replaces discord's SVGs with a colored version.
@@ -127,6 +125,8 @@
 
 @use "addons/white-icons"; // ✔️ White Icons
 
+@use "addons/link-buttons"; // ✔️ Link Buttons
+
 //@use "addons/blur-details"; // ❌ Blur on Details
 
 //@use "addons/blur-spoiler"; // ❌ Blur on Spoiler
@@ -134,6 +134,8 @@
 //@use "addons/blur-link"; // ❌ Blur on Links
 
 //@use "addons/no-spotify"; // ❌ No Spotify
+
+//@use "addons/drag"; // 🧪 Adds a general drag zone for the background.
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Animations               ║ To disable certain things, you can comment out the lines. Use "// " in front.           ║
