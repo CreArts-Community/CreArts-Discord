@@ -44,7 +44,7 @@ For this Powercord theme you need the [**Discord Canary**](https://discordia.me/
 To Download and Install the Theme use this command:
 
 ```
-cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/CreArts
+cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/CreArts-Discord
 ```
 
 ### Updating
