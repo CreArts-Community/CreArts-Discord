@@ -151,8 +151,8 @@ border-radius: 90px;
 
 .homeIcon-FuNwkv {
 color: transparent;
--webkit-mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_home.svg') center no-repeat;
-mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_home.svg') center no-repeat;
+-webkit-mask: var(--icon-home);
+mask: var(--icon-home);
 background: var(--interactive-normal);
 width: 60%;
 height: 60%;

@@ -1,3 +1,4 @@
+/*
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Align (Left)       ║ Settings                                                                          ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
@@ -12,15 +13,45 @@
   z-index: 1;
 }
 
-/*
+
+
+.sidebarRegionScroller-3MXcoP {
+border-radius: var(--radius-primary);
+}
+
+
+
+
+
+
+
+
+
+
+.contentRegion-3nDuYy {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+
+  display: none;
+}
+
+
 .standardSidebarView-3F1I7i {
-margin: 110px 110px 30px 200px;
+background: transparent !important;
 }
 */
 
 /*
-.sidebarRegion-VFTUkN
+.sidebarRegion-VFTUkN {
+position: absolute;
+width: calc(var(--channel-width) - 20px);
+height: 80%;
+left: 150px;
 
+margin: 200px;
+padding: 0px !important;
+margin: 0px !important;
 
-.contentRegion-3nDuYy
+}
 */

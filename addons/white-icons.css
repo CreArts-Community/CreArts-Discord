@@ -148,32 +148,32 @@
 
 .iconBackgroundTierNone-3ZkOsa {
   background: var(--interactive-active);
-  -webkit-mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro_none.svg") center no-repeat;
-  mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro_none.svg") center no-repeat;
+  -webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_nitro_none.svg") center no-repeat;
+  mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_nitro_none.svg") center no-repeat;
 }
 
 .iconBackgroundTierOne-2OQMBY {
   background: var(--interactive-active);
-  -webkit-mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg") center no-repeat;
-  mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg") center no-repeat;
+  -webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_nitro.svg") center no-repeat;
+  mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_nitro.svg") center no-repeat;
 }
 
 .iconBackgroundTierTwo-Eab9L6 {
   background: var(--interactive-active);
-  -webkit-mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg") center no-repeat;
-  mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg") center no-repeat;
+  -webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_nitro.svg") center no-repeat;
+  mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_nitro.svg") center no-repeat;
 }
 
 .iconBackgroundTierThree-FWlUL9 {
   background: var(--interactive-active);
-  -webkit-mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg") center no-repeat;
-  mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_nitro.svg") center no-repeat;
+  -webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_nitro.svg") center no-repeat;
+  mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_nitro.svg") center no-repeat;
 }
 
 .guildBadge-3IDi4U {
   background: var(--interactive-active);
-  -webkit-mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_partner.svg") center no-repeat;
-  mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_partner.svg") center no-repeat;
+  -webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_partner.svg") center no-repeat;
+  mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_partner.svg") center no-repeat;
 }
 
 .powercord-badge:not(.powercord-badge-cutie) {
@@ -196,5 +196,5 @@
 
 .header-2V-4Sw .powercord-badge {
   background: var(--interactive-active);
-  -webkit-mask: url("https://corellanstoma.github.io/CreArts/assets/icons/theme_powercord.svg") no-repeat;
+  -webkit-mask: url("https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_powercord.svg") no-repeat;
 }
