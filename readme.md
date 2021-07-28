@@ -64,3 +64,8 @@ CreArts uses snippets and theme addons from other authors here is a small list:
 ## License
 
 This project is licensed under the MIT License - see the [**license.md**](https://raw.githubusercontent.com/CorellanStoma/CreArts/master/license.md) file for more details.
+
+
+## Support
+
+Join our Community on [**Discord**](discord.com/invite/8w8e39z) and create a ticket.
