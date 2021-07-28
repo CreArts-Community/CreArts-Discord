@@ -68,4 +68,4 @@ This project is licensed under the MIT License - see the [**license.md**](https:
 
 ## Support
 
-Join our Community on [**Discord**](discord.com/invite/8w8e39z) and create a ticket.
+Join our Community on [**Discord**](https://discord.com/invite/8w8e39z) and create a ticket.
