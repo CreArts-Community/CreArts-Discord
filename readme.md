@@ -47,16 +47,9 @@ To Download and Install the Theme use this command:
 cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/CreArts-Discord
 ```
 
-### Updating
-
-To update the theme use this command:
-
-```
-cd powercord/src/Powercord/themes && git pull
-```
 
 ## Documentation
-Have a look at the [**documentation**](https://github.com/CorellanStoma/CreArts/wiki) of these repo, there you will find instructions how to customize a skin or how to create your own.
+Coming Soon!
 
 ## Credits
 
@@ -71,19 +64,3 @@ CreArts uses snippets and theme addons from other authors here is a small list:
 ## License
 
 This project is licensed under the MIT License - see the [**license.md**](https://raw.githubusercontent.com/CorellanStoma/CreArts/master/license.md) file for more details.
-
-
-
-
-
-
-
-
-
-
-
-
-## TEST
-<a id="raw-url" href="https://raw.githubusercontent.com/CorellanStoma/CreArts-Discord/master/crearts.theme.css">Download FILE</a>
-
-[Better Discord](https://raw.githubusercontent.com/CorellanStoma/CreArts-Discord/master/crearts.theme.css)
