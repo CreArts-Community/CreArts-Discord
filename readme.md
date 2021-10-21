@@ -7,6 +7,9 @@
 I am currently working on CreArts v3, check the dev channel on the community server for more infos.
 ``
 
+The [**Dev Branch**](https://github.com/CorellanStoma/CreArts-Discord/tree/dev) currently only works with Powercord.
+
+
 # CreArts v2.3.0
 ### CreArts is a customizable Powercord theme that changes the look of Discord.
 
