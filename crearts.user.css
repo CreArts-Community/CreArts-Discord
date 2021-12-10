@@ -1,18 +1,16 @@
-/**
- * @name CreArts
- * @version 2.3.0
- * @author CorellanStoma#1996
- * @authorLink https:/*github.com/CorellanStoma
- * @description CreArts is an easily customizable Discord theme that customizes the Discord appearance.
- * @website https:/*github.com/CorellanStoma/CreArts
- * @source https:/*github.com/CorellanStoma/CreArts
- * @invite 8w8e39z
-*/
+@-moz-document url-prefix("https://discord.com/") {
+  /* ==UserStyle==
+  @name           CreArts
+  @namespace      CorellanStoma#1996
+  @author         CorellanStoma#1996
+  @description    CreArts is an easily customizable Discord theme that customizes the Discord appearance.
+  @version		2.3.0
+  ==/UserStyle== */
 
 /* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Theme Settings                                                                                                     ║ */
 /* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
-/* ║ Theme:                   ║ CreArts (Better Discord)                                                                ║ */
+/* ║ Theme:                   ║ CreArts (Stylus)                                                                        ║ */
 /* ║ version:                 ║ 2.3.0                                                                                   ║ */
 /* ║ author:                  ║ CorellanStoma#1996                                                                      ║ */
 /* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
@@ -201,4 +199,5 @@
 .bd-sidebar-header .bd-changelog-button {
   margin-top: 20px !important;
   margin-right: 40px !important;
+}
 }
