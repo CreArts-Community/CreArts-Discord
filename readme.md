@@ -66,7 +66,7 @@ To Download and Install the Theme for BetterDiscord Follow these instructions
 ```
 Download CreArts.theme.css and place it in %appdata%/BetterDiscord/themes
 ```
-To Download and Install the Theme for Stylus just [**Click Here.**](https://raw.githubusercontent.com/CorellanStoma/CreArts-Discord/master/crearts.user.css)
+To Download and Install the Theme for Stylus just [**Click Here.**](https://raw.githubusercontent.com/PhoenixAceVFX/CreArts-Discord/master/crearts.user.css)
 
 
 
