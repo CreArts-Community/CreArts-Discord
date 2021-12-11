@@ -44,15 +44,31 @@ https://user-images.githubusercontent.com/58918358/122547053-e93c1000-d02f-11eb-
 
 ### Prerequisites
 
-For this Powercord theme you need the [**Discord Canary**](https://discordia.me/en/canary) Version and a [**Powercord**](https://powercord.dev/installation) Installation.
+For Powercord theme you need the [**Discord Canary**](https://discordia.me/en/canary) Version and a [**Powercord**](https://powercord.dev/installation) Installation.  
+For Vizality you need the [**Discord Stable**](https://discordia.me/en/stable) Version and a [**Vizality**](https://vizality.com) Installation  
+For BetterDiscord you need [**Any Discord Version**](https://discordia.me/en/stable) and a [**BetterDiscord**](https://vizality.com) Installation  
+For Stylus you need the [**Stylus Extension**](https://github.com/openstyles/stylus)
 
 ### Installation
 
-To Download and Install the Theme use this command:
+To Download and Install the Theme for Powercord use this command:
 
 ```
 cd powercord/src/Powercord/themes && git clone https://github.com/CorellanStoma/CreArts-Discord
 ```
+To Download and Install the Theme for Vizality use this command:
+
+```
+cd Vizality/addons/themes && git clone https://github.com/CorellanStoma/CreArts-Discord
+```
+To Download and Install the Theme for BetterDiscord Follow these instructions
+
+```
+Download CreArts.theme.css and place it in %appdata%/BetterDiscord/themes
+```
+To Download and Install the Theme for Stylus just [**Click Here.**](https://raw.githubusercontent.com/CorellanStoma/CreArts-Discord/master/crearts.user.css)
+
+
 
 
 ## Documentation
@@ -67,6 +83,7 @@ CreArts uses snippets and theme addons from other authors here is a small list:
 * [**Discolored**](https://github.com/NYRI4/Discolored) by [**Nyria#4198**](https://github.com/NYRI4) & [**Snapper#0001**](https://github.com/Snapperito)
 * [**White connection Icons**](https://github.com/botatooo/css-snippets/tree/master/white-connection-icons) by [**botato#6883**](https://github.com/botatooo)
 * [**White Profile Badges**](https://github.com/botatooo/css-snippets/tree/master/white-badges) by [**botato#6883**](https://github.com/botatooo)
+* [**Porting to Vizality and Stylus**](https://github.com/PhoenixAceVFX/CreArts-Discord) by [**PhoenixAceVFX#6501**](https://github.com/PhoenixAceVFX)
 
 ## License
 

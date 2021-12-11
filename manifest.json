@@ -1,0 +1,8 @@
+{
+    "name": "CreArts",
+    "description": "CreArts is a customizable Powercord theme that changes the look of Discord.",
+    "version": "2.3.0",
+    "author": "CorellanStoma#1996",
+    "theme": "theme.scss",
+    "license": "MIT"
+}
