@@ -46,7 +46,7 @@ https://user-images.githubusercontent.com/58918358/122547053-e93c1000-d02f-11eb-
 
 For Powercord theme you need the [**Discord Canary**](https://discordia.me/en/canary) Version and a [**Powercord**](https://powercord.dev/installation) Installation.  
 For Vizality you need the [**Discord Stable**](https://discordia.me/en/stable) Version and a [**Vizality**](https://vizality.com) Installation  
-For BetterDiscord you need [**Any Discord Version**](https://discordia.me/en/stable) and a [**BetterDiscord**](https://vizality.com) Installation  
+For BetterDiscord you need [**Any Discord Version**](https://discordia.me/en/stable) and a [**BetterDiscord**](https://betterdiscord.app) Installation  
 For Stylus you need the [**Stylus Extension**](https://github.com/openstyles/stylus)
 
 ### Installation
@@ -66,7 +66,7 @@ To Download and Install the Theme for BetterDiscord Follow these instructions
 ```
 Download CreArts.theme.css and place it in %appdata%/BetterDiscord/themes
 ```
-To Download and Install the Theme for Stylus just [**Click Here.**](https://raw.githubusercontent.com/PhoenixAceVFX/CreArts-Discord/master/crearts.user.css)
+To Download and Install the Theme for Stylus just [**Click Here.**](https://raw.githubusercontent.com/CorellanStoma/CreArts-Discord/master/crearts.user.css)
 
 
 
