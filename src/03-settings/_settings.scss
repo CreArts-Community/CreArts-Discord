@@ -1,8 +1,8 @@
 // No Subscriptions Icon
-.sidebar-CFHs9e .icon-Zc-uZZ {display: none;}
+.sidebar-nqHbhN .icon-Zc-uZZ {display: none;}
 
 //No Border
-//.sidebar-CFHs9e .separator-gCa7yv {display: none;}
+//.sidebar-nqHbhN .separator-2wx7h6 {display: none;}
 
 
 
@@ -24,7 +24,7 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Header
-.header-2RyJ0Y {
+.header-2Kx1US {
     font-size: 15px;
     font-weight: 700;
     line-height: 16px;
@@ -36,14 +36,14 @@
 // ║ Settings           ║ No Keybind                                                                        ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.theme-dark .keybind-KpFkfr {display: none;}
-.theme-light .keybind-KpFkfr {display: none;}
+.theme-dark .keybind-13vtq8 {display: none;}
+.theme-light .keybind-13vtq8 {display: none;}
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Settings           ║ Language                                                                          ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.flagImage-3Wbkq4 {
+.flagImage-9qG9zR {
     border-radius: var(--radius-tertiary);
 }
 
@@ -52,37 +52,37 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Login Button (Normal)
-.lookFilled-1Gx00P.colorBrand-3pXr91 {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
     border-radius: var(--radius-primary);
     background: var(--accent-primary);
     color: #fff;
 }
 
 // Login Button (Hover)
-.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
     background: var(--accent-secondary);
 }
 
 // Login Button (Active)
-.lookFilled-1Gx00P.colorBrand-3pXr91:active {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:active {
     background: var(--accent-tertiary);
 }
 
 
 // Green Button (Normal)
-.lookFilled-1Gx00P.colorGreen-29iAKY {
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
     background: var(--green-primary);
     color: #fff;
 }
 
 // Green Button (Hover)
-.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+.lookFilled-yCfaCM.colorGreen-3y-Z79:hover {
     background: var(--green-secondary);
     color: #fff;
 }
 
 // Green Button (Active)
-.lookFilled-1Gx00P.colorGreen-29iAKY:active {
+.lookFilled-yCfaCM.colorGreen-3y-Z79:active {
     background: var(--green-tertiary);
     color: #fff;
 }
@@ -92,29 +92,29 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Permissons (Red)
-.deny-3nAuT6 {color: var(--red-primary);}
+.deny-1GO6vI {color: var(--red-primary);}
 
-.deny-3nAuT6:hover {background: var(--red-primary) !important; color: white;}
-.deny-3nAuT6.selected-2YhbGh {background: var(--red-primary) !important;}
-.deny-3nAuT6.selected-2YhbGh:hover {background: var(--red-secondary) !important;}
+.deny-1GO6vI:hover {background: var(--red-primary) !important; color: white;}
+.deny-1GO6vI.selected-3jieYB {background: var(--red-primary) !important;}
+.deny-1GO6vI.selected-3jieYB:hover {background: var(--red-secondary) !important;}
 
 // Permissons (Yellow)
-.passthrough-1c2ewQ {color: var(--yellow-primary);}
+.passthrough--fbdFR {color: var(--yellow-primary);}
 
-.passthrough-1c2ewQ:hover {background: var(--yellow-primary) !important; color: white;}
-.passthrough-1c2ewQ.selected-2YhbGh {background: var(--yellow-primary) !important;}
-.passthrough-1c2ewQ.selected-2YhbGh:hover {background: var(--yellow-secondary) !important;}
+.passthrough--fbdFR:hover {background: var(--yellow-primary) !important; color: white;}
+.passthrough--fbdFR.selected-3jieYB {background: var(--yellow-primary) !important;}
+.passthrough--fbdFR.selected-3jieYB:hover {background: var(--yellow-secondary) !important;}
 
 // Permissons (Green)
-.allow-1PzSY3 {color: var(--green-primary);}
+.allow-1h61-Z {color: var(--green-primary);}
 
-.allow-1PzSY3:hover {background: var(--green-primary) !important; color: white;}
-.allow-1PzSY3.selected-2YhbGh {background: var(--green-primary) !important;}
-.allow-1PzSY3.selected-2YhbGh:hover {background: var(--green-secondary) !important;}
+.allow-1h61-Z:hover {background: var(--green-primary) !important; color: white;}
+.allow-1h61-Z.selected-3jieYB {background: var(--green-primary) !important;}
+.allow-1h61-Z.selected-3jieYB:hover {background: var(--green-secondary) !important;}
 
 // ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Settings           ║ Powercord (Themes)                                                                ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // No Manage Button
-.powercord-entities-manage-tabs .item-PXvHYJ:first-child {display: none !important;}
+.powercord-entities-manage-tabs .item-3XjbnG:first-child {display: none !important;}

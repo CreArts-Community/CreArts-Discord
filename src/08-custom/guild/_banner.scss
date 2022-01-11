@@ -1,5 +1,5 @@
 // Banner
-.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw::before {
+.container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK::before {
   position: absolute;
   content: "";
   top: 0px;
@@ -18,24 +18,24 @@
 
 
 // Spacing
-.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw {
+.container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK {
   height: 135px !important;
   padding-bottom: 80px;
 }
 
 
 // Info Hide
-.container-3w7J-x[aria-label*="CreArts | Community"] .guildIconContainer-2FW_iA,
-.container-3w7J-x[aria-label*="CreArts | Community"] .name-1jkAdW,
-.container-3w7J-x[aria-label*="CreArts | Community"] .button-1w5pas {
+.container-1NXEtd[aria-label*="CreArts | Community"] .guildIconContainer-2FW_iA,
+.container-1NXEtd[aria-label*="CreArts | Community"] .name-3Uvkvr,
+.container-1NXEtd[aria-label*="CreArts | Community"] .button-2BMPJJ {
   z-index: 2;
   opacity: 0;
   transition: none;
 }
 
-.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw:hover .guildIconContainer-2FW_iA,
-.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw:hover .name-1jkAdW,
-.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw:hover .button-1w5pas {
+.container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK:hover .guildIconContainer-2FW_iA,
+.container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK:hover .name-3Uvkvr,
+.container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK:hover .button-2BMPJJ {
   z-index: 2;
   opacity: 1;
   transition: none;
@@ -43,12 +43,12 @@
 
 
 
-.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw:hover .name-1jkAdW {
+.container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK:hover .name-3Uvkvr {
 color: var(--interactive-active);
 }
 
 /*
-.container-3w7J-x[aria-label*="CreArts | Community"] .positionedContainer-3LNR6L {
+.container-1NXEtd[aria-label*="CreArts | Community"] .positionedContainer-W9XtGp {
   position: relative;
   border-radius: var(--radius-primary);
   top: -60px;
@@ -85,7 +85,7 @@ color: var(--interactive-active);
 
 
 /*
-.container-3w7J-x[aria-label*="CreArts | Community"] .container-1taM1r {
+.container-1NXEtd[aria-label*="CreArts | Community"] .container-1-ERn5 {
   background: transparent !important;
   }
   
@@ -93,11 +93,11 @@ color: var(--interactive-active);
 
 
 //Hover
-.container-3w7J-x[aria-label*="CreArts | Community"] .positionedContainer-3LNR6L:hover {
+.container-1NXEtd[aria-label*="CreArts | Community"] .positionedContainer-W9XtGp:hover {
   box-shadow: inset 0 0 0 135px rgba(0,0,0,0.200) !important;
 }
 
-.container-3w7J-x[aria-label*="CreArts | Community"] .header-2V-4Sw {
+.container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK {
   background: transparent !important;
 }
 
@@ -105,7 +105,7 @@ color: var(--interactive-active);
 
 
 // Unread
-.container-3w7J-x[aria-label*="CreArts | Community"] .unreadTop-3rAB3r {
+.container-1NXEtd[aria-label*="CreArts | Community"] .unreadTop-1DJtGv {
   height: 200px;
   position: ab; top: 160px;
 }
@@ -113,8 +113,8 @@ color: var(--interactive-active);
 
 
 /*
-.container-3w7J-x[aria-label*="CreArts | Community"] .clickable-25tGDB .header-2V-4Sw:hover,
-.container-3w7J-x[aria-label*="CreArts | Community"] .selected-31Nl7x .header-2V-4Sw {
+.container-1NXEtd[aria-label*="CreArts | Community"] .clickable-vvKY2q .header-3OsQeK:hover,
+.container-1NXEtd[aria-label*="CreArts | Community"] .selected-1GtAC5 .header-3OsQeK {
   background: rgba(0, 0, 0, 0.274) !important;
   }
 */

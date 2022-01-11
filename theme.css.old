@@ -1,0 +1,168 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Theme Settings                                                                                                     ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Theme:                   ║ CreArts (Powercord)                                                                     ║ */
+/* ║ version:                 ║ 2.3.0                                                                                   ║ */
+/* ║ author:                  ║ CorellanStoma#1996                                                                      ║ */
+/* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║                                                                                                                    ║ */
+/* ║ CreArts is an easily customizable Discord theme that customizes the Discord appearance.                            ║ */
+/* ║ This theme was created by CorellanStoma#1996.                                                                      ║ */
+/* ║                                                                                                                    ║ */
+/* ║ More information about Powercord can be found here:                                                                ║ */
+/* ║ ● https:/*powercord.dev/                                                                                           ║ */
+/* ║                                                                                                                    ║ */
+/* ║ If you need support join our Creative Community:                                                                   ║ */
+/* ║ ● https:/*discord.gg/8W8E39Z                                                                                       ║ */
+/* ║                                                                                                                    ║ */
+/* ║ Our Art & Design Wiki:                                                                                             ║ */
+/* ║ ● https:/*crearts.wiki/                                                                                            ║ */
+/* ║                                                                                                                    ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Credits                                                                                                            ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Settings Icons           ║ by Snapper#0001, botato#6883, MulverineX#0001, AAGaming#9395                            ║ */
+/* ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Horizontal Server List   ║ by Gibbu#1211                                                                           ║ */
+/* ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Discolored               ║ by Nyria#4198 & Snapper#0001                                                            ║ */
+/* ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ White Connection Icons   ║ by botato#6883                                                                          ║ */
+/* ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ White Profile Badges     ║ by botato#6883                                                                          ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* 🧪 Experimental
+/* ✔️ Activated by default
+/* ❌ Disabled by default
+/* ⚠️ Do not touch
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Skins                    ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/community.css"; /* ✔️ Community Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/discord.css"; /* ❌ Discord Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/brand.css"; /* ❌ Brand Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/revamp.css"; /* ❌ Revamp Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/spotify.css"; /* ❌ Spotify Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/twitch.css"; /* ❌ Twitch Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/guilded.css"; /* ❌ Guilded Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/rubine.css"; /* ❌ Rubine Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/emerald.css"; /* ❌ Emerald Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/sapphire.css"; /* ❌ Sapphire Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/amethyst.css"; /* ❌ Amethyst Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/citrin.css"; /* ❌ Citrin Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/crimson.css"; /* ❌ Crimson Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/jungle.css"; /* ❌ Jungle Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/nebula.css"; /* ❌ Nebula Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/dracula.css"; /* ❌  Dracula Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/hive.css"; /* 🧪 Hive Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/coffee.css"; /* 🧪 Coffee Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/amoled.css"; /* 🧪 Amoled Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/nord.css"; /* ❌ Community Edition (Solid) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/glassmorphism.css"; /* 🧪 Glassmorphism Edition (Background) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/glasscord.css"; /* 🧪 Glasscord Edition (Transparent) (Only works with Glasscord) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/skins/theme/dark-aliz.css"; /* ❌ Dark Aliz Edition (Solid) */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Alignment                ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/alignment/left/left.css"; /* ✔️ Guild alignment on the left. */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/alignment/right/right.css"; /* ❌ Guild alignment on the right. */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/alignment/top/top.css"; /* ❌ Guild alignment on the top. */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/alignment/bottom/bottom.css"; /* ❌ Guild alignment on the bottom. */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Addons (Bubbles)         ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/bubbles/one.css"; /* ✔️ This adds chat bubbles on the left side and for yourself on the right side. */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/addons/bubbles/two.css"; /* ❌ This adds chat bubbles on the left side. */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Addons                   ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/status.css"; /* ✔️ Old Status */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/discolored.css"; /* ✔️ This replaces discord's SVGs with a colored version. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/bad-http.css"; /* ✔️ Links without SSL encryption are displayed in red. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/minimal-panel.css"; /* ✔️ Adds a Hover effects for the panel menu automatically (Spotify, Voice, Games...). */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/folder-color.css"; /* ✔️ This changes the folder color & shows the normal version on hover. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/neutral-usernames.css"; /* ✔️ Usernames are displayed in the accent color of the theme. (only light theme) */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/white-icons.css"; /* ✔️ White Icons */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/link-buttons.css"; /* ✔️ Link Buttons */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/addons/blur-details.css"; /* ❌ Blur on Details */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/addons/blur-spoiler.css"; /* ❌ Blur on Spoiler */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/addons/blur-link.css"; /* ❌ Blur on Links */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/addons/no-spotify.css"; /* ❌ No Spotify */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/addons/drag.css"; /* 🧪 Adds a general drag zone for the background. */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Animations               ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/animations/ping.css"; /* ❌ This adds a ping animation. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/animations/spotify.css"; /* ✔️ This adds a cover spin animation to the spotify panel. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/animations/buttons.css"; /* ✔️ This adds animation to the guild navigation. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/animations/avatar.css"; /* ✔️ This adds a hover animation to the avatar. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/animations/icons.css"; /* ✔️ This adds a hover animation to the icons. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/animations/clickable.css"; /* ✔️ This adds a hover animation to the icons. */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Plugins                  ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/plugins/powercord.css"; /* ⚠️ (Warning!! Do not disable it!) */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ SRC                      ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/src/source.css"; /* ⚠️ (Warning!! Do not disable it!) */

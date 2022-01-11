@@ -1,16 +1,16 @@
-.markup-2BOw-j > [href^="https://discord.com/channels/"],
-.markup-2BOw-j > [href^="https://ptb.discord.com/channels/"],
-.markup-2BOw-j > [href^="https://canary.discord.com/channels/"],
-.markup-2BOw-j > [href^="https://dev.discord.com/channels/"] {
+.markup-eYLPri > [href^="https://discord.com/channels/"],
+.markup-eYLPri > [href^="https://ptb.discord.com/channels/"],
+.markup-eYLPri > [href^="https://canary.discord.com/channels/"],
+.markup-eYLPri > [href^="https://dev.discord.com/channels/"] {
   color: transparent;
   font-size: 0px;
 }
 
-.topic-TCb_qw .expandable-9fI_e3 > [href^="https://discord.com/channels/"]:before,
-.markup-2BOw-j > [href^="https://discord.com/channels/"]:before,
-.markup-2BOw-j > [href^="https://ptb.discord.com/channels/"]:before,
-.markup-2BOw-j > [href^="https://canary.discord.com/channels/"]:before,
-.markup-2BOw-j > [href^="https://dev.discord.com/channels/"]:before {
+.topic-11NuQZ .expandable-3CaLeS > [href^="https://discord.com/channels/"]:before,
+.markup-eYLPri > [href^="https://discord.com/channels/"]:before,
+.markup-eYLPri > [href^="https://ptb.discord.com/channels/"]:before,
+.markup-eYLPri > [href^="https://canary.discord.com/channels/"]:before,
+.markup-eYLPri > [href^="https://dev.discord.com/channels/"]:before {
   background: var(--accent-primary);
   content: "Go to Message";
   position: relative;
@@ -34,10 +34,10 @@
   background: var(--accent-secondary);
 }
 
-.markup-2BOw-j > [href^="https://discord.com/channels/"]:after,
-.markup-2BOw-j > [href^="https://ptb.discord.com/channels/"]:after,
-.markup-2BOw-j > [href^="https://canary.discord.com/channels/"]:after,
-.markup-2BOw-j > [href^="https://dev.discord.com/channels/"]:after {
+.markup-eYLPri > [href^="https://discord.com/channels/"]:after,
+.markup-eYLPri > [href^="https://ptb.discord.com/channels/"]:after,
+.markup-eYLPri > [href^="https://canary.discord.com/channels/"]:after,
+.markup-eYLPri > [href^="https://dev.discord.com/channels/"]:after {
   position: relative;
   content: "";
   bottom: 1px;

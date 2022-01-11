@@ -1,11 +1,11 @@
 // Width
-.members-1998pB {
+.members-3WRCEx {
     width: var(--members-width);
 }
 
 
 //Background
-.members-1998pB, .members-1998pB>div {
+.members-3WRCEx, .members-3WRCEx>div {
     background: transparent;
 }
 
@@ -19,7 +19,7 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.membersWrap-2h-GB4 {
+.membersWrap-3NUR2t {
     background: var(--background-secondary);
     border-radius: var(--radius-primary);
     border: var(--border);
@@ -36,7 +36,7 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Padding
-.membersGroup-v9BXpm {
+.membersGroup-2eiWxl {
     padding-bottom: 24px;
     height: 40px;
 }
@@ -48,22 +48,22 @@
 
 // Spacing
 
-.layout-2DM8Md {
+.layout-1qmrhw {
     margin-right: 12px;
     margin-left: 12px;
     padding-left: 6px !important;
 }
 
 // Background
-.clickable-1JJAn8:hover .layout-2DM8Md,
-.selected-aXhQR6 .layout-2DM8Md {
+.clickable-28SzVr:hover .layout-1qmrhw,
+.selected-1-Z6gm .layout-1qmrhw {
     background: var(--accent-primary);
     border-radius: var(--radius-primary);
 }
 
 // Status
-.clickable-1JJAn8:hover .wrapper-3t9DeA .svg-2V3M55,
-.selected-aXhQR6 .wrapper-3t9DeA .svg-2V3M55 {
+.clickable-28SzVr:hover .wrapper-1VLyxH .svg-2azL_l,
+.selected-1-Z6gm .wrapper-1VLyxH .svg-2azL_l {
     [mask*="status-online"] {fill: var(--accent-text-primary)}
     [mask*="status-idle"] {fill: var(--accent-text-primary)}
     [mask*="status-dnd"] {fill: var(--accent-text-primary)}
@@ -71,39 +71,39 @@
 }
 
 // Name
-.clickable-1JJAn8:hover .roleColor-rz2vM0,
-.selected-aXhQR6 .roleColor-rz2vM0 {
+.clickable-28SzVr:hover .roleColor-nA7BqX,
+.selected-1-Z6gm .roleColor-nA7BqX {
     color: var(--accent-text-primary) !important;
 }
 
 // Nitro Icon
-.clickable-1JJAn8:hover .premiumIcon-1rDbWQ,
-.selected-aXhQR6 .premiumIcon-1rDbWQ {
+.clickable-28SzVr:hover .premiumIcon-3PLiGh,
+.selected-1-Z6gm .premiumIcon-3PLiGh {
     color: var(--accent-text-primary) !important;
 }
 
 
 // Activity Text
-.clickable-1JJAn8:hover .activityText-yGKsKm,
-.selected-aXhQR6 .activityText-yGKsKm {
+.clickable-28SzVr:hover .activityText-1rR-8O,
+.selected-1-Z6gm .activityText-1rR-8O {
     color: var(--accent-text-primary) !important;
 }
 
 // Activity Icon
-.clickable-1JJAn8:hover .icon-15YQ1T,
-.selected-aXhQR6 .icon-15YQ1T {
+.clickable-28SzVr:hover .icon-Lupfh-,
+.selected-1-Z6gm .icon-Lupfh- {
     color: var(--accent-text-primary);
 }
 
 // Bot Tag
-.botTag-2WPJ74 {
+.botTag-7aX5WZ {
     background: var(--accent-primary);
     border-radius: var(--radius-primary) !important;
     color: var(--accent-text-primary);
 }
 
-.clickable-1JJAn8:hover .botTagRegular-2HEhHi,
-.selected-aXhQR6 .botTagRegular-2HEhHi {
+.clickable-28SzVr:hover .botTagRegular-kpctgU,
+.selected-1-Z6gm .botTagRegular-kpctgU {
     background: var(--accent-text);
     color: var(--accent-secondary);
 }
@@ -114,7 +114,7 @@
 // ║ Members            ║ Text                                                                              ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.membersWrap-2h-GB4 .container-2ax-kl {
+.membersWrap-3NUR2t .container-q97qHp {
     font-size: 13px;
 }
 

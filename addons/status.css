@@ -1,16 +1,16 @@
-.pointerEvents-2zdfdO:not([mask="url(#svg-mask-status-online-mobile)"]) {
+.pointerEvents-9SZWKj:not([mask="url(#svg-mask-status-online-mobile)"]) {
   -webkit-mask: url(#svg-mask-status-online);
           mask: url(#svg-mask-status-online);
 }
 
-.menu-3sdvDG .icon-1IxfJ2 foreignObject {
+.menu-1QACrS .icon-Lz4Y-_ foreignObject {
   -webkit-mask: url(#svg-mask-status-online);
           mask: url(#svg-mask-status-online);
 }
 
 /*
 // Normal
-.wrapper-3t9DeA .svg-2V3M55 {
+.wrapper-1VLyxH .svg-2azL_l {
   [mask*="status-online"] {fill: var(--green-primary);}
   [mask*="status-idle"] {fill: var(--yellow-primary);}
   [mask*="status-dnd"] {fill: var(--red-primary);}
@@ -19,7 +19,7 @@
 
 
 // Hover
-.wrapper-3t9DeA .svg-2V3M55:hover {
+.wrapper-1VLyxH .svg-2azL_l:hover {
   [mask*="status-online"] {fill: var(--green-secondary)}
   [mask*="status-idle"] {fill: var(--yellow-secondary);}
   [mask*="status-dnd"] {fill: var(--red-secondary);}

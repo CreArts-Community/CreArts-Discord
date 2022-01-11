@@ -1,0 +1,51 @@
+.markup-2BOw-j > [href^="https://discord.com/channels/"],
+.markup-2BOw-j > [href^="https://ptb.discord.com/channels/"],
+.markup-2BOw-j > [href^="https://canary.discord.com/channels/"],
+.markup-2BOw-j > [href^="https://dev.discord.com/channels/"] {
+  color: transparent;
+  font-size: 0px;
+}
+
+.topic-TCb_qw .expandable-9fI_e3 > [href^="https://discord.com/channels/"]:before,
+.markup-2BOw-j > [href^="https://discord.com/channels/"]:before,
+.markup-2BOw-j > [href^="https://ptb.discord.com/channels/"]:before,
+.markup-2BOw-j > [href^="https://canary.discord.com/channels/"]:before,
+.markup-2BOw-j > [href^="https://dev.discord.com/channels/"]:before {
+  background: var(--accent-primary);
+  content: "Go to Message";
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Quicksand";
+  bottom: 0px;
+  right: 0px;
+  color: var(--accent-text-secondary);
+  text-transform: uppercase;
+  width: 120px;
+  border-radius: var(--radius-secondary);
+  padding: 3px 28px 4px 8px;
+  margin-right: -8px;
+}
+
+[href^="https://discord.com/channels/"]:hover:before,
+[href^="https://ptb.discord.com/channels/"]:hover:before,
+[href^="https://canary.discord.com/channels/"]:hover:before,
+[href^="https://dev.discord.com/channels/"]:hover:before {
+  background: var(--accent-secondary);
+}
+
+.markup-2BOw-j > [href^="https://discord.com/channels/"]:after,
+.markup-2BOw-j > [href^="https://ptb.discord.com/channels/"]:after,
+.markup-2BOw-j > [href^="https://canary.discord.com/channels/"]:after,
+.markup-2BOw-j > [href^="https://dev.discord.com/channels/"]:after {
+  position: relative;
+  content: "";
+  bottom: 1px;
+  right: 14px;
+  border: solid var(--accent-text-primary);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}

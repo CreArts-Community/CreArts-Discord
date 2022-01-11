@@ -1,0 +1,31 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Threads            ║                                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// background
+.threadSidebar-1o3BTy {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  
+  // Input
+  .threadSidebar-1o3BTy .sansAttachButton-td2irx {
+    padding-bottom: 0px;
+  }
+  
+  .form-3uUEen {
+    padding: 0px;
+  }
+  
+  .channelTextArea-2ZBawt {
+    background: transparent;
+    margin: 0px;
+  }
+
+  .appMount-3lHmkl, body {
+    background: var(--background-primary);
+}

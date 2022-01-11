@@ -1,0 +1,50 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popouts                  ║ Status Menu                                                                             ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.animatorTop-2Y7x2r {
+    position: relative;
+    left: -8px;
+    bottom: 16px;
+  }
+  
+  // Background
+  .animatorTop-2Y7x2r .menu-3sdvDG {
+    border-radius: var(--radius-primary);
+    background: transparent;
+    position: relative;
+    width: var(--channel-width);
+  }
+  
+  .animatorTop-2Y7x2r .statusItem-33LqPf {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+  }
+  
+  // Blur
+  .animatorTop-2Y7x2r .menu-3sdvDG:before {
+    background: var(--background-tertiary);
+    border-radius: var(--radius-primary);
+    position: absolute;
+    content: "";
+    backdrop-filter: blur(var(--blur));
+    width:100%;
+    height:100%;
+    border: var(--border) solid rgba( 255, 255, 255, 0.08 );
+    box-shadow: var(--shadows);
+  }
+  
+  // Buton
+  .animatorTop-2Y7x2r .colorDefault-2K3EoJ.focused-3afm-j {
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+  }
+  
+  // No Description
+  .animatorTop-2Y7x2r .description-2L932D {display: none;}
+  
+  // No Separator
+  .animatorTop-2Y7x2r .separator-2I32lJ {display: none;}
+  

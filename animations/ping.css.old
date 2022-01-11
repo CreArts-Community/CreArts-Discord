@@ -1,0 +1,41 @@
+.toolbar-1t6TWx .iconBadge-qZ4Ksk {
+  -webkit-animation: 1.8s pulse infinite !important;
+          animation: 1.8s pulse infinite !important;
+}
+
+.base-PmTxvP {
+  -webkit-animation: 1.8s pulse infinite !important;
+          animation: 1.8s pulse infinite !important;
+  position: relative;
+  z-index: 322;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale3d(0.96);
+    box-shadow: 0 0 0 0 var(--accent-secondary);
+  }
+  70% {
+    transform: scale3d(1.1, 1.1, 1.1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: scale3d(0.96);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale3d(0.96);
+    box-shadow: 0 0 0 0 var(--accent-secondary);
+  }
+  70% {
+    transform: scale3d(1.1, 1.1, 1.1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: scale3d(0.96);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}

@@ -1,0 +1,306 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guild (Top)              ║ Spacing                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Backgrounds
+#app-mount .wrapper-3NnKdC {
+background: transparent;
+margin-left: 20px;
+
+}
+
+.platform-osx #app-mount .wrapper-3NnKdC {
+margin-top: 22px;
+}
+
+// Linux
+.base-3dtUhz {
+margin-top: 10px;
+}
+
+// Windows
+.platform-win .base-3dtUhz {
+margin-top: 10px;
+}
+
+// OSX
+.platform-osx .base-3dtUhz {
+margin-top: 2px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guild (Top)              ║ Button Area                                                                             ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.tutorialContainer-2sGCg9 {
+border-radius: var(--radius-primary);
+background: transparent;
+position: fixed;
+top: 4px;
+}
+
+// Blur
+.tutorialContainer-2sGCg9:before {
+background: var(--background-secondary);
+position: fixed;
+content: "";
+border-radius: var(--radius-primary);
+backdrop-filter: blur(var(--blur));
+border: var(--border);
+box-shadow: var(--shadows);
+height: 188px;
+width: 68px;
+margin-top: -4px;
+z-index: -1;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guild (Top)              ║ Home Button                                                                             ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+background: var(--accent-primary);
+}
+
+// Home Button
+.childWrapper-anI2G9 {
+background: var(--background-primary);
+color: var(--interactive-normal);
+border-radius: 90px;
+}
+
+.homeIcon-FuNwkv {
+color: transparent;
+-webkit-mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_home.svg') center no-repeat;
+mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_home.svg') center no-repeat;
+background: var(--interactive-normal);
+width: 60%;
+height: 60%;
+margin-top: 2px;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .homeIcon-FuNwkv {
+background: var(--accent-text-primary);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guild (Top)              ║ Settings Button                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
+background: var(--background-primary);
+position: fixed;
+left: 90px;
+height: 48px;
+width: 48px;
+}
+
+.panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) .contents-18-Yxp {
+    transform: scale(1.6);
+}
+
+.panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1):hover {
+background: var(--accent-primary);
+color: var(--accent-text-primary);
+}
+
+// Linux
+.panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
+  top: 35px !important;
+}
+    
+// Windows
+.platform-win .panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
+top: 58px !important;
+}
+
+// OSX
+.platform-osx .panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
+top: 58px !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guild (Top)              ║ Explore Server Button                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.scroller-1Bvpku > .listItem-GuPuDH:nth-last-child(2) {
+position: fixed !important;
+background: transparent !important;
+top: 120px !important;
+}
+
+.circleIconButton-1QV--U {
+border-radius: 90px !important;
+}
+
+.circleIconButton-1QV--U.selected-1JjBPm {
+background: var(--accent-primary) !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guild (Top)              ║ Guilds                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.scroller-1Bvpku {
+border-radius: var(--radius-primary);
+background: transparent;
+position: relative;
+margin-top: 333px;
+bottom: 130px;
+}
+
+// Blur
+.wrapper-3NnKdC::before {
+background: var(--background-secondary);
+position: fixed;
+content: "";
+border-radius: var(--radius-primary);
+backdrop-filter: blur(var(--blur));
+border: var(--border);
+box-shadow: var(--shadows);
+width: 68px;
+bottom: 20px;
+margin-top: 205px;
+margin-bottom: 110px;
+top: 0;
+left: 20;
+}
+
+// Remove guild Separator
+.guildSeparator-33mFX6 {
+  display: none !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guild (Top)              ║ Add Server Button                                                                       ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.tutorialContainer-30WoTp {
+background: transparent;
+position: fixed;
+border-radius: var(--radius-primary);
+padding-top: 12px;
+padding-bottom: 4px;
+bottom: 40px;
+}
+
+// Blur
+.tutorialContainer-30WoTp::before {
+background: var(--background-secondary);
+position: fixed;
+content: "";
+border-radius: var(--radius-primary);
+backdrop-filter: blur(var(--blur));
+border: var(--border);
+box-shadow: var(--shadows);
+height: 72px;
+width: 68px;
+bottom: 40px;
+z-index: -1;
+}
+
+// Add Server & Explore Button
+.circleIconButton-1QV--U {
+color: var(--interactive-normal);
+background: var(--background-primary);
+}
+
+.circleIconButton-1QV--U.selected-ugP_am svg path{
+fill: var(--interactive-active);
+}
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guild (Top)              ║ Unread                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Mention
+.mention-1f5kbO {
+background: var(--accent-primary);
+opacity: 1;
+}
+
+.mention-1f5kbO:hover {
+background: var(--accent-secondary);
+}
+
+.mention-1f5kbO:active {
+background: var(--accent-tertiary);
+}
+
+// Up
+.unreadMentionsIndicatorTop-2-tcdU .text-2e2ZyG {
+color: transparent;
+background: var(--interactive-active);
+-webkit-mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_up.svg') center no-repeat;
+mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_up.svg') center no-repeat;
+width: 36%;
+height: 36%;
+margin-bottom: -2px;
+}
+
+.unreadMentionsIndicatorTop-2-tcdU {
+top: 220px;
+}
+
+// Down
+.unreadMentionsIndicatorBottom-2mDYbI .text-2e2ZyG {
+color: transparent;
+background: var(--interactive-active);
+-webkit-mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_down.svg') center no-repeat;
+mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_down.svg') center no-repeat;
+width: 36%;
+height: 36%;
+margin-bottom: -2px;
+}
+
+.unreadMentionsIndicatorBottom-2mDYbI {
+bottom: 140px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guild (Top)              ║ Ping                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.lowerBadge-29hYVK .base-PmTxvP {
+background: var(--accent-primary) !important;
+color: var(--accent-text-primary);
+}
+
+
+
+
+.expandedFolderBackground-1cujaW { background: transparent;}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guild (Top)              ║ DM Button                                                                               ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.scroller-1Bvpku [style="opacity: 1; height: 56px; transform: scale(1);"] {
+position: fixed;
+margin-bottom: -8px;
+margin-top: 8px;
+z-index: 9;
+}
+
+// Linux
+.scroller-1Bvpku [style="opacity: 1; height: 56px; transform: scale(1);"] {
+bottom: 52px;
+}
+
+// Windows
+.platform-win .scroller-1Bvpku [style="opacity: 1; height: 56px; transform: scale(1);"] {
+bottom: 52px;
+}
+
+// Mac
+.platform-osx .scroller-1Bvpku [style="opacity: 1; height: 56px; transform: scale(1);"] {
+bottom: 52px;
+}

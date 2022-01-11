@@ -1,0 +1,82 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Nitro              ║ General                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.applicationStore-1pNvnv {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+// Background
+.applicationStore-1pNvnv .scroller-9moviB {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.applicationStore-1pNvnv .children-19S4PO {
+  margin-right: 10px;
+}
+
+// New Badge
+.applicationStore-1pNvnv .newBadge-1Is7Nf {
+    background: var(--accent-primary);
+}
+
+.applicationStore-1pNvnv .premiumContainer-2Iux5m {
+    padding: 40px;
+}
+
+// Header
+.applicationStore-1pNvnv .featuresHeader-4YwLcc {
+    margin-left: 0px;
+}
+
+// Payment Header
+.applicationStore-1pNvnv .h5-18_1nd {display: none;}
+
+// Bloack
+.applicationStore-1pNvnv .detailsBlock-FoDTGA {
+ background: var(--background-tertiary);
+ border-radius: var(--radius-secondary);
+}
+
+
+
+
+
+.applicationStore-1pNvnv .subscriptionDetails-1dUmjl {
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+  border: none;
+}
+
+
+
+.applicationStore-1pNvnv .feature-2w65J5 {
+    background: var(--background-tertiary);
+}
+
+
+
+/*
+.applicationStore-1pNvnv .hero-EvfTTA {
+  height: 280px;
+}
+
+.applicationStore-1pNvnv .hero-EvfTTA::after {
+  content: "";
+  background: var(--accent-primary);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+  z-index: 1;
+}
+*/

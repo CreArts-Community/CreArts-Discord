@@ -2,18 +2,18 @@
 // ║ Names                    ║ Powercord Settings                                                                      ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.side-8zPYf6>.item-PXvHYJ[data-item-id=pc-general]:not(.role-3wi9Tf) {
+.side-2ur1Qk>.item-3XjbnG[data-item-id=pc-general]:not(.role-3pGE29) {
     color: transparent;
   }
   
-  .side-8zPYf6>.item-PXvHYJ[data-item-id=pc-general]:not(.role-3wi9Tf)::after {
+  .side-2ur1Qk>.item-3XjbnG[data-item-id=pc-general]:not(.role-3pGE29)::after {
     content: "Settings";
     color:var(--text-normal);
     position: absolute;
     left: 38px;
   }
   
-  .side-8zPYf6>.item-PXvHYJ.selected-3s45Ha[data-item-id=pc-general]:not(.role-3wi9Tf)::after {
+  .side-2ur1Qk>.item-3XjbnG.selected-g-kMVV[data-item-id=pc-general]:not(.role-3pGE29)::after {
     color:var(--accent-text-primary);
   }
 
@@ -21,11 +21,11 @@
 // ║ Names                    ║ Linux Settings                                                                          ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.side-8zPYf6>.item-PXvHYJ[data-item-id=Linux]:not(.role-3wi9Tf) {
+.side-2ur1Qk>.item-3XjbnG[data-item-id=Linux]:not(.role-3pGE29) {
   color: transparent;
 }
 
-.side-8zPYf6>.item-PXvHYJ[data-item-id=Linux]:not(.role-3wi9Tf)::after {
+.side-2ur1Qk>.item-3XjbnG[data-item-id=Linux]:not(.role-3pGE29)::after {
   content: "System";
   color:var(--text-normal);
   position: absolute;
@@ -33,7 +33,7 @@
 }
 
 
-.side-8zPYf6>.item-PXvHYJ.selected-3s45Ha[data-item-id=Linux]:not(.role-3wi9Tf)::after {
+.side-2ur1Qk>.item-3XjbnG.selected-g-kMVV[data-item-id=Linux]:not(.role-3pGE29)::after {
   color:var(--accent-text-primary);
 }
 
@@ -41,11 +41,11 @@
 // ║ Names                    ║ Windows Settings                                                                        ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.side-8zPYf6>.item-PXvHYJ[data-item-id=Windows]:not(.role-3wi9Tf) {
+.side-2ur1Qk>.item-3XjbnG[data-item-id=Windows]:not(.role-3pGE29) {
   color: transparent;
 }
 
-.side-8zPYf6>.item-PXvHYJ[data-item-id=Windows]:not(.role-3wi9Tf)::after {
+.side-2ur1Qk>.item-3XjbnG[data-item-id=Windows]:not(.role-3pGE29)::after {
   content: "System";
   color:var(--text-normal);
   position: absolute;
@@ -53,6 +53,6 @@
 }
 
 
-.side-8zPYf6>.item-PXvHYJ.selected-3s45Ha[data-item-id=Windows]:not(.role-3wi9Tf)::after {
+.side-2ur1Qk>.item-3XjbnG.selected-g-kMVV[data-item-id=Windows]:not(.role-3pGE29)::after {
   color:var(--accent-text-primary);
 }

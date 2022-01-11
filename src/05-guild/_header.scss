@@ -3,7 +3,7 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.children-19S4PO {
+.children-3xh0VB {
   background: var(--background-secondary);
   border-radius: var(--radius-primary);
   height: 40px;
@@ -14,13 +14,13 @@
 }
 
 // Remove Divider
-.content-yTz4x3:before, .divider-3FBTu8{
+.content-1jQy2l:before, .divider-q3P9HC{
     display: none;
   }
 
 // No Divider
-.theme-dark .children-19S4PO:after,
-.theme-light .children-19S4PO:after {
+.theme-dark .children-3xh0VB:after,
+.theme-light .children-3xh0VB:after {
   display: none;
 }
 
@@ -29,7 +29,7 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.toolbar-1t6TWx {
+.toolbar-3_r2xA {
   border-radius: var(--radius-primary);
   background: var(--background-secondary);
   position: relative;
@@ -39,7 +39,7 @@
 }
 
 
-.toolbar-1t6TWx .iconBadge-qZ4Ksk {
+.toolbar-3_r2xA .iconBadge-3Mmg92 {
   background-color: var(--accent-primary);
 }
 
@@ -48,20 +48,20 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Update
-.updateIconForeground-3tnNZn {
+.updateIconForeground-2V_zo4 {
   fill: var(--interactive-normal)
 }
 
-.updateIconForeground-3tnNZn:hover {
+.updateIconForeground-2V_zo4:hover {
   fill: var(--interactive-hover)
 }
 
-.updateIconForeground-3tnNZn:active {
+.updateIconForeground-2V_zo4:active {
   fill: var(--interactive-active)
 }
 
 // Member
-.selected-1GqIat .icon-22AiRD {
+.selected-29KTGM .icon-2xnN2Y {
   color: var(--interactive-normal);
 }
 
@@ -70,35 +70,35 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Order
-.search-36MZv- {
+.search-39IXmY {
   order: -1;
   margin-right: 2px;
   margin-left: 0px;
 }
 
 // Icon
-.icon-3cZ1F_, .icon-1S6UIr {
+.icon-18rqoe, .icon-3CDcPB {
   color:var(--interactive-normal);
   height: 23px;
   width: 23px;
 }
 
 //spacing
-.iconContainer-O4O2CN, .iconContainer-2wXvy1 {
+.iconContainer-1RqWJj, .iconContainer-6pgShY {
   bottom: 3px;
   padding-left: 30px;
 }
 
 
 //Searchbar
-.searchBar-3dMhjb, .searchBar-TUoVPN {
+.searchBar-zdmu7v, .searchBar-1UNSCg {
   background: none;
   transition: width 0.6s ease-in-out;
   color:#fff;
   width: 20px;
 }
 
-.focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb, .searchBar-3dMhjb:hover {
+.focused-8aNhVB .searchBar-zdmu7v, .open-3y3yI_ .searchBar-zdmu7v, .searchBar-zdmu7v:hover {
   background: none;
   transition: width 0.6s ease-in-out;
   color:#fff;
@@ -109,7 +109,7 @@
 // ║ Toolbar            ║ Searchbar                                                                         ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+.theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk {
   background: var(--accent-primary);
   border-radius: var(--radius-primary);
   padding-left: 8px;
@@ -120,7 +120,7 @@
 // ║ Toolbar            ║ Replace Inbox                                                                     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.iconWrapper-2OrFZ1 path[d="M19 3H4.99C3.88 3 3.01 3.89 3.01 5L3 19C3 20.1 3.88 21 4.99 21H19C20.1 21 21 20.1 21 19V5C21 3.89 20.1 3 19 3ZM19 15H15C15 16.66 13.65 18 12 18C10.35 18 9 16.66 9 15H4.99V5H19V15Z"]{
+.iconWrapper-2awDjA path[d="M19 3H4.99C3.88 3 3.01 3.89 3.01 5L3 19C3 20.1 3.88 21 4.99 21H19C20.1 21 21 20.1 21 19V5C21 3.89 20.1 3 19 3ZM19 15H15C15 16.66 13.65 18 12 18C10.35 18 9 16.66 9 15H4.99V5H19V15Z"]{
   d: path("M 12 2 C 6.486 2 2 6.486 2 12 C 2 17.515 6.486 22 12 22 C 14.039 22 15.993 21.398 17.652 20.259 L 16.521 18.611 C 15.195 19.519 13.633 20 12 20 C 7.589 20 4 16.411 4 12 C 4 7.589 7.589 4 12 4 C 16.411 4 20 7.589 20 12 V 12.782 C 20 14.17 19.402 15 18.4 15 L 18.398 15.018 C 18.338 15.005 18.273 15 18.209 15 H 18 C 17.437 15 16.6 14.182 16.6 13.631 V 12 C 16.6 9.464 14.537 7.4 12 7.4 C 9.463 7.4 7.4 9.463 7.4 12 C 7.4 14.537 9.463 16.6 12 16.6 C 13.234 16.6 14.35 16.106 15.177 15.313 C 15.826 16.269 16.93 17 18 17 L 18.002 16.981 C 18.064 16.994 18.129 17 18.195 17 H 18.4 C 20.552 17 22 15.306 22 12.782 V 12 C 22 6.486 17.514 2 12 2 Z M 12 14.599 C 10.566 14.599 9.4 13.433 9.4 11.999 C 9.4 10.565 10.566 9.399 12 9.399 C 13.434 9.399 14.6 10.565 14.6 11.999 C 14.6 13.433 13.434 14.599 12 14.599 Z");
 }
 
@@ -128,6 +128,6 @@
 // ║ Toolbar            ║ No Help Button                                                                    ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.toolbar-1t6TWx .anchor-3Z-8Bb {
+.toolbar-3_r2xA .anchor-1MIwyf {
   display: none;
 }

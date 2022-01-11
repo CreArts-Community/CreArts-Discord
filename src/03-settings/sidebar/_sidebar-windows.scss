@@ -3,49 +3,49 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 //Spacing
-.platform-win .sidebar-CFHs9e [data-item-id="HypesquadOnline"] {margin-top: 40px;}
-.platform-win .sidebar-CFHs9e .socialLinks-3jqNFy {margin-top: 10px; margin-bottom: 0px;}
-.platform-win .sidebar-CFHs9e [data-item-id=logout] {margin-top: 20px; margin-bottom: 20px;}
+.platform-win .sidebar-nqHbhN [data-item-id="HypesquadOnline"] {margin-top: 40px;}
+.platform-win .sidebar-nqHbhN .socialLinks-2DELRE {margin-top: 10px; margin-bottom: 0px;}
+.platform-win .sidebar-nqHbhN [data-item-id=logout] {margin-top: 20px; margin-bottom: 20px;}
 
 // Order
-.platform-win .sidebar-CFHs9e [data-item-id="HypesquadOnline"] {order: 1;}
-.platform-win .sidebar-CFHs9e [data-item-id="Experiments"] {order: 2;}
-.platform-win .sidebar-CFHs9e [data-item-id="DeveloperOptions"] {order: 3;}
-.platform-win .sidebar-CFHs9e [data-item-id="changelog"] {order: 4;}
-.platform-win .sidebar-CFHs9e .info-1VyQPT {order: 6;}
-.platform-win .sidebar-CFHs9e .socialLinks-3jqNFy {order: 7;}
-.platform-win .sidebar-CFHs9e [data-item-id="logout"] {order: 5;}
+.platform-win .sidebar-nqHbhN [data-item-id="HypesquadOnline"] {order: 1;}
+.platform-win .sidebar-nqHbhN [data-item-id="Experiments"] {order: 2;}
+.platform-win .sidebar-nqHbhN [data-item-id="DeveloperOptions"] {order: 3;}
+.platform-win .sidebar-nqHbhN [data-item-id="changelog"] {order: 4;}
+.platform-win .sidebar-nqHbhN .info-1sUqUG {order: 6;}
+.platform-win .sidebar-nqHbhN .socialLinks-2DELRE {order: 7;}
+.platform-win .sidebar-nqHbhN [data-item-id="logout"] {order: 5;}
 
 // Separator
-.platform-win .side-8zPYf6 .separator-gCa7yv {display: none;}
+.platform-win .side-2ur1Qk .separator-2wx7h6 {display: none;}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Sidebar                  ║ User Settings                                                                           ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Spacing
-.platform-win .sidebar-CFHs9e [data-item-id="Connections"] {margin-bottom: 16px;}
+.platform-win .sidebar-nqHbhN [data-item-id="Connections"] {margin-bottom: 16px;}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Sidebar                  ║ Billing Settings                                                                        ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Spacing
-.platform-win .sidebar-CFHs9e [data-item-id="Billing"] {margin-bottom: 16px;}
+.platform-win .sidebar-nqHbhN [data-item-id="Billing"] {margin-bottom: 16px;}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Sidebar                  ║ App Settings                                                                            ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Spacing
-.platform-win .sidebar-CFHs9e [data-item-id="Advanced"] {margin-bottom: 16px;}
+.platform-win .sidebar-nqHbhN [data-item-id="Advanced"] {margin-bottom: 16px;}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Sidebar                  ║ Activity Settings                                                                       ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Spacing
-.platform-win .sidebar-CFHs9e [data-item-id="Overlay"] {margin-bottom: 16px;}
+.platform-win .sidebar-nqHbhN [data-item-id="Overlay"] {margin-bottom: 16px;}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Sidebar                  ║ Powercord                                                                               ║
@@ -56,18 +56,18 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Spacing
-.platform-win .powercord .sidebar-CFHs9e [data-item-id="pc-updater"] {
+.platform-win .powercord .sidebar-nqHbhN [data-item-id="pc-updater"] {
   margin-bottom: 50px !important;
 }
 
 // Header
-.platform-win .powercord .sidebar-CFHs9e .header-2RyJ0Y {
+.platform-win .powercord .sidebar-nqHbhN .header-2Kx1US {
   font-family: 'Quicksand';
   font-weight: 600;
 }
 
 // Plugin Header
-.platform-win .powercord .info-1VyQPT:before {
+.platform-win .powercord .info-1sUqUG:before {
   background: transparent;
   content: 'Plugins';
   position: absolute;
@@ -85,18 +85,18 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Background & Text
-.platform-win .side-8zPYf6 [data-item-id="logout"] {
+.platform-win .side-2ur1Qk [data-item-id="logout"] {
 background: var(--red-primary);
 color: white !important;
 }
 
 // Icon
-.platform-win .side-8zPYf6 [data-item-id="logout"]::before {
+.platform-win .side-2ur1Qk [data-item-id="logout"]::before {
 background: white !important;
 }
 
 // Spacing
-.platform-win .side-8zPYf6 [data-item-id="logout"] {
+.platform-win .side-2ur1Qk [data-item-id="logout"] {
 margin-top: 30px;
 margin-bottom: 30px;
 }
@@ -106,13 +106,13 @@ margin-bottom: 30px;
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Base
-.platform-win .info-1VyQPT .size12-3cLvbJ {
+.platform-win .info-1sUqUG .size12-oc4dx4 {
 color: var(--text-normal);
 user-select: none;
 }
 
 // Header
-.platform-win .info-1VyQPT .size12-3cLvbJ:first-child::before {
+.platform-win .info-1sUqUG .size12-oc4dx4:first-child::before {
 content: 'Info \a';
 text-transform: none;
 white-space: pre;
@@ -126,7 +126,7 @@ bottom: 8px;
 }
 
 // Info
-.platform-win .info-1VyQPT .size12-3cLvbJ:last-child::after {
+.platform-win .info-1sUqUG .size12-oc4dx4:last-child::after {
 content: '\a' '\a Version: CreArts ' var(--version) '\a Skin:'var(--skin);
 text-transform: none;
 white-space: pre;
@@ -140,7 +140,7 @@ user-select: none;
 // Social
 .platform-win .powercord-pc-icon svg {border: none !important;}
 
-.platform-win .socialLinks-3jqNFy {
+.platform-win .socialLinks-2DELRE {
   padding-left: 4px;
 }
 
@@ -155,7 +155,7 @@ user-select: none;
 }
 
 
-.platform-win .socialLinks-3jqNFy .foreground-26ym5y {
+.platform-win .socialLinks-2DELRE .foreground-2hyALB {
   color: var(--text-muted) !important;
 }
 
@@ -165,4 +165,4 @@ user-select: none;
 
 
 
-.platform-win  .sidebar-CFHs9e [data-item-id="GameActivity"] {margin-bottom: 0px;}
+.platform-win  .sidebar-nqHbhN [data-item-id="GameActivity"] {margin-bottom: 0px;}

@@ -1,26 +1,26 @@
-.panels-j1Uci_ .contents-18-Yxp polygon {
+.panels-3wFtMD .contents-3ca1mk polygon {
   fill: var(--accent-primary) !important;
 }
 
-.panels-j1Uci_ .button-14-BFJ:hover .contents-18-Yxp polygon {
+.panels-3wFtMD .button-12Fmur:hover .contents-3ca1mk polygon {
   fill: var(--accent-text-primary) !important;
 }
 
-.wrapper-2jXpOf .nsfw-text {
+.wrapper-NhbLHG .nsfw-text {
   background-color: var(--background-primary) !important;
   border-radius: var(--radius-primary) !important;
   color: var(--text-normal) !important;
   padding: 0 8px !important;
 }
 
-.wrapper-2jXpOf.modeSelected-346R90 .nsfw-text {
+.wrapper-NhbLHG.modeSelected-3DmyhH .nsfw-text {
   background-color: var(--accent-text-primary) !important;
   border-radius: var(--radius-primary) !important;
   color: var(--accent-primary) !important;
   padding: 0 8px !important;
 }
 
-.wrapper-2jXpOf:hover .nsfw-text {
+.wrapper-NhbLHG:hover .nsfw-text {
   background-color: var(--accent-text-primary) !important;
   border-radius: var(--radius-primary) !important;
   color: var(--accent-primary) !important;

@@ -1,0 +1,59 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons             ║ Minimal Panel                                                                     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// No Border
+.container-1giJp5 {
+  border: none;
+}
+
+// No Controls
+.spotify-extra-controls  {display: none !important;}
+.spotify-seek-elements  {display: none !important;}
+.powercord-spotify.hover .spotify-extra-controls + .spotify-seek {
+  margin-top: 0px;
+}
+
+// Hide
+.panels-j1Uci_ .activityPanel-28dQGo,
+.panels-j1Uci_ .powercord-spotify {
+  display: none;
+}
+
+// Show
+.panels-j1Uci_:hover .activityPanel-28dQGo,
+.panels-j1Uci_:hover .powercord-spotify {
+  display: block;
+}
+
+
+/*
+// Show
+.panels-j1Uci_:hover .activityPanel-28dQGo,
+.panels-j1Uci_:hover .powercord-spotify {
+  display: block;
+}
+
+
+.button-14-BFJ {
+  cursor: pointer !important;
+}
+
+//
+.title-eS5yk3 {
+  background: rgba(255, 0, 0, 0.219) !important;
+  content: '';
+  position: absolute;
+  border-radius: var(--radius-primary);
+
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  color: var(--accent-text-secondary);
+  text-transform: uppercase;
+}
+
+
+
+*/

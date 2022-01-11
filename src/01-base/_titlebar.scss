@@ -3,14 +3,14 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Titlebar
-.titleBar-AC4pGV {
+.titleBar-1it3bQ {
   background: transparent;
   position:relative;
   -webkit-app-region: drag;
 }
 
 // Blur
-.titleBar-AC4pGV:before {
+.titleBar-1it3bQ:before {
   background: var(--titlebar);
   position: fixed;
   content: "";
@@ -29,7 +29,7 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Version
-.wordmarkWindows-1v0lYD::before {
+.wordmarkWindows-2dq6rw::before {
   -webkit-mask: var(--logo-crearts);
   mask: var(--logo-crearts);
   background: var(--header-secondary);
@@ -44,7 +44,7 @@
 }
 
 // No Discord Wordmark
-.wordmark-2iDDfm svg {
+.wordmark-2u86JB svg {
   display: none;
 }
 
@@ -53,7 +53,7 @@
 // ║ Titlebar                 ║ Title                                                                                   ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.wordmarkWindows-1v0lYD::after {
+.wordmarkWindows-2dq6rw::after {
   position: relative;
   font-size: 12px;
   font-weight: 400;
@@ -64,12 +64,12 @@
 }
 
 // Dark
-.theme-dark .wordmarkWindows-1v0lYD::after {
+.theme-dark .wordmarkWindows-2dq6rw::after {
   content: var(--version) ' |' var(--skin) ' (Dark)' ' | by' var(--author);
 }
 
 // Light
-.theme-light .wordmarkWindows-1v0lYD::after {
+.theme-light .wordmarkWindows-2dq6rw::after {
   content: var(--version) ' |' var(--skin) ' (Light)' ' | by' var(--author);
 }
 
@@ -78,9 +78,9 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Buttons
-.winButton-iRh8-Z,
-.winButton-iRh8-Z:hover,
-.winButton-iRh8-Z:active {
+.winButton-3UMjdg,
+.winButton-3UMjdg:hover,
+.winButton-3UMjdg:active {
   height: 30px;
   width: 42px;
   color: var(--header-secondary);
@@ -91,12 +91,12 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // No Icon
-.winButtonMinMax-PBQ2gm:nth-child(4) svg {
+.winButtonMinMax-3RsPUg:nth-child(4) svg {
 display: none;
 }
 
 // Minimize Button
-.winButtonMinMax-PBQ2gm:nth-child(4):after {
+.winButtonMinMax-3RsPUg:nth-child(4):after {
   content:'';
   width:17px;
   height:17px;
@@ -110,18 +110,18 @@ display: none;
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.winButtonMinMax-PBQ2gm:hover,
-.winButtonMinMax-PBQ2gm:active {
+.winButtonMinMax-3RsPUg:hover,
+.winButtonMinMax-3RsPUg:active {
   background: var(--background-secondary);
 }
 
 // No Icon
-.winButtonMinMax-PBQ2gm:nth-child(3) svg {
+.winButtonMinMax-3RsPUg:nth-child(3) svg {
   display:none;
 }
 
 // Maximize Button
-.winButtonMinMax-PBQ2gm:nth-child(3):after {
+.winButtonMinMax-3RsPUg:nth-child(3):after {
   content:'';
   width:19px;
   height:19px;
@@ -131,7 +131,7 @@ display: none;
 }
 
 // Windows Button
-body.powercord.maximized .winButtonMinMax-PBQ2gm:nth-child(3):after {
+body.powercord.maximized .winButtonMinMax-3RsPUg:nth-child(3):after {
   -webkit-mask: var(--icon-windows-window);
   mask: var(--icon-windows-window);
 }
@@ -141,18 +141,18 @@ body.powercord.maximized .winButtonMinMax-PBQ2gm:nth-child(3):after {
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.winButtonClose-1HsbF-:hover,
-.winButtonClose-1HsbF-:active {
+.winButtonClose-3Q8ZH5:hover,
+.winButtonClose-3Q8ZH5:active {
   background: #E81123;
 }
 
 // No Icon
-.winButtonClose-1HsbF- svg {
+.winButtonClose-3Q8ZH5 svg {
   display: none;
 }
 
 // Minimize Button
-.winButtonClose-1HsbF-:after {
+.winButtonClose-3Q8ZH5:after {
   content:'';
   width:17px;
   height:17px;
@@ -162,8 +162,8 @@ body.powercord.maximized .winButtonMinMax-PBQ2gm:nth-child(3):after {
 }
 
 // Hover
-.winButtonClose-1HsbF-:hover:after,
-.winButtonClose-1HsbF-:active:after {
+.winButtonClose-3Q8ZH5:hover:after,
+.winButtonClose-3Q8ZH5:active:after {
   color: white;
 }
 
@@ -172,7 +172,7 @@ body.powercord.maximized .winButtonMinMax-PBQ2gm:nth-child(3):after {
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Butons
-.platform-osx .macButtons-2MuSAC {
+.platform-osx .macButtons-eIdy0e {
   z-index: 200;
   position: fixed;
   top: -2px;
@@ -180,7 +180,7 @@ body.powercord.maximized .winButtonMinMax-PBQ2gm:nth-child(3):after {
 }
 
 // Version
-.platform-osx .macButtons-2MuSAC::after {
+.platform-osx .macButtons-eIdy0e::after {
   position: fixed;
   font-size: 12px;
   font-weight: 400;
@@ -194,11 +194,11 @@ body.powercord.maximized .winButtonMinMax-PBQ2gm:nth-child(3):after {
 }
 
 // Dark
-.platform-osx .macButtons-2MuSAC::after {
+.platform-osx .macButtons-eIdy0e::after {
   content: var(--version) ' |' var(--skin) ' (Dark)' ' | by' var(--author);
 }
 
 // Light
-.platform-osx .macButtons-2MuSAC::after {
+.platform-osx .macButtons-eIdy0e::after {
   content: var(--version) ' |' var(--skin) ' (Light)' ' | by' var(--author);
 }

@@ -3,31 +3,31 @@
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Bottom
-.base-3dtUhz {
+.base-2jDfDU {
   margin-bottom: 20px;
 }
 
 // Chat
-.chatContent-a9vAAp {
+.chatContent-3KubbW {
   margin-right: 10px;
 }
 
 // Topic & Toolbar
-.container-1r6BKw.themed-ANHk51 {
+.container-ZMc96U.themed-Hp1KC_ {
   margin: 0px 0px 10px 0px;
   height: 40px;
   padding: 0px;
 }
 
 // Sidebar
-.sidebar-2K8pFh {
+.sidebar-1tnWFu {
   background: transparent;
   width: var(--channel-width);
   margin-top: 0px;
 }
 
 // Toolbar
-.toolbar-1t6TWx {
+.toolbar-3_r2xA {
   height: 40px;
   margin-left: 30px;
   right: 10px;
@@ -36,18 +36,18 @@
 }
 
 // Members
-.membersWrap-2h-GB4 {
+.membersWrap-3NUR2t {
   margin-left: 0px;
   margin-right: 10px;
 }
 
 // Chat (Chat & Members)
-.chat-3bRxxu {
+.chat-2ZfjoI {
   padding: 10px 10px 10px 10px;
 }
 
 // Chat & Members
-.content-yTz4x3 {
+.content-1jQy2l {
   margin-top: 10px;
 }
 
@@ -55,7 +55,7 @@
 // ║ Base               ║ Focus Outline                                                                     ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-ul.tree-2wKJdG:focus {
+ul.tree-3agP2X:focus {
   outline: none;
 }
 
@@ -64,18 +64,18 @@ ul.tree-2wKJdG:focus {
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Title
-.container-1r6BKw.themed-ANHk51 {
+.container-ZMc96U.themed-Hp1KC_ {
   background: transparent;
 }
 
 // Chat
-.chat-3bRxxu, .threadSidebar-1o3BTy {
+.chat-2ZfjoI, .threadSidebar-1o3BTy {
   background: transparent;
 }
 
 // Home
-.theme-dark .container-1D34oG,
-.theme-light .container-1D34oG {
+.theme-dark .container-2cd8Mz,
+.theme-light .container-2cd8Mz {
   background: transparent;
 }
 
@@ -84,13 +84,13 @@ ul.tree-2wKJdG:focus {
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Backdrop
-.backdrop-1wrmKB, .backdropWithLayer-3_uhz4 { 
+.backdrop-2ByYRN, .backdropWithLayer-3_uhz4 { 
     background: transparent !important;
     opacity: 1 !important;
 }
 
 // Blur
-.backdrop-1wrmKB::before, .backdropWithLayer-3_uhz4::before {
+.backdrop-2ByYRN::before, .backdropWithLayer-3_uhz4::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -105,7 +105,7 @@ ul.tree-2wKJdG:focus {
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Messages
-.cozy-3raOZG .messageContent-2qWWxC {
+.cozy-VmLDNB .messageContent-2t3eCI {
   text-align: var(--text-align);
   word-break: break-word;
   text-align-last: left;
@@ -113,7 +113,7 @@ ul.tree-2wKJdG:focus {
 
 
 // Chat Input 
-.slateTextArea-1Mkdgw {
+.slateTextArea-27tjG0 {
   text-align: var(--text-align);
   word-break: break-word;
   text-align-last: left;
@@ -121,20 +121,20 @@ ul.tree-2wKJdG:focus {
 }
 
 // Embeds
-.embedAuthorName-3mnTWj,
-.embedAuthorNameLink-1gVryT,
-.embedDescription-1Cuq9a, .embedFieldName-NFrena,
-.embedFieldValue-nELq2s, .embedFooterText-28V_Wb,
-.embedLink-1G1K1D, .embedProvider-3k5pfl,
-.embedTitle-3OXDkz,
-.embedTitleLink-1Zla9e {
+.embedAuthorName-pGyUPR,
+.embedAuthorNameLink-1NK1y6,
+.embedDescription-1DrJxZ, .embedFieldName-9LYSyR,
+.embedFieldValue-3EHtvR, .embedFooterText-2Mc7H9,
+.embedLink-1TLNja, .embedProvider-1GSN0c,
+.embedTitle-2n1pEb,
+.embedTitleLink-1QbYA- {
     text-align: var(--text-align);
     word-break: break-word;
 	text-align-last: left;
 }
 
 // Channels & Members
-.container-2ax-kl {
+.container-q97qHp {
     font-size: 12.4px;
     line-height: 20px;
 }
@@ -144,7 +144,7 @@ ul.tree-2wKJdG:focus {
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Background (Normal)
-.notice-3bPHh- {
+.notice-2HEN-u {
     border-radius: var(--radius-primary);
     background: var(--accent-primary);
     position: relative;
@@ -156,19 +156,19 @@ ul.tree-2wKJdG:focus {
 }
 
 // Background (Hover)
-.notice-3bPHh-:hover {
+.notice-2HEN-u:hover {
     background: var(--accent-secondary);
 }
 
 // Button (Normal)
-.theme-dark .button-2DhvE9,
-.theme-light .button-2DhvE9 {
+.theme-dark .button-1iHNQ2,
+.theme-light .button-1iHNQ2 {
     border-radius: var(--radius-primary);
 }
 
 // Button (Hover)
-.theme-dark .button-2DhvE9:hover,
-.theme-light .button-2DhvE9:hover {
+.theme-dark .button-1iHNQ2:hover,
+.theme-light .button-1iHNQ2:hover {
     border-radius: var(--radius-primary);
     background: white;
     color: var(--accent-secondary)
@@ -178,7 +178,7 @@ ul.tree-2wKJdG:focus {
 // ║ Base               ║ Avatar                                                                            ║
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
-.avatar-1BDn8e, .wrapper-3t9DeA {
+.avatar-2e8lTP, .wrapper-1VLyxH {
     border-radius: var(--radius-avatar);
   }
 
@@ -187,7 +187,7 @@ ul.tree-2wKJdG:focus {
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.base-PmTxvP {
+.base-3IDx3L {
   background: var(--accent-primary) !important;
 }
 
@@ -196,6 +196,6 @@ ul.tree-2wKJdG:focus {
 // ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.icon-27yU2q,[src*="https://cdn.discordapp.com/avatars/"] {
+.icon-3AqZ2e,[src*="https://cdn.discordapp.com/avatars/"] {
   background: rgba(0, 0, 0, 0.300);
 }

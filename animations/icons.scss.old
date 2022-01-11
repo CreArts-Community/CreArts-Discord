@@ -1,0 +1,74 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Animations         ║ Icons Hover                                                                       ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Title Icons (Normal)
+.icon-22AiRD, .small-1lPjda {
+    transition: all .2s ease-in-out;
+}
+
+// Title Icons (Hover)
+.icon-22AiRD:hover, .small-1lPjda:hover {
+    transform: scale(1.2);
+}
+
+// GIF Icon (Normal)
+[aria-label="Open GIF picker"] {
+    transition: all .2s ease-in-out;
+}
+
+// GIF Icon (Hover)
+[aria-label="Open GIF picker"]:hover {
+    transform: scale(1.2);
+}
+
+// Gift Icon (Normal)
+[aria-label="Send a gift"] {
+    transition: all .2s ease-in-out;
+}
+
+// Gift Icon (Hover)
+[aria-label="Send a gift"]:hover {
+    transform: scale(1.2);
+}
+
+// Upload Icon (Normal)
+[aria-label="Upload a File"] {
+    transition: all .2s ease-in-out;
+}
+
+// Upload Icon (Hover)
+[aria-label="Upload a File"]:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+// Menu Icon (Normal)
+.button-1w5pas {
+    transition: all .2s ease-in-out;
+}
+
+// Menu Icon (Hover)
+.button-1w5pas:hover {
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+// Guild Icon (Normal)
+.guildIconContainer-2FW_iA {
+    transition: all .2s ease-in-out;
+}
+
+// Guild Icon (Hover)
+.guildIconContainer-2FW_iA:hover {
+    transform: scale(1.2);
+}
+

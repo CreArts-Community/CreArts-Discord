@@ -3,28 +3,28 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Backgrounds
-#app-mount .wrapper-3NnKdC {
+#app-mount .wrapper-1_HaEi {
 background: transparent;
 margin-left: 20px;
 
 }
 
-.platform-osx #app-mount .wrapper-3NnKdC {
+.platform-osx #app-mount .wrapper-1_HaEi {
 margin-top: 22px;
 }
 
 // Linux
-.base-3dtUhz {
+.base-2jDfDU {
 margin-top: 10px;
 }
 
 // Windows
-.platform-win .base-3dtUhz {
+.platform-win .base-2jDfDU {
 margin-top: 10px;
 }
 
 // OSX
-.platform-osx .base-3dtUhz {
+.platform-osx .base-2jDfDU {
 margin-top: 2px;
 }
 
@@ -60,13 +60,13 @@ z-index: -1;
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
 background: var(--accent-primary);
 }
 
 // Home Button
-.childWrapper-anI2G9 {
+.childWrapper-1j_1ub {
 background: var(--background-primary);
 color: var(--interactive-normal);
 border-radius: 90px;
@@ -82,7 +82,7 @@ height: 60%;
 margin-top: 2px;
 }
 
-.wrapper-1BJsBx.selected-bZ3Lue .homeIcon-FuNwkv {
+.wrapper-3kah-n.selected-1Drb7Z .homeIcon-FuNwkv {
 background: var(--accent-text-primary);
 }
 
@@ -90,7 +90,7 @@ background: var(--accent-text-primary);
 // ║ Guild (Top)              ║ Settings Button                                                                         ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
+.panels-3wFtMD  > .container-YkUktl .flex-3BkGQD .button-12Fmur:nth-last-child(1) {
 background: var(--background-primary);
 position: fixed;
 left: 90px;
@@ -98,27 +98,27 @@ height: 48px;
 width: 48px;
 }
 
-.panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) .contents-18-Yxp {
+.panels-3wFtMD  > .container-YkUktl .flex-3BkGQD .button-12Fmur:nth-last-child(1) .contents-3ca1mk {
     transform: scale(1.6);
 }
 
-.panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1):hover {
+.panels-3wFtMD  > .container-YkUktl .flex-3BkGQD .button-12Fmur:nth-last-child(1):hover {
 background: var(--accent-primary);
 color: var(--accent-text-primary);
 }
 
 // Linux
-.panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
+.panels-3wFtMD  > .container-YkUktl .flex-3BkGQD .button-12Fmur:nth-last-child(1) {
   top: 35px !important;
 }
     
 // Windows
-.platform-win .panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
+.platform-win .panels-3wFtMD  > .container-YkUktl .flex-3BkGQD .button-12Fmur:nth-last-child(1) {
 top: 58px !important;
 }
 
 // OSX
-.platform-osx .panels-j1Uci_  > .container-3baos1 .flex-1O1GKY .button-14-BFJ:nth-last-child(1) {
+.platform-osx .panels-3wFtMD  > .container-YkUktl .flex-3BkGQD .button-12Fmur:nth-last-child(1) {
 top: 58px !important;
 }
 
@@ -126,7 +126,7 @@ top: 58px !important;
 // ║ Guild (Top)              ║ Explore Server Button                                                                   ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.scroller-1Bvpku > .listItem-GuPuDH:nth-last-child(2) {
+.scroller-3X7KbA > .listItem-GuPuDH:nth-last-child(2) {
 position: fixed !important;
 background: transparent !important;
 top: 120px !important;
@@ -145,7 +145,7 @@ background: var(--accent-primary) !important;
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.scroller-1Bvpku {
+.scroller-3X7KbA {
 border-radius: var(--radius-primary);
 background: transparent;
 position: relative;
@@ -154,7 +154,7 @@ bottom: 130px;
 }
 
 // Blur
-.wrapper-3NnKdC::before {
+.wrapper-1_HaEi::before {
 background: var(--background-secondary);
 position: fixed;
 content: "";
@@ -220,21 +220,21 @@ fill: var(--interactive-active);
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Mention
-.mention-1f5kbO {
+.mention-3XBnnZ {
 background: var(--accent-primary);
 opacity: 1;
 }
 
-.mention-1f5kbO:hover {
+.mention-3XBnnZ:hover {
 background: var(--accent-secondary);
 }
 
-.mention-1f5kbO:active {
+.mention-3XBnnZ:active {
 background: var(--accent-tertiary);
 }
 
 // Up
-.unreadMentionsIndicatorTop-2-tcdU .text-2e2ZyG {
+.unreadMentionsIndicatorTop-2bTgUU .text-2GsXbW {
 color: transparent;
 background: var(--interactive-active);
 -webkit-mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_up.svg') center no-repeat;
@@ -244,12 +244,12 @@ height: 36%;
 margin-bottom: -2px;
 }
 
-.unreadMentionsIndicatorTop-2-tcdU {
+.unreadMentionsIndicatorTop-2bTgUU {
 top: 220px;
 }
 
 // Down
-.unreadMentionsIndicatorBottom-2mDYbI .text-2e2ZyG {
+.unreadMentionsIndicatorBottom-3RJMnQ .text-2GsXbW {
 color: transparent;
 background: var(--interactive-active);
 -webkit-mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_arrow_down.svg') center no-repeat;
@@ -259,7 +259,7 @@ height: 36%;
 margin-bottom: -2px;
 }
 
-.unreadMentionsIndicatorBottom-2mDYbI {
+.unreadMentionsIndicatorBottom-3RJMnQ {
 bottom: 140px;
 }
 
@@ -268,7 +268,7 @@ bottom: 140px;
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.lowerBadge-29hYVK .base-PmTxvP {
+.lowerBadge-3WTshO .base-3IDx3L {
 background: var(--accent-primary) !important;
 color: var(--accent-text-primary);
 }
@@ -283,7 +283,7 @@ color: var(--accent-text-primary);
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Spacing
-.scroller-1Bvpku [style="opacity: 1; height: 56px; transform: scale(1);"] {
+.scroller-3X7KbA [style="opacity: 1; height: 56px; transform: scale(1);"] {
 position: fixed;
 margin-bottom: -8px;
 margin-top: 8px;
@@ -291,16 +291,16 @@ z-index: 9;
 }
 
 // Linux
-.scroller-1Bvpku [style="opacity: 1; height: 56px; transform: scale(1);"] {
+.scroller-3X7KbA [style="opacity: 1; height: 56px; transform: scale(1);"] {
 bottom: 52px;
 }
 
 // Windows
-.platform-win .scroller-1Bvpku [style="opacity: 1; height: 56px; transform: scale(1);"] {
+.platform-win .scroller-3X7KbA [style="opacity: 1; height: 56px; transform: scale(1);"] {
 bottom: 52px;
 }
 
 // Mac
-.platform-osx .scroller-1Bvpku [style="opacity: 1; height: 56px; transform: scale(1);"] {
+.platform-osx .scroller-3X7KbA [style="opacity: 1; height: 56px; transform: scale(1);"] {
 bottom: 52px;
 }

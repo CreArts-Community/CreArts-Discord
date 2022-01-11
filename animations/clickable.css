@@ -1,29 +1,29 @@
-.clickable-1JJAn8 {
+.clickable-28SzVr {
   transition: all 0.2s ease-in;
 }
 
-.clickable-1JJAn8:hover {
+.clickable-28SzVr:hover {
   transform: scale(1.04);
   transition: all 0.2s ease-in;
 }
 
-#private-channels .content-3YMskv .container-2ax-kl:before {
+#private-channels .content-2a4AW9 .container-q97qHp:before {
   transition: all 0.2s ease-in;
 }
 
-#private-channels .content-3YMskv .container-2ax-kl:before:hover {
+#private-channels .content-2a4AW9 .container-q97qHp:before:hover {
   transform: scale(1.04);
   transition: all 0.2s ease-in;
 }
 
 /*
 // DM Button (No Text)
-#private-channels .content-3YMskv .headerText-2F0828 {
+#private-channels .content-2a4AW9 .headerText-1qIDDT {
     display: none;
 }
 
 // DM Button (Background)
-#private-channels .content-3YMskv .container-2ax-kl {
+#private-channels .content-2a4AW9 .container-q97qHp {
     background: var(--background-tertiary);
     border-radius: var(--radius-primary);
     height: 36px;
@@ -36,7 +36,7 @@
 }
 
 // Clickable
-#private-channels .content-3YMskv .clickable-3rdHwn::before {
+#private-channels .content-2a4AW9 .clickable-ZD7xvu::before {
     content: "";
     background: transparent;
     border-radius: var(--radius-primary);
@@ -49,12 +49,12 @@
 }
 
 // DM Button (Background Hover)
-#private-channels .content-3YMskv .container-2ax-kl:hover {
+#private-channels .content-2a4AW9 .container-q97qHp:hover {
     background: var(--accent-primary) !important;
 }
 
 // DM Button (Icon)
-#private-channels .content-3YMskv .clickable-3rdHwn {
+#private-channels .content-2a4AW9 .clickable-ZD7xvu {
     padding: 0px;
     margin: 0px;
     border-radius: var(--radius-primary);

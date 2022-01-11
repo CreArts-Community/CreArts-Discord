@@ -1,0 +1,141 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Sidebar (Linux)          ║ General                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//Spacing
+.sidebar-CFHs9e [data-item-id="HypesquadOnline"] {margin-top: 40px;}
+.sidebar-CFHs9e .socialLinks-3jqNFy {margin-top: 10px; margin-bottom: 0px;}
+.sidebar-CFHs9e [data-item-id=logout] {margin-top: 20px; margin-bottom: 20px;}
+
+// Order
+.sidebar-CFHs9e [data-item-id="HypesquadOnline"] {order: 1;}
+.sidebar-CFHs9e [data-item-id="Experiments"] {order: 2;}
+.sidebar-CFHs9e [data-item-id="DeveloperOptions"] {order: 3;}
+.sidebar-CFHs9e [data-item-id="changelog"] {order: 4;}
+.sidebar-CFHs9e .info-1VyQPT {order: 6;}
+.sidebar-CFHs9e .socialLinks-3jqNFy {order: 7;}
+.sidebar-CFHs9e [data-item-id="logout"] {order: 5;}
+
+// Separator
+.side-8zPYf6 .separator-gCa7yv {display: none;}
+
+// User Settings
+.sidebar-CFHs9e [data-item-id="Connections"] {margin-bottom: 16px;}
+
+// Billing Settings
+.sidebar-CFHs9e [data-item-id="Billing"] {margin-bottom: 16px;}
+
+// App Settings
+.sidebar-CFHs9e [data-item-id="Advanced"] {margin-bottom: 16px;}
+
+// Activity Settings
+.sidebar-CFHs9e [data-item-id="GameActivity"] {margin-bottom: 16px;}
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Sidebar                  ║ Plugins                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.powercord .sidebar-CFHs9e [data-item-id="pc-updater"] {
+  margin-bottom: 50px !important;
+}
+
+// Header
+.powercord .sidebar-CFHs9e .header-2RyJ0Y {
+  font-family: 'Quicksand';
+  font-weight: 600;
+}
+
+// Plugin Header
+.powercord .info-1VyQPT:before {
+  background: transparent;
+  content: 'Plugins';
+  position: absolute;
+  font-size: 15px !important;
+  font-weight: 600;
+  font-family: 'Quicksand';
+  width: 100%;
+  top: 1090px;
+  color: var(--accent-text-secondary);
+  text-transform: uppercase;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Sidebar                  ║ Logout                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background & Text
+.side-8zPYf6 [data-item-id="logout"] {
+background: var(--red-primary);
+color: white !important;
+}
+
+// Icon
+.side-8zPYf6 [data-item-id="logout"]::before {
+background: white !important;
+}
+
+// Spacing
+.side-8zPYf6 [data-item-id="logout"] {
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Sidebar                  ║ Info                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Base
+.info-1VyQPT .size12-3cLvbJ {
+color: var(--text-normal);
+user-select: none;
+}
+
+// Header
+.info-1VyQPT .size12-3cLvbJ:first-child::before {
+content: 'Info \a';
+text-transform: none;
+white-space: pre;
+user-select: none;
+font-size: 15px;
+text-transform: uppercase;
+color: var(--accent-text-secondary);
+font-weight: 600;
+position: relative;
+bottom: 8px;
+}
+
+// Info
+.info-1VyQPT .size12-3cLvbJ:last-child::after {
+content: '\a' '\a Version: CreArts ' var(--version) '\a Skin:'var(--skin);
+text-transform: none;
+white-space: pre;
+user-select: none;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Sidebar                  ║ Social Links                                                                            ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Social
+.powercord-pc-icon svg {border: none !important;}
+
+.socialLinks-3jqNFy {
+  padding-left: 4px;
+}
+
+.powercord-pc-icon::before {
+  content: "";
+  position: absolute;
+  top: -6px !important;
+  right: 0px !important;
+  width: 20px !important;
+  height: 20px !important;
+  opacity: 0.6 !important;
+}
+
+
+.socialLinks-3jqNFy .foreground-26ym5y {
+  color: var(--text-muted) !important;
+}

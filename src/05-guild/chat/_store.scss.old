@@ -1,0 +1,43 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Store              ║ Background                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.applicationStore-1pNvnv {
+  background: none;
+}
+
+.scroller-1JpcIc {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: var(--radius-primary);
+}
+
+.theme-dark .bodySection-jqkkIP, .theme-light .bodySection-jqkkIP {
+  background: var(--background-tertiary);
+  border-radius: var(--radius-primary);
+  margin-bottom: 20px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Store              ║ Image                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Image
+.markdown-11q6EU :first-child {
+  border-radius: var(--radius-primary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Store              ║ Features                                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Features
+.features-_IOqVv {
+  margin-bottom: 20px;
+  background: var(--background-tertiary);
+  border-radius: var(--radius-primary);
+}

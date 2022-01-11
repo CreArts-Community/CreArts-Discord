@@ -1,0 +1,278 @@
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Friend             ║                                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.children-19S4PO .status-1XNdyw  {
+  margin-left: 8px;
+  margin-right: 0px;
+}
+
+
+.children-19S4PO .input-2A_zIr  {
+  margin-left: 12px;
+}
+
+
+.children-19S4PO .textBadge-1iylP6  {
+  display: none;
+}
+
+.children-19S4PO .iconWrapper-2OrFZ1  {
+  display: none;
+}
+
+.children-19S4PO .title-29uC1r {
+  background: var(--background-tertiary);
+  margin-left: 8px;
+  height: 70%;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: var(--radius-primary);
+}
+
+// Spacing
+.container-1D34oG  {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tabBody-3YRQ8W {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+// Background
+.peopleColumn-29fq28 {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  margin-right: 10px;
+}
+
+// No Title
+.peopleList-3c4jOR .title-30qZAO {
+  display: none;
+}
+
+// No Border
+.peopleListItem-2nzedh {
+  border: none;
+}
+
+// Button
+.actionButton-uPB8Fs:first-child {
+  background: var(--accent-primary);
+  color: var(--accent-text-primary);
+}
+
+.actionButton-uPB8Fs {
+  background: var(--background-primary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Friends            ║ Tab Bar                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.container-1D34oG .item-3HknzM {
+  border-radius: var(--radius-primary);
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+  
+.container-1D34oG .item-3HknzM:last-child {
+  background: var(--accent-primary) !important;
+}
+
+.container-1D34oG .item-3HknzM:last-child:hover {
+  background: var(--accent-secondary) !important;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Friends            ║ People                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+.peopleColumn-29fq28 .peopleListItem-2nzedh,
+.peopleColumn-29fq28 .peopleListItem-2nzedh:hover,
+.peopleColumn-29fq28 .peopleListItem-2nzedh.active-rhSpJJ {
+border-radius: var(--radius-primary);
+}
+
+
+.peopleColumn-29fq28 .scrollerBase-289Jih {
+padding: 0px;
+margin: 0px;
+}
+
+
+
+
+/*
+// Base
+.peopleColumn-29fq28 {
+padding: 0px 0px 0px 0px;
+}
+
+// Item
+.peopleListItem-2nzedh {
+background: blue;
+margin: 12px;
+border-radius: var(--radius-primary);
+
+
+display: inline-grid;
+height: 160px !important;
+width: 260px;
+}
+
+// Hover
+.peopleListItem-2nzedh:hover {
+background: var(--accent-primary);
+margin: 24px 24px 24px 24px;
+padding: 12px 12px 12px 12px;
+border-radius: var(--radius-primary);
+//transition: var(--card-hover);
+//transform: scale(1.04);
+}
+
+.peopleColumn-29fq28 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.peopleListItem-2nzedh {
+  border-radius: var(--radius-primary);
+  background: red;
+  padding: 24px !important;
+  margin: 12px;
+
+
+  height: 200px !important;
+  flex: 1 0 10% !important;
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-direction: row;
+  width: 260px;
+}
+
+
+.peopleListItem-2nzedh.active-rhSpJJ,
+.peopleListItem-2nzedh:hover {
+  border-radius: var(--radius-primary);
+  background: blue;
+
+  padding: 24px !important;
+  margin: 12px;
+}
+*/
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Friends            ║ Activity                                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.nowPlayingColumn-2sl4cE {
+  background: transparent;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.nowPlayingColumn-2sl4cE .scroller-2ZPeAD {
+  padding: 0px;
+  border: none;
+}
+
+// Background
+.wrapper-3D2qGf {
+  border-radius: var(--radius-primary);
+  background: transparent;
+  position: relative;
+}
+
+.container-lRFx4q { background: transparent;}
+
+.wrapper-3D2qGf:hover { background: none !important;}
+
+// Blur
+.wrapper-3D2qGf:before {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  position: absolute;
+  content: "";
+  border: var(--border);
+  backdrop-filter: blur(var(--blur));
+  box-shadow: var(--shadows);
+  width:100%;
+  height:100%;
+  left: 0;
+  top: 0;
+}
+
+// Hover
+.wrapper-3D2qGf:hover:before {
+  background: var(--accent-primary) !important;
+}
+
+// No Header
+.nowPlayingColumn-2sl4cE .header-2SF4Nh {
+  display: none;
+}
+
+// Empty Card
+.emptyCard-1RJw8n {
+  border-radius: var(--radius-primary);
+  padding: 24px;
+  margin-right: 10px;
+}
+
+// Items
+.section-2gLsgF {
+  background: var(--background-tertiary);
+  border-radius: var(--radius-secondary);
+  position: relative;
+  padding: 12px;
+}
+
+.theme-dark .inset-3sAvek {
+  background-color: transparent;
+}
+
+// Activity Avatar
+.activitySectionAssets-32WyHu .largeImage-DLXk-f {
+  border-radius: 90px;
+  width: 32px;
+  height: 32px;
+}
+
+// Divider
+.theme-dark .separator-XqIyoz {
+  background-color: transparent;
+  padding-top: 8px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Friends            ║ Activity (Empty Card)                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.emptyCard-1RJw8n {
+  border-radius: var(--radius-primary);
+  background: transparent;
+  position: relative;
+}
+
+// Blur
+.emptyCard-1RJw8n:before {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  position: absolute;
+  content: "";
+  border: var(--border) solid rgba( 255, 255, 255, var(--border-opacity));
+  backdrop-filter: blur(var(--blur));
+  box-shadow: var(--shadows);
+  height: 100%;
+  width:100%;
+  z-index: -1;
+}

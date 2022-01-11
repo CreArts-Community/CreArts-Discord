@@ -8,18 +8,18 @@
   --server-container: calc(var(--server-size) + 46px);
 }
 
-#app-mount .app-1q1i1E .base-3dtUhz {
+#app-mount .app-3xd6d0 .base-2jDfDU {
   top: var(--server-container) !important;
   position: absolute !important;
   left: 0 !important;
   right: 0;
   bottom: 0;
 }
-#app-mount .sidebar-2K8pFh {
+#app-mount .sidebar-1tnWFu {
   border-radius: 0;
 }
 
-#app-mount .guilds-1SWlCJ {
+#app-mount .guilds-2JjMmN {
   transform-origin: top left;
   transform: rotate(-90deg);
   height: 100vw !important;
@@ -29,36 +29,36 @@
   position: absolute !important;
   left: 0;
 }
-#app-mount .guilds-1SWlCJ .scrollerWrap-1IAIlv {
+#app-mount .guilds-2JjMmN .scrollerWrap-1IAIlv {
   width: calc(100% + 30px);
 }
-#app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
+#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt {
   padding-top: 0 !important;
 }
-#app-mount .guilds-1SWlCJ .scrollerBase-289Jih > div[style]:not(.listItem-2P_4kh) {
+#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt > div[style]:not(.listItem-2P_4kh) {
   height: auto !important;
 }
-#app-mount .guilds-1SWlCJ .scrollerBase-289Jih > div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
+#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt > div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
   padding-top: 1px;
 }
-#app-mount .guilds-1SWlCJ .svg-1X37T1,
-#app-mount .guilds-1SWlCJ .wrapper-25eVIn,
-#app-mount .guilds-1SWlCJ .guildsError-b7zR5H,
-#app-mount .guilds-1SWlCJ .placeholderMask-3K9THS {
+#app-mount .guilds-2JjMmN .svg-2zuE5p,
+#app-mount .guilds-2JjMmN .wrapper-28eC3z,
+#app-mount .guilds-2JjMmN .guildsError-b7zR5H,
+#app-mount .guilds-2JjMmN .placeholderMask-3K9THS {
   width: var(--server-size);
   height: var(--server-size);
 }
-#app-mount .guilds-1SWlCJ [role=group] {
+#app-mount .guilds-2JjMmN [role=group] {
   height: auto !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] {
+#app-mount .guilds-2JjMmN [class*=pill] {
   transform: rotate(90deg) translateY(-50%);
   height: var(--server-size);
   width: 4px;
   top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
   margin-left: -2px;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span {
+#app-mount .guilds-2JjMmN [class*=pill] span {
   height: 100% !important;
   width: 4px !important;
   transform: scale(0, 1) !important;
@@ -66,153 +66,153 @@
   margin-left: 0;
   border-radius: 0 4px 4px 0;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 0"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 0"] {
   transform: scale(1, 0.24) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 1"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 1"] {
   transform: scale(1, 0.24) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 2"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 2"] {
   transform: scale(1, 0.24) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 3"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 3"] {
   transform: scale(1, 0.24) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 4"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 4"] {
   transform: scale(1, 0.24) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 5"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 5"] {
   transform: scale(1, 0.24) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 6"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 6"] {
   transform: scale(1, 0.24) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 7"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 7"] {
   transform: scale(1, 0.24) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 8"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 8"] {
   transform: scale(1, 0.24) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 9"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 9"] {
   transform: scale(1, 0.7) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 10"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 10"] {
   transform: scale(1, 0.7) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 11"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 11"] {
   transform: scale(1, 0.7) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 12"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 12"] {
   transform: scale(1, 0.7) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 13"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 13"] {
   transform: scale(1, 0.7) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 14"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 14"] {
   transform: scale(1, 0.7) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 15"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 15"] {
   transform: scale(1, 0.7) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 16"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 16"] {
   transform: scale(1, 0.7) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 17"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 17"] {
   transform: scale(1, 0.7) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 18"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 18"] {
   transform: scale(1, 0.7) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 19"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 19"] {
   transform: scale(1, 0.7) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 20"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 20"] {
   transform: scale(1, 0.7) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 21"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 21"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 22"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 22"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 23"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 23"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 24"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 24"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 25"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 25"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 26"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 26"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 27"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 27"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 28"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 28"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 29"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 29"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 30"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 30"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 31"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 31"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 32"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 32"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 33"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 33"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 34"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 34"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 35"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 35"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 36"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 36"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 37"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 37"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 38"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 38"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 39"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 39"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ [class*=pill] span[style*="height: 40"] {
+#app-mount .guilds-2JjMmN [class*=pill] span[style*="height: 40"] {
   transform: scale(1, 1) !important;
 }
-#app-mount .guilds-1SWlCJ .wrapper-sa6paO {
+#app-mount .guilds-2JjMmN .wrapper-z5ab_q {
   height: var(--server-size) !important;
 }
-#app-mount .guilds-1SWlCJ .wrapper-21YSNc,
-#app-mount .guilds-1SWlCJ .wrapper-3Njo_c {
+#app-mount .guilds-2JjMmN .wrapper-21YSNc,
+#app-mount .guilds-2JjMmN .wrapper-3Njo_c {
   width: var(--server-container);
 }
-#app-mount .guilds-1SWlCJ [class*=listItem]:not([class*=listItemWrapper]) {
+#app-mount .guilds-2JjMmN [class*=listItem]:not([class*=listItemWrapper]) {
   width: var(--server-size);
   transform: rotate(90deg);
   margin: var(--server-spacing) 10px;
   position: unset;
 }
-#app-mount .guilds-1SWlCJ [class*=guildSeparator] {
+#app-mount .guilds-2JjMmN [class*=guildSeparator] {
   transform: rotate(90deg);
   width: var(--server-size);
 }
-#app-mount .guilds-1SWlCJ [class*=expandedFolderBackground] {
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
   width: var(--server-size);
   left: 50%;
   border-radius: 10px;
   transform: translateX(-50%);
 }
-#app-mount .guilds-1SWlCJ .folder-21wGz3 {
+#app-mount .guilds-2JjMmN .folder-21wGz3 {
   background: transparent;
 }
 #app-mount [class*=listItemTooltip] {
@@ -239,20 +239,20 @@
   justify-content: center;
 }
 
-#app-mount .guilds-1SWlCJ.content-Pph8t6, #app-mount .BF-folderSidebar {
+#app-mount .guilds-2JjMmN.content-Pph8t6, #app-mount .BF-folderSidebar {
   position: absolute !important;
   top: calc(var(--server-container) * 2) !important;
 }
-#app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz, #app-mount .BF-folderSidebar:not(.closed-j55_T-) + .base-3dtUhz {
+#app-mount .guilds-2JjMmN.content-Pph8t6:not(.closed-j55_T-) + .base-2jDfDU, #app-mount .BF-folderSidebar:not(.closed-j55_T-) + .base-2jDfDU {
   top: calc(var(--server-container) * 2) !important;
 }
-#app-mount .guilds-1SWlCJ .frame-oXWS21[class*=listItem] {
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] {
   height: var(--server-size) !important;
 }
-#app-mount .guilds-1SWlCJ .frame-oXWS21[class*=listItem] .wrapper-1BJsBx {
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .wrapper-3kah-n {
   height: 100% !important;
 }
-#app-mount .guilds-1SWlCJ .frame-oXWS21[class*=listItem] .button-Jt-tIg {
+#app-mount .guilds-2JjMmN .frame-oXWS21[class*=listItem] .button-Jt-tIg {
   width: 100%;
   height: 100% !important;
   border-radius: 50%;
@@ -265,10 +265,10 @@
   top: calc(var(--server-container)) !important;
 }
 
-html.platform-osx #app-mount .typeMacOS-3EmCyP {
+html.platform-osx #app-mount .typeMacOS-3V4xXE {
   width: 100%;
 }
-html.platform-osx #app-mount .base-3dtUhz {
+html.platform-osx #app-mount .base-2jDfDU {
   top: calc(var(--server-container) + 30px) !important;
 }
 html.platform-osx #app-mount #pluginNotice {
@@ -276,7 +276,7 @@ html.platform-osx #app-mount #pluginNotice {
   z-index: 100000 !important;
 }
 
-body.foldercontentopened .base-3dtUhz {
+body.foldercontentopened .base-2jDfDU {
   transition: 0.2s ease !important;
 }
 
@@ -284,29 +284,29 @@ body.foldercontentopened .base-3dtUhz {
 // ║ HSL                      ║ Bottom                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-body #app-mount .app-1q1i1E .base-3dtUhz {
+body #app-mount .app-3xd6d0 .base-2jDfDU {
   top: 0 !important;
   bottom: var(--server-container) !important;
 }
-body #app-mount .guilds-1SWlCJ {
+body #app-mount .guilds-2JjMmN {
   top: unset !important;
   left: 100vw;
   bottom: 0 !important;
   transform-origin: bottom left;
 }
-body #app-mount .guilds-1SWlCJ.content-Pph8t6 {
+body #app-mount .guilds-2JjMmN.content-Pph8t6 {
   top: unset !important;
   bottom: var(--server-container) !important;
 }
-body #app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
+body #app-mount .guilds-2JjMmN.content-Pph8t6:not(.closed-j55_T-) + .base-2jDfDU {
   top: 0 !important;
   bottom: calc(var(--server-container) * 2) !important;
 }
-body #app-mount .guilds-1SWlCJ [class*=pill] {
+body #app-mount .guilds-2JjMmN [class*=pill] {
   top: unset !important;
   bottom: calc((var(--server-size) / -1) + (var(--server-size) / 2) - 8px) !important;
 }
-body #app-mount .guilds-1SWlCJ [class*=pill] span {
+body #app-mount .guilds-2JjMmN [class*=pill] span {
   border-radius: 4px 0 0 4px;
 }
 body #app-mount [class*=listItemTooltip] {
@@ -321,6 +321,6 @@ body #app-mount [class*=listItemTooltip] [class*=tooltipPointer] {
   bottom: -10px !important;
 }
 
-html.platform-osx #app-mount .base-3dtUhz {
+html.platform-osx #app-mount .base-2jDfDU {
   top: 32px !important;
 }
