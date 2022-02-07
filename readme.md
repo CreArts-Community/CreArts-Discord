@@ -4,9 +4,8 @@
 [![Powercord](https://raw.githubusercontent.com/CorellanStoma/CorellanStoma/master/shields/powercord.png)](https://powercord.dev/)
 
 ``
-I am currently working on CreArts v3, check the dev channel on the community server for more infos.
+CreArts v2 is actually broken, I'm currently working on CreArts v3, the development version is actually only available for Powercord. This will change in future updates.
 ``
-
 The [**Dev Branch**](https://github.com/CorellanStoma/CreArts-Discord/tree/dev) currently only works with Powercord.
 
 
