@@ -6,6 +6,8 @@
 ``
 CreArts v2 is actually broken, I'm currently working on CreArts v3, the development version is actually only available for Powercord. This will change in future updates.
 ``
+
+
 The [**Dev Branch**](https://github.com/CorellanStoma/CreArts-Discord/tree/dev) currently only works with Powercord.
 
 
