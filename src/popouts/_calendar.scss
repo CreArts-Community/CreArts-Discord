@@ -1,0 +1,170 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Calendar                 ║ General                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.react-datepicker {
+background: var(--background-floating) !important;
+}
+
+.react-datepicker__header,
+.react-datepicker__heade,
+.react-datepicker__current-month {
+background: transparent !important;
+}
+
+// Border
+.datePicker-70cO23 .react-datepicker__day {
+border-color: var(--background-tertiary) !important;
+}
+
+// Radius
+.container-2McqkF {
+border-radius: var(--context-menu-radius);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Calendar                 ║ Day                                                                                     ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Day (Normal)
+.react-datepicker__day {
+background: var(--background-secondary-alt) !important;
+font-weight: 600;
+}
+
+// Day (Hover)
+.react-datepicker__day:hover {
+background: var(--brand-experiment) !important;
+}
+
+.react-datepicker__day:not(.react-datepicker__day--outside-month, .react-datepicker__day--disabled):hover {
+color: white !important;
+font-weight: 600;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Calendar                 ║ Outside Month                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Outside Month (Normal)
+.react-datepicker__day--outside-month {
+background: transparent !important;
+}
+// Outside Month (Hover)
+.react-datepicker__day--outside-month:hover {
+background: transparent !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Calendar                 ║ Day Disabled                                                                            ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Day Disabled (Normal)
+.react-datepicker__day--disabled {
+background: transparent !important;
+}
+// Day Disabled (Hover)
+.react-datepicker__day--disabled:hover {
+background: transparent !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Calendar                 ║ Date Picker (Header)                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.datePicker-70cO23 .react-datepicker__header  {
+background: var(--background-tertiary) !important;
+margin-bottom: 20px;
+border-radius: 8px;
+}
+
+// Header
+.react-datepicker__current-month {
+border-color: transparent !important;
+margin-top: 0px !important;
+padding-top: 10px !important;
+padding-bottom: 0px !important;
+}
+
+// Navigation (Left)
+.calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--previous {
+border: none;
+top: 30px;
+margin-left: 10px;
+}
+
+// Navigation (Right)
+.calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--next {
+border: none;
+top: 30px;
+margin-right: 10px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Calendar                 ║ Date Picker (Body)                                                                      ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Radius (Top Left)
+.calendarPicker-sDhzdi .react-datepicker__week:first-of-type>.react-datepicker__day:first-of-type {
+border-radius: var(--context-menu-radius) 0 0 !important;
+}
+
+// Radius (Top Right)
+.calendarPicker-sDhzdi .react-datepicker__week:first-of-type>.react-datepicker__day:last-of-type {
+border-radius: 0 var(--context-menu-radius) 0 0 !important;
+}
+
+// Radius (Bottom Left)
+.calendarPicker-sDhzdi .react-datepicker__week:last-of-type>.react-datepicker__day:first-of-type {
+border-radius: 0 0 0 var(--context-menu-radius) !important;
+}
+
+// Radius (Bottom Right)
+.calendarPicker-sDhzdi .react-datepicker__week:last-of-type>.react-datepicker__day:last-of-type {
+border-radius: 0 0 var(--context-menu-radius) !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Calendar                 ║ Date Picker (Footer)                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//Background
+.datePicker-70cO23 .datePickerHint-17MnA8 {
+background: var(--background-tertiary) !important;
+border-radius: 8px;
+margin-bottom: 20px;
+padding: 12px 12px 12px 12px;
+}
+
+// Tag
+.datePicker-70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY {
+margin-left: 6px;
+padding-left: 6px;
+padding-right: 6px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Calendar                 ║ Text                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Header
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__current-month,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__current-month {
+color: var(--context-text-normal);
+}
+
+// Date
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day-name,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__day-name {
+color: var(--context-text-normal);
+font-weight: 600;
+}
+
+// Text
+.theme-dar .datePicker-70cO23 .datePickerHint-17MnA8 .hint-3D5yHh,
+.theme-light .datePicker-70cO23 .datePickerHint-17MnA8 .hint-3D5yHh {
+color: var(--context-text-normal);
+font-weight: 400;
+}

@@ -1,0 +1,16 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels Sidebar         ║ Hover                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.container-1NXEtd:hover {
+  margin-bottom: 0px;
+}
+
+.container-1NXEtd:hover + .panels-3wFtMD {
+  height: 0px;
+  margin-top: 0px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}

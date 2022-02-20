@@ -1,0 +1,63 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat                     ║ Channel Settings                                                                        ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.container-1yy5xN {
+  background: var(--background-primary);
+  border-radius: var(--radius-secondary);
+  margin: 16px 0px 0px 16px;
+  padding: 12px;
+}  
+
+// Buttons (Normal)
+.container-1yy5xN .channelSettingButtons-sCQ_2T .button-1kija8 {
+  color: #fff;
+  background: var(--brand-experiment);
+  border-radius: var(--radius-tertiary);
+  height: 32px;
+  min-width: 60px;
+  min-height: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+// Buttons (Hover)
+.container-1yy5xN .channelSettingButtons-sCQ_2T .button-1kija8:hover {
+  background-color: var(--brand-experiment-560);
+}
+
+// No Icon
+.emptyChannelIcon-1YdEz2 {display: none;}
+
+// No Avatar
+.container-1yy5xN .avatars-37eU13 {display: none;}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Chat                     ║ Rules                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.container-30bdan  {
+  flex-direction: row;
+}
+
+// Title
+.titleName-2vkJTW {
+  text-align: left;
+}
+
+// Sub Title
+.subtitle-3tY4DQ {
+  text-align: left;
+}
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Content                  ║ Embeds                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.embedFull-1HGV2S {
+  background: var(--background-secondary-alt);
+  border-radius:  4px var(--radius-secondary) var(--radius-secondary) 4px;
+}

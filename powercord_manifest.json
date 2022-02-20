@@ -1,9 +1,9 @@
 {
-    "name": "CreArts",
-    "version": "2.3.0",
+    "name": "CreArts v3 (Dev)",
+    "version": "3.0.0",
     "author": "CorellanStoma#1996",
-    "description": "CreArts is a customizable Powercord theme that changes the look of Discord.",
+    "description": "CreArts is an easily customizable theme that customizes the appearance.",
     "license": "MIT",
-    "theme": "theme.scss",
-    "splashTheme": "splash.scss"
+    "theme": "dev.scss",
+    "splashTheme": "modules/splash/community.scss"
 }

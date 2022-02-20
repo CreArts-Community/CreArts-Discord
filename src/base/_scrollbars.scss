@@ -1,0 +1,38 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Scrollbars               ║ Input                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// No Scrollbar
+.scrollableContainer-15eg7h::-webkit-scrollbar {display: none;}
+.scrollableContainer-15eg7h {overflow: hidden;}
+
+.textAreaSlate-9-y-k2 {
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+// Scrollbar
+.textAreaSlate-9-y-k2::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+.textAreaSlate-9-y-k2::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+.textAreaSlate-9-y-k2::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-auto-thumb);
+  min-height: 40px;
+}
+
+.textAreaSlate-9-y-k2::-webkit-scrollbar-thumb,
+.textAreaSlate-9-y-k2::-webkit-scrollbar-track {
+  border: 4px solid transparent;
+  background-clip: padding-box;
+  border-radius: var(--radius-primary);
+}
+
+.textAreaSlate-9-y-k2::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-auto-track);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

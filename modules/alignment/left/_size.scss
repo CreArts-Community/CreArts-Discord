@@ -1,0 +1,61 @@
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guild                    ║ Base                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+
+.wrapper-1_HaEi,
+.listItem-3SmSlK {
+width: calc(var(--guild-icon) + 24px);
+}
+
+.listItem-3SmSlK {
+margin: 0 0 var(--guild-spacing);
+}
+
+#app-mount .guilds-2JjMmN .wrapper-z5ab_q,
+#app-mount .guilds-2JjMmN .svg-2zuE5p,
+#app-mount .guilds-2JjMmN .wrapper-28eC3z,
+#app-mount .guilds-2JjMmN .guildsError-b7zR5H,
+#app-mount .guilds-2JjMmN .placeholderMask-3K9THS {
+width: var(--guild-icon);
+height: var(--guild-icon);
+}
+
+// Pill
+.item-2LIpTv {
+width: 4px;
+border-radius: 0 var(--guild-icon) var(--guild-icon) 0 !important;
+margin-left: 0px;
+}
+
+.item-2LIpTv {
+width: 4px;
+border-radius: 0 var(--guild-icon) var(--guild-icon) 0 !important;
+margin-left: 0px;
+}
+
+// Spacing
+[id*=folder-items],
+[style="opacity: 1; height: 56px; transform: scale(1);"] {
+height: auto !important;
+}
+
+
+
+
+
+
+
+
+
+.wrapper-1_HaEi .base-3IDx3L {
+width: var(--guild-badge) !important;
+min-width: var(--guild-badge);
+height: var(--guild-badge);
+min-height: var(--guild-badge);
+font-size: var(--guild-badge);
+line-height: var(--guild-badge) !important;
+border-radius: 90%;
+}
+

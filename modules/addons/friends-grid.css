@@ -1,0 +1,16 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Add-on                                                                                                             ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Theme:                   ║ Freinds-Grid                                                                            ║ */
+/* ║ Author:                  ║ CorellanStoma#1996                                                                      ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Import                   ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@import"https://crearts-community.github.io/Friends-Grid/theme.css";
+
+@import"https://crearts-community.github.io/Friends-Grid/modules/plugins/powercord.css";
+
+@import"https://crearts-community.github.io/Friends-Grid/modules/plugins/betterdiscord.css";

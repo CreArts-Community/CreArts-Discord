@@ -1,0 +1,63 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels                 ║ Boost Goal                                                                              ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.container-1eD8xH {
+  background: var(--background-primary);
+  padding: 4px 12px 4px 12px;
+  border-radius: var(--radius-secondary);
+  margin-bottom: 12px;
+}
+
+// No Divider
+.container-1eD8xH .divider-1Y1mB0 {
+  display: none;
+}
+
+// No Icon
+.container-1eD8xH .tadaIcon-33fE1D {
+  display: none;
+}
+
+// Progress Bar
+.container-1eD8xH .progressBar-1Tzim4 {
+  background: linear-gradient(90deg,hsl(338,calc(var(--saturation-factor, 1)*91%),36%),hsl(338,calc(var(--saturation-factor, 1)*92%),42%));
+}
+
+// Progress Icon
+.container-1eD8xH .progressBar-1Tzim4::after {
+  content: "";
+  position: absolute;
+  background: rgb(255, 255, 255);
+  width: 8px;
+  height: 8px;
+  border-radius: 90px;
+  right: -4px;
+  bottom: -2px;
+}
+
+
+
+/*
+.container-1eD8xH {
+margin-left: 0px !important;
+  cursor: pointer;
+}
+*/
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels                 ║ Category Icons                                                                          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Arrow (Normal)
+.containerDefault-3TQ5YN:hover .arrow-2HswgU {display: block;}
+
+// Arrow (Hover)
+.arrow-2HswgU {display: none;}
+
+// Arrow (Normal)
+.addButtonIcon-3rJeaD {display: none;}
+
+// Arrow (Hover)
+.containerDefault-3TQ5YN:hover .addButtonIcon-3rJeaD {display: block;}

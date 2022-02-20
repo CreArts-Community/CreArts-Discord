@@ -1,0 +1,70 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Members                  ║ Header                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.tabs-1RhQha {
+  flex-direction: row-reverse;
+}
+
+.tabs-1RhQha .tab-FftSDB {
+  flex: 1;
+  background: var(--background-primary);
+  border-radius: var(--radius-secondary);
+  padding-left: 12px;
+}
+
+.tabs-1RhQha [aria-controls="details-tab"] {margin: 0px 4px 0px 0px !important;}
+.tabs-1RhQha [aria-controls="members-tab"] {margin: 0px 0px 0px 4px !important;}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Members                  ║ Details                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Header
+.container-NkLXgf .sectionHeader-37ixY1 {
+  background: var(--background-primary);
+  border-radius: var(--radius-secondary) var(--radius-secondary) 0px 0px !important;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  padding: 12px;
+} 
+
+// Section
+.container-NkLXgf .section-2PUwqg {
+  background: var(--background-primary);
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  border-radius: 0px;
+  padding: 12px;
+}
+
+.container-NkLXgf .section-2PUwqg:nth-last-child(2) {
+  border-radius: 0px 0px var(--radius-secondary) var(--radius-secondary);
+}
+
+// Divider
+.container-NkLXgf .divider-2vPjtn {
+  content: "";
+  background: var(--background-primary);
+  border-radius: 0px 0px var(--radius-secondary) var(--radius-secondary);
+  height: 12px;
+  margin-top: 0px;
+}
+
+// Button (Normal)
+.container-NkLXgf .editTopicButton-jKMcn4 {
+  color: #fff;
+  background-color: var(--brand-experiment);
+  height: 32px;
+  min-width: 60px;
+  min-height: 32px;
+}
+
+// Button (Hover)
+.container-NkLXgf .editTopicButton-jKMcn4:hover {background-color: var(--brand-experiment-560);}
+
+// No Gear
+.container-NkLXgf .gearIcon-2r92xC {display: none;}
+
+// Link Overflow
+.container-NkLXgf .channelTopic-1hZBwz {overflow: hidden;}

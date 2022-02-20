@@ -1,0 +1,126 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ CreArts                                                                                                            ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Skin:                    ║ Community Edition                                                                       ║ */
+/* ║ Author:                  ║ CorellanStoma#1996                                                                      ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ General                  ║ Here you can make general adjustments.                                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+:root {
+
+/* Information */
+--CRDI-version: "v3.0.0";
+--CRDI-skin: "Default Edition";
+--CRDI-author: "CorellanStoma";
+
+/* Radius */
+--CRDI-radius-primary: 18px;
+--CRDI-radius-secondary: 12px;
+--CRDI-radius-tertiary: 6px;
+
+/* Layout */
+--CRDI-layout-margin: 20px;
+--CRDI-layout-margin-top: 20px;
+--CRDI-layout-margin-left: 20px;
+--CRDI-layout-margin-right: 20px;
+--CRDI-layout-margin-bottom: 20px;
+
+/* Width */
+--CRDI-channel-width: 260px;
+--CRDI-members-width: 240px;
+--CRDI-profile-width: 320px;
+
+/* Fonts */
+--CRDI-titlebar-font: "Segoe UI";
+--CRDI-primary-font: "CreArts";
+--CRDI-display-font: "CreArts";
+--CRDI-code-font: "CreArts";
+
+--CRDI-headline-font: "CreArts";
+--CRDI-korean-font: "CreArts";
+--CRDI-japanese-font: "CreArts";
+--CRDI-chinese-font: "CreArts";
+
+
+/* Blur */
+--CRDI-primary-blur: 0.0;
+--CRDI-secondary-blur: 0.0;
+--CRDI-tertiary-blur: 0.0;
+--CRDI-wallpaper-blur: 0.0;
+
+/* Transparency */
+--CRDI-primary-transparency: 0.0;
+--CRDI-secondary-transparency: 0.0;
+--CRDI-tertiary-transparency: 0.0;
+
+--CRDI-menu-transparency: 0.0;
+--CRDI-titlebar-transparency: 0.0;
+--CRDI-backdrop-transparency: 0.0;
+--CRDI-background-transparency: 0.0;
+
+--CRDI-selection-transparency: 0.0;
+
+--CRDI-shadow-transparency: 0.0;
+
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Dark                     ║ Here you can make some adjustments for the dark theme.                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.theme-dark {
+
+/* Wallpaper */
+--CRDI-wallpaper: url("");
+
+/* Text */
+
+
+/* Accent */
+--CRDI-accent-primary: xx;
+--CRDI-accent-secondary: xx;
+--CRDI-accent-tertiary: xx;
+
+/* Green */
+--CRDI-accent-primary: xx;
+--CRDI-accent-secondary: xx;
+--CRDI-accent-tertiary: xx;
+
+/* Yellow */
+--CRDI-yellow-primary: xx;
+--CRDI-yellow-secondary: xx;
+--CRDI-yellow-tertiary: xx;
+
+/* Red */
+--CRDI-red-primary: xx;
+--CRDI-red-secondary: xx;
+--CRDI-red-tertiary: xx;
+
+/* Purple */
+--CRDI-purple-primary: xx;
+--CRDI-purple-secondary: xx;
+--CRDI-purple-tertiary: xx;
+
+/* Background */
+--CRDI-background-primary: xx;
+--CRDI-background-secondary: xx;
+--CRDI-background-tertiary: xx;
+
+/* Highlight */
+
+/* Shaddow */
+
+/*Border */
+
+/* Selection */
+
+/* Backdrop */
+
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Light                    ║ Here you can make some adjustments for the light theme.                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */

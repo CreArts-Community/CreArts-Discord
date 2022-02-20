@@ -1,0 +1,67 @@
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Testing                  ║ CreArts Banner                                                                          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Banner
+.container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK::before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://i.imgur.com/nOPFf0m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: var(--radius-primary);
+    opacity: 1.0;
+  }
+    
+  // Spacing
+    .container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK {
+    height: 135px !important;
+    padding-bottom: 90px;
+    background: transparent;
+  }
+    
+  // Info Hide (Normal)
+    .container-1NXEtd[aria-label*="CreArts | Community"] .guildIconContainer-2FW_iA,
+    .container-1NXEtd[aria-label*="CreArts | Community"] .name-3Uvkvr,
+    .container-1NXEtd[aria-label*="CreArts | Community"] .button-2BMPJJ {
+    z-index: 2;
+    transition: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /*
+  .sidebar-1tnWFu:hover {
+    width: 100%;
+  }
+  
+  
+  .sidebar-1tnWFu:hover + .chat-2ZfjoI {
+    background: red !important;
+    display: none;
+  }
+  */
+  
+  /*
+  
+  // Spacing
+  .homeIcon-r0w4ny {
+    height: 30px;
+    width: 30px !important;
+  }
+  
+  // Icon Replace
+  .homeIcon-r0w4ny path {
+    d: path("M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z");
+  }
+  */

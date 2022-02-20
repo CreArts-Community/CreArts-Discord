@@ -1,0 +1,201 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Discord Theme                                                                                                      ║
+// ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║ Theme:                   ║ CreArts                                                                                 ║
+// ║ Author:                  ║ CorellanStoma#1996                                                                      ║
+// ║ Support:                 ║ https://discord.gg/8W8E39Z                                                              ║
+// ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                                    ║
+// ║ CreArts is an easily customizable theme that customizes the appearance.                                            ║
+// ║                                                                                                                    ║
+// ║ This Project was created by CorellanStoma#1996.                                                                    ║
+// ║                                                                                                                    ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ 1. Skins                 ║ Preset                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "modules/skins/community" as *; // Community Edition (Red)
+
+//@use "modules/skins/crimson" as *; // Crimson Edition (Red)
+
+//@use "modules/skins/rubine" as *; // Rubine Edition (Red)
+
+//@use "modules/skins/emerald" as *; // Emerald Edition (Green)
+
+//@use "modules/skins/jungle" as *; // Jungle Edition (Green)
+
+//@use "modules/skins/revamp" as *; // Revamp Edition (Blue)
+
+//@use "modules/skins/sapphire" as *; // Sapphire Edition (Blue)
+
+//@use "modules/skins/nebula" as *; // Nebula Edition (Blue)
+
+//@use "modules/skins/coffee" as *; // Coffee Edition (Solid)
+
+//@use "modules/skins/hive" as *;  // Hive Edition (Yellow)
+
+//@use "modules/skins/citrin" as *; // Citrin Edition (Yellow)
+
+//@use "modules/skins/amethyst" as *; // Amethyst Edition (Purple)
+
+//@use "modules/skins/blackout" as *; // Blackout Edition (Black)
+
+//@use "skins/theme/neomorphism" as *; // Neomorphism Edition (Solid)
+
+//@use "skins/theme/glassmorphism" as *; // Glassmorphism Edition (Background)
+
+//@use "skins/theme/glasscord" as *; // Glasscord Edition (Transparent)
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ 1. Skins                 ║ Brand                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "modules/skins/spotify" as *; // Spotify Edition (Green)
+
+//@use "modules/skins/twitch" as *; // Twitch Edition (Purple)
+
+//@use "modules/skins/guilded" as *; // Guilded Edition (Purple)
+
+//@use "modules/skins/revolt" as *; // Revolt Edition (Red)
+
+//@use "modules/skins/github" as *; // GitHub Edition (Blue)
+
+//@use "modules/skins/nord" as *; // Nord Edition (Gray)
+
+//@use "modules/skins/dracula" as *; // Dracula Edition (Purple)
+
+//@use "modules/skins/yaru" as *; // Yaru Edition (Orange)
+
+//@use "modules/skins/solarized" as *; // Solarized Edition (Blue)
+
+//@use "modules/skins/zenburn" as *; // Zenburn Edition (Brown)
+
+//@use "modules/skins/arc" as *; // Arc Edition (Blue)
+
+//@use "modules/skins/rosebox" as *; // Rosebox Edition (Brown)
+
+//@use "modules/skins/ayu" as *; // Ayu Edition (Blue)
+
+//@use "modules/skins/onedark" as *; // One Dark Edition (Gray)
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ 1. Skins                 ║ Community                                                                               ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "modules/skins/dark-aliz" as *; // Dark Aliz Edition (Background)
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ 2. Alignment             ║                                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+@use "modules/alignment/left/index"; // Guild alignment on the left.
+
+//@use "modules/alignment/right/index"; // Guild alignment on the right.
+
+//@use "modules/alignment/top/index"; // Guild alignment on the top.
+
+//@use "modules/alignment/bottom/index"; // Guild alignment on the bottom.
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ 3. Remove                ║                                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+@use "modules/remove/no-gift-icon"; // No Gift Button Icon
+
+@use "modules/remove/no-gif-icon"; // No GIF Button Icon
+
+@use "modules/remove/no-sticker-icon"; // No Sticker Icon
+
+@use "modules/remove/no-help-icon"; // No Help Icon
+
+//@use "modules/remove/no-emoji-icon"; // No Emoji Icon
+
+//@use "modules/remove/no-stream"; // No Stream popout
+
+//@use "modules/remove/no-tooltip"; // No Tooltip
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ 4. Add-ons               ║                                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "modules/addons/friends-grid"; // Friends-Grid Add-on
+
+//@use "modules/addons/channel-names"; // Channel-Names Add-on
+
+//@use "modules/addons/context-icons"; // Context-Icons Add-on
+
+//@use "modules/addons/user-tags"; // User-Tags Add-on
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ 4. Add-ons               ║ Chat Bubbles                                                                            ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "modules/addons/bubbles/left"; // This move chat bubbles to the left side.
+
+//@use "modules/addons/bubbles/right"; // This move chat bubbles to the right side.
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ 4. Add-ons               ║ Avatar Shapes                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ 4. Add-ons               ║ Emoji Replace                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "modules/addons/emoji-replace/apple"; // Apple
+
+//@use "modules/addons/emoji-replace/facebook"; // Facebook
+
+//@use "modules/addons/emoji-replace/google"; // Google
+
+//@use "modules/addons/emoji-replace/joy-pixels"; // Joy Pixels
+
+//@use "modules/addons/emoji-replace/microsoft"; // Microsoft
+
+//@use "modules/addons/emoji-replace/open-moji"; // Open Moji
+
+//@use "modules/addons/emoji-replace/samsung"; // Samsung
+
+//@use "modules/addons/emoji-replace/whatsapp"; // WhatsApp
+
+//@use "modules/addons/emoji-replace/revolt"; // Revolt (uncomplete)
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ 5. Animations            ║                                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "modules/animations/chat-input"; // Chat-Input
+
+@use "modules/animations/channels-sidebar"; // Chat-Input
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ 6. Effects               ║                                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//@use "modules/effects/confetti"; // Adds a confetti effect.
+
+//@use "modules/effects/leaves"; // Adds a leaves effect.
+
+//@use "modules/effects/rain"; // Adds a rain effect.
+
+//@use "modules/effects/snow"; // Adds a snow effect.
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ SRC                      ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+@use "src/source"; // Source Files
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Plugins                  ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+@use "modules/plugins/betterdiscord"; // Better Discord
+
+@use "modules/plugins/powercord"; // Powercord
+
+@use "modules/plugins/goosemod"; // GooseMod
+
+@use "modules/plugins/vizality"; // Vizality

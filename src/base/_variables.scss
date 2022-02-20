@@ -1,0 +1,212 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Variables                ║ General                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+:root {
+
+// Info
+--info-version: "v3.0.0 Dev";
+--info-skin: "Default Edition";
+--info-author: "CorellanStoma";
+
+// Wallpaper
+--wallpaper: url("");
+
+// Fonts
+    --font-titlebar: Segoe UI;
+//--font-primary: Noto Sans;
+//--font-display: Quicksand;
+//--font-code: Arial;
+--font-headline: Quicksand;
+//    --font-korean: CreArts;
+//    --font-japanese: CreArts;
+//    --font-chinese-simplified: CreArts;
+//    --font-chinese-traditional: CreArts;
+
+// Radius
+--radius-primary: 18px;
+--radius-secondary: 12px;
+--radius-tertiary: 6px;
+
+// Inner
+--inner-primary: 8px;
+--inner-secondary: 12px;
+--inner-tertiary: 16px;
+
+// Layout
+
+--layout: calc(var(--layout-margin) / 2);
+
+--layout-margin: 20px;
+--layout-margin-top: 20px;
+--layout-margin-left: 20px;
+--layout-margin-right: 20px;
+--layout-margin-bottom: 20px;
+
+--layout-height-header: 44px;
+
+// Guild
+--guild-icon: 48px;
+--guild-spacing: calc(var(--guild-icon) / 5);
+--guild-badge: calc(var(--guild-icon) / 3.2);
+
+// Width
+
+// Height
+    
+// Opacity
+
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Variables                ║ Dark                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.theme-dark {
+// Accent
+
+// Green
+
+// Yellow
+
+// Red
+
+// Purple
+
+// Background
+--background-primary: #36393f;
+--background-secondary: #2f3136;
+--background-secondary-alt: #292b2f;
+--background-tertiary: #202225;
+
+// Interactive
+--interactive-normal: #b9bbbe;
+--interactive-hover: #dcddde;
+--interactive-active: #fff;
+--interactive-muted: #4f545c;
+
+// Selection
+
+// Scrollbar
+
+
+
+}
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Variables                ║ Light                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+
+
+
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Variables                ║ System                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+:root {
+
+--layout-icon-spacing: 8px;
+
+
+
+--layout-width-channel: 240px;
+--layout-width-members: 240px;
+
+--layout-width-guild: 72px;
+--width-profile: 320px;
+
+// Width
+--channel-width: 240px;
+--members-width: 240px;
+--profile-width: 320px;
+
+--profile-height: 43vh;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Variables                ║ General                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+:root {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Visibility
+
+--border-width: 1.0px;
+--border: 1px solid var(--background-modifier-accent);
+
+
+
+
+
+// Align
+--text-align: justify; // This changes the text align.
+
+// Fonts
+--titlebar-font: "Segoe UI";
+
+
+--primary-font: "CreArts";
+--display-font: "CreArts";
+--code-font: "Fira Code";
+--font-headline: "CreArts";
+--korean-font: "CreArts";
+--japanese-font: "CreArts";
+--chinese-simplified-font: "CreArts";
+--chinese-traditional-font: "CreArts";
+
+// Wallpaper
+--wallpaper: url("");
+
+
+
+
+}
+
+
+
+*/

@@ -1,8 +1,35 @@
-@forward "01-base";
-@forward "02-home";
-@forward "03-settings";
-@forward "04-pages";
-@forward "05-guild";
-@forward "06-popouts";
-@forward "07-modals";
-@forward "08-custom";
+// Base
+@forward "base/layout";
+@forward "base/loading";
+@forward "base/login";
+@forward "base/notice";
+@forward "base/scrollbars";
+@forward "base/testing";
+@forward "base/titlebar";
+@forward "base/tooltip";
+@forward "base/variables";
+@forward "base/wallpaper";
+
+// Components
+@forward "components/channels";
+@forward "components/content";
+@forward "components/header";
+@forward "components/input";
+@forward "components/members";
+@forward "components/panel";
+@forward "components/guild";
+
+// Modals
+
+// Pages
+@forward "pages/boost";
+@forward "pages/explore";
+@forward "pages/nitro";
+@forward "pages/settings";
+@forward "pages/subscription";
+
+// Popouts
+@forward "popouts/calendar";
+@forward "popouts/status-picker";
+@forward "popouts/profile";
+@forward "popouts/emoji-picker";

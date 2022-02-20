@@ -1,0 +1,279 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Background                                                                              ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.titleBar-1it3bQ {
+  background: var(--background-tertiary);
+  margin-top: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: -8px;
+  padding-bottom: 8px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Wordmark                                                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Remove Wordmark
+.wordmark-2u86JB svg {
+  display: none;
+}
+
+
+// Version
+.wordmarkWindows-2dq6rw::before {
+  -webkit-mask: var(--logo);
+  mask: var(--logo);
+  background: var(--header-secondary);
+  background-size: cover;
+  height: 20px;
+  position: absolute;
+  content: "";
+  font-size: 12px;
+  font-weight: 600;
+  width: 70px;
+  top: 1.2px;
+  margin-top: 4px;
+  --logo: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 74 24' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cg id='ArtBoard1' transform='matrix(0.616667,0,0,0.2,0,0)'%3E%3Crect x='0' y='0' width='120' height='120' style='fill:none;'/%3E%3Cg transform='matrix(0.0358629,0,0,0.110577,-4.66262,-16.9717)'%3E%3Cpath d='M1364.01,716.563C1344.7,765.057 1265.53,753.189 1265.53,711.118L1265.53,590.335C1265.53,546.78 1343.72,536.891 1367.47,580.434L1439.72,551.231C1411.51,488.926 1359.55,470.63 1316.5,470.63C1246.24,470.63 1177.01,511.178 1177.01,590.335L1177.01,711.118C1177.01,790.77 1246.24,830.824 1315.01,830.824C1359.06,830.824 1412.01,809.066 1441.2,752.2L1364.01,716.563ZM3082.5,767.529C3115.14,809.561 3159.64,830.824 3201.72,830.824C3266.08,830.824 3337.29,793.737 3340.25,725.969C3344.21,639.838 3281.9,618.057 3219.55,606.672C3192.31,600.732 3173.98,590.832 3172.99,574.002C3174.48,533.423 3237.37,531.939 3273.99,571.031L3331.85,526.501C3295.75,482.496 3254.7,470.63 3212.12,470.63C3147.77,470.63 3085.47,506.723 3085.47,575.487C3085.47,642.313 3136.89,677.953 3193.3,686.863C3222.02,690.823 3254.21,702.209 3253.22,722.009C3250.75,759.617 3173.49,757.64 3138.38,715.079L3082.5,767.529ZM3049.31,559.147L3049.31,475.084L2773.74,475.084L2773.74,559.147L2866.77,559.147L2866.77,825.875L2956.28,825.875L2956.28,559.147L3049.31,559.147ZM1675.3,825.875L1785.59,825.875L1690.13,705.632C1732.66,692.282 1758.87,655.692 1758.87,590.843C1756.89,508.709 1701.01,475.578 1628.75,475.578L1488.74,475.578L1488.74,825.875L1578.24,825.875L1578.24,714.532L1594.09,714.532L1675.3,825.875ZM2652.53,825.875L2762.83,825.875L2667.37,705.632C2709.89,692.282 2736.1,655.692 2736.1,590.843C2734.12,508.709 2678.25,475.578 2605.99,475.578L2465.97,475.578L2465.97,825.875L2555.48,825.875L2555.48,714.532L2571.33,714.532L2652.53,825.875ZM2302.17,475.578L2221.53,475.578L2099.32,825.875L2194.32,825.875L2216.08,755.605L2309.6,755.605L2332.35,825.875L2427.35,825.875L2302.17,475.578ZM1913.23,558.652L2067.62,558.652L2067.62,475.578L1823.72,475.578L1823.72,825.875L2067.62,825.875L2067.62,742.306L1913.23,742.306L1913.23,689.789L2055.25,689.789L2055.25,613.149L1913.23,613.149L1913.23,558.652ZM2235.88,676.985L2261.6,574.55L2264.08,574.55L2288.32,676.985L2235.88,676.985ZM1578.24,638.386L1578.24,558.158L1630.24,558.158C1686.17,558.158 1686.17,638.386 1630.24,638.386L1578.24,638.386ZM2555.48,638.386L2555.48,558.158L2607.47,558.158C2663.41,558.158 2663.41,638.386 2607.47,638.386L2555.48,638.386Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3Cg transform='matrix(0.810811,0,0,2.5,1.62162,6.4011e-11)'%3E%3Cpath d='M34.209,10.49C34.209,9.536 33.83,8.622 33.156,7.947C32.482,7.273 31.567,6.894 30.613,6.894C24.801,6.894 13.408,6.894 7.596,6.894C6.642,6.894 5.727,7.273 5.053,7.947C4.379,8.622 4,9.536 4,10.49L4,33.505C4,34.459 4.379,35.374 5.054,36.048C5.729,36.723 6.644,37.101 7.598,37.101C14.092,37.096 27.101,37.086 27.101,37.086L26.187,33.929L34.209,41.106L34.209,10.49ZM26.217,15.436C24.922,14.842 23.534,14.405 22.082,14.154C22.055,14.149 22.029,14.161 22.015,14.185C21.837,14.503 21.639,14.917 21.501,15.243C19.939,15.009 18.386,15.009 16.857,15.243C16.718,14.91 16.513,14.503 16.334,14.185C16.32,14.162 16.294,14.15 16.267,14.154C14.816,14.404 13.428,14.841 12.132,15.436C12.121,15.441 12.112,15.449 12.105,15.46C9.472,19.394 8.75,23.232 9.104,27.022C9.106,27.04 9.116,27.058 9.131,27.069C10.868,28.345 12.551,29.12 14.203,29.633C14.229,29.642 14.257,29.632 14.274,29.61C14.665,29.076 15.013,28.514 15.312,27.922C15.33,27.888 15.313,27.846 15.277,27.833C14.724,27.623 14.198,27.368 13.692,27.077C13.652,27.054 13.649,26.997 13.686,26.969C13.792,26.89 13.899,26.807 14,26.723C14.019,26.707 14.044,26.704 14.066,26.714C17.391,28.232 20.99,28.232 24.275,26.714C24.297,26.703 24.322,26.707 24.341,26.722C24.443,26.806 24.55,26.89 24.657,26.969C24.694,26.997 24.691,27.054 24.651,27.077C24.145,27.373 23.619,27.623 23.066,27.832C23.03,27.846 23.014,27.888 23.031,27.922C23.337,28.513 23.685,29.076 24.068,29.609C24.084,29.632 24.113,29.642 24.14,29.633C25.799,29.12 27.482,28.345 29.22,27.069C29.235,27.058 29.245,27.041 29.246,27.023C29.67,22.641 28.537,18.835 26.243,15.46C26.237,15.449 26.228,15.441 26.217,15.436ZM15.808,24.714C14.808,24.714 13.983,23.795 13.983,22.667C13.983,21.538 14.792,20.619 15.808,20.619C16.833,20.619 17.65,21.546 17.634,22.667C17.634,23.795 16.825,24.714 15.808,24.714ZM22.558,24.714C21.557,24.714 20.733,23.795 20.733,22.667C20.733,21.538 21.541,20.619 22.558,20.619C23.583,20.619 24.4,21.546 24.384,22.667C24.384,23.795 23.583,24.714 22.558,24.714Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") center no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Icons                    ║                                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+:root {
+  // Titlebar
+  --icon-windows-minimize: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 48 48' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='ArtBoard1' x='0' y='0' width='48' height='48' style='fill:none;'/%3E%3Cg id='ArtBoard11' serif:id='ArtBoard1'%3E%3Cg id='Titlebar'%3E%3Crect id='minimize' x='10' y='22' width='28' height='4' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") center no-repeat;
+  --icon-windows-maximize: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 48 48' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='ArtBoard1' x='0' y='0' width='48' height='48' style='fill:none;'/%3E%3Cg id='ArtBoard11' serif:id='ArtBoard1'%3E%3Cg id='Titlebar'%3E%3Cpath id='maximize' d='M36,12l-24,0l0,24l24,0l0,-24Zm-2,2l-20,0l0,20l20,0l0,-20Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") center no-repeat;
+  --icon-windows-window: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 48 48' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='ArtBoard1' x='0' y='0' width='48' height='48' style='fill:none;'/%3E%3Cg id='ArtBoard11' serif:id='ArtBoard1'%3E%3Cg id='Titlebar'%3E%3Cpath id='window' d='M31.5,16.5l-20,0l0,20l20,0l0,-20Zm2,15l3,0l0,-20l-20,0l0,3l17,0l0,17Zm0,7l0,-5l5,0l0,-24l-24,0l0,5l-5,0l0,24l24,0Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") center no-repeat;
+  --icon-windows-close: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 48 48' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='ArtBoard1' x='0' y='0' width='48' height='48' style='fill:none;'/%3E%3Cg id='ArtBoard11' serif:id='ArtBoard1'%3E%3Cg id='Titlebar'%3E%3Cpath id='close' d='M38,12.82l-2.82,-2.82l-11.18,11.18l-11.18,-11.18l-2.82,2.82l11.18,11.18l-11.18,11.18l2.82,2.82l11.18,-11.18l11.18,11.18l2.82,-2.82l-11.18,-11.18l11.18,-11.18Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") center no-repeat;
+  
+  // Message
+  --icon-edited: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='29px' viewBox='0 0 24 24' width='20px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z'/%3E%3C/svg%3E") center/16px no-repeat;
+  
+  // Guild Buttons
+  --icon-home: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 48 48' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='ArtBoard1' x='0' y='0' width='48' height='48' style='fill:none;'/%3E%3Cg id='ArtBoard11' serif:id='ArtBoard1'%3E%3Cpath id='home' d='M13.688,43.053l0,-8l-5.867,0c-2.109,0 -3.821,-1.712 -3.821,-3.821l0,-22.464c0,-2.109 1.712,-3.821 3.821,-3.821l32.358,-0c2.109,-0 3.821,1.712 3.821,3.821l-0,22.464c-0,2.109 -1.712,3.821 -3.821,3.821l-18.491,0l-8,8Z'/%3E%3C/g%3E%3C/svg%3E") center no-repeat;
+  --icon-settings: path("M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z");
+  
+  // Popout
+  --icon-cancel: path("M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z");
+  }
+
+
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Title                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.wordmarkWindows-2dq6rw::after {
+  position: relative;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: var(--font-titlebar);
+  padding-left: 80px;
+  width: 100%;
+  top: -0.4px;
+}
+
+.theme-dark .wordmarkWindows-2dq6rw::after,
+.theme-light .wordmarkWindows-2dq6rw::after {
+  top: 4px !important;
+  content: var(--info-version) ' | ' var(--info-skin) ' by ' var(--info-author);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Buttons                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Buttons
+.winButton-3UMjdg,
+.winButton-3UMjdg:hover,
+.winButton-3UMjdg:active {
+  height: 30px;
+  width: 42px;
+  color: var(--header-secondary);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Buttons (Minimize)                                                                      ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// No Icon
+.winButtonMinMax-3RsPUg:nth-child(4) svg {
+display: none;
+}
+
+// Minimize Button
+.winButtonMinMax-3RsPUg:nth-child(4):after {
+  content:'';
+  width:17px;
+  height:17px;
+  -webkit-mask: var(--icon-windows-minimize);
+  mask: var(--icon-windows-minimize);
+  background: var(--header-secondary);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Buttons (Maximize)                                                                      ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.winButtonMinMax-3RsPUg:hover,
+.winButtonMinMax-3RsPUg:active {
+  background: var(--background-secondary);
+}
+
+// No Icon
+.winButtonMinMax-3RsPUg:nth-child(3) svg {
+  display:none;
+}
+
+// Maximize Button
+.winButtonMinMax-3RsPUg:nth-child(3):after {
+  content:'';
+  width:19px;
+  height:19px;
+  -webkit-mask: var(--icon-windows-maximize);
+  mask: var(--icon-windows-maximize);
+  background: var(--header-secondary);
+}
+
+
+
+/*
+// Windows Button
+.winButtonMinMax-3RsPUg:nth-child(3):after {
+  content:'';
+  width:19px;
+  height:19px;
+  -webkit-mask: var(--icon-windows-window) !important;
+  mask: var(--icon-windows-window) !important;
+  background: blue;
+  display: none;
+}
+
+
+
+
+
+:-webkit-full-screen .app-3xd6d0 {display: none !important;}
+
+:-moz-full-screen .app-3xd6d0 {display: none !important;}
+
+:-ms-fullscreen .app-3xd6d0 {display: none !important;}
+
+:fullscreen .app-3xd6d0 {display: none !important;}
+
+*/
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ Buttons (Close)                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.winButtonClose-3Q8ZH5:hover,
+.winButtonClose-3Q8ZH5:active {
+  background: #E81123;
+}
+
+// No Icon
+.winButtonClose-3Q8ZH5 svg {
+  display: none;
+}
+
+// Minimize Button
+.winButtonClose-3Q8ZH5:after {
+  content:'';
+  width:17px;
+  height:17px;
+  -webkit-mask: var(--icon-windows-close);
+  mask: var(--icon-windows-close);
+  background: var(--header-secondary);
+}
+
+// Hover
+.winButtonClose-3Q8ZH5:hover:after,
+.winButtonClose-3Q8ZH5:active:after {
+  color: white;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Titlebar                 ║ OSX                                                                                     ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Butons
+.platform-osx .macButtons-eIdy0e {
+  z-index: 200;
+  position: fixed;
+  top: -2px;
+  left: 0px;
+}
+
+// Version
+.platform-osx .macButtons-eIdy0e::after {
+  position: fixed;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  padding-left: 80px;
+  width: 100%;
+  top: 5px;
+  color: var(--header-secondary);
+  left: -5vw;
+  text-align: center;
+}
+
+// Dark
+.platform-osx .macButtons-eIdy0e::after {
+  content: var(--info-version) ' | ' var(--info-skin) ' (Dark)' ' by ' var(--info-author);
+}
+
+// Light
+.platform-osx .macButtons-eIdy0e::after {
+  content: var(--info-version) ' | ' var(--info-skin) ' (Light)' ' by ' var(--info-author);
+}
