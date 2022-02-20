@@ -102,7 +102,8 @@
 // ║ 3. Remove                ║                                                                                         ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-@use "modules/remove/no-gift-icon"; // No Gift Button Icon
+// No Gift Button Icon
+@use "modules/remove/no-gift-icon"; 
 
 @use "modules/remove/no-gif-icon"; // No GIF Button Icon
 
@@ -122,8 +123,9 @@
 
 //@use "modules/addons/friends-grid"; // Friends-Grid Add-on
 
-
 //@use "modules/addons/context-icons"; // Context-Icons Add-on
+
+//@use "modules/addons/settings-icons"; // Settings-Icons Add-on
 
 //@use "modules/addons/user-tags"; // User-Tags Add-on
 
@@ -167,7 +169,7 @@
 
 //@use "modules/animations/chat-input"; // Chat-Input
 
-@use "modules/animations/channels-sidebar"; // Chat-Input
+//@use "modules/animations/channels-sidebar"; // Chat-Input
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ 6. Effects               ║                                                                                         ║
