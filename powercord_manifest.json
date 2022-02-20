@@ -4,6 +4,6 @@
     "author": "CorellanStoma#1996",
     "description": "CreArts is an easily customizable theme that customizes the appearance.",
     "license": "MIT",
-    "theme": "dev.scss",
+    "theme": "clients/powercord.css",
     "splashTheme": "modules/splash/community.scss"
 }
