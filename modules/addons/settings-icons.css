@@ -9,3 +9,8 @@
 /* ║ Import                   ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
+@import url("https://crearts-community.github.io/Settings-Icons/theme.css");
+
+@import url("https://crearts-community.github.io/Settings-Icons/modules/plugins/powercord.css");
+
+@import url("https://crearts-community.github.io/Settings-Icons/modules/plugins/betterdiscord.css");

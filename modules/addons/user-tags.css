@@ -9,4 +9,8 @@
 /* ║ Import                   ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@import"https://crearts-community.github.io/User-Tags/theme.css";
+@import url("https://crearts-community.github.io/User-Tags/theme.css");
+
+@import url("https://crearts-community.github.io/User-Tags/modules/plugins/powercord.css");
+
+@import url("https://crearts-community.github.io/User-Tags/modules/plugins/betterdiscord.css");

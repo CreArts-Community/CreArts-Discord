@@ -75,20 +75,26 @@
 /*@import url("https://crearts-community.github.io/CreArts-Discord/modules/effects/rain.css");/**/
 
 /* Adds a snow effect. */
-/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/effects/snow");/**/
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/effects/snow.css");/**/
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 4. Add-ons               ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* No Gift Button Icon */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-gift-icon.css");/**/
+/* Friends-Grid Add-on */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/friends-grid.css");/**/
 
-/* No GIF Button Icon */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-gif-icon.css");/**/
+/* Context-Icons */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/context-icons.css");/**/
 
-/*No Sticker Icon */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-sticker-icon.css");/**/
+/* Settings-Icons */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/settings-icons.css");/**/
+
+/* User-Tags */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/user-tags.css");/**/
+
+/* Discolored */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/discolored.css");/**/
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 4.1 Chat-Bubbles         ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
