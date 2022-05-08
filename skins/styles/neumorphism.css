@@ -1,0 +1,180 @@
+:root {
+  --background-flat: var(--background-primary);
+  --background-pressed: var(--background-primary);
+
+  --shape-flat: 8px 8px 18px #292b30, -8px -8px 18px #43474e;
+  --shape-pressed: inset 8px 8px 18px #292b30, inset -8px -8px 18px #43474e;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Neumorphism              ║ Base                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.base-2jDfDU,
+.sidebar-1tnWFu,
+.content-1jQy2l,
+.sidebar-1tnWFu,
+.content-1SgpWY,
+.chat-2ZfjoI {
+  overflow: visible !important;
+}
+
+.base-2jDfDU {
+  width: 0;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Neumorphism              ║ Titlebar                                                                                ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.titleBar-1it3bQ::before {
+  background: var(--background-flat);
+  box-shadow: var(--shape-flat);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Neumorphism              ║ Guild                                                                                   ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Background */
+.wrapper-1_HaEi {
+  background: var(--background-flat);
+  box-shadow: var(--shape-flat);
+}
+
+.childWrapper-1j_1ub {
+  background: var(--background-pressed);
+  box-shadow: var(--shape-pressed);
+}
+
+.childWrapper-1j_1ub {
+  background: var(--background-pressed);
+  box-shadow: var(--shape-pressed);
+}
+
+.circleIconButton-1VxDrg {
+  background: var(--background-pressed);
+  box-shadow: var(--shape-pressed);
+}
+
+.expandedFolderBackground-1kSAf6 {
+  background: var(--background-pressed);
+  box-shadow: var(--shape-pressed);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Neumorphism              ║ Header                                                                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Background */
+.header-3OsQeK {
+  background: var(--background-pressed);
+  box-shadow: var(--shape-pressed);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Neumorphism              ║ Channels                                                                                ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Background */
+.sidebar-1tnWFu .thin-31rlnD.scrollerBase-_bVAAt {
+  background: var(--background-flat) !important;
+  box-shadow: var(--shape-flat);
+}
+
+/* Boost Goal */
+.container-2giAcK {
+  background: var(--background-pressed);
+  box-shadow: var(--shape-pressed);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Neumorphism              ║ Panel                                                                                   ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Background */
+.panels-3wFtMD {
+  background: var(--background-flat);
+  box-shadow: var(--shape-flat);
+}
+
+/* Avatar */
+.container-YkUktl .avatarWrapper-1B9FTW  {
+  background: var(--background-secondary);
+  box-shadow: var(--shape-pressed);
+}
+
+/* Name */
+.container-YkUktl .nameTag-sc-gpq  {
+  background: var(--background-secondary);
+  box-shadow: var(--shape-pressed);
+}
+
+/* Buttons */
+.container-YkUktl .directionRow-2Iu2A9 .button-12Fmur {
+  background: var(--background-secondary);
+  box-shadow: var(--shape-pressed);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Neumorphism              ║ Title                                                                                   ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Background */
+.children-3xh0VB {
+  background: var(--background-pressed);
+  box-shadow: var(--shape-pressed);
+}
+
+.toolbar-3_r2xA {
+  background: var(--background-pressed);
+  box-shadow: var(--shape-pressed);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Neumorphism              ║ Content                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Background */
+.messagesWrapper-RpOMA3 {
+  background: var(--background-pressed) !important;
+  box-shadow: var(--shape-pressed);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Neumorphism              ║ Members                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.container-2o3qEW {
+  background: var(--background-pressed);
+  box-shadow: var(--shape-pressed);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Neumorphism              ║ Input                                                                                   ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Attach Button */
+.attachWrapper-3slhXI .lookBlank-21BCro {
+  background: var(--background-pressed);
+  box-shadow: var(--shape-pressed);
+}
+
+/* Text Area */
+.chat-1-OBC7 .textArea-2CLwUE,
+.chat-2ZfjoI .textArea-2CLwUE {
+  background: var(--background-pressed);
+  box-shadow: var(--shape-pressed);
+}
+
+/* Buttons */
+.buttons-uaqb-5 {
+  background: var(--background-pressed);
+  box-shadow: var(--shape-pressed);
+}
+
+/* Typing */
+.typing-2J1mQU {
+  background: var(--background-pressed);
+  box-shadow: var(--shape-pressed);
+}

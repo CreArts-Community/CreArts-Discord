@@ -1,0 +1,31 @@
+on:
+  push:
+    branches:
+      - src-pages
+
+jobs:
+  build_css:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source Git branch
+        uses: actions/checkout@v2
+        with:
+          ref: src-pages
+          fetch-depth: 10
+          submodules: true
+
+      - name: Make destination directory for compiled CSS
+        run: mkdir -vp /tmp/assets/css
+
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.4.8
+        with:
+          source: _scss/main.scss
+          destination: /tmp/assets/css/main.css
+
+      - name: Upload Complied CSS
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          name: Compiled-CSS
+          path: /tmp/assets/css

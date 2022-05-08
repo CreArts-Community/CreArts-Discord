@@ -1,0 +1,182 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Sidebar                  ║ Layout                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Sidebar                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.sidebar-1tnWFu {
+  background: transparent;
+  margin: 0px calc(var(--layout-margin) / 2) 0px 0px;
+  border-radius: var(--radius-primary) !important;
+  width: var(--width-channel);
+}
+
+// Background
+.container-1NXEtd,
+.sidebar-1tnWFu .thin-31rlnD {
+  background: transparent;
+  margin-bottom: calc(var(--layout-margin) / 2);
+}
+
+.privateChannels-oVe7HL {
+  background: transparent;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Sidebar (Home)                                                                          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.searchBar-3TnChZ {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  box-shadow: none;
+  height: var(--height-header);
+  margin-bottom: calc((var(--layout-margin) / 2) + (var(--layout-margin) / 2));
+}
+
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+  background: transparent;
+  border-radius: var(--radius-primary);
+  height: 100%;
+}
+
+#private-channels {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  margin-top: 20px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Sidebar (Explore)                                                                       ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.sidebar-1tnWFu .thin-31rlnD.scrollerBase-_bVAAt {
+  background: var(--background-secondary) !important;
+  border-radius: var(--radius-primary);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Sidebar (Header)                                                                        ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.container-1-ERn5 {
+  z-index: 2 !important;
+}
+
+// Background
+.header-3OsQeK {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  height: var(--height-header);
+  margin: 0px 0px calc(var(--layout-margin) / 2) 0px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels                 ║ Banner                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Banner
+.bannerImg-2PzH6z, .bannerImage-ubW8K- {
+  width: 100%;
+}
+
+.animatedContainer-2laTjx {
+  border-radius: var(--radius-primary);
+  box-shadow: none;
+}
+
+// Spacing
+.hasBanner-2IrYih .header-3OsQeK {
+  background: transparent;
+  height: 135px !important;
+  padding-bottom: 84px;
+}
+
+// No Banner Hide
+.hasBanner-2IrYih .bannerImage-ubW8K-,
+.hasBanner-2IrYih .animatedContainer-2laTjx {
+  opacity: 1 !important;
+  transform: translateY(0px) !important;
+}
+
+// Remove Spacing
+.scroller-1ox3I2 [style="height: 84px;"] {
+  display: none !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Sidebar (Channel Notice)                                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Channel Notice
+.channelNotice-3CfHGl {
+  background-color: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  margin: calc(var(--layout-margin) / 2) 0px;
+  box-shadow: none;
+}
+
+
+
+// Background
+.channelNotice-K4UfZY {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  margin: calc(var(--layout-margin) / 2) 0px;
+  padding: 12px;
+}
+
+// Normal
+.channelNotice-K4UfZY .textBlock-3rqvcj:first-child,
+.channelNotice-K4UfZY .button-f2h6uQ {
+  display: none;
+}
+
+// Hover
+.channelNotice-K4UfZY:hover .textBlock-3rqvcj:first-child {
+  display: flex;
+}
+
+.channelNotice-K4UfZY:hover .button-f2h6uQ {
+  display: block;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Sidebar (Channels)                                                                      ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.scroller-1ox3I2 {
+  background: var(--background-secondary) !important;
+  border-radius: var(--radius-primary);
+  margin: calc(var(--layout-margin) / 2) 0px 0px 0px !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Sidebar (Panel)                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.panels-3wFtMD {
+  background: var(--background-secondary);
+  margin: calc(var(--layout-margin) / 2) 0px 0px 0px;
+  border-radius: var(--radius-primary);
+}

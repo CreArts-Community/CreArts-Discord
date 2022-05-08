@@ -26,9 +26,9 @@ If applicable, add screenshots to help explain your problem.
 **Operating System:**
 Which operating system do you use?
 
-- Linux
-- Windows
-- macOS
+- [ ] Linux
+- [ ] Windows
+- [ ] macOS
 
 **Additional context**
 Add any other context about the problem here.

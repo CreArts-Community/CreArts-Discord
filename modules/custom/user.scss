@@ -1,0 +1,77 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Banner                   ║ Mixins (User)                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// User Variables
+@mixin database-user($id, $color, $badge: "") {
+  @if $badge != "" {
+    :root {
+      --color-#{$id}: #{$color};
+      --badge-#{$id}: url("#{$badge}");
+    }
+  } @else {
+    :root {
+      --color-#{$id}: #{$color};
+    }
+  }
+
+  // Names
+  .message-2CShn3 .avatar-2e8lTP[src*="#{$id}"] + h2 .username-h_Y3Us,
+  .message-2CShn3 .replyAvatar-sHd2sU[src*="#{$id}"] + .username-h_Y3Us {
+    color: var(--color-#{$id}) !important;
+  }
+
+  // Frames (Powercord only)
+  .groupStart-3Mlgv1[data-author-id="#{$id}"]:not(.hasReply-2Cr4KE, .systemMessage-1H1Z20)::after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: var(--color-#{$id});
+    top: 4px;
+    left: 16px;
+    -webkit-mask: var(--frame);
+    mask: var(--frame);
+    transform: scale3d(1.31, 1.31, 1.31);
+    --frame: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 80 80' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(3.67457,0,0,3.67457,-15.0361,-109.332)'%3E%3Cpath d='M7.038,35.188C8.782,32.673 11.689,31.026 14.978,31.026C18.266,31.026 21.173,32.673 22.917,35.188L22.917,35.188L22.917,35.188C22.958,35.247 22.999,35.307 23.039,35.367C23.763,36.37 24.725,36.54 25.863,36.093L25.846,38.963L24.604,39.936C24.623,40.182 24.633,40.43 24.633,40.681C24.633,41.314 24.572,41.933 24.455,42.531L25.846,41.395L25.111,44.72L22.934,46.149C22.775,46.38 22.606,46.604 22.428,46.82L23.536,48.307L21.803,50.092L19.441,49.777L19.126,50.46L14.978,51.525L10.829,50.46L10.514,49.777L8.152,50.092L6.419,48.307L7.527,46.82C7.349,46.604 7.18,46.38 7.021,46.149L4.844,44.72L4.109,41.395L5.5,42.531C5.383,41.933 5.322,41.314 5.322,40.681C5.322,40.43 5.332,40.182 5.351,39.936L4.109,38.963L4.092,36.093C5.23,36.54 6.192,36.37 6.917,35.367C6.957,35.307 6.997,35.247 7.038,35.188L7.038,35.188L7.038,35.188Z'/%3E%3C/g%3E%3Cg transform='matrix(1,0,0,1,-25.2866,0)'%3E%3Ccircle cx='65.287' cy='40.153' r='30.581' style='fill:rgb(12,12,12);'/%3E%3C/g%3E%3C/svg%3E")
+      center no-repeat;
+  }
+  .hasReply-2Cr4KE[data-author-id="#{$id}"]::after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: var(--color-#{$id});
+    top: 25px;
+    left: 16px;
+    -webkit-mask: var(--frame);
+    mask: var(--frame);
+    transform: scale3d(1.31, 1.31, 1.31);
+    --frame: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 80 80' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(3.67457,0,0,3.67457,-15.0361,-109.332)'%3E%3Cpath d='M7.038,35.188C8.782,32.673 11.689,31.026 14.978,31.026C18.266,31.026 21.173,32.673 22.917,35.188L22.917,35.188L22.917,35.188C22.958,35.247 22.999,35.307 23.039,35.367C23.763,36.37 24.725,36.54 25.863,36.093L25.846,38.963L24.604,39.936C24.623,40.182 24.633,40.43 24.633,40.681C24.633,41.314 24.572,41.933 24.455,42.531L25.846,41.395L25.111,44.72L22.934,46.149C22.775,46.38 22.606,46.604 22.428,46.82L23.536,48.307L21.803,50.092L19.441,49.777L19.126,50.46L14.978,51.525L10.829,50.46L10.514,49.777L8.152,50.092L6.419,48.307L7.527,46.82C7.349,46.604 7.18,46.38 7.021,46.149L4.844,44.72L4.109,41.395L5.5,42.531C5.383,41.933 5.322,41.314 5.322,40.681C5.322,40.43 5.332,40.182 5.351,39.936L4.109,38.963L4.092,36.093C5.23,36.54 6.192,36.37 6.917,35.367C6.957,35.307 6.997,35.247 7.038,35.188L7.038,35.188L7.038,35.188Z'/%3E%3C/g%3E%3Cg transform='matrix(1,0,0,1,-25.2866,0)'%3E%3Ccircle cx='65.287' cy='40.153' r='30.581' style='fill:rgb(12,12,12);'/%3E%3C/g%3E%3C/svg%3E")
+      center no-repeat;
+  }
+
+  .groupStart-3Mlgv1[data-author-id="#{$id}"] .avatar-2e8lTP,
+  .hasReply-2Cr4KE[data-author-id="#{$id}"] .avatar-2e8lTP {
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
+  }
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Database                 ║ User                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// CorellanStoma (288362986991648778)
+@include database-user("288362986991648778", "#cd0952");
+
+// ItsJustJoshDev (938557606820204625)
+@include database-user("938557606820204625", "#caae67");
+
+// Nate's World (899762612668096512)
+@include database-user("899762612668096512", "#ff901d");
+
+// Obscure. (755436063828213821)
+@include database-user("755436063828213821", "#7d7bfe");
+
+
+

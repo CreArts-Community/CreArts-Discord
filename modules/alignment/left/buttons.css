@@ -1,0 +1,42 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Left (Buttons)           ║ Buttons                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+.wrapper-1_HaEi {
+  margin-bottom: calc(var(--layout-margin-bottom) + var(--inner-secondary) + 48px + var(--inner-secondary) + 48px + var(--inner-secondary) + 48px + var(--inner-secondary) + var(--layout-margin)) !important;
+}
+
+/* Background */
+.panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
+  position: fixed;
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: calc(var(--layout-margin-bottom));
+  left: var(--layout-margin-left);
+  width: 72px;
+  padding: var(--inner-secondary) 0px;
+  margin: 0px;
+  grid-gap: var(--inner-secondary);
+}
+
+/* Buttons */
+.panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur {
+  background: var(--background-primary);
+  border-radius: var(--radius-primary);
+  width: 48px;
+  height: 48px;
+}
+
+/* Panel */
+.panels-3wFtMD>.container-YkUktl:last-child {
+margin-bottom: -42px;
+}
+
+/* Remove Game Activity */
+[aria-label="Hide Game Activity"] {
+  display: none;
+}

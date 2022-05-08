@@ -1,0 +1,76 @@
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Version                  ║ Settings Info                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Text Selection
+.info-3pQQBb .line-18uChy {
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+}
+
+//  content: 'CreArts ' var(--info-version) ' - ' var(--info-skin) ' - by ' var(--info-author);
+
+// Version
+.info-3pQQBb::after {
+  display: block;
+
+  content: "CreArts " var(--info-version);
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: none;
+  color: var(--text-muted);
+  margin-top: 20px;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  cursor: text;
+}
+
+/*
+// Skin
+.info-3pQQBb::before {
+  display: block;
+  position: absolute;
+  content: var(--info-skin);
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: none;
+  color: var(--text-muted);
+  margin-top: 104px;
+}
+*/
+/*
+  {
+    &
+  
+    &::before {
+      content: "Current " !important;
+      color: var(--text-muted);
+      opacity: 1;
+      filter: brightness(100%);
+      display: block;
+      font-size: 12px;
+      font-family: var(--font-primary);
+      font-weight: 400;
+      position: absolute;
+      margin-top: 102px;
+    }
+  }
+  
+  .socialLinks-3ywLUf::after {
+    content: "Style: " var(--style-name) " | Creator: " var(--style-creator) !important;
+    color: var(--text-muted);
+    opacity: 1;
+    filter: brightness(180%);
+    display: block;
+    font-size: 10px;
+    font-family: var(--font-primary);
+    font-weight: 400;
+    position: absolute;
+    margin-top: 132px;
+  }
+  */

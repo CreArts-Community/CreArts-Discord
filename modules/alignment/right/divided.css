@@ -1,0 +1,113 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Right (Divided)          ║ Base                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+.scroller-3X7KbA {
+  contain: unset;
+}
+
+/* Order */
+.wrapper-1_HaEi {
+  order: 2;
+}
+
+.base-2jDfDU {
+  order: 1;
+}
+
+/* Spacing */
+.guilds-2JjMmN {
+  margin-right: var(--layout-margin-left) !important;
+  margin-left: 0px !important;
+}
+
+/* Reverse */
+.pill-L_aLMQ,
+.pill-22lZHo,
+.pill-2RsI5Q {
+  transform: rotate(180deg);
+  transform-origin: center;
+  left: 62px;
+  position: absolute;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Right (Divided)          ║ Divided                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+.wrapper-1_HaEi {
+  margin-top: calc((var(--guild-icon) * 3) + (var(--guild-spacing) * 4) + var(--layout-margin) + var(--layout-margin-top)) !important;
+}
+
+.scroller-3X7KbA {
+  padding-top: 0px !important;
+}
+
+/* Home Button */
+.tutorialContainer-1pL9QS {
+  position: fixed;
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  padding: var(--inner-secondary) 0px;
+  height: calc((var(--guild-icon) * 3) + (var(--guild-spacing) * 2)) !important;
+  top: var(--layout-margin-top);
+}
+
+.platform-win .tutorialContainer-1pL9QS {
+  top: calc(var(--height-titlebar) - 2px + var(--layout-margin-top));
+}
+
+/* Explore Button */
+.scroller-3X7KbA > .listItem-3SmSlK:nth-last-child(2) {
+  position: fixed;
+  top: calc(var(--layout-margin-top) + var(--inner-secondary) + var(--guild-icon) + var(--guild-spacing));
+}
+
+.platform-win .scroller-3X7KbA > .listItem-3SmSlK:nth-last-child(2) {
+  position: fixed;
+  top: calc(var(--height-titlebar) - 2px + var(--layout-margin-top) + var(--inner-secondary) + var(--guild-icon) + var(--guild-spacing));
+}
+
+.platform-web .scroller-3X7KbA > .listItem-3SmSlK:nth-last-child(4) {
+  position: fixed !important;
+  top: calc(var(--layout-margin-top) + var(--inner-secondary) + var(--guild-icon) + var(--guild-spacing));
+}
+
+/* Add Server Button */
+.tutorialContainer-2jwoiB {
+  position: fixed;
+  top: calc(var(--layout-margin-top) + var(--inner-secondary) + var(--guild-icon) + var(--guild-spacing) + var(--guild-icon) + var(--guild-spacing));
+}
+
+.platform-win .tutorialContainer-2jwoiB {
+  position: fixed;
+  top: calc(var(--height-titlebar) - 2px + var(--layout-margin-top) + var(--inner-secondary) + var(--guild-icon) + var(--guild-spacing) + var(--guild-icon) + var(--guild-spacing));
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Right (Divided)          ║ Divided (DM Button)                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+[style="opacity: 1; height: 56px; transform: scale(1);"] {
+  order: -2;
+  border-radius: var(--radius-primary);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  height: 50px !important;
+}
+
+/* Separator */
+.scroller-3X7KbA > .listItem-3SmSlK:nth-last-child(5) {
+  order: -1;
+}
+
+[style="opacity: 1; height: 56px; transform: scale(1);"] + .listItem-3SmSlK .guildSeparator-a4uisj {
+  display: block;
+}
+
+.guildSeparator-a4uisj {
+  display: none;
+}

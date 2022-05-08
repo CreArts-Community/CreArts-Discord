@@ -1,0 +1,102 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Bottom (Buttons)         ║ Base                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+.base-2jDfDU {
+  margin-left: var(--layout-margin-left) !important;
+}
+
+.layers-OrUESM {
+  margin-bottom: calc(72px + var(--layout-margin-top));
+}
+
+.wrapper-1_HaEi {
+  position: fixed;
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  bottom: var(--layout-margin-bottom) !important;
+  height: 100vw;
+  left: 100vw;
+}
+
+.guilds-2JjMmN {
+  margin: unset !important;
+  background: transparent !important;
+}
+
+/* Background */
+.scroller-3X7KbA {
+  background: var(--background-secondary) !important;
+  border-radius: var(--radius-primary);
+  margin-bottom: calc(var(--layout-margin) + var(--inner-secondary) + 48px + var(--inner-secondary) + 48px + var(--inner-secondary) + 48px + var(--inner-secondary) + var(--layout-margin));
+  margin-top: var(--layout-margin-left);
+}
+
+/* Pill */
+.pill-L_aLMQ,
+.pill-1NRFie,
+.pill-22lZHo,
+.pill-2RsI5Q {
+  transform: rotate(-90deg);
+  transform-origin: center;
+  top: 32px;
+  left: 32px;
+}
+
+/* Separator */
+.guildSeparator-a4uisj {
+  transform: rotate(90deg);
+}
+
+/* Item */
+.listItem-3SmSlK {
+  transform: rotate(90deg);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Bottom (Buttons)         ║ Buttons                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Background */
+.panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
+  position: fixed;
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  bottom: var(--layout-margin-bottom);
+  right: var(--layout-margin-right);
+  height: 72px;
+  padding: 0px var(--inner-secondary);
+  margin: 0px;
+  grid-gap: var(--inner-secondary);
+}
+
+/* Buttons */
+.panels-3wFtMD > .container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur {
+  background: var(--background-primary);
+  border-radius: var(--radius-primary);
+  width: 48px;
+  height: 48px;
+}
+
+/* Panel */
+.panels-3wFtMD > .container-YkUktl:last-child {
+  margin-bottom: -42px;
+}
+
+/* Unread */
+.unreadMentionsIndicatorBottom-3RJMnQ {
+  margin-bottom: calc(var(--layout-margin-right) + var(--layout-margin-bottom) + var(--inner-secondary) + 48px + var(--inner-secondary) + 48px + var(--inner-secondary) + 48px + var(--inner-secondary) + var(--layout-margin)) !important; 
+}
+
+.unreadMentionsIndicatorTop-2bTgUU {
+  margin-top: var(--layout-margin-top);
+}
+
+/* Remove Game Activity */
+[aria-label="Hide Game Activity"] {
+  display: none;
+}

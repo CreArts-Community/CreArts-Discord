@@ -1,4 +1,28 @@
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Members                  ║ Layout                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background (Members & Channel)
+.container-NkLXgf,
+.container-2o3qEW {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+}
+
+// Spacing
+.container-2o3qEW {
+  margin-left: calc((var(--layout-margin) / 2) + (var(--layout-margin) / 2));
+  width: var(--width-members);
+}
+
+// No Background
+.container-2Oqvgx,
+.members-3WRCEx,
+.members-3WRCEx > div {
+  background-color: transparent;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Members                  ║ Header                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 

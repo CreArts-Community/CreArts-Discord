@@ -1,0 +1,33 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Base                     ║ Layout                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.chat-2ZfjoI {
+  background: transparent;
+}
+.layer-86YKbF {
+  background: transparent !important;
+}
+
+// Spacing
+.base-2jDfDU {
+  margin: var(--layout-margin-top) var(--layout-margin-right) var(--layout-margin-bottom) var(--layout-margin);
+}
+
+// No Lines
+.form-3gdLxP:before,
+.children-3xh0VB:after,
+.content-1jQy2l:before {
+  display: none;
+}
+
+// No Shaddow
+.header-3OsQeK {
+  box-shadow: none;
+}
+
+// No Focus Outline
+ul.tree-3agP2X:focus {
+  outline: none;
+}

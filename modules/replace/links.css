@@ -1,0 +1,55 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Links                    ║ Base                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Hide */
+.messageContent-2t3eCI a[href^="https://discord.com"]:not([href*="channels"]),
+.messageContent-2t3eCI a[href^="https://discordstatus.com"]:not([href*="channels"]) {
+  font-size: 0;
+  line-height: 0;
+  text-decoration: none;
+}
+
+/* Normal */
+.messageContent-2t3eCI a[href^="https://discord.com"]:not([href*="channels"])::after,
+.messageContent-2t3eCI a[href^="https://discordstatus.com"]:not([href*="channels"])::after
+{
+  font-size: 11pt !important;
+  line-height: 10px !important;
+  background: var(--brand-experiment-30a);
+  color: var(--brand-experiment-200);
+  transition: background-color 50ms ease-out, color 50ms ease-out;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 0 2px;
+  font-weight: 500;
+}
+
+/* Hover */
+.messageContent-2t3eCI a[href^="https://discord.com"]:hover::after,
+.messageContent-2t3eCI a[href^="https://discordstatus.com"]:hover::after,
+.messageContent-2t3eCI a[href^="https://support.discord.com"]:hover::after
+{
+    color: #fff;
+    background-color: var(--brand-experiment);
+}
+
+/* Content */
+.messageContent-2t3eCI a[href^="https://discord.com"]::after {content: "Jump to Discord" !important;}
+
+.messageContent-2t3eCI a[href^="https://discord.com/tos"]::after {content: "Jump To TOS" !important;}
+
+.messageContent-2t3eCI a[href^="https://discord.com/terms"]::after {content: "Jump To Terms" !important;}
+
+.messageContent-2t3eCI a[href^="https://discord.com/nitro"]::after {content: "Jump To Nitro" !important;}
+
+.messageContent-2t3eCI a[href^="https://discord.com/safety"]::after {content: "Jump To Trust and Safety" !important;}
+
+.messageContent-2t3eCI a[href^="https://discord.com/blog"]::after {content: "Jump To Blog" !important;}
+
+.messageContent-2t3eCI a[href^="https://discord.com/jobs"]::after {content: "Jump To Jobs At Discord" !important;}
+
+.messageContent-2t3eCI a[href^="https://discord.com/branding"]::after{content: "Jump To Discord Branding" !important;}
+
+
+/* https://support.discord.com */

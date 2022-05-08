@@ -1,0 +1,64 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Bottom (Default)         ║ Base                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+.base-2jDfDU {
+  margin-left: var(--layout-margin-left) !important;
+}
+
+.layers-OrUESM {
+  margin-bottom: calc(72px + var(--layout-margin-top));
+}
+
+.wrapper-1_HaEi {
+  position: fixed;
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  bottom: var(--layout-margin-bottom) !important;
+  height: 100vw;
+  left: 100vw;
+}
+
+.guilds-2JjMmN {
+  margin: unset !important;
+  background: transparent !important;
+}
+
+/* Background */
+.scroller-3X7KbA {
+  background: var(--background-secondary) !important;
+  border-radius: var(--radius-primary);
+  margin-bottom: var(--layout-margin);
+  margin-top: var(--layout-margin-left);
+}
+
+/* Pill */
+.pill-L_aLMQ,
+.pill-1NRFie,
+.pill-22lZHo,
+.pill-2RsI5Q {
+  transform: rotate(-90deg);
+  transform-origin: center;
+  top: 32px;
+  left: 32px;
+}
+
+/* Separator */
+.guildSeparator-a4uisj {
+  transform: rotate(90deg);
+}
+
+/* Item */
+.listItem-3SmSlK {
+  transform: rotate(90deg);
+}
+
+/* Unread */
+.unreadMentionsIndicatorTop-2bTgUU {
+  margin-top: var(--layout-margin-top);
+}
+
+.unreadMentionsIndicatorBottom-3RJMnQ {
+  margin-bottom: var(--layout-margin-right);
+}

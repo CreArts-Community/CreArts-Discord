@@ -1,0 +1,28 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Dash                     ║ Import                                                                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Emoji */
+@font-face {
+    font-family: "CreArts-Dash";
+    font-style: normal;
+    font-display: swap;
+    src: url(https://crearts-community.github.io/Assets/fonts/dash/dash.woff2) format("woff2");
+    unicode-range: U+002D;
+  }
+  
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Dash                     ║ Base                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.container-1NXEtd .channelName-3KPsGw,
+.title-31SJ6t .title-17SveM,
+.contents-2MsGLg .iconMentionText-1_WCtN,
+.container-2McqkF .resultChannel-37MfX_,
+.searchResultsWrap-5RVOkx .channelName-3w2Y3c,
+.search-39IXmY .searchAnswer-23w-CH,
+.autocomplete-3NRXG8 .size16-rrJ6ag,
+.channelTextArea-1FufC0 .iconMentionText-1_WCtN {
+  font-family: "CreArts-Dash", var(--font-primary) !important;
+  text-transform: capitalize;
+}

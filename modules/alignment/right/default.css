@@ -1,0 +1,28 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Right (Default)          ║ Reverse                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Order */
+.wrapper-1_HaEi {
+  order: 2;
+}
+
+.base-2jDfDU {
+  order: 1;
+}
+
+/* Spacing */
+.guilds-2JjMmN {
+  margin-right: var(--layout-margin-left) !important;
+  margin-left: 0px !important;
+}
+
+/* Reverse */
+.pill-L_aLMQ,
+.pill-22lZHo,
+.pill-2RsI5Q {
+  transform: rotate(180deg);
+  transform-origin: center;
+  left: 62px;
+  position: absolute;
+}

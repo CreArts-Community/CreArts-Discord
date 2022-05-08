@@ -1,0 +1,134 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Tags                     ║ Mixins                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+@mixin chat-normal($name, $background, $user-id:"") {
+  @if $user-id != "" {
+    .avatar-2e8lTP[src*="#{$user-id}"] + h2 .username-h_Y3Us[style="color: #{$background};"]::after {
+      position: relative;
+      content: "#{$name}";
+      background: #{$background};
+      border-radius: 3px;
+      color: #fff;
+      padding: 1px 5px 1px 5px;
+      margin-left: 8px;
+      top: -3px;
+      font-size: .625rem;
+      text-transform: uppercase;
+      line-height: .9375rem;
+    }
+  }
+  @else {
+    h2 .username-h_Y3Us[style="color: #{$background};"]::after {
+      position: relative;
+      content: "#{$name}";
+      background: #{$background};
+      border-radius: 3px;
+      color: #fff;
+      padding: 1px 5px 1px 5px;
+      margin-left: 8px;
+      top: -3px;
+      font-size: .625rem;
+      text-transform: uppercase;
+      line-height: .9375rem;
+      font-weight: 500;
+    }
+    [style="color: #{$background};"] + .botTag-1NoD0B,
+    [style="color: #{$background};"] + .botTag-7aX5WZ {
+      display: none;
+    }
+  }
+}
+
+@mixin chat-extra($name, $background, $user-id) {
+  .avatar-2e8lTP[src*="#{$user-id}"] + h2 .username-h_Y3Us::after {
+    position: relative;
+    content: "#{$name}";
+    background: #{$background};
+    border-radius: 3px;
+    color: white;
+    padding: 1px 5px 1px 5px;
+    margin-left: 8px;
+    top: -3px;
+    font-size: .625rem;
+    text-transform: uppercase;
+    line-height: .9375rem;
+    font-weight: 500;
+  }
+  .botTagCozy-3NTBvK {
+      display: none !important;
+  }
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guilds                   ║ CreArts | Community (534376415202639903)                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Staff
+@include chat-normal("Staff", "rgb(230, 113, 90)");
+
+// Staff - Founder (CorellanStoma)
+@include chat-normal("Founder", "rgb(230, 113, 90)", "288362986991648778");
+
+// Staff - Administrator (Astyn)
+@include chat-normal("Administrator", "rgb(230, 113, 90)", "245827262161747968");
+
+// Staff - Moderator (Eivarain)
+@include chat-normal("Moderator", "rgb(230, 113, 90)", "409265569460912128");
+
+// Staff - Supporter (Nang)
+@include chat-normal("Moderator", "rgb(230, 113, 90)", "248498303551930368");
+
+// Staff - Supporter (Rainy)
+@include chat-normal("Moderator", "rgb(230, 113, 90)", "481028158078844939");
+
+// Staff - Supporter (GunCalidor)
+@include chat-normal("Moderator", "rgb(230, 113, 90)", "785908026481049630");
+
+// Nitro
+@include chat-normal("Nitro", "rgb(176, 97, 255)");
+
+// Creative
+@include chat-normal("Creative", "rgb(205, 9, 82)");
+
+// Gaming
+@include chat-normal("Creative", "rgb(9, 205, 133)");
+
+// Entertainment
+@include chat-normal("Creative", "rgb(255, 216, 97)");
+
+// Bots
+@include chat-normal("Laboratory", "rgb(97, 137, 255)");
+
+// Webhooks
+@include chat-extra("Webhook", "var(--brand-experiment)", "901669815385747476");
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guilds                   ║ CreArts | Community (538759280057122817)                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Staff - (Cynthia)
+@include chat-extra("Staff", "hsl(168deg 76% 42%)", "94762492923748352");
+
+// Staff - (Joakim)
+@include chat-extra("Staff", "hsl(168deg 76% 42%)", "190551803669118976");
+
+// Staff - (flag)
+@include chat-extra("Staff", "hsl(168deg 76% 42%)", "942009296630214686");
+
+// Developer - (Harley)
+@include chat-extra("Developer", "hsl(334deg 79% 38%)", "350227339784880130");
+
+// Support - (FifiTheBulldog)
+@include chat-extra("Developer", "hsl(168deg 76% 42%)", "690213339862794285");
+
+/*
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Names                    ║ Database (User)                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Tag
+.avatar-2e8lTP[src*="288362986991648778"]+h2 .username-h_Y3Us[style="color: rgb(230, 113, 90);"]::after {
+  background: var(--color-288362986991648778);
+}
+*/

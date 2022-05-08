@@ -1,0 +1,83 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ CreArts                                                                                                            ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Skin:                    ║ Lavender Edition                                                                        ║ */
+/* ║ Author:                  ║ CorellanStoma#1996                                                                      ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ General                  ║ Here you can make general adjustments.                                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+:root {
+  /* Info */
+  --SKIN-skin: "Lavender Edition";
+  --SKIN-author: "CorellanStoma & Obscure";
+  
+  /* Wallpaper */
+  --SKIN-wallpaper: url("");
+  --SKIN-wallpaper-opacity: 1.0;
+  
+  /* Fonts */
+  --SKIN-titlebar-font: "Segoe UI";
+  --SKIN-primary-font: "CreArts";
+  --SKIN-display-font: "CreArts";
+  --SKIN-code-font: "Consolas";
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Dark                     ║ Here you can make general adjustments.                                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.theme-dark {
+/* Lightness */
+--SKIN-lightness: 0%;
+
+/* Grading */
+--SKIN-grading-0: 4%;
+--SKIN-grading-1: 0%;
+--SKIN-grading-2: 2%;
+--SKIN-grading-3: 6%;
+
+/* Interactive (HSLA) */
+--SKIN-interactive-h: 260;
+--SKIN-interactive-s: 16%;
+--SKIN-interactive-l: 80%;
+--SKIN-interactive-a: 1.0;
+
+/* Background (HSLA) */
+--SKIN-background-h: 260;
+--SKIN-background-s: 12%;
+--SKIN-background-l: 10%;
+--SKIN-background-a: 1.0;
+
+/* Accent (HSLA) */
+--SKIN-accent-h: 250;
+--SKIN-accent-s: 93%;
+--SKIN-accent-l: 72%;
+--SKIN-accent-a: 1.0;
+
+/* Green (HSLA) */
+--SKIN-green-h: 153;
+--SKIN-green-s: 46%;
+--SKIN-green-l: 49%;
+--SKIN-green-a: 1.0;
+
+/* Yellow (HSLA) */
+--SKIN-yellow-h: 38;
+--SKIN-yellow-s: 96%;
+--SKIN-yellow-l: 54%;
+--SKIN-yellow-a: 1.0;
+
+/* Red (HSLA) */
+--SKIN-red-h: 0;
+--SKIN-red-s: 85%;
+--SKIN-red-l: 61%;
+--SKIN-red-a: 1.0;
+
+/* Purple (HSLA) */
+--SKIN-purple-h: 262;
+--SKIN-purple-s: 47%;
+--SKIN-purple-l: 40%;
+--SKIN-purple-a: 1.0;
+}

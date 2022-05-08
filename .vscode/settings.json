@@ -1,24 +1,32 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Settings                 ║ VSC Extension Settings                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
 {
-    "liveSassCompile.settings.formats":[
-       {
-           "format": "compressed",
-           "extensionName": ".css",
-           "savePath": null
-       }
-   ],
-
-   "liveSassCompile.settings.excludeList": [
-    "/.VSCodeCounter/**",
-    "/.vscode/**",
+  // Live Sass Compiler
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.watchOnLaunch": true,
+  "liveSassCompile.settings.autoprefix": ["defaults"],
+  "liveSassCompile.settings.showOutputWindowOn": "None",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": null
+    }
+  ],
+  //"liveSassCompile.settings.excludeList": ["/.backup/**", "/.github/**", "/clients/**", "/.vscode/**", "/src/*[!(source)]"],
+  "liveSassCompile.settings.includeItems": [
     "/dev.scss",
-   ],
+    "/src/source.scss",
+    "/test.scss",
+    // Custom
+    "/modules/custom/private.scss",
+    "/modules/custom/server.scss",
+    "/modules/custom/user.scss",
+    "/modules/custom/tags.scss",
+],
 
-   "liveSassCompile.settings.generateMap": false,
-   "liveSassCompile.settings.autoprefix": [
-       "defaults"
-   ]
+  // Prettier
+  "prettier.printWidth": 124,
 }
-
-// expanded
-// compressed
-// nested

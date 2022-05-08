@@ -1,0 +1,50 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Banner                   ║ Mixins (Server)                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Server
+@mixin database-server($id, $name, $color, $banner: "") {
+  @if $banner != "" {
+    :root {
+      --name-#{$id}: "#{$name}";
+      --color-#{$id}: #{$color};
+      --banner-#{$id}: url("#{$banner}");
+    }
+  } @else {
+    :root {
+      --name-#{$id}: "#{$name}";
+      --color-#{$id}: #{$color};
+    }
+  }
+
+  // Background
+  .container-1NXEtd[aria-label^="#{$name}"] .header-3OsQeK {
+    height: 135px !important;
+    padding-bottom: 90px;
+    background-image: var(--banner-#{$id}) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .container-1NXEtd[aria-label*="#{$name}"] {
+    .guildIconContainer-2FW_iA,
+    .name-3Uvkvr,
+    .button-2BMPJJ {
+      z-index: 2;
+      transition: none;
+    }
+  }
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Database                 ║ Server (ID, Name, Color, URL)                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// CreArts | Community (534376415202639903)
+@include database-server("534376415202639903", "CreArts | Community", "#cd0952", "https://i.imgur.com/nOPFf0m.png");
+
+// CorellanStoma's Lab (958458301463527454)
+@include database-server("958458301463527454", "CorellanStoma", "#dc335d", "https://i.imgur.com/MQakQJ3.png");
+
+// CreArts | Ace of Spades (861362288194748467)
+@include database-server("861362288194748467", "CreArts | Ace of Spades", "#cd0952", "https://i.imgur.com/UFWK0LN.png");

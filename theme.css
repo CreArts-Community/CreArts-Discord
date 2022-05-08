@@ -1,121 +1,354 @@
 /* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Discord Theme                                                                                                      ║ */
 /* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
-/* ║ Theme:                   ║ CreArts v3                                                                              ║ */
+/* ║ Name:                    ║ CreArts v3                                                                              ║ */
+/* ║ Version:                 ║ 3.0.0                                                                                   ║ */
 /* ║ Author:                  ║ CorellanStoma#1996                                                                      ║ */
-/* ║ Support:                 ║ https://discord.gg/8W8E39Z                                                              ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
 /* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║                                                                                                                    ║ */
-/* ║ CreArts is an easily customizable theme that customizes the appearance.                                            ║ */
+/* ║ CreArts is a theme for Discord that gives you a new modern interface and adds at the same time many                ║ */
+/* ║ possibilities to be customized, one of the core features are Skins, which allow you to customize the appearance    ║ */
+/* ║ with Variables.                                                                                                    ║ */
 /* ║                                                                                                                    ║ */
-/* ║ This Project was created by CorellanStoma#1996.                                                                    ║ */
+/* ║ The goal of this Discord theme is to wrap the standard Discord charm in a new visual idea.                         ║ */
+/* ║                                                                                                                    ║ */
+/* ║ To enable or disable certain things, you can comment lines. Use "/* " in front.                                    ║ */
 /* ║                                                                                                                    ║ */
 /* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ 1. Skins                 ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-/* Coming Soon! */
-
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ 2. Alignment             ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-/* Left Guild alignment. */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/left/index.css");/**/
+/* ✅ Enabled by Default
+/* ⭕ Disabled by Default
+/* 🧪 Experimental
+/* ⚠️ Must be loaded
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ 3. Remove                ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+/* ║ 1.0 Styles               ║ Appearance                                                                              ║ */
+/* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Select another Style, you can combine them as you wish.                                                            ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* No Gift Button Icon */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-gift-icon.css");/**/
+/* 🧪 Neumorphism (WIP) (works best with default settings) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/styles/neumorphism.css"); /**/
 
-/* No GIF Button Icon */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-gif-icon.css");/**/
-
-/* No Sticker Icon */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-sticker-icon.css");/**/
-
-/* No Sticker Icon */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-help-icon.css");/**/
-
-/* No Emoji Icon */
-/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-emoji-icon.css");/**/
-
-/* No Stream popout */
-/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-stream.css");/**/
-
-/* No Tooltip */
-/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-tooltip.css");/**/
+/* 🧪 Glassmorphism (WIP) (works best with default settings) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/styles/glassmorphism.css"); /**/
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ 5. Animations            ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+/* ║ 1.1 Palette              ║ Discord                                                                                 ║ */
+/* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Select another Palette, only one should be enabled at a time.                                                      ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* Chat Input */
-/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/animations/chat-input.css");/**/
+/* ⭕ Modern Edition (Blue-Gray) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/modern.css"); /**/
 
+/* ⭕ Blurple Edition (Gray) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/blurple.css"); /**/
 
-/* Channels Sidebar */
-/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/animations/channels-sidebar.css");/**/
+/* ⭕ Revamp Edition (Blue-Gray) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/revamp.css"); /**/
+
+/* ╔══════════════════════════╦═════════════════════════════════╗ */
+/* ║ 1.1 Palette              ║ Ores                            ║ */
+/* ╚══════════════════════════╩═════════════════════════════════╝ */
+
+/* ⭕ Ruby Edition (Red) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/ruby.css"); /**/
+
+/* ⭕ Emerald Edition (Green) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/emerald.css"); /**/
+
+/* ⭕ Sapphire Edition (Blue) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/sapphire.css"); /**/
+
+/* ⭕ Amethyst Edition (Purple) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/amethyst.css"); /**/
+
+/* ╔══════════════════════════╦═════════════════════════════════╗ */
+/* ║ 1.1 Palette              ║ Colors                          ║ */
+/* ╚══════════════════════════╩═════════════════════════════════╝ */
+
+/* ⭕ Crimson Edition (Dark Purple & Red) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/crimson.css"); /**/
+
+/* ⭕ Jungle Edition (Dark Green) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/jungle.css"); /**/
+
+/* ⭕ Hive Edition (Yellow) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/hive.css"); /**/
+
+/* ⭕ Nebula Edition (Blue & Turquoise) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/nebula.css"); /**/
+
+/* ⭕ Lavender Edition (Black) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/lavender.css"); /**/
+
+/* ⭕ Lux Edition (Black & Yellow) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/lux.css"); /**/
+
+/* ╔══════════════════════════╦═════════════════════════════════╗ */
+/* ║ 1.1 Palette              ║ Other                           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════╝ */
+
+/* ⭕ Revolt Edition */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/revolt.css"); /**/
+
+/* ⭕ Gruvbox Edition */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/gruvbox.css"); /**/
+
+/* 🧪 Steam Edition (WIP) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/palette/steam.css"); /**/
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ 6. Effects               ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+/* ║ 1.2 Shape                ║ Wide                                                                                    ║ */
+/* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Select another shape, only one should be active.                                                                   ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* Adds a confetti effect. */
-/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/effects/confetti.css");/**/
+/* ⭕ Wide Square */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/shape/wide/square.css"); /**/
 
-/* Adds a leaves effect. */
-/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/effects/leaves.css");/**/
+/* ⭕ Wide Round */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/shape/wide/round.css"); /**/
 
-/* Adds a rain effect. */
-/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/effects/rain.css");/**/
+/* ╔══════════════════════════╦═════════════════════════════════╗ */
+/* ║ 1.2 Shape                ║ Slim                            ║ */
+/* ╚══════════════════════════╩═════════════════════════════════╝ */
 
-/* Adds a snow effect. */
-/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/effects/snow.css");/**/
+/* ⭕ Slim Squircle */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/shape/slim/squircle.css"); /**/
 
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ 4. Add-ons               ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+/* ⭕ Slim Square */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/shape/slim/square.css"); /**/
 
-/* Friends-Grid Add-on */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/friends-grid.css");/**/
-
-/* Context-Icons */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/context-icons.css");/**/
-
-/* Settings-Icons */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/settings-icons.css");/**/
-
-/* User-Tags */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/user-tags.css");/**/
-
-/* Discolored */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/discolored.css");/**/
+/* ⭕ Slim Round */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/skins/shape/slim/round.css"); /**/
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ 4.1 Chat-Bubbles         ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+/* ║ 1.3 Alignment            ║ Left                                                                                    ║ */
+/* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Choose another alignment only one should be selected.                                                              ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* Coming Soon! */
+/* ✅ Combined */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/left/combined.css"); /**/
+
+/* ⭕ Divided */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/left/divided.css"); /**/
+
+/* ⭕ Buttons */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/left/buttons.css"); /**/
+
+/* ╔══════════════════════════╦═════════════════════════════════╗ */
+/* ║ 1.3 Alignment            ║ Right                           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════╝ */
+
+/* ⭕ Default */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/right/default.css"); /**/
+
+/* ⭕ Combined */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/right/combined.css"); /**/
+
+/* ⭕ Divided */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/right/divided.css"); /**/
+
+/* ⭕ Buttons */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/right/buttons.css"); /**/
+
+/* ╔══════════════════════════╦═════════════════════════════════╗ */
+/* ║ 1.3 Alignment            ║ Top                             ║ */
+/* ╚══════════════════════════╩═════════════════════════════════╝ */
+
+/* ⭕ Default */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/top/default.css"); /**/
+
+/* ⭕ Buttons */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/top/buttons.css"); /**/
+
+/* ╔══════════════════════════╦═════════════════════════════════╗ */
+/* ║ 1.3 Alignment            ║ Bottom                          ║ */
+/* ╚══════════════════════════╩═════════════════════════════════╝ */
+
+/* ⭕ Default */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/bottom/default.css"); /**/
+
+/* ⭕ Buttons */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/bottom/buttons.css"); /**/
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ 4.2 Avatar Shapes        ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+/* ║ 1.4 Add-ons              ║                                                                                         ║ */
+/* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Enable or disable these addons, you can combine them as you wish.                                                  ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* Coming Soon! */
+/* ✅ Friends-Grid */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/friends-grid.css"); /**/
+
+/* ✅ Context-Icons */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/context-icons.css"); /**/
+
+/* ✅ Settings-Icons */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/settings-icons.css"); /**/
+
+/* ✅ Mention-Links */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/mention-links.css"); /**/
+
+/* 🧪 Chat-Bubbles (This adds Chat Bubbels to the Messages.) (WIP) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/chat-bubbles.css"); /**/
+
+/* ✅ Discolored (by Nyria#3863) */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/discolored.css"); /**/
+
+/* 🧪 Cooler Activity Status (by mr_miner#9699) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/addons/cooler-activity-status.css"); /**/
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ 4.3 Emoji Replace        ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+/* ║ 1.5 Replace              ║                                                                                         ║ */
+/* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Replace some elements, you can combine them as you wish.                                                           ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* Coming Soon! */
+/* ✅ Replace Dash */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/dash.css"); /**/
+
+/* 🧪 Repalce Emoji */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/emoji.css"); /**/
+
+/* ✅ Replace Fonts */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/fonts.css"); /**/
+
+/* ✅ Replace Edited */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/edited.css"); /**/
+
+/* ✅ Replace Icons */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/icons.css"); /**/
+
+/* 🧪 Attachment */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/attachment.css"); /**/
+
+/* 🧪 Code */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/code.css"); /**/
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ SRC                      ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
+/* ║ 1.6 Remove               ║                                                                                         ║ */
+/* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Remove some elements, you can combine them as you wish.                                                            ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ✅ Remove Help Button */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/help.css"); /**/
+
+/* ✅ Remove Download Button (Web) */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/download.css"); /**/
+
+/* ⭕ Remove Explore Button */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/explore.css"); /**/
+
+/* ⭕ Remove Add Server Button */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/add.css"); /**/
+
+/* ✅ Remove Gift Button */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/gift.css"); /**/
+
+/* ✅ Remove Sticker Button */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/sticker.css"); /**/
+
+/* ✅ Remove GIF Button */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/gif.css"); /**/
+
+/* 🧪 Remove Public Server Tag (WIP) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/public-tag.css"); /**/
+
+/* ⭕ Remove Stream Popout */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/stream-popout.css"); /**/
+
+/* 🧪 Remove Channel Delete Icon (WIP) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/icon/channel-delete.css"); /**/
+
+/* ⭕ Remove Developer Options Menu */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/menu/developer-options.css"); /**/
+
+/* ⭕ Remove Dismissible Contents Menu */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/menu/dismissible-contents.css"); /**/
+
+/* ⭕ Remove Hotspot Options Menu */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/menu/hotspot-options.css"); /**/
+
+/* ⭕ Remove HypeSquad Menu */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/menu/hypesquad.css"); /**/
+
+/* ⭕ Remove HypeSquad Menu */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/menu/payment-flow-modals.css"); /**/
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ 1.7 Animations           ║                                                                                         ║ */
+/* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Enable or Disable these optional Animations, you can combine them as you wish.                                     ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ⭕ Adds Hover Animation */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/animations/hover.css"); /**/
+
+/* ⭕ Adds Chat-Input Animation */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/animations/chat-input.css"); /**/
+
+/* ⭕ Adds Sidebar Animation */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/animations/channels-sidebar.css"); /**/
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ 1.8 Privacy              ║                                                                                         ║ */
+/* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Enable or Disable these optional Privacy modules, you can combine them as you wish.                                ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ✅ No Tag */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/privacy/user-tag.css"); /**/
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ 1.9 Custom               ║                                                                                         ║ */
+/* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Enable or Disable these optional Custom modules, you can combine them as you wish.                                 ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ✅ Tags */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/tags.css"); /**/
+
+/* ✅ Server */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/server.css"); /**/
+
+/* ⭕ User */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/user.css"); /**/
+
+/* 🧪 Private (WIP) */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/private.css"); /**/
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Source                   ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@import url("https://crearts-community.github.io/CreArts-Discord/src/source.css"); /* Source Files */
+/* ⚠️ Source Files (This loads the compiled source css file.) */
+@import url("https://crearts-community.github.io/CreArts-Discord/src/source.css"); /**/
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Testing                  ║ Custom CSS code is tested in the lower section.                                         ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Settings Background */
+.contentRegionScroller-2_GT_N {
+  background: var(--background-secondary);
+}
+
+/* No Voice Users (Panel) */
+.voiceUsers-3gPcwY {
+  display: none;
+}
+
+/* Remove Background Modifier element */
+.option-ayUoaq:after {
+  display: none;
+}
+
+.communityInfoPill-2Mll66 {
+  display: none;
+}

@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "name": "CreArts | Community",
+    "description": "The official theme repo for CreArts",
+    "author": "CorellanStoma#1996"
+  },
+  "themes" : [
+    "https://raw.githubusercontent.com/yellowsink/Diskai/dist/diskai.theme.css",
+    "https://raw.githubusercontent.com/hyblocker/pixelcord/main/Pixelcord.theme.css",
+    "https://bulldog3321.github.io/Bulldogs-Theme/main.css"
+  ]
+}

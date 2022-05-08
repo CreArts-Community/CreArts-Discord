@@ -1,0 +1,40 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ CreArts                                                                                                            ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Shape:                   ║ Wide Squircle                                                                           ║ */
+/* ║ Author:                  ║ CorellanStoma#1996                                                                      ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ General                  ║ Here you can make general adjustments.                                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+:root {
+  /* Info */
+  --SKIN-info-shape: "(Wide Squircle)";
+
+  /* Radius */
+  --SKIN-radius-primary: 18px;
+  --SKIN-radius-secondary: 12px;
+  --SKIN-radius-tertiary: 6px;
+  
+  /* Layout */
+  --SKIN-layout-margin: 20px;
+  --SKIN-layout-margin-top: 20px;
+  --SKIN-layout-margin-left: 20px;
+  --SKIN-layout-margin-right: 20px;
+  --SKIN-layout-margin-bottom: 20px;
+  
+  /* Inner */
+  --SKIN-inner-primary: 8px;
+  --SKIN-inner-secondary: 12px;
+  --SKIN-inner-tertiary: 16px;
+  
+  /* Width */
+  --SKIN-width-channel: 260px;
+  --SKIN-width-members: 240px;
+  
+  /* Height */
+  --SKIN-height-titlebar: 32px;
+  --SKIN-height-header: 44px;
+}

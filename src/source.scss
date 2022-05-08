@@ -1,34 +1,58 @@
-// Base
-@forward "base/layout";
-@forward "base/loading";
-@forward "base/login";
-@forward "base/notice";
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Source                   ║ Base                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+@forward "base/fix";
+//@forward "base/loading";
+//@forward "base/login";
+@forward "base/reponsive";
 @forward "base/scrollbars";
-@forward "base/testing";
 @forward "base/titlebar";
-@forward "base/tooltip";
 @forward "base/variables";
+@forward "base/version";
 @forward "base/wallpaper";
 
-// Components
-@forward "components/channels";
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Source                   ║ Clients                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//@forward "clients/betterdisocrd";
+//@forward "clients/cumcord";
+//@forward "clients/goosemod";
+@forward "clients/powercord";
+//@forward "clients/vizality";
+//@forward "clients/web";
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Source                   ║ Components                                                                              ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+@forward "components/base";
 @forward "components/content";
 @forward "components/header";
 @forward "components/input";
 @forward "components/members";
+@forward "components/notice";
 @forward "components/panel";
-@forward "components/guild";
+@forward "components/search";
+@forward "components/serverlist";
+//@forward "components/settings";
+@forward "components/sidebar";
+@forward "components/threads";
 
-// Modals
 
-// Pages
-@forward "pages/boost";
-@forward "pages/explore";
-@forward "pages/nitro";
-@forward "pages/settings";
-@forward "pages/subscription";
 
-// Popouts
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Source                   ║ Modals                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+@forward "modals/profile";
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Source                   ║ Popouts                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
 @forward "popouts/calendar";
 @forward "popouts/status-picker";
 @forward "popouts/profile";

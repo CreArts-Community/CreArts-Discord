@@ -1,0 +1,33 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ No Gift                  ║ Base                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+[aria-label="Send en gave"],
+[aria-label="Ein Geschenk senden"],
+[aria-label="Send a gift"],
+[aria-label="Enviar un regalo"],
+[aria-label="Envoyer un cadeau"],
+[aria-label="Pošalji poklon"],
+[aria-label="Invia un regalo"],
+[aria-label="Siųsti dovaną"],
+[aria-label="Ajándék küldése"],
+[aria-label="Verstuur een cadeau"],
+[aria-label="Wyślij prezent"],
+[aria-label="Enviar um presente"],
+[aria-label="Trimite un cadou"],
+[aria-label="Lähetä lahja"],
+[aria-label="Skicka en gåva"],
+[aria-label="Tặng một món quà"],
+[aria-label="Bir hediye gönder"],
+[aria-label="Odeslat dárek"],
+[aria-label="Στείλτε ένα δώρο"],
+[aria-label="Изпрати подарък"],
+[aria-label="Отправить подарок"],
+[aria-label="Надіслати подарунок"],
+[aria-label="ส่งของขวัญ"],
+[aria-label="发送礼物"],
+[aria-label="ギフトを贈る"],
+[aria-label="發送禮物"],
+[aria-label="선물 보내기"] {
+  display: none !important;
+}

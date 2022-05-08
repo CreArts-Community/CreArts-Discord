@@ -1,0 +1,47 @@
+on:
+  push:
+    branches:
+      - src-pages
+
+jobs:
+  open_pull_request:
+    needs: [build_css]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout destination Git branch
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          fetch-depth: 1
+          submodules: true
+
+      - name: Download Compiled CSS
+        uses: actions/download-artifact@v1.0.0
+        with:
+          name: Compiled-CSS
+          path: assets/css
+
+      - name: Add and Commit changes to pr-pages branch
+        run: |
+          git config --local user.email 'action@github.com'
+          git config --local user.name 'GitHub Action'
+          git add assets/css/*
+          git commit -m 'Updates compiled CSS files'
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: pr-pages
+
+      - name: Initialize Pull Request
+        uses: gha-utilities/init-pull-request@v0.0.4
+        with:
+          pull_request_token: ${{ secrets.GITHUB_TOKEN }}
+          head: pr-pages
+          base: gh-pages
+          title: "Updates site files from latest Actions build"
+          body: >
+            Perhaps a multi-line description
+            about latest features and such.

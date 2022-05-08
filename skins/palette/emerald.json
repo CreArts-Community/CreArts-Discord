@@ -1,0 +1,26 @@
+{
+  "manifest": {
+    "name": "CreArts | Emerald Edition",
+    "version": "3.0.0",
+    "author": "CorellanStoma#1996",
+    "license": "MIT",
+    "updater": "https://crearts-community.github.io/skins/palette/emerald.json"
+  },
+  "background": {},
+  "fonts": {},
+  "simple_colors": {
+    "background": -3357001,
+    "background_secondary": -2764864,
+    "statusbar": -2764864,
+    "input_background": -2764864,
+    "accent": -13437266,
+    "mention_highlight": -13437266,
+    "active_channel": -11054488,
+    "blocked_bg": -14934997
+  },
+  "colors": {
+    "link": -13437266
+  },
+  "drawable_tints": {},
+  "raws": {}
+}

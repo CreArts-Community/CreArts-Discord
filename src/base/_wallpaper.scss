@@ -4,5 +4,7 @@
 
 .bg-1QIAus {
   background: var(--wallpaper) center/cover no-repeat, var(--background-primary);
+  opacity: var(--wallpaper-opacity);
   filter: blur(var(--blur-wallpaper));
+  margin-top: -4px;
 }

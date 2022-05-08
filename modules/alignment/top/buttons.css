@@ -1,0 +1,105 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Top (Buttons)            ║ Base                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Spacing */
+.base-2jDfDU {
+  margin-left: var(--layout-margin-left) !important;
+}
+
+.layers-OrUESM {
+  margin-top: calc(72px + var(--layout-margin-top));
+}
+
+.wrapper-1_HaEi {
+  position: fixed;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  top: calc(72px + var(--layout-margin-top));
+  left: calc(var(--layout-margin-left));
+  height: 100vw;
+}
+
+.platform-win .wrapper-1_HaEi {
+  top: calc(var(--height-titlebar) + 72px - 2px + var(--layout-margin-top));
+}
+
+.guilds-2JjMmN {
+  margin: unset !important;
+  background: transparent !important;
+}
+
+/* Background */
+.scroller-3X7KbA {
+  background: var(--background-secondary) !important;
+  border-radius: var(--radius-primary);
+  margin-bottom: calc(var(--layout-margin-right) + var(--layout-margin) + var(--inner-secondary) + 48px + var(--inner-secondary) + 48px + var(--inner-secondary) + 48px + var(--inner-secondary) + var(--layout-margin));
+}
+
+/* Pill */
+.pill-L_aLMQ,
+.pill-1NRFie,
+.pill-22lZHo,
+.pill-2RsI5Q {
+  transform: rotate(90deg);
+  transform-origin: center;
+  top: -32px;
+  left: 32px;
+}
+
+/* Separator */
+.guildSeparator-a4uisj {
+  transform: rotate(90deg);
+}
+
+/* Item */
+.listItem-3SmSlK {
+  transform: rotate(90deg);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Top (Buttons)            ║ Buttons                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Background */
+.panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
+  position: fixed;
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top:  calc(var(--layout-margin-top));
+  right: var(--layout-margin-right);
+  height: 72px;
+  padding: 0px var(--inner-secondary);
+  margin: 0px;
+  grid-gap: var(--inner-secondary);
+}
+
+.platform-win .container-YkUktl:last-child .flex-2S1XBF {
+  top: calc(var(--height-titlebar) - 2px + var(--layout-margin-top));
+}
+
+/* Buttons */
+.panels-3wFtMD > .container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur {
+  background: var(--background-primary);
+  border-radius: var(--radius-primary);
+  width: 48px;
+  height: 48px;
+}
+
+/* Panel */
+.panels-3wFtMD > .container-YkUktl:last-child {
+  margin-bottom: -42px;
+}
+
+/* Unread */
+.unreadMentionsIndicatorBottom-3RJMnQ {
+  margin-bottom: calc(var(--layout-margin-right) + var(--layout-margin-bottom) + var(--inner-secondary) + 48px + var(--inner-secondary) + 48px + var(--inner-secondary) + 48px + var(--inner-secondary) + var(--layout-margin)) !important; 
+}
+
+/* Remove Game Activity */
+[aria-label="Hide Game Activity"] {
+  display: none;
+}

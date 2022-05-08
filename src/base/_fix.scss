@@ -1,0 +1,87 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Fix                      ║ Base                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Re-Add Header Styling
+.communityInfoVisible-3zc5_s:not(.hasBanner-2IrYih) .header-3OsQeK {
+  position: relative;
+  font-family: var(--font-display);
+  font-weight: 500;
+  padding: 12px 16px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 3;
+  -webkit-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear;
+  -webkit-box-shadow: var(--elevation-low);
+  box-shadow: var(--elevation-low);
+  background-color: var(--background-secondary) !important;
+}
+
+// Re-Add Header Hover
+.communityInfoVisible-3zc5_s:not(.hasBanner-2IrYih):hover .header-3OsQeK,
+.communityInfoVisible-3zc5_s:not(.hasBanner-2IrYih) .selected-1GtAC5 {
+  background-color: var(--background-modifier-hover) !important;
+  -webkit-box-shadow: var(--elevation-low);
+  box-shadow: var(--elevation-low);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Remove Spacing for Public Servers
+.communityInfoVisible-3zc5_s:not(.hasBanner-2IrYih)
+  ~ .scroller-1ox3I2
+  > .content-2a4AW9
+  > .containerDefault-3TQ5YN:first-of-type {
+  padding-top: 0px;
+}
+
+
+
+.headerContent-2SNbie {
+  width: 100% !important;
+  //vertical-align: center !important; /* here */
+}
+
+.primaryInfo-2ocY3v {
+  height: unset !important;
+}
+
+
+
+
+
+
+
+// Header
+.header-3OsQeK {
+  display: flex !important;
+  align-items: flex-start;
+}
+
+
+
+
+
+
+/*
+// Remove Public Tag
+.communityInfoContainer-1dMVpU {
+  display: none;
+}
+*/

@@ -1,0 +1,292 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ //
+// ║ Powercord                ║ Porkcord (Powercord)                                                                    ║ //
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ //
+
+// Porkcord
+[src="https://cdn.discordapp.com/emojis/694979272070266970.png"]
+{
+  background: var(--interactive-active);
+  -webkit-mask: var(--icon);
+  mask: var(--icon);
+  object-position: -99999px 99999px;
+  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 24 24' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Filled' x='0' y='0' width='24' height='24' style='fill:none;'/%3E%3Cg id='Filled1' serif:id='Filled'%3E%3Cg transform='matrix(0.0446675,0,0,0.0446675,2.01737,2.01452)'%3E%3Cg id='Context'%3E%3Cpath id='powercord' d='M187.35,73.75L252.5,8.6C264.4,-3.3 283.7,-3.3 295.6,8.6C307.5,20.5 307.5,39.8 295.6,51.7L230.45,116.85L279.05,165.45L344.2,100.3C356.1,88.4 375.4,88.4 387.3,100.3C399.2,112.2 399.2,131.5 387.3,143.4L322.15,208.55L336.8,223.2C339.5,225.9 339.5,230.2 336.8,232.9L312.7,257C310,259.7 305.7,259.7 303,257L298.2,252.2L218,332.4C201,349.4 173.3,349.4 156.4,332.4L129.3,305.3L105.1,329.5C102.4,332.1 98.1,332.1 95.4,329.5L86.255,320.355C74.871,336.364 76.353,358.742 90.7,373L153.5,435.8C156.2,438.5 156.2,442.8 153.5,445.5C150.8,448.2 146.4,448 143.7,445.3L81,382.6C61.342,362.942 59.827,331.956 76.453,310.553L66.4,300.5C63.7,297.8 63.7,293.5 66.4,290.8L90.6,266.6L63.5,239.5C46.5,222.5 46.5,194.9 63.5,177.9L143.7,97.7L138.9,92.9C136.2,90.2 136.2,85.9 138.9,83.2L163,59.1C165.7,56.4 170,56.4 172.7,59.1L187.35,73.75Z' style='fill-rule:nonzero;'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+    no-repeat;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ //
+// ║ Powercord                ║ Transparent (Powercord)                                                                 ║ //
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ //
+
+// Background
+body {
+  background: transparent !important;
+}
+
+// Round Border
+.powercord.transparent #app-mount {
+  border-radius: 12px !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ //
+// ║ Powercord                ║ Better Settings (Plugin)                                                                ║ //
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ //
+
+// Better Settings Search
+.searchdiv {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.searchdiv #settingssearch {
+  width: calc(var(--width-channel) - 40px);
+  border-radius: var(--radius-primary);
+}
+
+// No Icon //
+.settingsicon {
+  display: none;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ //
+// ║ Powercord                ║ Better Folders (Plugin)                                                                 ║ //
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ //
+
+.BF-folderSidebar .wrapper-1_HaEi {
+  margin-top: var(--layout-margin-top) !important;
+  margin-bottom: var(--layout-margin-bottom) !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Powercord                ║ Theme-Toggler (Plugin)                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+#theme-toggler-tab .powercord-product,
+#theme-toggler-tab .powercord-product-header {
+  margin-bottom: 0px;
+}
+
+.powercord-product .description,
+.powercord-product .metadata,
+.powercord-product-permissions,
+.powercord-product-footer {
+  margin: 0px;
+}
+
+.powercord-product-details {
+  display: flex;
+  flex-direction: column-reverse !important;
+}
+
+// Header
+#theme-toggler-tab .powercord-entities-manage-header {
+  background: var(--background-secondary-alt);
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+// Grid
+#theme-toggler-tab .powercord-entities-manage-items {
+  display: grid;
+  grid-template-columns: repeat(var(--count), max-content);
+  grid-gap: 24px;
+  --count: 2;
+}
+
+// Card
+#theme-toggler-tab .powercord-product {
+  background-color: var(--background-secondary-alt);
+  border-radius: 8px;
+  width: 280px;
+  padding: 16px;
+  border: none;
+}
+
+// Preview
+#theme-toggler-tab .powercord-product-header::before {
+  content: "";
+  background: var(--background-primary);
+  border-radius: 4px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 156px;
+
+  margin-bottom: 16px;
+  z-index: 4;
+}
+
+#theme-toggler-tab .powercord-product::after {
+  content: "";
+  background: var(--background-secondary);
+  border-radius: 4px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  z-index: 6;
+  width: 248px;
+  top: 16px;
+  mask:  url("https://i.imgur.com/5uBez1d.png");
+  mask-size: cover;
+}
+
+#theme-toggler-tab .powercord-product::before {
+  content: "";
+  background: var(--interactive-active);
+  border-radius: 4px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  z-index: 8;
+  width: 248px;
+  top: 16px;
+  mask:  url("https://i.imgur.com/8a5E0uu.png");
+  mask-size: cover;
+}
+
+// Header
+#theme-toggler-tab .powercord-product-header {
+  color: var(--header-primary);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+
+  display: flex;
+  flex-direction: column !important;
+}
+
+// Description
+#theme-toggler-tab .powercord-product-details .description {
+  color: var(--header-secondary);
+  padding-top: 12px;
+
+  overflow-y: hidden;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+// Metadata
+#theme-toggler-tab .powercord-product-details .metadata {
+  display: flex;
+  flex-direction: column !important;
+  line-height: 20px;
+}
+
+// Author
+#theme-toggler-tab .author {
+  color: var(--header-primary);
+  margin: 8px 0px 0px 0px;
+}
+
+#theme-toggler-tab .author::before {
+  content: "by\00a0";
+}
+
+// Version
+#theme-toggler-tab .version {
+  //display: none;
+  position: absolute;
+  bottom: 12px;
+  left: 16px;
+}
+
+// License
+#theme-toggler-tab .license {
+  //display: none;
+  position: absolute;
+  bottom: 12px;
+  left: 110px;
+}
+
+#theme-toggler-tab .license [role="button"] {
+  margin-bottom: 3px;
+}
+
+// Checkbox
+#theme-toggler-tab .powercord-product-header .container-2nx-BQ {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+// Remove Divider
+#theme-toggler-tab .divider-3LgWDL {
+  display: none;
+}
+
+// Remove Icons
+#theme-toggler-tab .author div {
+  display: none;
+}
+
+#theme-toggler-tab .description div {
+  display: none;
+  display: none;
+}
+
+[d="M618 971L448 769V416h21q14 0 23-9.5t9-23t-9-22.5t-23-9h-53q-13 0-22.5 9t-9.5 23v397q0 13 8 22l131 157H117l131-157q8-9 8-22V384q0-14-9.5-23t-22.5-9h-53q-14 0-23 9t-9 22.5t9 23t23 9.5h21v353L22 971q-14 15-6 34q4 9 12 14t17 5h550q20 0 28.5-19t-5.5-34zM288 320q26 0 45-19t19-45.5t-19-45t-45-18.5q-13 0-25 5t-20.5 13.5T229 231t-5 25q0 6 1 11.5t3 10.5t5 10t6.5 9t7.5 7.5t9 6.5t10 5t10.5 3t11.5 1zm208.5-95q46.5 0 79.5-33t33-79.5T576 33T496.5 0T417 33t-33 79.5t33 79.5t79.5 33zM496 64q10 0 19 3.5t15.5 10t10 15.5t3.5 19q0 20-14 34t-34 14q-13 0-24-6.5T454.5 136t-6.5-24q0-20 14-34t34-14z"] {
+  display: none;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Powercord                ║ Better-Settings (Plugin)                                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+#theme-toggler-tab .powercord-product-footer .quickactions {
+  width: 100%;
+  padding: 20px;
+}
+
+#theme-toggler-tab .powercord-product-footer .quickactions > div {
+  background: rgba(0, 0, 0, 0.600);
+border-radius: 90%;
+padding: 8px;
+align-items: center;
+align-content: center;
+}
+
+
+#theme-toggler-tab .powercord-product-footer {
+  position: absolute;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.600);
+  height: 156px;
+  width: 248px;
+  top: 16px;
+  z-index: 12;
+
+opacity: 0;
+}
+
+#theme-toggler-tab .powercord-product:hover .powercord-product-footer {
+  opacity: 1;
+}
+
+#better-settings-github,
+#better-settings-open,
+#better-settings-remount,
+#better-settings-delete {
+  color: var(--interactive-active);
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+
+
+#better-settings-delete svg {
+  position: absolute;
+  left: 5px;
+  margin-right: -4px;
+  top: 3px;
+}

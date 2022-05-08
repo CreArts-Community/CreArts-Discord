@@ -1,14 +1,137 @@
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Chat                     ║ Channel Settings                                                                        ║
+// ║ Content                  ║ Layout                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.content-1jQy2l {
+  margin: calc(var(--layout-margin) / 2) 0px 0px calc(var(--layout-margin) / 2);
+}
+
+.scroller-kQBbkU {
+  border-radius: var(--radius-primary) var(--radius-primary) 0px 0px;
+}
+
+// Background
+.chatContent-3KubbW {
+  margin: 0px 0px 0px 0px;
+  border-radius: var(--radius-primary);
+}
+
+// Background (Chat)
+.chat-2ZfjoI .messagesWrapper-RpOMA3 {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Content                  ║ Layout (Explore)                                                                        ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.pageWrapper-2PwDoS {
+  background: var(--background-secondary) !important;
+}
+
+// Spacing
+.pageWrapper-2PwDoS {
+  border-radius: var(--radius-primary);
+  margin: 0px 0px 0px calc(var(--layout-margin) / 2);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Content                  ║ Layout (Friends)                                                                        ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.tabBody-2dgbAs:before {
+  display: none;
+}
+
+.container-1oAagU {
+  background: transparent;
+}
+
+// Background
+.peopleColumn-1wMU14 {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  margin: calc(var(--layout-margin) / 2) calc(var(--layout-margin) / 2) 0px calc(var(--layout-margin) / 2);
+}
+
+.nowPlayingColumn-1eCBCN {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  margin: calc(var(--layout-margin) / 2) 0px 0px calc(var(--layout-margin) / 2);
+}
+
+.applicationStore-2nk7Lo,
+.container-2cd8Mz {
+  background: transparent !important;
+  border: none;
+}
+
+.headerBar-1dSpQr:before {
+  box-shadow: none;
+}
+
+.nowPlayingColumn-1eCBCN .scroller-hE2gWq {
+  margin-left: 0px;
+  border: none;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Content                  ║ Layout (No Page)                                                                        ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.noChannel-1GDIAZ {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+  margin-left: calc(var(--layout-margin) / 2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Content                  ║ Chat Header                                                                             ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
 .container-1yy5xN {
-  background: var(--background-primary);
+  background: var(--background-secondary-alt);
   border-radius: var(--radius-secondary);
   margin: 16px 0px 0px 16px;
   padding: 12px;
-}  
+}
 
 // Buttons (Normal)
 .container-1yy5xN .channelSettingButtons-sCQ_2T .button-1kija8 {
@@ -28,17 +151,21 @@
 }
 
 // No Icon
-.emptyChannelIcon-1YdEz2 {display: none;}
+.emptyChannelIcon-1YdEz2 {
+  display: none;
+}
 
 // No Avatar
-.container-1yy5xN .avatars-37eU13 {display: none;}
+.container-1yy5xN .avatars-37eU13 {
+  display: none;
+}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Chat                     ║ Rules                                                                                   ║
+// ║ Content                  ║ Rules                                                                                   ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Spacing
-.container-30bdan  {
+.container-30bdan {
   flex-direction: row;
 }
 
@@ -52,12 +179,41 @@
   text-align: left;
 }
 
-
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Content                  ║ Embeds                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 .embedFull-1HGV2S {
   background: var(--background-secondary-alt);
-  border-radius:  4px var(--radius-secondary) var(--radius-secondary) 4px;
+  border-radius: 4px var(--radius-secondary) var(--radius-secondary) 4px;
 }
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Content                  ║ Build Override                                                                          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.wrapper-3-JZ_Z {
+  background: var(--background-secondary-alt) !important;
+}
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Content (Home)                                                                          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.theme-dark .background-fkKrXt,
+.theme-light .background-fkKrXt {
+  background: transparent;
+}
+
+.homeContainer-r4Hvv1 {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+}
+
+.container-4HqGB3.background-3X6Uak {
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-active);
+}
+

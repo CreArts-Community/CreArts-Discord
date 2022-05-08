@@ -1,0 +1,35 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Add-on                                                                                                             ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Theme:                   ║ Mention Links                                                                           ║ */
+/* ║ Author:                  ║ CorellanStoma#1996                                                                      ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Import                   ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@import url("https://crearts-community.github.io/Mention-Links/theme.css");
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ CSS                      ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* Text (Normal) */
+.aboutMeBody-1J8rhz a[href^="https://www.discord.gg/8W8E39Z"]:not([href^="channels"])::after,
+.aboutMeBody-1J8rhz a[href^="https://discord.gg/8W8E39Z"]:not([href^="channels"])::after,
+.messageContent-2t3eCI a[href^="https://www.discord.gg/8W8E39Z"]:not([href^="channels"])::after,
+.messageContent-2t3eCI a[href^="https://discord.gg/8W8E39Z"]:not([href^="channels"])::after
+{
+  content: var(--jump-to) " CreArts | Community" !important;
+  background: #cd095240 !important;
+}
+
+/* Text (Hover) */
+.aboutMeBody-1J8rhz a[href^="https://www.discord.gg/8W8E39Z"]:not([href^="channels"]):hover::after,
+.aboutMeBody-1J8rhz a[href^="https://discord.gg/8W8E39Z"]:not([href^="channels"]):hover::after,
+.messageContent-2t3eCI a[href^="https://www.discord.gg/8W8E39Z"]:not([href^="channels"]):hover::after,
+.messageContent-2t3eCI a[href^="https://discord.gg/8W8E39Z"]:not([href^="channels"]):hover::after
+{
+  background-color: #cd0952 !important;
+}
