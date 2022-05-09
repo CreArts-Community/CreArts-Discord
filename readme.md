@@ -20,7 +20,7 @@
 <kbd>[<img title="Russian" alt="Russian" src="https://crearts-community.github.io/Assets/languages/russian.png" width="40">](.github/docs/translations/readme/russian.md)</kbd>
 <kbd>[<img title="Slovak" alt="Slovak" src="https://crearts-community.github.io/Assets/languages/slovak.png" width="40">](.github/docs/translations/readme/slovak.md)</kbd>
 <kbd>[<img title="Slovenian" alt="Slovenian" src="https://crearts-community.github.io/Assets/languages/slovenian.png" width="40">](.github/docs/translations/readme/slovenian.md)</kbd>
-<kbd>[<img title="Spanish" alt="Spanish" src="https://crearts-community.github.io/Assets/languages/spanish.png" width="40">](.github/docs/.github/docs/translations/readme/spanish.md)</kbd>
+<kbd>[<img title="Spanish" alt="Spanish" src="https://crearts-community.github.io/Assets/languages/spanish.png" width="40">](.github/docs/translations/readme/spanish.md)</kbd>
 <kbd>[<img title="Swedish" alt="Swedish" src="https://crearts-community.github.io/Assets/languages/swedish.png" width="40">](.github/docs/translations/readme/swedish.md)</kbd>
 
 # CreArts v3.0.0
@@ -31,7 +31,7 @@
 [![Paypal](https://img.shields.io/badge/Donate-PayPal-blue?&labelColor=2e343e&color=%23CD0952&style=for-the-badge)](https://www.paypal.com/donate/?hosted_button_id=5MQYGQ2FGQDWJ)
 [![Discord](https://img.shields.io/discord/534376415202639903?label=Discord&labelColor=2e343e&color=%23CD0952&style=for-the-badge)](https://discord.gg/8W8E39Z)
 
-**CreArts-Discord** is a theme for [Discord](https://discord.com) that gives you a new modern interface and adds at the same time many possibilities to be customized, one of the core features are [Skins](https://discord.com), which allow you to customize the appearance with [Variables](.github/docs/variables.md). The goal of this Discord theme is to wrap the standard Discord charm in a new visual idea.
+**CreArts-Discord** is a theme for [Discord](https://discord.com) that gives you a new modern interface and adds at the same time many possibilities to be customized, one of the core features are [Skins](.github/docs/skins.md), which allow you to customize the appearance with [Variables](.github/docs/variables.md). The goal of this Discord theme is to wrap the standard Discord charm in a new visual idea.
 
 This project is licensed under the [MIT License](license), even though this project is under the MIT license, we would appreciate any recognition.. CreArts is an actively developed theme, which is compatible with [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord), [GooseMod](https://github.com/GooseMod/GooseMod) and many more. This repo is offered in several [Languages](.github/docs/translations.md), select your preferred language with the flags icon above.
 
