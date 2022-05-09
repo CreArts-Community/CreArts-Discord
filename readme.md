@@ -75,7 +75,11 @@ This theme can be used in different ways, with a client mod or in the browser wi
 * **Step 2:** Paste the below code in your terminal:
 
 ```bash
-cd powercord/src/Powercord/themes && git clone https://crearts-community.github.io/CreArts-Discord
+cd powercord/src/Powercord/themes
+```
+
+```bash
+git clone https://github.com/CreArts-Community/CreArts-Discord.git
 ```
 </details>
 
@@ -116,11 +120,19 @@ cd vizality/addons/themes && git clone https://crearts-community.github.io/CreAr
 <details>
 <summary><b>Cumcord</b></summary>
 
-* **Step 1:**
+* **Step 1:** Install the [Cumstain](https://github.com/yellowsink/cc-plugins) plugin for Cumcord.
 
-* **Step 2:**
+* **Step 2:** Open the new theme option which appears in the settings.
 
-* **Step 3:**
+* **Step 3:** Install the theme with this link:
+```
+https://crearts-community.github.io/CreArts-Discord/theme.css
+```
+
+* **Optional:** Add theme store repo link:
+```
+https://crearts-community.github.io/CreArts-Discord
+```
 </details>
 
 <!-- Stylus -->
