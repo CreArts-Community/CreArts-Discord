@@ -4,5 +4,5 @@
   "author": "CorellanStoma#1996",
   "description": "CreArts is a customizable Discord theme that changes the appearance of Discord.",
   "license": "MIT",
-  "theme": "theme.css"
+  "theme": "clients/crearts.theme.css"
 }
