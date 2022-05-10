@@ -261,6 +261,9 @@
 /* ║ Replace some elements, you can combine them as you wish.                                                           ║ */
 /* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
+/* ✅ Replace Fonts */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/fonts.css"); /**/
+
 /* ✅ Replace Dash */
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/dash.css"); /**/
 
@@ -372,9 +375,6 @@
 
 /* ⚠️ Source Files (This loads the compiled source css file.) */
 @import url("https://crearts-community.github.io/CreArts-Discord/src/source.css"); /**/
-
-/* ⚠️ Replace Fonts */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/fonts.css"); /**/
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Testing                  ║ Custom CSS code is tested in the lower section.                                         ║ */
