@@ -19,6 +19,12 @@
   .message-2CShn3 .avatar-2e8lTP[src*="#{$id}"] + h2 .username-h_Y3Us,
   .message-2CShn3 .replyAvatar-sHd2sU[src*="#{$id}"] + .username-h_Y3Us {
     color: var(--color-#{$id}) !important;
+    font-weight: 900;
+  }
+
+  // Tags
+  .avatar-2e8lTP[src*="#{$id}"]+h2 .username-h_Y3Us::after {
+    background: var(--color-#{$id}) !important;
   }
 
   // Frames (Powercord only)
@@ -63,15 +69,3 @@
 
 // CorellanStoma (288362986991648778)
 @include database-user("288362986991648778", "#cd0952");
-
-// ItsJustJoshDev (938557606820204625)
-@include database-user("938557606820204625", "#caae67");
-
-// Nate's World (899762612668096512)
-@include database-user("899762612668096512", "#ff901d");
-
-// Obscure. (755436063828213821)
-@include database-user("755436063828213821", "#7d7bfe");
-
-
-

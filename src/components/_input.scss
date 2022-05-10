@@ -1,3 +1,4 @@
+
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Input                    ║ Layout                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
@@ -39,6 +40,8 @@
   padding: 11px;
   overflow: hidden !important;
 }
+
+
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Input                    ║ Reply                                                                                   ║
@@ -84,6 +87,7 @@
 .chat-1-OBC7 .colorLink-2apWfY {
   color: var(--interactive-normal);
 }
+
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Input                    ║ Announcements                                                                           ║
@@ -233,8 +237,18 @@
 // ║ Input                    ║ Uplaod                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
+// Spacing
+.scrollableContainer-15eg7h {
+  max-height: unset !important;
+}
+
+// No Divider
+.scrollableContainer-15eg7h .divider-2rZFJK {
+  display: none;
+}
+
 // Background
-.chat-2ZfjoI .channelAttachmentArea-HwpkuQ {
+.channelAttachmentArea-HwpkuQ {
   gap: 12px;
   background: transparent;
   border-radius: var(--radius-primary);
@@ -243,26 +257,19 @@
 }
 
 // Upload
-.chat-2ZfjoI .upload-vLbqu- {
+.channelAttachmentArea-HwpkuQ .upload-vLbqu- {
   background: var(--background-secondary);
   border-radius: var(--radius-secondary);
   padding: 8px;
-
   min-width: 100px;
-
   min-height: 10px;
 }
 
-// No Border
-.chat-2ZfjoI .divider-2rZFJK {
-  display: none;
-}
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Input                    ║ Slash Command Bar                                                                       ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.scrollableContainer-15eg7h {
-  max-height: unset !important;
-}
-
-// Slash Command Bar
+// Background
 .chat-2ZfjoI .bar-2MWHzg {
   margin: var(--layout-margin) 0px 0px 0px;
   background: var(--background-secondary);

@@ -2,6 +2,8 @@
 // ║ Source                   ║ Base                                                                                    ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
+
+@forward "base/caret";
 @forward "base/fix";
 //@forward "base/loading";
 //@forward "base/login";
@@ -39,9 +41,6 @@
 //@forward "components/settings";
 @forward "components/sidebar";
 @forward "components/threads";
-
-
-
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Source                   ║ Modals                                                                                  ║

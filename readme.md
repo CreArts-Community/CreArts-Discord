@@ -33,7 +33,7 @@
 
 **CreArts-Discord** is a theme for [Discord](https://discord.com) that gives you a new modern interface and adds at the same time many possibilities to be customized, one of the core features are [Skins](.github/docs/skins.md), which allow you to customize the appearance with [Variables](.github/docs/variables.md). The goal of this Discord theme is to wrap the standard Discord charm in a new visual idea.
 
-This project is licensed under the [MIT License](license), even though this project is under the MIT license, we would appreciate any recognition.. CreArts is an actively developed theme, which is compatible with [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord), [GooseMod](https://github.com/GooseMod/GooseMod) and many more. This repo is offered in several [Languages](.github/docs/translations.md), select your preferred language with the flags icon above.
+This project is licensed under the [MIT License](license), even though this project is under the MIT license, we would appreciate any recognition. CreArts is an actively developed theme, which is compatible with [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord), [GooseMod](https://github.com/GooseMod/GooseMod) and many more. This repo is offered in several [Languages](.github/docs/translations.md), select your preferred language with the flags icon above.
 
 ## Preview
 

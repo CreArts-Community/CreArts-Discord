@@ -2,7 +2,7 @@
 // ║ Discord Theme                                                                                                      ║
 // ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣
 // ║ Name:                    ║ CreArts v3                                                                              ║
-// ║ Version:                 ║ 3.0.0                                                                                   ║
+// ║ Version:                 ║ 3.0.1                                                                                   ║
 // ║ Author:                  ║ CorellanStoma#1996                                                                      ║
 // ║ License:                 ║ MIT                                                                                     ║
 // ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
@@ -40,65 +40,114 @@
 // ║ Select another Palette, only one should be enabled at a time.                                                      ║
 // ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
-// ⭕ Modern Edition (Blue-Gray)
-//@use "skins/palette/modern";
+// ⭕ Modern Edition
+//@use "skins/palette/discord/modern";
 
-// ⭕ Blurple Edition (Gray)
-//@use "skins/palette/blurple";
+// ⭕ Blurple Edition
+//@use "skins/palette/discord/blurple";
 
-// ⭕ Revamp Edition (Blue-Gray)
-//@use "skins/palette/revamp";
-
-// ╔══════════════════════════╦═════════════════════════════════╗
-// ║ 1.1 Palette              ║ Ores                            ║
-// ╚══════════════════════════╩═════════════════════════════════╝
-
-// ⭕ Ruby Edition (Red)
-//@use "skins/palette/ruby";
-
-// ⭕ Emerald Edition (Green)
-//@use "skins/palette/emerald";
-
-// ⭕ Sapphire Edition (Blue)
-//@use "skins/palette/sapphire";
-
-// ⭕ Amethyst Edition (Purple)
-//@use "skins/palette/amethyst";
+// ⭕ Revamp Edition
+//@use "skins/palette/discord/revamp";
 
 // ╔══════════════════════════╦═════════════════════════════════╗
-// ║ 1.1 Palette              ║ Colors                          ║
+// ║ 1.1 Palette              ║ CreArts                         ║
 // ╚══════════════════════════╩═════════════════════════════════╝
 
-// ⭕ Crimson Edition (Dark Purple & Red)
-//@use "skins/palette/crimson";
+// ⭕ Community Edition
+//@use "skins/palette/crearts/community";
 
-// ⭕ Jungle Edition (Dark Green)
-//@use "skins/palette/jungle";
+// ⭕ Ruby Edition
+//@use "skins/palette/crearts/ruby";
 
-// ⭕ Hive Edition (Yellow)
-//@use "skins/palette/hive";
+// ⭕ Emerald Edition
+//@use "skins/palette/crearts/emerald";
 
-// ⭕ Nebula Edition (Blue & Turquoise)
-//@use "skins/palette/nebula";
+// ⭕ Sapphire Edition
+//@use "skins/palette/crearts/sapphire";
 
-// ⭕ Lavender Edition (Black)
-//@use "skins/palette/lavender";
+// ⭕ Amethyst Edition
+//@use "skins/palette/crearts/amethyst";
 
-// ⭕ Lux Edition (Black & Yellow)
-//@use "skins/palette/lux";
+// ⭕ Crimson Edition
+//@use "skins/palette/crearts/crimson";
+
+// ⭕ Jungle Edition
+//@use "skins/palette/crearts/jungle";
+
+// ⭕ Hive Edition
+//@use "skins/palette/crearts/hive";
+
+// ⭕ Coffee Edition
+//@use "skins/palette/crearts/coffee";
+
+// ⭕ Sandstorm Edition
+//@use "skins/palette/crearts/sandstorm";
+
+// ⭕ Lux Edition
+//@use "skins/palette/crearts/lux";
+
+// ⭕ Charcoal Edition
+//@use "skins/palette/crearts/charcoal";
+
+// ⭕ Milkshake Edition
+//@use "skins/palette/crearts/milkshake";
 
 // ╔══════════════════════════╦═════════════════════════════════╗
-// ║ 1.1 Palette              ║ Other                           ║
+// ║ 1.1 Palette              ║ Community                       ║
 // ╚══════════════════════════╩═════════════════════════════════╝
+
+// ⭕ Nebula Edition
+//@use "skins/palette/community/nebula";
+
+// ⭕ Lavender Edition
+//@use "skins/palette/community/lavender";
+
+// ⭕ Goon Edition
+//@use "skins/palette/community/goon";
+
+// ╔══════════════════════════╦═════════════════════════════════╗
+// ║ 1.1 Palette              ║ Games                           ║
+// ╚══════════════════════════╩═════════════════════════════════╝
+
+// ⭕ The Legend of Zelda
+//@use "skins/palette/games/zelda";
+
+// ╔══════════════════════════╦═════════════════════════════════╗
+// ║ 1.1 Palette              ║ Public                          ║
+// ╚══════════════════════════╩═════════════════════════════════╝
+
+// ⭕ Spotify Edition
+//@use "skins/palette/public/spotify";
+
+// ⭕ Twitch Edition
+//@use "skins/palette/public/twitch";
+
+// ⭕ Guilded Edition
+//@use "skins/palette/public/guilded";
 
 // ⭕ Revolt Edition
-//@use "skins/palette/revolt";
+//@use "skins/palette/public/revolt";
+
+// ⭕ Dracula Edition
+//@use "skins/palette/public/dracula";
+
+// ⭕ Nord Edition
+//@use "skins/palette/public/nord";
+
+// ⭕ Solarized Edition
+//@use "skins/palette/public/solarized";
+
+// ⭕ Yaru Edition
+//@use "skins/palette/public/yaru";
 
 // ⭕ Gruvbox Edition
-//@use "skins/palette/gruvbox";
+//@use "skins/palette/public/gruvbox";
 
-// 🧪 Steam Edition (WIP)
-//@use "skins/palette/steam";
+// ⭕ Primer Edition
+//@use "skins/palette/public/primer";
+
+// ⭕ Arc Edition
+//@use "skins/palette/public/arc";
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ 1.2 Shape                ║ Wide                                                                                    ║
@@ -194,7 +243,7 @@
 // ✅ Mention-Links
 @use "modules/addons/mention-links";
 
-// 🧪 Chat-Bubbles (This adds Chat Bubbels to the Messages.) (WIP)
+// 🧪 Chat-Bubbles (This adds Chat Bubbels to the Messages.)
 //@use "modules/addons/chat-bubbles";
 
 // ✅ Discolored (by Nyria#3863)
@@ -212,13 +261,6 @@
 // ✅ Replace Dash
 @use "modules/replace/dash";
 
-// 🧪 Repalce Emoji
-//@use "modules/replace/emoji";
-
-// ✅ Replace Fonts
-@use "modules/replace/fonts";
-
-
 // ✅ Replace Edited
 @use "modules/replace/edited";
 
@@ -232,7 +274,19 @@
 //@use "modules/replace/code";
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ 1.6 Remove               ║                                                                                         ║
+// ║ 1.6 Move                 ║                                                                                         ║
+// ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║ Move some elements, you can combine them as you wish.                                                              ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ⭕ Move Explore Button down. (Working with: Default & Buttons; Not Working with: Combined & Divided)
+//@use "modules/move/button/explore";
+
+// ⭕ Move Add Server Button down. (Working with: Default & Buttons; Not Working with: Combined & Divided)
+//@use "modules/move/button/add";
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ 1.7 Remove               ║                                                                                         ║
 // ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
 // ║ Remove some elements, you can combine them as you wish.                                                            ║
 // ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -243,10 +297,10 @@
 // ✅ Remove Download Button (Web)
 @use "modules/remove/button/download";
 
-// ⭕ Remove Explore Button
+// ⭕ Remove Explore Button (Working with: Default & Buttons; Not Working with: Combined & Divided)
 //@use "modules/remove/button/explore";
 
-// ⭕ Remove Add Server Button
+// ⭕ Remove Add Server Button (Working with: Default & Buttons; Not Working with: Combined & Divided)
 //@use "modules/remove/button/add";
 
 // ✅ Remove Gift Button
@@ -283,7 +337,7 @@
 //@use "modules/remove/menu/payment-flow-modals";
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ 1.7 Animations           ║                                                                                         ║
+// ║ 1.8 Animations           ║                                                                                         ║
 // ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
 // ║ Enable or Disable these optional Animations, you can combine them as you wish.                                     ║
 // ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -298,16 +352,16 @@
 //@use "modules/animations/channels-sidebar";
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ 1.8 Privacy              ║                                                                                         ║
+// ║ 1.9 Privacy              ║                                                                                         ║
 // ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
 // ║ Enable or Disable these optional Privacy modules, you can combine them as you wish.                                ║
 // ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
-// ✅ No Tag
-@use "modules/privacy/user-tag";
+// ⭕ No Tag
+//@use "modules/privacy/user-tag";
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ 1.9 Custom               ║                                                                                         ║
+// ║ 2.0 Custom               ║                                                                                         ║
 // ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
 // ║ Enable or Disable these optional Custom modules, you can combine them as you wish.                                 ║
 // ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -318,8 +372,8 @@
 // ✅ Server
 @use "modules/custom/server";
 
-// ⭕ User
-//@use "modules/custom/user";
+// ✅ User
+@use "modules/custom/user";
 
 // 🧪 Private (WIP)
 //@use "modules/custom/private";
@@ -330,6 +384,12 @@
 
 // ⚠️ Source Files (This loads the compiled source css file.)
 @use "src/source";
+
+// ⚠️ Replace Fonts
+@use "modules/replace/fonts";
+
+// ⚠️ Repalce Emoji
+//@use "modules/replace/emoji";
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Testing                  ║ Custom CSS code is tested in the lower section.                                         ║

@@ -71,6 +71,6 @@ margin-bottom: -42px;
 }
 
 /* Remove Game Activity */
-[aria-label="Hide Game Activity"] {
+.panels-3wFtMD>.container-YkUktl:last-child .button-12Fmur:nth-last-child(4) {
   display: none;
 }

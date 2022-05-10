@@ -5,11 +5,6 @@
     "author": "CorellanStoma#1996"
   },
   "themes" : [
-    "https://crearts-community.github.io/CreArts-Discord/theme.css",
-    "https://crearts-community.github.io/Friends-Grid/theme.css",
-    "https://crearts-community.github.io/Context-Icons/theme.css",
-    "https://crearts-community.github.io/Settings-Icons/theme.css",
-    "https://crearts-community.github.io/Mention-Links/theme.css",
-    "https://crearts-community.github.io/Chat-Bubbles/theme.css"
+    "https://crearts-community.github.io/CreArts-Discord/theme.css"
   ]
 }

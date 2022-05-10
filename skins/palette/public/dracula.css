@@ -1,7 +1,7 @@
 /* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ CreArts                                                                                                            ║ */
 /* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
-/* ║ Skin:                    ║ Steam Edition                                                                          ║ */
+/* ║ Skin:                    ║ Dracula Edition                                                                         ║ */
 /* ║ Author:                  ║ CorellanStoma#1996                                                                      ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
@@ -11,7 +11,7 @@
 
 :root {
   /* Info */
-  --SKIN-skin: "Steam Edition";
+  --SKIN-skin: "Dracula Edition";
   --SKIN-author: "CorellanStoma";
   
   /* Wallpaper */
@@ -40,21 +40,21 @@
 --SKIN-grading-3: 9%;
 
 /* Interactive (HSLA) */
---SKIN-interactive-h: 216;
---SKIN-interactive-s: 12%;
---SKIN-interactive-l: 34%;
+--SKIN-interactive-h: 231;
+--SKIN-interactive-s: 20%;
+--SKIN-interactive-l: 80%;
 --SKIN-interactive-a: 1.0;
 
 /* Background (HSLA) */
---SKIN-background-h: 211;
---SKIN-background-s: 36%;
---SKIN-background-l: 16%;
+--SKIN-background-h: 244;
+--SKIN-background-s: 14%;
+--SKIN-background-l: 25%;
 --SKIN-background-a: 1.0;
 
 /* Accent (HSLA) */
---SKIN-accent-h: 200;
---SKIN-accent-s: 83%;
---SKIN-accent-l: 66%;
+--SKIN-accent-h: 265;
+--SKIN-accent-s: 100%;
+--SKIN-accent-l: 79%;
 --SKIN-accent-a: 1.0;
 
 /* Green (HSLA) */
