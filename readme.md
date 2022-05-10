@@ -39,6 +39,19 @@ This project is licensed under the [MIT License](license), even though this proj
 
 ![Header](https://user-images.githubusercontent.com/58918358/125176488-0d74b200-e1d4-11eb-845a-b8ee0e794631.png)
 
+<table>
+  <tr>
+    <th><img src="https://i.imgur.com/1jC9rrs.png" height="180"></th>
+    <th><img src="https://i.imgur.com/iXCZnoA.png" height="180"></th>
+    <th><img src="https://i.imgur.com/jV3JQc1.png" height="180"></th>
+  </tr>
+  <tr>
+    <td><b>Guild</b></td>
+    <td><b>Home</b></td>
+    <td><b>Explore</b></td>
+  </tr>
+</table>
+
 ## Getting Started
 
 To use this theme you need a client mod or a browser plugin that allows you to load custom CSS. There are several possibilities, the first and recommended variant would be a client mod, for example [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord) or [GooseMod](https://github.com/GooseMod/GooseMod).
