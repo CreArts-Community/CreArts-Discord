@@ -41,9 +41,9 @@ This project is licensed under the [MIT License](license), even though this proj
 
 <table>
   <tr>
-    <th><img src="https://i.imgur.com/1jC9rrs.png" height="180"></th>
-    <th><img src="https://i.imgur.com/iXCZnoA.png" height="180"></th>
-    <th><img src="https://i.imgur.com/jV3JQc1.png" height="180"></th>
+    <th><img src="https://i.imgur.com/1jC9rrs.png"></th>
+    <th><img src="https://i.imgur.com/iXCZnoA.png"></th>
+    <th><img src="https://i.imgur.com/jV3JQc1.png"></th>
   </tr>
   <tr>
     <td><b>Guild</b></td>
