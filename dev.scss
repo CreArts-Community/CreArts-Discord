@@ -258,6 +258,9 @@
 // ║ Replace some elements, you can combine them as you wish.                                                           ║
 // ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
+// ✅ Replace Fonts
+@use "modules/replace/fonts";
+
 // ✅ Replace Dash
 @use "modules/replace/dash";
 
@@ -384,12 +387,6 @@
 
 // ⚠️ Source Files (This loads the compiled source css file.)
 @use "src/source";
-
-// ⚠️ Replace Fonts
-@use "modules/replace/fonts";
-
-// ⚠️ Repalce Emoji
-//@use "modules/replace/emoji";
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Testing                  ║ Custom CSS code is tested in the lower section.                                         ║

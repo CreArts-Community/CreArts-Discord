@@ -1,3 +1,8 @@
+:root {
+  --font-primary: var(--SKIN-primary-font, "CreArts", "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif) !important;
+  --font-display: var(--SKIN-display-font, "CreArts", "Ginto", "Helvetica Neue", "Helvetica", "Arial", "sans-serif") !important;
+}
+
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Fonts                    ║ Latin (Quicksand)                                                                       ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */

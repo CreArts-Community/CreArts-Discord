@@ -13,12 +13,12 @@
   --wallpaper-opacity: var(--SKIN-wallpaper-opacity, 1);
 
   // Fonts (Custom)
-  --font-titlebar: var(--SKIN-titlebar-font, "Segoe UI");
-  --font-primary: "CreArts-Emoji", var(--SKIN-primary-font, "CreArts", "Whitney");
-  --font-display: "CreArts-Emoji", var(--SKIN-display-font, "CreArts", "Ginto");
-  --font-code: "CreArts-Emoji", var(--SKIN-code-font, "Consolas");
-  --font-headline: "CreArts-Emoji", var(--SKIN-headline-font, "Ginto");
-
+  --font-titlebar: var(--SKIN-titlebar-font, "Segoe UI", "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif);
+  --font-primary: var(--SKIN-primary-font, "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif);
+  --font-display: var(--SKIN-display-font, "Ginto", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";);
+  --font-headline: var(--SKIN-headline-font, "Ginto", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";);
+  --font-code: var(--SKIN-code-font, "Consolas", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Monaco", "Courier New", Courier, monospace;);
+  
   // Opacity (Custom)
   --opacity-titlebar-wordmark: var(--SKIN-opacity-titlebar-wordmark, 1.0);
   --opacity-titlebar-title: var(--SKIN-opacity-titlebar-title, 1.0);
