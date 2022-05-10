@@ -1,3 +1,8 @@
+# v3.0.1
+* Fixed scrolling bug
+* Added new Skins
+* Added skin Categories in folder structure
+
 # v3.0.0
 * Added new code structure
 * Added new variable sytem
