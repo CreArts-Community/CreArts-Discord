@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name CreArts v3
 @description CreArts is an easily customizable theme that customizes the appearance.
-@version 3.0.1
+@version 3.0.2
 @namespace CorellanStoma#1996
 @author CorellanStoma (https://github.com/CorellanStoma)
 @homepageURL https://github.com/CreArts-Community/CreArts-Discord
@@ -14,7 +14,7 @@
 /* ║ Discord Theme                                                                                                      ║ */
 /* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║ Name:                    ║ CreArts v3                                                                              ║ */
-/* ║ Version:                 ║ 3.0.1                                                                                   ║ */
+/* ║ Version:                 ║ 3.0.2                                                                                   ║ */
 /* ║ Author:                  ║ CorellanStoma#1996                                                                      ║ */
 /* ║ License:                 ║ MIT                                                                                     ║ */
 /* ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣ */
@@ -327,7 +327,7 @@
 /* ⭕ Remove HypeSquad Menu */
 /*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/menu/hypesquad.css"); /**/
 
-/* ⭕ Remove HypeSquad Menu */
+/* ⭕ Remove Remove Payment Flow Modals */
 /*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/menu/payment-flow-modals.css"); /**/
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */

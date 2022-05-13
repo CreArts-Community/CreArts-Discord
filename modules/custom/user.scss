@@ -26,7 +26,7 @@
   .avatar-2e8lTP[src*="#{$id}"]+h2 .username-h_Y3Us::after {
     background: var(--color-#{$id}) !important;
   }
-
+  
   // Frames (Powercord only)
   .groupStart-3Mlgv1[data-author-id="#{$id}"]:not(.hasReply-2Cr4KE, .systemMessage-1H1Z20)::after {
     position: absolute;

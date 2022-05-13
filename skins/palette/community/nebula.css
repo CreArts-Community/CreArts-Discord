@@ -17,12 +17,6 @@
   /* Wallpaper */
   --SKIN-wallpaper: url("");
   --SKIN-wallpaper-opacity: 1.0;
-  
-  /* Fonts */
-  --SKIN-titlebar-font: "Segoe UI";
-  --SKIN-primary-font: "CreArts";
-  --SKIN-display-font: "CreArts";
-  --SKIN-code-font: "Consolas";
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
@@ -34,8 +28,8 @@
 --SKIN-lightness: 0%;
 
 /* Grading */
---SKIN-grading-0: 3%;
---SKIN-grading-1: 0%;
+--SKIN-grading-0: 0%;
+--SKIN-grading-1: 3%;
 --SKIN-grading-2: 6%;
 --SKIN-grading-3: 9%;
 

@@ -1,0 +1,53 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Fonts                    ║ Latin (Quicksand)                                                                       ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+/* 300 (Light) */
+@font-face {
+  font-family: "CreArts";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-300.woff2) format("woff2");
+  unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
+}
+
+/* 400 (Regular) */
+@font-face {
+  font-family: "CreArts";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-400.woff2) format("woff2");
+  unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
+}
+
+/* 500 (Medium) */
+@font-face {
+  font-family: "CreArts";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-500.woff2) format("woff2");
+  unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
+}
+
+/* 600 (Semi-Bold) */
+@font-face {
+  font-family: "CreArts";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-600.woff2) format("woff2");
+  unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
+}
+
+/* 700 (Bold) */
+@font-face {
+  font-family: "CreArts";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://crearts-community.github.io/Assets/fonts/quicksand/quicksand-700.woff2) format("woff2");
+  unicode-range: U+0020-007F, U+00A0-00FF, U+0100-017F, U+0180-024F;
+}

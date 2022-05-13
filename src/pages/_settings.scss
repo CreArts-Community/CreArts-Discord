@@ -1,0 +1,395 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Settings                 ║ Base                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background (Normal)
+.contentColumn-1C7as6 .container-1zDvAE {
+  background: var(--background-secondary-alt);
+  border-radius: var(--radius-secondary);
+  padding: var(--inner-tertiary);
+  margin-bottom: var(--inner-secondary);
+}
+
+// Remove Divider
+.divider-_0um2u {
+  display: none;
+}
+
+// Notice
+.formNotice-2nS8ey {
+  border: none;
+  border-radius: var(--radius-secondary);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Settings                 ║ Appearance                                                                              ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Button
+#appearance-tab .marginTop8-24uXGp:nth-child(2) [role="radiogroup"] {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: var(--inner-tertiary);
+}
+
+// Sync with Computer
+#appearance-tab .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(3) {
+  border-radius: var(--radius-secondary);
+  grid-column: 1 / -1;
+  background: var(--background-secondary-alt);
+  margin-bottom: 0px;
+}
+
+// Selection
+#appearance-tab .marginTop8-24uXGp:nth-child(2) .radioBar-3w9XY- {
+  height: 100%;
+}
+
+
+
+
+// Dark
+#appearance-tab .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(1) {
+  background-image: url(https://app.revolt.gay/assets/dark.8057c4d6.svg);
+}
+
+// Light
+#appearance-tab .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(2) {
+  background-image: url(https://app.revolt.gay/assets/light.b2eee089.svg);
+}
+
+// Dark Sidebar
+.sidebarRegion-1VBisG.theme-dark + .contentRegion-3HkfJJ {
+  #appearance-tab .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(2) {
+    background-image: url(https://app.revolt.gay/assets/dark.8057c4d6.svg);
+  }
+}
+
+
+
+
+
+
+
+
+
+#appearance-tab .marginTop8-24uXGp:nth-child(2) {
+  order: -1;
+  margin-bottom: var(--inner-tertiary);
+
+  // Background
+  .item-2idW98:nth-child(1),
+  .item-2idW98:nth-child(2) {
+    border-radius: var(--radius-secondary);
+    height: 180px;
+    margin-bottom: var(--inner-tertiary);
+
+    [d="M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"],
+    .radioIconForeground-2BMavi {
+      display: none;
+    }
+
+    // Info
+    .info-2FZci4 {
+      position: absolute;
+      margin-top: 180px;
+      text-transform: uppercase;
+      margin-left: -12px;
+      display: none;
+    }
+
+    // Title
+    .title-1yyp9V {
+      font-size: 14px;
+    }
+  }
+
+
+
+
+
+  .item-2idW98:nth-child(1)[aria-checked="true"] .radioBar-3w9XY-,
+  .item-2idW98:nth-child(2)[aria-checked="true"] .radioBar-3w9XY- {
+    border: 3px solid var(--focus-primary);
+    border-radius: var(--radius-secondary);
+  }
+}
+
+// background-image: url(https://app.revolt.gay/assets/light.b2eee089.svg);
+
+/*
+.container-2sjPya {
+  display: grid;
+  grid-template-columns: repeat(var(--count), max-content);
+  grid-gap: 24px;
+  overflow-x: auto;
+  padding: 12px 0px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.reactions-1BUEKl {
+  grid-column: 1 / -1;
+  position: sticky;
+  left: 0;
+}
+*/
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Settings                 ║ Language                                                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Grid
+#language-tab [role="radiogroup"] {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 24px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  #language-tab [role="radiogroup"] {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Item
+#language-tab .item-2idW98 {
+  background: var(--background-primary);
+  border-radius: var(--radius-secondary);
+}
+
+/*
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ My Account               ║ Base                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Avatar
+.accountProfileCard-lbN7n- .avatar-3mTjvZ {
+    background: var(--background-primary);
+    border-color: var(--background-primary);
+    top: 136px
+}
+
+// Banner
+.accountProfileCard-lbN7n- .settingsBanner-1eDJ5w {
+    background-position: top;
+    height: 160px;
+}
+
+// Background
+.accountProfileCard-lbN7n-,
+.accountProfileCard-lbN7n- .fieldList-in8WkP,
+.accountProfileCard-lbN7n- .background-3d_SjE {
+    background: transparent;
+}
+
+.accountProfileCard-lbN7n- .userInfo-regn9W {
+    background: var(--background-primary);
+    border-radius: 0px 0px var(--radius-primary) var(--radius-primary);
+    padding-bottom: 36px !important;
+    height: 80px;
+}
+
+// Spacing
+.accountProfileCard-lbN7n- .background-3d_SjE {
+    padding: 0px;
+    margin: 24px 0px 0px 0px;
+}
+
+
+
+// Background
+.accountProfileCard-lbN7n- .field-21XZwa {
+  background: var(--background-primary);
+  border-radius: var(--radius-secondary);
+  padding: 12px;
+  height: 60px;
+}
+
+// Spacing
+.accountProfileCard-lbN7n- .fieldButton-14lHvK {
+    width: 90px;
+}
+
+// Remove Button
+.accountProfileCard-lbN7n- .removeButton-v6eolJ {
+    background: var(--red-primary);
+}
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Discord Nitro            ║ Base                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background (Normal)
+.featuresHeader-2bjq5B {
+  background: var(--background-secondary-alt);
+  border-radius: var(--radius-secondary);
+  padding: var(--inner-primary);
+  margin-bottom: var(--inner-tertiary);
+}
+
+.featureGrid-SSlfD0 {
+  background: var(--background-secondary-alt);
+  border-radius: var(--radius-secondary);
+  padding: var(--inner-primary);
+  margin-bottom: var(--inner-tertiary);
+}
+
+// Remove Header
+.contentColumn-1C7as6 .hero-1aNo0v,
+.contentColumn-1C7as6 .heroIcon-3kmupU {
+  display: none;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Discord Nitro            ║ Warning                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.subscriptionsRedirectContainer-zD3U79 {
+    background: var(--background-primary);
+    border-radius: var(--radius-secondary);
+}
+
+.subscriptionsRedirectWarningIcon-3a4KPu path[d="M10 0C4.486 0 0 4.486 0 10C0 15.515 4.486 20 10 20C15.514 20 20 15.515 20 10C20 4.486 15.514 0 10 0ZM9 4H11V11H9V4ZM10 15.25C9.31 15.25 8.75 14.691 8.75 14C8.75 13.31 9.31 12.75 10 12.75C10.69 12.75 11.25 13.31 11.25 14C11.25 14.691 10.69 15.25 10 15.25Z"] {
+    fill: var(--interactive-normal) !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Discord Nitro            ║ Nitro                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.marketingRefreshTier2Cta-2dN2zP {
+  background: var(--background-secondary-alt);
+  border-radius: var(--radius-secondary);
+  padding: var(--inner-tertiary);
+  margin-bottom: var(--inner-tertiary);
+  margin-top: 0px;
+}
+
+
+
+.marketingRefreshTier2Cta-2dN2zP {
+  order: -1 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Discord Nitro            ║ Nitro Classic                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Discord Nitro            ║ Features                                                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Language                 ║ Base                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background (Normal)
+.contentColumn-1C7as6 .itemFilled-1cPbtg {
+  background: var(--background-secondary-alt);
+  border-radius: var(--radius-secondary);
+  padding: var(--inner-primary);
+  margin-bottom: var(--inner-tertiary);
+}
+
+// Background (Hover)
+.contentColumn-1C7as6 .group-2ODQfJ:hover {
+  background: var(--background-primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Experiments              ║ Base                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background (Normal)
+.contentColumn-1C7as6 .group-2ODQfJ {
+  background: var(--background-secondary-alt);
+  border-radius: var(--radius-secondary);
+  padding: var(--inner-tertiary);
+}
+
+// Background (Hover)
+.contentColumn-1C7as6 .group-2ODQfJ:hover {
+  background: var(--background-primary);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Experiments              ║ Searchbar                                                                               ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Searchbar
+.contentColumn-1C7as6  .container-2oNtJn {
+  border-radius: var(--radius-secondary);
+}
+
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Hotspot Options          ║ Base                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.contentColumn-1C7as6 .hotspotSwitch-9pOPjB {
+  background: var(--background-secondary-alt);
+  border-radius: var(--radius-secondary);
+  padding: var(--inner-tertiary);
+}
+
+// Background (Hover)
+.contentColumn-1C7as6 .hotspotSwitch-9pOPjB:hover {
+  background: var(--background-primary);
+}
+
+
+*/
