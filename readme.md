@@ -154,7 +154,7 @@ https://crearts-community.github.io/CreArts-Discord
 
 * **Step 1:** Install the [**Stylus**](https://add0n.com/stylus.html) extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
 
-* **Step 2:** After installing, head over to [this link](https://github.com/CreArts-Community/CreArts-Discord/clients/crearts.user.css).
+* **Step 2:** After installing, head over to [this link](https://github.com/CreArts-Community/CreArts-Discord/releases/latest/download/crearts.user.css).
 
 * **Step 3:** Press the "**Install Style**" button.
 </details>
