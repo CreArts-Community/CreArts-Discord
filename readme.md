@@ -139,7 +139,7 @@ cd vizality/addons/themes && git clone https://crearts-community.github.io/CreAr
 
 * **Step 3:** Install the theme with this link:
 ```
-https://crearts-community.github.io/CreArts-Discord/theme.css
+https://crearts-community.github.io/CreArts-Discord/clients/crearts.theme.css
 ```
 
 * **Optional:** Add theme store repo link:
