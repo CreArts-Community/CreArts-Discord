@@ -1,0 +1,55 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Screenshare              ║ Layout                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// full screenshare window
+
+.chat-2ZfjoI {
+  margin-left: calc(var(--layout-margin) / 2);
+}
+
+.callContainer-HtHELf {
+  overflow: visible !important;
+  border-radius: var(--radius-primary) !important;
+}
+
+.gradientTop-1UBZHm {
+  border-radius: var(--radius-primary);
+}
+
+.gradientBottom-uB_-4E {
+  border-radius: var(--radius-primary);
+}
+
+.wrapper-1gVUIN {
+  margin-top: calc(var(--layout-margin-top) + var(--height-header));
+  border-radius: var(--radius-primary);
+  height: calc(100% - var(--layout-margin-top) - var(--height-header)) !important;
+}
+
+.topControls-23RE3h {
+  margin-top: calc((var(--layout-margin-top) + var(--height-header)) * -1);
+  height: var(--height-header);
+  opacity: 100 !important;
+  -webkit-transform: translate3d(0,0,0) !important;
+}
+
+.topControls-23RE3h + .container-3XgAHv {
+  width: calc(100% + 450px)
+}
+
+.chatIcon-R5MUNn {
+  margin-top: calc((var(--layout-margin-top) + var(--height-header)) * -1);
+}
+
+.callContainer-HtHELf {
+  overflow: visible;
+}
+
+.button-1fGHAH {
+  margin-left: 16px;
+}
+
+.headerWrapper-1ULEPv {
+  width: calc(100vw - (var(--layout-margin) * 4) - 72px - 260px);
+}
