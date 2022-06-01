@@ -4,7 +4,7 @@
 
 // Spacing
 .content-1jQy2l {
-  margin: var(--layout-margin) 0px 0px 0px;
+  margin: calc(var(--layout-margin) / 2) 0px 0px calc(var(--layout-margin) / 2);
 }
 
 .scroller-kQBbkU {
@@ -55,13 +55,13 @@
 .peopleColumn-1wMU14 {
   background: var(--background-secondary);
   border-radius: var(--radius-primary);
-  margin: calc(var(--layout-margin) / 2) calc(var(--layout-margin) / 2) 0px calc(var(--layout-margin) / 2);
+  margin: calc(var(--layout-margin) / 2) 0px 0px calc(var(--layout-margin) / 2);
 }
 
 .nowPlayingColumn-1eCBCN {
   background: var(--background-secondary);
   border-radius: var(--radius-primary);
-  margin: calc(var(--layout-margin) / 2) 0px 0px calc(var(--layout-margin) / 2);
+  margin: calc(var(--layout-margin) / 2) 0px 0px var(--layout-margin);
 }
 
 .applicationStore-2nk7Lo,
@@ -89,40 +89,41 @@
   margin-left: calc(var(--layout-margin) / 2);
 }
 
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Content                  ║ Layout (Voice)                                                                          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
+.callContainer-HtHELf {
+  margin: 0px 0px 0px calc(var(--layout-margin) / 2);
+  border-radius: var(--radius-primary);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.callContainer-HtHELf .container-ZMc96U {
+  margin-left: 0px;
+}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Content                  ║ Chat Header                                                                             ║
+// ║ Content                  ║ Home                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.theme-dark .background-fkKrXt,
+.theme-light .background-fkKrXt {
+  background: transparent;
+}
+
+.homeContainer-r4Hvv1 {
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
+}
+
+.container-4HqGB3.background-3X6Uak {
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-active);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Content                  ║ Chat (Header)                                                                           ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
@@ -161,6 +162,15 @@
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Content                  ║ Chat (Embeds)                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.embedFull-1HGV2S {
+  background: var(--background-secondary-alt);
+  border-radius: 4px var(--radius-secondary) var(--radius-secondary) 4px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Content                  ║ Rules                                                                                   ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
@@ -179,14 +189,7 @@
   text-align: left;
 }
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Content                  ║ Embeds                                                                                  ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.embedFull-1HGV2S {
-  background: var(--background-secondary-alt);
-  border-radius: 4px var(--radius-secondary) var(--radius-secondary) 4px;
-}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Content                  ║ Build Override                                                                          ║
@@ -197,25 +200,6 @@
 }
 
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Layout                   ║ Content (Home)                                                                          ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-// Background
-.theme-dark .background-fkKrXt,
-.theme-light .background-fkKrXt {
-  background: transparent;
-}
-
-.homeContainer-r4Hvv1 {
-  background: var(--background-secondary);
-  border-radius: var(--radius-primary);
-}
-
-.container-4HqGB3.background-3X6Uak {
-  background: var(--background-primary);
-  border: 1px solid var(--background-modifier-active);
-}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Content                  ║ Timestamp                                                                               ║
@@ -223,4 +207,97 @@
 
 .cozy-VmLDNB .timestamp-p1Df1m {
   color: var(--header-secondary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Content                  ║ Voice                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.callContainer-HtHELf {
+  overflow: visible !important;
+  border-radius: var(--radius-primary) !important;
+}
+
+// Radius
+.gradientTop-1UBZHm,
+.gradientBottom-uB_-4E {
+  border-radius: var(--radius-primary);
+}
+
+// Header
+.wrapper-1gVUIN {
+  margin-top: calc(var(--layout-margin-top) + var(--height-header));
+  border-radius: var(--radius-primary);
+  height: calc(100% - var(--layout-margin-top) - var(--height-header)) !important;
+  background: transparent;
+}
+
+.topControls-23RE3h {
+  margin-top: calc((var(--layout-margin-top) + var(--height-header)) * -1);
+  height: var(--height-header);
+  opacity: 1.0 !important;
+  transform: none !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Content                  ║ Voice (Chat)                                                                            ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.container-3XgAHv:not(.floating-3M3WeH) {
+margin-top: calc((var(--layout-margin-top) + var(--height-header)) * -1);
+
+}
+
+.container-3XgAHv .chat-1-OBC7 {
+margin: calc(var(--layout-margin) / 2) 0px 0px calc(var(--layout-margin) / 2);
+}
+
+.chatIcon-R5MUNn {
+  margin-top: calc((var(--layout-margin-top) + var(--height-header)) * -1);
+  min-width: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+.root-22AK9z.idle-39sGPO .chatButton-10jXXp:not(.chatButtonShowing-1aD1ch) {
+  transform: none !important;
+  opacity: 1.0 !important;
+}
+
+// Floating
+.floating-3M3WeH {
+  margin-top: calc(var(--layout-margin-top) + var(--height-header));
+  border: none;
+  filter: none;
+  border-radius: 0px;
+}
+
+// Resize Handle
+.resizeHandle-PBRzPC {
+  background: var(--background-secondary-alt);
+  border-radius: var(--radius-primary);
+  margin-left: calc(var(--layout-margin) / 2);
+  margin-top: calc((var(--layout-margin-top) + var(--height-header)) * -1);
+  height: unset;
 }

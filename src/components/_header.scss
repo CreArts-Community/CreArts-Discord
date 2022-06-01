@@ -4,6 +4,7 @@
 
 // Background
 .container-ZMc96U {
+  margin: 0px 0px calc(var(--layout-margin) / 2) calc(var(--layout-margin) / 2);
   background: transparent !important;
   padding: 0px;
   width: unset;
@@ -27,8 +28,21 @@
   height: 100%;
 }
 
-
 // Divider
 .divider-q3P9HC {
   background: var(--background-primary);
+}
+
+// Remove Divider
+.divider-q3P9HC {
+  display: none !important;
+}
+
+// Icons
+.button-1fGHAH {
+  margin: 0px;
+}
+
+.toolbar-3_r2xA button{
+  margin: 0 8px;
 }
