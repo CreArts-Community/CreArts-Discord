@@ -23,7 +23,7 @@
 <kbd>[<img title="Spanish" alt="Spanish" src="https://crearts-community.github.io/Assets/languages/spanish.png" width="40">](.github/docs/translations/readme/spanish.md)</kbd>
 <kbd>[<img title="Swedish" alt="Swedish" src="https://crearts-community.github.io/Assets/languages/swedish.png" width="40">](.github/docs/translations/readme/swedish.md)</kbd>
 
-# CreArts v3.0.0
+# CreArts v3.0.3
 
 [![Version](https://img.shields.io/github/manifest-json/v/CreArts-Community/CreArts-Discord?labelColor=2e343e&color=%23CD0952&style=for-the-badge)](.github/docs/changelog.md)
 [![License](https://img.shields.io/github/license/CreArts-Community/CreArts-Discord?labelColor=2e343e&color=%23CD0952&style=for-the-badge)](license)
