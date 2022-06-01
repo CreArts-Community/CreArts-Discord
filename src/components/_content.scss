@@ -245,7 +245,7 @@
 }
 
 // Header
-.wrapper-1gVUIN:not(.minimum-fXpVNc, .video-3n15R6) {
+.wrapper-1gVUIN:not(.minimum-fXpVNc) {
   margin-top: calc(var(--layout-margin-top) + var(--height-header));
   border-radius: var(--radius-primary);
   height: calc(100% - var(--layout-margin-top) - var(--height-header)) !important;
@@ -264,16 +264,12 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Background
-.wrapper-1gVUIN.video-3n15R6,
 .wrapper-1gVUIN.minimum-fXpVNc {
   margin-top: calc(var(--layout-margin-top) + var(--height-header));
   background-color: transparent;
-  margin-bottom: calc(var(--layout-margin) / 2);
-  display: flex;
-  flex-direction: column;
+  margin-bottom: var(--layout-margin);
 }
 
-.wrapper-1gVUIN.video-3n15R6 .root-22AK9z,
 .wrapper-1gVUIN.minimum-fXpVNc .root-22AK9z {
   background: black;
   border-radius: var(--radius-primary);
@@ -285,16 +281,15 @@
 }
 
 // Resize Handle
-.wrapper-1gVUIN.video-3n15R6 .resizeHandle-1zU8BL
 .wrapper-1gVUIN.minimum-fXpVNc .resizeHandle-1zU8BL,
 .wrapper-1gVUIN .resizeHandle-1zU8BL {
-  position: relative;
   background: var(--background-secondary-alt);
   border-radius: var(--radius-primary);
   height: 8px;
   margin: calc(var(--layout-margin) / 2) 0px 0px calc(var(--layout-margin) / 2);
   width: calc(100% -  calc(var(--layout-margin) / 2));
-  bottom: -8px;
+  bottom: -18px;
+
 }
 
 .voiceCallWrapper-3UtDiC {
@@ -310,16 +305,6 @@
 .callContainer-HtHELf:hover .videoControls-353CsJ .quickSelect-384d3G,
 .callContainer-HtHELf:hover .controlButton-2PMNom {
   opacity: 1;
-}
-
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Content                  ║ Voice (DM Video)                                                                        ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-.root-2f-lk1 {
-  min-height: unset !important;
-  height: unset !important;
-  max-height: unset !important;
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
