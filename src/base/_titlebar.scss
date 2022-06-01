@@ -43,8 +43,8 @@
 
 // Wordmark
 .platform-win .wordmarkWindows-2dq6rw::before {
-  -webkit-mask: var(--wordmark);
-  mask: var(--wordmark);
+  -webkit-mask: var(--titlebar-wordmark);
+  mask: var(--titlebar-wordmark);
   background: var(--header-secondary);
   height: calc(var(--height-titlebar) - 2px);
   position: absolute;
@@ -53,7 +53,6 @@
   font-weight: 600;
   width: calc(70px);
   top: 0;
-  mask: var(--titlebar-wordmark);
   opacity: var(--opacity-titlebar-wordmark);
 }
 
