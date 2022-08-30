@@ -816,18 +816,14 @@ html {
 	cursor: text;
 }
 /* ensures some text is able to be read as it should be */
-.message-2CShn3:last-child span,
+.message-2CShn3 :last-child span,
 .ephemeralMessage-11q8XZ,
-span:not([role="textbox"] span, .unreadBar-elBRZx span, .powercord-quickcss span, .bullet-3kDmK0),
+span:not([role="textbox"] span, .contents-2MsGLg span, .bar-2eAyLE span, .powercord-quickcss
+		span, .bullet-3kDmK0, .text-3S7XCz, .videoControls-2NzHnF span, .videoControls-2NzHnF span, .divider-IqmEqJ span),
 .messageFocusBlock-2yGtKw div {
 	color: var(--interactive-normal);
 }
-.hasUnreads-3kKLnS .heading-lg-medium-3gUJeM span {
-	color: var(--header-primary) !important;
-}
-span.pronoundb-pronouns {
-	color: var(--interactive-normal) !important;
-}
+
 /**/
 .bg-1QIAus {
 	background: var(--wallpaper) center/cover no-repeat, var(--background-primary);
