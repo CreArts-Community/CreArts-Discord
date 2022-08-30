@@ -807,7 +807,7 @@ html {
 	font-size: 12px;
 	line-height: 16px;
 	text-transform: none;
-	color: var(--text-muted);
+	color: var(--interactive-normal);
 	margin-top: 20px;
 	-webkit-user-select: text;
 	-moz-user-select: text;
@@ -815,9 +815,20 @@ html {
 	user-select: text;
 	cursor: text;
 }
-.message-2CShn3:last-child span, .ephemeralMessage-11q8XZ {
-	color: var(--header-secondary);
+/* ensures some text is able to be read as it should be */
+.message-2CShn3:last-child span,
+.ephemeralMessage-11q8XZ,
+span:not([role="textbox"] span, .unreadBar-elBRZx span, .powercord-quickcss span, .bullet-3kDmK0),
+.messageFocusBlock-2yGtKw div {
+	color: var(--interactive-normal);
 }
+.hasUnreads-3kKLnS .heading-lg-medium-3gUJeM span {
+	color: var(--header-primary) !important;
+}
+span.pronoundb-pronouns {
+	color: var(--interactive-normal) !important;
+}
+/**/
 .bg-1QIAus {
 	background: var(--wallpaper) center/cover no-repeat, var(--background-primary);
 	opacity: var(--wallpaper-opacity);
