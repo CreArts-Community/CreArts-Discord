@@ -1,8 +1,18 @@
 {
-  "name": "CreArts v3",
-  "version": "3.0.3",
-  "author": "CorellanStoma#1996",
+  "id": "io.crearts-community.github",
+  "name": "CreArts",
   "description": "CreArts is a customizable Discord theme that changes the appearance of Discord.",
+  "author": {
+    "name": "Corellan",
+    "discordID": "288362986991648778",
+    "github": "CorellanStoma"
+  },
+  "version": "3.0.3",
+  "updater": {
+    "type": "github",
+    "id": "CreArts-Community/CreArts-Discord"
+  },
   "license": "MIT",
-  "theme": "clients/crearts.theme.css"
+  "type": "replugged-theme",
+  "main": "clients/crearts.theme.css"
 }
