@@ -1,0 +1,26 @@
+{
+  "name": "crearts-discord",
+  "version": "3.0.3",
+  "description": "CreArts is a customizable Discord theme that changes the appearance of Discord.",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "build": "replugged build theme",
+    "watch": "replugged build theme --watch",
+    "bundle": "replugged bundle theme",
+    "lint": "prettier ./src --check",
+    "lint:fix": "prettier ./src --write"
+  },
+  "keywords": [],
+  "author": "CorellanStoma",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/core": "^2.8.3",
+    "@types/node": "^18.15.11",
+    "prettier": "^2.8.7",
+    "replugged": "^4.4.2"
+  }
+}
