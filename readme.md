@@ -1,3 +1,5 @@
+> **Archived for an indefinite period of time.**
+
 <kbd>[<img title="Bulgarian" alt="Bulgarian" src="https://crearts-community.github.io/Assets/languages/bulgarian.png" width="40">](.github/docs/translations/readme/bulgarian.md)</kbd>
 <kbd>[<img title="Chinese" alt="Chinese" src="https://crearts-community.github.io/Assets/languages/chinese.png" width="40">](.github/docs/translations/readme/chinese.md)</kbd>
 <kbd>[<img title="Czech" alt="Czech" src="https://crearts-community.github.io/Assets/languages/czech.png" width="40">](.github/docs/translations/readme/czech.md)</kbd>
